@@ -1,0 +1,71 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+  <title>Maxwell-Boltzmann Speed Distribution — AP Chem Unit 3</title>
+  <desc>Two panels showing how molar mass and temperature affect the Maxwell-Boltzmann distribution of molecular speeds.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="ax" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="340" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" class="th" text-anchor="middle" font-size="15px">Maxwell–Boltzmann Speed Distributions</text>
+
+  <!-- Panel 1: Same T, different masses -->
+  <rect x="10" y="35" width="320" height="295" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="170" y="55" class="th" text-anchor="middle">Same T — Different Molar Masses</text>
+
+  <!-- Axes panel 1 -->
+  <line x1="45" y1="265" x2="305" y2="265" stroke="#555" stroke-width="1.5" marker-end="url(#ax)"/>
+  <line x1="45" y1="265" x2="45" y2="75" stroke="#555" stroke-width="1.5" marker-end="url(#ax)"/>
+  <text x="175" y="285" class="tss" text-anchor="middle">Speed (m/s)</text>
+  <text x="22" y="175" class="tss" text-anchor="middle" transform="rotate(-90,22,175)">Fraction of Molecules</text>
+
+  <!-- H2 curve (light, fast — broad, right-shifted, low peak) -->
+  <path d="M 55,255 Q 80,250 100,195 Q 115,155 130,130 Q 145,108 160,115 Q 175,125 190,150 Q 210,182 230,220 Q 250,245 280,258 Q 295,262 305,264"
+        fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="215" y="120" class="tss" fill="#1d4ed8" font-weight="bold">H₂</text>
+  <text x="215" y="133" class="tss" fill="#1d4ed8">(M=2)</text>
+
+  <!-- O2 curve (heavier, slower — narrow, left-shifted, high peak) -->
+  <path d="M 55,264 Q 70,263 80,255 Q 90,242 100,215 Q 110,185 118,162 Q 126,140 135,130 Q 145,122 155,128 Q 163,136 170,150 Q 180,170 192,200 Q 205,230 220,250 Q 240,262 270,265"
+        fill="none" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="115" y="105" class="tss" fill="#991b1b" font-weight="bold">O₂</text>
+  <text x="115" y="118" class="tss" fill="#991b1b">(M=32)</text>
+
+  <!-- Same KE annotation -->
+  <rect x="50" y="68" width="270" height="20" fill="#dcfce7" rx="3"/>
+  <text x="185" y="82" class="tss" text-anchor="middle" fill="#15803d" font-weight="bold">Same avg KE (same T): KE = ½mv² → lighter = faster</text>
+
+  <!-- Panel 2: Same gas, different T -->
+  <rect x="345" y="35" width="325" height="295" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="507" y="55" class="th" text-anchor="middle">Same Gas — Different Temperatures</text>
+
+  <!-- Axes panel 2 -->
+  <line x1="380" y1="265" x2="650" y2="265" stroke="#555" stroke-width="1.5" marker-end="url(#ax)"/>
+  <line x1="380" y1="265" x2="380" y2="75" stroke="#555" stroke-width="1.5" marker-end="url(#ax)"/>
+  <text x="515" y="285" class="tss" text-anchor="middle">Speed (m/s)</text>
+  <text x="358" y="175" class="tss" text-anchor="middle" transform="rotate(-90,358,175)">Fraction of Molecules</text>
+
+  <!-- Low T curve (narrow, tall, left peak) -->
+  <path d="M 388,264 Q 395,263 405,255 Q 415,240 425,210 Q 433,185 440,162 Q 447,142 455,130 Q 462,122 470,128 Q 478,138 486,160 Q 495,185 506,215 Q 518,242 535,258 Q 550,264 580,265"
+        fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="440" y="108" class="tss" fill="#1d4ed8" font-weight="bold">Low T</text>
+  <text x="440" y="121" class="tss" fill="#1d4ed8">(300 K)</text>
+
+  <!-- High T curve (broad, low peak, right-shifted) -->
+  <path d="M 388,262 Q 400,258 420,245 Q 440,228 460,208 Q 478,188 496,172 Q 510,160 522,156 Q 534,155 546,162 Q 558,172 572,190 Q 588,212 605,232 Q 622,250 640,260 Q 648,263 655,265"
+        fill="none" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="553" y="138" class="tss" fill="#991b1b" font-weight="bold">High T</text>
+  <text x="553" y="151" class="tss" fill="#991b1b">(600 K)</text>
+
+  <!-- Key rules boxes -->
+  <rect x="10" y="302" width="320" height="28" fill="#dbeafe" rx="4"/>
+  <text x="170" y="320" class="tss" text-anchor="middle" fill="#1d4ed8">Lighter gas → faster speed; same area = same # molecules</text>
+  <rect x="345" y="302" width="325" height="28" fill="#fee2e2" rx="4"/>
+  <text x="507" y="320" class="tss" text-anchor="middle" fill="#991b1b">Higher T → broader + right-shifted + lower peak; same area</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" font-family="serif" font-size="13">
+  <rect width="700" height="310" fill="#fafafa" rx="6"/>
+  <text x="350" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Buffer Action — Absorbing Added Acid or Base</text>
+  <text x="350" y="40" text-anchor="middle" font-size="12" fill="#555">Buffer = weak acid HA + conjugate base A⁻ in comparable amounts</text>
+
+  <!-- Left panel: adding acid -->
+  <rect x="20" y="55" width="310" height="185" fill="#fff4f4" rx="5" stroke="#d88" stroke-width="1.5"/>
+  <text x="175" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#933">Adding Strong Acid (H⁺)</text>
+
+  <!-- Reaction arrow -->
+  <text x="175" y="100" text-anchor="middle" font-size="12" fill="#333">A⁻(aq) + H⁺(aq) → HA(aq)</text>
+  <text x="175" y="116" text-anchor="middle" font-size="11" fill="#555">Conjugate base neutralizes the acid</text>
+
+  <!-- Before/after bars -->
+  <text x="90" y="135" text-anchor="middle" font-size="11" fill="#555">Before</text>
+  <text x="250" y="135" text-anchor="middle" font-size="11" fill="#555">After</text>
+
+  <!-- Before: equal bars -->
+  <rect x="50" y="140" width="80" height="25" fill="#2255cc" rx="3"/>
+  <text x="90" y="157" text-anchor="middle" font-size="11" fill="white">HA</text>
+  <rect x="50" y="168" width="80" height="25" fill="#22aa55" rx="3"/>
+  <text x="90" y="185" text-anchor="middle" font-size="11" fill="white">A⁻</text>
+
+  <!-- After adding acid: more HA, less A⁻ -->
+  <rect x="210" y="140" width="110" height="25" fill="#2255cc" rx="3"/>
+  <text x="265" y="157" text-anchor="middle" font-size="11" fill="white">HA (more)</text>
+  <rect x="210" y="168" width="55" height="25" fill="#22aa55" rx="3"/>
+  <text x="237" y="185" text-anchor="middle" font-size="11" fill="white">A⁻ (less)</text>
+
+  <text x="175" y="210" text-anchor="middle" font-size="12" fill="#933">pH decreases slightly ↓</text>
+  <text x="175" y="228" text-anchor="middle" font-size="11" fill="#555">H⁺ converted to weak acid;</text>
+  <text x="175" y="242" text-anchor="middle" font-size="11" fill="#555">free [H⁺] prevented from rising</text>
+
+  <!-- Right panel: adding base -->
+  <rect x="370" y="55" width="310" height="185" fill="#f4fff4" rx="5" stroke="#8d8" stroke-width="1.5"/>
+  <text x="525" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#393">Adding Strong Base (OH⁻)</text>
+
+  <text x="525" y="100" text-anchor="middle" font-size="12" fill="#333">HA(aq) + OH⁻(aq) → A⁻(aq) + H₂O</text>
+  <text x="525" y="116" text-anchor="middle" font-size="11" fill="#555">Weak acid neutralizes the base</text>
+
+  <text x="435" y="135" text-anchor="middle" font-size="11" fill="#555">Before</text>
+  <text x="610" y="135" text-anchor="middle" font-size="11" fill="#555">After</text>
+
+  <!-- Before: equal bars -->
+  <rect x="395" y="140" width="80" height="25" fill="#2255cc" rx="3"/>
+  <text x="435" y="157" text-anchor="middle" font-size="11" fill="white">HA</text>
+  <rect x="395" y="168" width="80" height="25" fill="#22aa55" rx="3"/>
+  <text x="435" y="185" text-anchor="middle" font-size="11" fill="white">A⁻</text>
+
+  <!-- After adding base: less HA, more A⁻ -->
+  <rect x="563" y="140" width="55" height="25" fill="#2255cc" rx="3"/>
+  <text x="590" y="157" text-anchor="middle" font-size="11" fill="white">HA (less)</text>
+  <rect x="563" y="168" width="110" height="25" fill="#22aa55" rx="3"/>
+  <text x="618" y="185" text-anchor="middle" font-size="11" fill="white">A⁻ (more)</text>
+
+  <text x="525" y="210" text-anchor="middle" font-size="12" fill="#393">pH increases slightly ↑</text>
+  <text x="525" y="228" text-anchor="middle" font-size="11" fill="#555">OH⁻ converted to weak base;</text>
+  <text x="525" y="242" text-anchor="middle" font-size="11" fill="#555">free [OH⁻] prevented from rising</text>
+
+  <!-- Buffer capacity warning -->
+  <rect x="20" y="250" width="660" height="50" fill="#fff8e1" rx="4" stroke="#cc9" stroke-width="1.5"/>
+  <text x="350" y="267" text-anchor="middle" font-size="12" font-weight="bold" fill="#665">Buffer Capacity Warning</text>
+  <text x="350" y="283" text-anchor="middle" font-size="12" fill="#333">Buffers have finite capacity. If all HA is consumed (acid overwhelms) or all A⁻ is consumed</text>
+  <text x="350" y="297" text-anchor="middle" font-size="12" fill="#333">(base overwhelms), buffering fails and pH changes sharply. Use capacity ≈ moles of weaker component.</text>
+</svg>

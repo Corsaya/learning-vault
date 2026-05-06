@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="500" height="240">
+  <style>
+    text { font-family: serif; font-size: 12px; fill: #222; }
+    .label { font-size: 11px; fill: #555; }
+    .eq { font-size: 13px; fill: #6d28d9; font-style: italic; }
+    .axis { stroke: #222; stroke-width: 1.5; }
+    .grid { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 3,3; }
+    .curve { fill: none; stroke: #6d28d9; stroke-width: 2.2; }
+    .asym { stroke: #f97316; stroke-width: 1.2; stroke-dasharray: 5,4; }
+    .guide { fill: none; stroke: #aaa; stroke-width: 1; stroke-dasharray: 3,3; }
+    .tick { stroke: #222; stroke-width: 1; }
+  </style>
+
+  <!-- x-axis at pixel y=120. y=1→pixel 40, y=-1→pixel 200. Amplitude scale 80px per unit -->
+  <!-- x range: -2π to 2π → pixels 50 to 470, 420px total -->
+  <!-- Asymptotes at x = nπ: -2π=50, -π=155, 0=260, π=365, 2π=470 -->
+
+  <!-- Grid -->
+  <line class="grid" x1="50" y1="40" x2="480" y2="40"/>
+  <line class="grid" x1="50" y1="200" x2="480" y2="200"/>
+
+  <!-- Asymptote lines -->
+  <line class="asym" x1="155" y1="5" x2="155" y2="235"/>
+  <line class="asym" x1="260" y1="5" x2="260" y2="235"/>
+  <line class="asym" x1="365" y1="5" x2="365" y2="235"/>
+
+  <!-- Axes -->
+  <line class="axis" x1="40" y1="120" x2="490" y2="120"/>
+  <line class="axis" x1="50" y1="5" x2="50" y2="235"/>
+  <polygon points="490,117 484,123 484,117" fill="#222"/>
+  <polygon points="50,5 44,11 56,11" fill="#222"/>
+
+  <!-- Guide sine curve (dashed) -->
+  <path class="guide" d="
+    M 50,120
+    C 76,40 129,40 155,120
+    C 181,200 234,200 260,120
+    C 286,40 339,40 365,120
+    C 391,200 444,200 470,120
+  "/>
+
+  <!-- Ticks -->
+  <line class="tick" x1="155" y1="116" x2="155" y2="124"/>
+  <line class="tick" x1="260" y1="116" x2="260" y2="124"/>
+  <line class="tick" x1="365" y1="116" x2="365" y2="124"/>
+  <line class="tick" x1="470" y1="116" x2="470" y2="124"/>
+  <text class="label" x="143" y="136">-π</text>
+  <text class="label" x="248" y="136">0</text>
+  <text class="label" x="357" y="136">π</text>
+  <text class="label" x="458" y="136">2π</text>
+
+  <line class="tick" x1="46" y1="40" x2="54" y2="40"/>
+  <line class="tick" x1="46" y1="200" x2="54" y2="200"/>
+  <text class="label" x="30" y="44">1</text>
+  <text class="label" x="25" y="204">-1</text>
+
+  <!-- csc x branches: each branch touches sin at its peak/trough and flies to ±∞ -->
+  <!-- Positive branch (-2π,-π): min at -3π/2 → x=102.5, y=40 -->
+  <path class="curve" d="M 55,10 C 70,20 90,35 102,40 C 114,35 134,20 150,10"/>
+  <!-- Negative branch (-π,0): max at -π/2 → x=207.5, y=200 -->
+  <path class="curve" d="M 160,230 C 175,215 195,205 207,200 C 219,205 239,215 255,230"/>
+  <!-- Positive branch (0,π): min at π/2 → x=312.5, y=40 -->
+  <path class="curve" d="M 265,10 C 280,20 300,35 312,40 C 324,35 344,20 360,10"/>
+  <!-- Negative branch (π,2π): max at 3π/2 → x=417.5, y=200 -->
+  <path class="curve" d="M 370,230 C 385,215 405,205 417,200 C 429,205 449,215 465,230"/>
+
+  <!-- Labels -->
+  <text class="label" x="160" y="15" fill="#f97316">asymptote</text>
+  <text class="label" x="145" y="232" fill="#aaa">sin x (guide)</text>
+
+  <text class="eq" x="60" y="22">y = csc x</text>
+  <text class="label" x="60" y="237">Period = 2π | No amplitude | Asymptotes: x = nπ</text>
+</svg>

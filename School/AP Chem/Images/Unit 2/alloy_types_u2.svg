@@ -1,0 +1,110 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+  <title>Interstitial vs. Substitutional Alloys</title>
+  <desc>Side-by-side particulate diagrams comparing interstitial alloys (small atoms in gaps) with substitutional alloys (same-size atoms replaced), with examples and property comparisons.</desc>
+  <style>
+    .th { font-family: Georgia, serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Georgia, serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Georgia, serif; font-size: 11px; fill: #64748b; }
+    .label { font-family: Georgia, serif; font-size: 13px; font-weight: bold; }
+  </style>
+  <rect x="0" y="0" width="680" height="340" fill="#f8fafc" rx="8"/>
+
+  <!-- Title -->
+  <text x="340" y="26" text-anchor="middle" class="th" font-size="15">Interstitial vs. Substitutional Alloys</text>
+
+  <!-- Divider -->
+  <line x1="340" y1="38" x2="340" y2="330" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- ===== LEFT: INTERSTITIAL ===== -->
+  <rect x="12" y="42" width="318" height="286" rx="8" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="171" y="64" text-anchor="middle" class="label" fill="#92400e">INTERSTITIAL ALLOY</text>
+  <text x="171" y="80" text-anchor="middle" class="ts" fill="#92400e">Small atoms fit in gaps between large host atoms</text>
+
+  <!-- Large host atoms: 4x3 grid -->
+  <!-- Row 1 -->
+  <circle cx="70"  cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="70"  y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="140" cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="140" y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="210" cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="210" y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="280" cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="280" y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+
+  <!-- Small C atoms in gaps between row 1 and 2 -->
+  <circle cx="105" cy="153" r="10" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <text x="105" y="157" text-anchor="middle" class="tss" fill="white" font-size="9">C</text>
+  <circle cx="245" cy="153" r="10" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <text x="245" y="157" text-anchor="middle" class="tss" fill="white" font-size="9">C</text>
+
+  <!-- Row 2 -->
+  <circle cx="70"  cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="70"  y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="140" cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="140" y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="210" cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="210" y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="280" cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="280" y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+
+  <!-- Small C atom between rows 2-3 -->
+  <circle cx="175" cy="223" r="10" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <text x="175" y="227" text-anchor="middle" class="tss" fill="white" font-size="9">C</text>
+
+  <!-- Row 3 -->
+  <circle cx="70"  cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="70"  y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="140" cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="140" y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="210" cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="210" y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+  <circle cx="280" cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="280" y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Fe</text>
+
+  <text x="171" y="298" text-anchor="middle" class="ts" fill="#92400e">Example: Steel (Fe + C)</text>
+  <text x="171" y="315" text-anchor="middle" class="tss">Harder, less malleable than pure Fe</text>
+  <text x="171" y="330" text-anchor="middle" class="tss">C atoms block layer sliding → more rigid</text>
+
+  <!-- ===== RIGHT: SUBSTITUTIONAL ===== -->
+  <rect x="350" y="42" width="318" height="286" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="509" y="64" text-anchor="middle" class="label" fill="#1d4ed8">SUBSTITUTIONAL ALLOY</text>
+  <text x="509" y="80" text-anchor="middle" class="ts" fill="#1d4ed8">Similar-size atoms replace host atoms in lattice</text>
+
+  <!-- Cu/Zn lattice: mostly Cu with some Zn replacing -->
+  <!-- Row 1 -->
+  <circle cx="400" cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+  <circle cx="468" cy="118" r="24" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="468" y="123" text-anchor="middle" class="th" fill="#1d4ed8" font-size="12">Zn</text>
+  <circle cx="536" cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="536" y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+  <circle cx="604" cy="118" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="604" y="123" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+
+  <!-- Row 2 -->
+  <circle cx="400" cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+  <circle cx="468" cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="468" y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+  <circle cx="536" cy="188" r="24" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="536" y="193" text-anchor="middle" class="th" fill="#1d4ed8" font-size="12">Zn</text>
+  <circle cx="604" cy="188" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="604" y="193" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+
+  <!-- Row 3 -->
+  <circle cx="400" cy="257" r="24" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="400" y="262" text-anchor="middle" class="th" fill="#1d4ed8" font-size="12">Zn</text>
+  <circle cx="468" cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="468" y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+  <circle cx="536" cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="536" y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+  <circle cx="604" cy="257" r="24" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="604" y="262" text-anchor="middle" class="th" fill="#92400e" font-size="12">Cu</text>
+
+  <text x="509" y="298" text-anchor="middle" class="ts" fill="#1d4ed8">Example: Brass (Cu + Zn)</text>
+  <text x="509" y="315" text-anchor="middle" class="tss">Retains malleability and conductivity</text>
+  <text x="509" y="330" text-anchor="middle" class="tss">Similar radii → layers still slide easily</text>
+
+  <!-- Key difference callout -->
+  <rect x="190" y="44" width="300" height="18" rx="4" fill="none"/>
+</svg>

@@ -1,0 +1,96 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
+  <title>Calorimetry Setup and Sign Convention</title>
+  <desc>Coffee cup calorimeter diagram with heat flow arrows and the key equations q=mcΔT, q_rxn = -q_cal, and the sign convention for exothermic and endothermic reactions.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="arr-r" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#ef4444"/>
+    </marker>
+    <marker id="arr-b" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arr-g" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#16a34a"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="340" fill="#f8fafc" rx="8"/>
+  <text x="340" y="26" class="th" text-anchor="middle">Calorimetry — Heat Flow and Sign Convention</text>
+
+  <!-- ===== LEFT: COFFEE CUP CALORIMETER DIAGRAM ===== -->
+  <!-- Outer cup -->
+  <path d="M 40 90 L 40 240 Q 40 250 50 250 L 190 250 Q 200 250 200 240 L 200 90 Z" fill="#f0f9ff" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Inner cup (styrofoam insulation) -->
+  <path d="M 52 95 L 52 238 Q 52 244 58 244 L 182 244 Q 188 244 188 238 L 188 95 Z" fill="white" stroke="#94a3b8" stroke-width="1.5"/>
+  <!-- Solution in cup -->
+  <rect x="55" y="155" width="130" height="85" fill="#bfdbfe" opacity="0.6" rx="2"/>
+  <text x="120" y="205" class="tss" text-anchor="middle" fill="#1d4ed8">solution</text>
+  <text x="120" y="220" class="tss" text-anchor="middle" fill="#1d4ed8">(m, c, ΔT)</text>
+
+  <!-- Reaction happening in solution (red glow) -->
+  <ellipse cx="120" cy="175" rx="30" ry="15" fill="#fca5a5" opacity="0.7"/>
+  <text x="120" y="179" class="tss" text-anchor="middle" fill="#991b1b" font-weight="bold">rxn</text>
+
+  <!-- Thermometer -->
+  <rect x="115" y="70" width="10" height="90" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1" rx="5"/>
+  <rect x="117" y="130" width="6" height="26" fill="#ef4444" rx="3"/>
+  <circle cx="120" cy="158" r="7" fill="#ef4444" stroke="#94a3b8" stroke-width="1"/>
+  <text x="132" y="85" class="tss" fill="#475569">T</text>
+
+  <!-- Lid -->
+  <rect x="45" y="84" width="150" height="10" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1" rx="3"/>
+
+  <!-- Heat flow arrows (exothermic: rxn → solution) -->
+  <line x1="148" y1="175" x2="172" y2="175" stroke="#ef4444" stroke-width="2" marker-end="url(#arr-r)"/>
+  <line x1="148" y1="185" x2="172" y2="195" stroke="#ef4444" stroke-width="2" marker-end="url(#arr-r)"/>
+
+  <!-- Labels -->
+  <text x="120" y="268" class="ts" text-anchor="middle" fill="#1d4ed8" font-weight="bold">Coffee Cup Calorimeter</text>
+  <text x="120" y="282" class="tss" text-anchor="middle">(constant pressure, open)</text>
+
+  <!-- ===== RIGHT: EQUATIONS PANEL ===== -->
+  <rect x="220" y="42" width="444" height="278" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+
+  <!-- Key equation 1 -->
+  <rect x="232" y="55" width="420" height="52" fill="#dbeafe" rx="4"/>
+  <text x="442" y="75" class="th" text-anchor="middle" fill="#1d4ed8">q = mcΔT</text>
+  <text x="442" y="96" class="tss" text-anchor="middle">m = mass (g) | c = specific heat (J/g·°C) | ΔT = T_final − T_initial (°C)</text>
+
+  <!-- Key equation 2 -->
+  <rect x="232" y="117" width="420" height="52" fill="#fee2e2" rx="4"/>
+  <text x="442" y="137" class="th" text-anchor="middle" fill="#991b1b">q_rxn = −q_cal</text>
+  <text x="442" y="157" class="tss" text-anchor="middle">Heat released by reaction = Heat absorbed by calorimeter solution</text>
+
+  <!-- Sign convention table -->
+  <text x="442" y="190" class="th" text-anchor="middle">Sign Convention</text>
+  <!-- Table headers -->
+  <rect x="232" y="196" width="420" height="22" fill="#f1f5f9" rx="2"/>
+  <text x="310" y="212" class="tss" text-anchor="middle" font-weight="bold">Reaction type</text>
+  <text x="442" y="212" class="tss" text-anchor="middle" font-weight="bold">q_rxn sign</text>
+  <text x="580" y="212" class="tss" text-anchor="middle" font-weight="bold">ΔT of solution</text>
+  <!-- Row 1: exothermic -->
+  <line x1="232" y1="218" x2="652" y2="218" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="232" y="218" width="420" height="24" fill="#fef2f2"/>
+  <text x="310" y="234" class="tss" text-anchor="middle" fill="#991b1b">Exothermic (ΔH &lt; 0)</text>
+  <text x="442" y="234" class="tss" text-anchor="middle" fill="#991b1b">q_rxn &lt; 0</text>
+  <text x="580" y="234" class="tss" text-anchor="middle" fill="#991b1b">ΔT &gt; 0 (warms up)</text>
+  <!-- Row 2: endothermic -->
+  <line x1="232" y1="242" x2="652" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="232" y="242" width="420" height="24" fill="#eff6ff"/>
+  <text x="310" y="258" class="tss" text-anchor="middle" fill="#1d4ed8">Endothermic (ΔH &gt; 0)</text>
+  <text x="442" y="258" class="tss" text-anchor="middle" fill="#1d4ed8">q_rxn &gt; 0</text>
+  <text x="580" y="258" class="tss" text-anchor="middle" fill="#1d4ed8">ΔT &lt; 0 (cools down)</text>
+
+  <!-- ΔH per mole -->
+  <line x1="232" y1="270" x2="652" y2="270" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="232" y="270" width="420" height="44" fill="#f0fdf4" rx="2"/>
+  <text x="442" y="288" class="ts" text-anchor="middle" fill="#15803d" font-weight="bold">ΔH = q_rxn / n_rxn</text>
+  <text x="442" y="305" class="tss" text-anchor="middle" fill="#15803d">n_rxn = moles of limiting reagent (per balanced equation)</text>
+
+  <!-- Bottom note -->
+  <text x="340" y="332" class="tss" text-anchor="middle" fill="#475569">Bomb calorimeter (constant volume): q_rxn = −C·ΔT where C = heat capacity of entire calorimeter (J/°C)</text>
+</svg>

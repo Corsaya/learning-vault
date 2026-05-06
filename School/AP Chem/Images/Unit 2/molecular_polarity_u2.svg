@@ -1,0 +1,139 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg">
+  <title>Molecular Polarity: Symmetric vs. Asymmetric Geometry</title>
+  <desc>Comparison of BF3, CO2, CCl4 (nonpolar despite polar bonds) vs CH2Cl2, H2O, NH3 (polar) showing how geometry determines whether bond dipoles cancel.</desc>
+  <style>
+    .th { font-family: Georgia, serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Georgia, serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Georgia, serif; font-size: 11px; fill: #64748b; }
+    .label { font-family: Georgia, serif; font-size: 13px; font-weight: bold; }
+    .mol { font-family: Georgia, serif; font-size: 11px; font-weight: bold; }
+  </style>
+  <rect x="0" y="0" width="680" height="360" fill="#f8fafc" rx="8"/>
+  <defs>
+    <marker id="dipR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#ef4444"/>
+    </marker>
+    <marker id="dipB" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#3b82f6"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" class="th" font-size="15">Molecular Polarity: When Do Bond Dipoles Cancel?</text>
+  <text x="340" y="42" text-anchor="middle" class="tss">Polar bonds are necessary but NOT sufficient for a polar molecule — geometry determines cancellation</text>
+
+  <!-- Section headers -->
+  <rect x="12" y="50" width="318" height="22" rx="4" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+  <text x="171" y="65" text-anchor="middle" class="label" fill="#15803d">✓ Polar Bonds + Symmetric → NONPOLAR</text>
+
+  <rect x="350" y="50" width="318" height="22" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="509" y="65" text-anchor="middle" class="label" fill="#991b1b">✓ Polar Bonds + Asymmetric → POLAR</text>
+
+  <!-- Divider line -->
+  <line x1="340" y1="50" x2="340" y2="355" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- ===== LEFT SIDE: Nonpolar molecules ===== -->
+
+  <!-- BF3 -->
+  <text x="90" y="92" text-anchor="middle" class="label" fill="#15803d">BF₃ — Trigonal Planar</text>
+  <!-- Central B -->
+  <circle cx="90" cy="135" r="16" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="90" y="140" text-anchor="middle" class="mol" fill="#1d4ed8">B</text>
+  <!-- 3 F atoms at 120° -->
+  <circle cx="90" cy="92" r="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="90" y="97" text-anchor="middle" class="mol" fill="#166534">F</text>
+  <line x1="90" y1="119" x2="90" y2="106" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="53" cy="157" r="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="53" y="162" text-anchor="middle" class="mol" fill="#166534">F</text>
+  <line x1="74" y1="143" x2="67" y2="151" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="127" cy="157" r="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="127" y="162" text-anchor="middle" class="mol" fill="#166534">F</text>
+  <line x1="106" y1="143" x2="113" y2="151" stroke="#334155" stroke-width="2"/>
+
+  <!-- Dipole arrows pointing toward B (δ+) -->
+  <line x1="90" y1="110" x2="90" y2="122" stroke="#ef4444" stroke-width="1.5" marker-end="url(#dipR)"/>
+  <line x1="65" y1="149" x2="76" y2="143" stroke="#ef4444" stroke-width="1.5" marker-end="url(#dipR)"/>
+  <line x1="115" y1="149" x2="104" y2="143" stroke="#ef4444" stroke-width="1.5" marker-end="url(#dipR)"/>
+
+  <text x="90" y="182" text-anchor="middle" class="tss" fill="#15803d">3 equal dipoles → cancel → nonpolar</text>
+
+  <!-- CO2 -->
+  <text x="228" y="92" text-anchor="middle" class="label" fill="#15803d">CO₂ — Linear</text>
+  <!-- O=C=O -->
+  <circle cx="175" cy="135" r="14" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="175" y="140" text-anchor="middle" class="mol" fill="#991b1b">O</text>
+  <line x1="189" y1="133" x2="207" y2="133" stroke="#334155" stroke-width="2.5"/>
+  <line x1="189" y1="139" x2="207" y2="139" stroke="#334155" stroke-width="2.5"/>
+  <circle cx="222" cy="135" r="16" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="222" y="140" text-anchor="middle" class="mol" fill="#1d4ed8">C</text>
+  <line x1="237" y1="133" x2="255" y2="133" stroke="#334155" stroke-width="2.5"/>
+  <line x1="237" y1="139" x2="255" y2="139" stroke="#334155" stroke-width="2.5"/>
+  <circle cx="270" cy="135" r="14" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="270" y="140" text-anchor="middle" class="mol" fill="#991b1b">O</text>
+
+  <!-- Dipole arrows: both point toward C -->
+  <line x1="193" y1="129" x2="205" y2="129" stroke="#ef4444" stroke-width="1.5" marker-end="url(#dipR)"/>
+  <line x1="252" y1="129" x2="240" y2="129" stroke="#ef4444" stroke-width="1.5" marker-end="url(#dipR)"/>
+
+  <text x="228" y="165" text-anchor="middle" class="tss" fill="#15803d">Opposite equal dipoles</text>
+  <text x="228" y="180" text-anchor="middle" class="tss" fill="#15803d">cancel → nonpolar</text>
+
+  <!-- CCl4 note -->
+  <rect x="20" y="196" width="300" height="50" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+  <text x="170" y="214" text-anchor="middle" class="ts" fill="#166534">CCl₄ (tetrahedral): all 4 C–Cl bonds identical</text>
+  <text x="170" y="232" text-anchor="middle" class="ts" fill="#166534">4 equal dipoles cancel perfectly → nonpolar</text>
+
+  <!-- KEY RULE box left -->
+  <rect x="20" y="256" width="300" height="88" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="170" y="275" text-anchor="middle" class="th" fill="#15803d" font-size="12">RULE: Symmetric Geometry = Nonpolar</text>
+  <text x="170" y="293" text-anchor="middle" class="ts">BF₃ (trigonal planar)</text>
+  <text x="170" y="309" text-anchor="middle" class="ts">CO₂ (linear)</text>
+  <text x="170" y="325" text-anchor="middle" class="ts">CCl₄, SF₆ (all same substituents)</text>
+  <text x="170" y="341" text-anchor="middle" class="tss">Polar bonds present — but they cancel!</text>
+
+  <!-- ===== RIGHT SIDE: Polar molecules ===== -->
+
+  <!-- CH2Cl2 -->
+  <text x="432" y="92" text-anchor="middle" class="label" fill="#991b1b">CH₂Cl₂ — Tetrahedral (mixed)</text>
+  <!-- C center -->
+  <circle cx="432" cy="140" r="16" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="432" y="145" text-anchor="middle" class="mol" fill="#1d4ed8">C</text>
+  <!-- 2 Cl (larger dipole) -->
+  <circle cx="395" cy="110" r="15" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="395" y="115" text-anchor="middle" class="mol" fill="#4c1d95">Cl</text>
+  <line x1="411" y1="129" x2="401" y2="119" stroke="#334155" stroke-width="2"/>
+  <circle cx="469" cy="110" r="15" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="469" y="115" text-anchor="middle" class="mol" fill="#4c1d95">Cl</text>
+  <line x1="453" y1="129" x2="463" y2="119" stroke="#334155" stroke-width="2"/>
+  <!-- 2 H (smaller dipole) -->
+  <circle cx="400" cy="165" r="13" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="400" y="170" text-anchor="middle" class="mol" fill="#475569">H</text>
+  <line x1="415" y1="151" x2="406" y2="160" stroke="#334155" stroke-width="2"/>
+  <circle cx="464" cy="165" r="13" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="464" y="170" text-anchor="middle" class="mol" fill="#475569">H</text>
+  <line x1="449" y1="151" x2="458" y2="160" stroke="#334155" stroke-width="2"/>
+
+  <!-- Dipoles: larger arrows toward Cl -->
+  <line x1="418" y1="133" x2="407" y2="122" stroke="#ef4444" stroke-width="2" marker-end="url(#dipR)"/>
+  <line x1="446" y1="133" x2="457" y2="122" stroke="#ef4444" stroke-width="2" marker-end="url(#dipR)"/>
+  <!-- Net dipole arrow -->
+  <line x1="432" y1="132" x2="432" y2="105" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="4,2" marker-end="url(#dipR)"/>
+  <text x="445" y="102" class="tss" fill="#991b1b">net μ</text>
+
+  <text x="432" y="192" text-anchor="middle" class="tss" fill="#991b1b">C–Cl ≠ C–H dipoles → do not cancel</text>
+  <text x="432" y="207" text-anchor="middle" class="tss" fill="#991b1b">→ POLAR despite tetrahedral geometry</text>
+
+  <!-- H2O note -->
+  <rect x="358" y="218" width="300" height="30" rx="6" fill="#fff8f8" stroke="#fca5a5" stroke-width="1"/>
+  <text x="508" y="232" text-anchor="middle" class="ts" fill="#991b1b">H₂O (bent, 2 LP): asymmetric → polar; NH₃ (trigonal pyramidal, 1 LP): polar</text>
+
+  <!-- KEY RULE box right -->
+  <rect x="358" y="256" width="300" height="88" rx="6" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="508" y="275" text-anchor="middle" class="th" fill="#991b1b" font-size="12">RULE: Asymmetric = Polar</text>
+  <text x="508" y="293" text-anchor="middle" class="ts">CH₂Cl₂ (mixed substituents)</text>
+  <text x="508" y="309" text-anchor="middle" class="ts">H₂O (bent + lone pairs)</text>
+  <text x="508" y="325" text-anchor="middle" class="ts">NH₃ (trigonal pyramidal)</text>
+  <text x="508" y="341" text-anchor="middle" class="tss">Dipoles don't cancel → net dipole moment</text>
+</svg>

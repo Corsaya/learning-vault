@@ -1,0 +1,114 @@
+<svg width="100%" viewBox="0 0 680 370" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Aufbau orbital filling order</title>
+<desc>Diagram showing the order subshells fill with electrons. Boxes represent subshells labeled 1s through 4f. Diagonal dashed arrows show the filling order. A red box highlights that 4s fills before 3d but empties first when forming cations. Exceptions Cr and Cu noted at bottom.</desc>
+<style>
+  text { font-family: system-ui, -apple-system, sans-serif; }
+  .th { font-size: 14px; font-weight: 600; }
+  .ts { font-size: 12px; }
+  .tss { font-size: 11px; }
+</style>
+<rect x="0" y="0" width="680" height="370" fill="#f8fafc" rx="8"/>
+<defs>
+  <marker id="seq" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round"/>
+  </marker>
+  <marker id="diag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-linecap="round"/>
+  </marker>
+</defs>
+
+<!-- Title -->
+<text class="th" x="240" y="28" text-anchor="middle" fill="#1a1a1a">Aufbau Principle — Orbital Filling Order</text>
+
+<!-- Shell n labels -->
+<text class="ts" x="72" y="88" text-anchor="end" fill="#888">n = 1</text>
+<text class="ts" x="72" y="148" text-anchor="end" fill="#888">n = 2</text>
+<text class="ts" x="72" y="208" text-anchor="end" fill="#888">n = 3</text>
+<text class="ts" x="72" y="268" text-anchor="end" fill="#888">n = 4</text>
+
+<!-- 1s -->
+<rect x="80" y="66" width="84" height="42" rx="7" fill="#dbeafe" stroke="#3b82f6" stroke-width="0.8"/>
+<text class="th" x="122" y="83" text-anchor="middle" fill="#1e40af">1s</text>
+<text class="tss" x="122" y="98" text-anchor="middle" fill="#3b82f6">max 2e⁻</text>
+
+<!-- 2s -->
+<rect x="80" y="126" width="84" height="42" rx="7" fill="#dbeafe" stroke="#3b82f6" stroke-width="0.8"/>
+<text class="th" x="122" y="143" text-anchor="middle" fill="#1e40af">2s</text>
+<text class="tss" x="122" y="158" text-anchor="middle" fill="#3b82f6">max 2e⁻</text>
+
+<!-- 2p -->
+<rect x="196" y="126" width="84" height="42" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="0.8"/>
+<text class="th" x="238" y="143" text-anchor="middle" fill="#065f46">2p</text>
+<text class="tss" x="238" y="158" text-anchor="middle" fill="#059669">max 6e⁻</text>
+
+<!-- 3s -->
+<rect x="80" y="186" width="84" height="42" rx="7" fill="#dbeafe" stroke="#3b82f6" stroke-width="0.8"/>
+<text class="th" x="122" y="203" text-anchor="middle" fill="#1e40af">3s</text>
+<text class="tss" x="122" y="218" text-anchor="middle" fill="#3b82f6">max 2e⁻</text>
+
+<!-- 3p -->
+<rect x="196" y="186" width="84" height="42" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="0.8"/>
+<text class="th" x="238" y="203" text-anchor="middle" fill="#065f46">3p</text>
+<text class="tss" x="238" y="218" text-anchor="middle" fill="#059669">max 6e⁻</text>
+
+<!-- 3d -->
+<rect x="312" y="186" width="84" height="42" rx="7" fill="#fce7f3" stroke="#db2777" stroke-width="0.8"/>
+<text class="th" x="354" y="203" text-anchor="middle" fill="#831843">3d</text>
+<text class="tss" x="354" y="218" text-anchor="middle" fill="#db2777">max 10e⁻</text>
+
+<!-- 4s -->
+<rect x="80" y="246" width="84" height="42" rx="7" fill="#dbeafe" stroke="#3b82f6" stroke-width="0.8"/>
+<text class="th" x="122" y="263" text-anchor="middle" fill="#1e40af">4s</text>
+<text class="tss" x="122" y="278" text-anchor="middle" fill="#3b82f6">max 2e⁻</text>
+
+<!-- 4p -->
+<rect x="196" y="246" width="84" height="42" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="0.8"/>
+<text class="th" x="238" y="263" text-anchor="middle" fill="#065f46">4p</text>
+<text class="tss" x="238" y="278" text-anchor="middle" fill="#059669">max 6e⁻</text>
+
+<!-- 4d -->
+<rect x="312" y="246" width="84" height="42" rx="7" fill="#fce7f3" stroke="#db2777" stroke-width="0.8"/>
+<text class="th" x="354" y="263" text-anchor="middle" fill="#831843">4d</text>
+<text class="tss" x="354" y="278" text-anchor="middle" fill="#db2777">max 10e⁻</text>
+
+<!-- 4f -->
+<rect x="428" y="246" width="84" height="42" rx="7" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/>
+<text class="th" x="470" y="263" text-anchor="middle" fill="#4c1d95">4f</text>
+<text class="tss" x="470" y="278" text-anchor="middle" fill="#7c3aed">max 14e⁻</text>
+
+<!-- Sequential down arrows (gray) -->
+<line x1="122" y1="108" x2="122" y2="124" stroke="#94a3b8" stroke-width="1.2" marker-end="url(#seq)"/>
+<line x1="122" y1="168" x2="122" y2="184" stroke="#94a3b8" stroke-width="1.2" marker-end="url(#seq)"/>
+<line x1="122" y1="228" x2="122" y2="244" stroke="#94a3b8" stroke-width="1.2" marker-end="url(#seq)"/>
+
+<!-- Diagonal arrows (red) — key crossovers -->
+<!-- 2p → 3s -->
+<path d="M196 148 Q155 165 164 184" fill="none" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#diag)"/>
+<!-- 3p → 4s (skips 3d!) -->
+<path d="M196 208 Q148 232 164 244" fill="none" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#diag)"/>
+<!-- 3d → 4p -->
+<path d="M312 208 Q264 232 280 244" fill="none" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#diag)"/>
+
+<!-- Fill order label -->
+<text class="ts" x="560" y="78" text-anchor="start" fill="#555">Fill order:</text>
+<text class="tss" x="560" y="96" text-anchor="start" fill="#777">1s → 2s → 2p</text>
+<text class="tss" x="560" y="112" text-anchor="start" fill="#777">→ 3s → 3p</text>
+<text class="tss" x="560" y="128" text-anchor="start" fill="#777">→ 4s → 3d</text>
+<text class="tss" x="560" y="144" text-anchor="start" fill="#777">→ 4p → ...</text>
+
+<!-- Key warning box -->
+<rect x="540" y="160" width="128" height="56" rx="7" fill="#fee2e2" stroke="#fca5a5" stroke-width="0.8"/>
+<text class="tss" x="604" y="177" text-anchor="middle" fill="#b91c1c">4s fills before 3d</text>
+<text class="tss" x="604" y="193" text-anchor="middle" fill="#b91c1c">but 4s empties</text>
+<text class="tss" x="604" y="209" text-anchor="middle" fill="#b91c1c">first for cations</text>
+
+<!-- Ion example box -->
+<rect x="540" y="226" width="128" height="42" rx="7" fill="#fef9c3" stroke="#fde68a" stroke-width="0.8"/>
+<text class="tss" x="604" y="243" text-anchor="middle" fill="#92400e">Fe²⁺: remove 4s²</text>
+<text class="tss" x="604" y="258" text-anchor="middle" fill="#92400e">→ [Ar] 3d⁶</text>
+
+<!-- Exceptions box -->
+<rect x="80" y="306" width="490" height="42" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="0.8"/>
+<text class="ts" x="325" y="323" text-anchor="middle" fill="#555">Exceptions: Cr = [Ar] 3d⁵ 4s¹  |  Cu = [Ar] 3d¹⁰ 4s¹</text>
+<text class="tss" x="325" y="339" text-anchor="middle" fill="#888">(half-filled and fully-filled d subshells gain extra stability)</text>
+</svg>

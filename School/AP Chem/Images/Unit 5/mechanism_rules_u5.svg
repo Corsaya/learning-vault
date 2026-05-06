@@ -1,0 +1,66 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+  <title>Reaction Mechanism Key Rules</title>
+  <desc>Summary diagram of rules for identifying intermediates, catalysts, writing rate laws from mechanisms, and the pre-equilibrium substitution technique.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="380" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" text-anchor="middle" class="th" font-size="15">Reaction Mechanism — Key Rules</text>
+
+  <!-- Box 1: Intermediate vs Catalyst -->
+  <rect x="10" y="35" width="320" height="145" fill="#fee2e2" rx="6" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="170" y="54" text-anchor="middle" class="th" fill="#991b1b" font-size="13">Intermediate vs. Catalyst</text>
+
+  <text x="22" y="72" class="ts" font-weight="bold" fill="#991b1b">Intermediate:</text>
+  <text x="22" y="87" class="tss">• Produced in one step</text>
+  <text x="22" y="100" class="tss">• Consumed in a later step</text>
+  <text x="22" y="113" class="tss">• NOT present before the reaction starts</text>
+  <text x="22" y="126" class="tss">• Cancels out of the overall equation</text>
+
+  <text x="22" y="144" class="ts" font-weight="bold" fill="#991b1b">Catalyst:</text>
+  <text x="22" y="157" class="tss">• Consumed in one step, REGENERATED in a later step</text>
+  <text x="22" y="170" class="tss">• Present before reaction begins — lowers Ea</text>
+
+  <!-- Box 2: Rate law from mechanism -->
+  <rect x="345" y="35" width="325" height="145" fill="#dbeafe" rx="6" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="508" y="54" text-anchor="middle" class="th" fill="#1d4ed8" font-size="13">Rate Law from Mechanism</text>
+
+  <text x="357" y="72" class="ts" font-weight="bold" fill="#1d4ed8">Rule 1 — Simple slow step:</text>
+  <text x="357" y="87" class="tss">Rate = k × [each reactant in slow step]</text>
+  <text x="357" y="100" class="tss">One reactant → 1st order; two → 2nd order (or 2nd in one)</text>
+
+  <text x="357" y="118" class="ts" font-weight="bold" fill="#1d4ed8">Rule 2 — Pre-equilibrium:</text>
+  <text x="357" y="133" class="tss">Step 1 (fast eq): A ⇌ B → [B] = Keq[A]</text>
+  <text x="357" y="148" class="tss">Step 2 (slow): B + C → products</text>
+  <text x="357" y="163" class="tss">Rate = k[B][C] → substitute → k·Keq[A][C]</text>
+  <text x="357" y="178" class="tss" fill="#1d4ed8" font-weight="bold">NEVER leave intermediates in the final rate law</text>
+
+  <!-- Box 3: Collision Theory -->
+  <rect x="10" y="190" width="320" height="115" fill="#dcfce7" rx="6" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="170" y="208" text-anchor="middle" class="th" fill="#15803d" font-size="13">Collision Theory</text>
+  <text x="22" y="226" class="tss">Effective collision requires TWO conditions:</text>
+  <text x="22" y="241" class="tss" font-weight="bold">1. Sufficient energy ≥ Ea (activation energy)</text>
+  <text x="22" y="256" class="tss" font-weight="bold">2. Correct orientation of reactants</text>
+  <text x="22" y="273" class="tss">Spherical atoms (e.g., O): no orientation requirement</text>
+  <text x="22" y="288" class="tss">Molecules with directional bonds: specific geometry needed</text>
+  <text x="22" y="300" class="tss">Higher [conc] → more collisions; higher T → more energetic collisions</text>
+
+  <!-- Box 4: Factors affecting rate -->
+  <rect x="345" y="190" width="325" height="115" fill="#ede9fe" rx="6" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="508" y="208" text-anchor="middle" class="th" fill="#4c1d95" font-size="13">Factors Affecting Reaction Rate</text>
+  <text x="357" y="226" class="tss" font-weight="bold">↑ Rate:</text>
+  <text x="357" y="241" class="tss">• ↑ concentration → ↑ collision frequency</text>
+  <text x="357" y="256" class="tss">• ↑ temperature → ↑ fraction with E ≥ Ea</text>
+  <text x="357" y="271" class="tss">• ↑ surface area (solid reactant) → more collision sites</text>
+  <text x="357" y="286" class="tss">• Catalyst → alternative pathway, lower Ea</text>
+  <text x="357" y="301" class="tss" fill="#4c1d95" font-weight="bold">k only changes with temperature (and catalyst)</text>
+
+  <!-- Footer note -->
+  <rect x="10" y="314" width="660" height="56" fill="#fef9c3" rx="5" stroke="#ca8a04" stroke-width="1"/>
+  <text x="340" y="331" text-anchor="middle" class="ts" font-weight="bold" fill="#92400e">Overall Rate Law from Experimental Data vs. Mechanism</text>
+  <text x="340" y="347" text-anchor="middle" class="tss" fill="#92400e">From DATA TABLE: compare experiment pairs (hold one conc constant, vary other). rate ratio = (conc ratio)^n</text>
+  <text x="340" y="362" text-anchor="middle" class="tss" fill="#92400e">From MECHANISM: use slow-step reactants only (substitute away intermediates). Stoichiometric coefficients ≠ orders.</text>
+</svg>

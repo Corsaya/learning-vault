@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" font-family="serif" font-size="13">
+  <rect width="700" height="310" fill="#fafafa" rx="6"/>
+  <text x="350" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Weak Acid Equilibrium — ICE Table and Approximation</text>
+  <text x="350" y="42" text-anchor="middle" font-size="12" fill="#555">HA(aq) ⇌ H⁺(aq) + A⁻(aq)     Ka = [H⁺][A⁻] / [HA]</text>
+
+  <!-- ICE Table -->
+  <rect x="40" y="55" width="620" height="32" fill="#334"/>
+  <text x="130" y="76" text-anchor="middle" font-size="12" fill="white" font-weight="bold">HA</text>
+  <text x="350" y="76" text-anchor="middle" font-size="12" fill="white" font-weight="bold">H⁺</text>
+  <text x="570" y="76" text-anchor="middle" font-size="12" fill="white" font-weight="bold">A⁻</text>
+  <line x1="240" y1="55" x2="240" y2="185" stroke="#888" stroke-width="1"/>
+  <line x1="460" y1="55" x2="460" y2="185" stroke="#888" stroke-width="1"/>
+
+  <rect x="40" y="87" width="620" height="28" fill="#e8eaf6"/>
+  <text x="80" y="105" font-size="12" fill="#444" font-weight="bold">Initial</text>
+  <text x="130" y="105" text-anchor="middle" font-size="12" fill="#333">C (initial conc.)</text>
+  <text x="350" y="105" text-anchor="middle" font-size="12" fill="#333">≈ 0</text>
+  <text x="570" y="105" text-anchor="middle" font-size="12" fill="#333">0</text>
+  <line x1="40" y1="115" x2="660" y2="115" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="40" y="115" width="620" height="28" fill="#fffde7"/>
+  <text x="80" y="133" font-size="12" fill="#444" font-weight="bold">Change</text>
+  <text x="130" y="133" text-anchor="middle" font-size="12" fill="#c62">−x</text>
+  <text x="350" y="133" text-anchor="middle" font-size="12" fill="#1a4">+x</text>
+  <text x="570" y="133" text-anchor="middle" font-size="12" fill="#1a4">+x</text>
+  <line x1="40" y1="143" x2="660" y2="143" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="40" y="143" width="620" height="32" fill="#e8f5e9"/>
+  <text x="80" y="163" font-size="12" fill="#444" font-weight="bold">Equil.</text>
+  <text x="130" y="163" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">C − x</text>
+  <text x="350" y="163" text-anchor="middle" font-size="13" fill="#1a4" font-weight="bold">x = [H⁺]</text>
+  <text x="570" y="163" text-anchor="middle" font-size="13" fill="#1a4" font-weight="bold">x</text>
+  <rect x="40" y="55" width="620" height="120" fill="none" stroke="#557" stroke-width="1.5" rx="2"/>
+
+  <!-- Derivation -->
+  <text x="350" y="202" text-anchor="middle" font-size="13" fill="#333">Ka = x² / (C − x)   →   If x ≪ C (5% rule):   x ≈ √(Ka · C) = [H⁺]</text>
+  <text x="350" y="220" text-anchor="middle" font-size="13" fill="#333">pH = −log(x) = −log√(Ka · C) = ½(pKa − log C)</text>
+
+  <!-- Concentration comparison table -->
+  <rect x="40" y="232" width="620" height="65" fill="#fff0e8" rx="4" stroke="#d99" stroke-width="1.5"/>
+  <text x="350" y="250" text-anchor="middle" font-size="12" font-weight="bold" fill="#833">Effect of Concentration on Weak Acid</text>
+  <line x1="220" y1="255" x2="220" y2="292" stroke="#ccc" stroke-width="1"/>
+  <line x1="440" y1="255" x2="440" y2="292" stroke="#ccc" stroke-width="1"/>
+  <text x="130" y="268" text-anchor="middle" font-size="11" fill="#555">Parameter</text>
+  <text x="330" y="268" text-anchor="middle" font-size="11" fill="#555">Diluting (↓ C)</text>
+  <text x="550" y="268" text-anchor="middle" font-size="11" fill="#555">Concentrating (↑ C)</text>
+  <line x1="40" y1="270" x2="660" y2="270" stroke="#ddd" stroke-width="1"/>
+  <text x="130" y="283" text-anchor="middle" font-size="11" fill="#333">[H⁺] and pH</text>
+  <text x="330" y="283" text-anchor="middle" font-size="11" fill="#226">[H⁺] decreases; pH rises</text>
+  <text x="550" y="283" text-anchor="middle" font-size="11" fill="#c44">[H⁺] increases; pH drops</text>
+  <text x="130" y="297" text-anchor="middle" font-size="11" fill="#333">% Ionization</text>
+  <text x="330" y="297" text-anchor="middle" font-size="11" fill="#226">% ionization INCREASES</text>
+  <text x="550" y="297" text-anchor="middle" font-size="11" fill="#c44">% ionization decreases</text>
+</svg>

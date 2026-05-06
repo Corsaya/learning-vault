@@ -1,0 +1,84 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+  <title>Standard Enthalpy of Formation Concept</title>
+  <desc>Diagram showing elements in standard state as the reference zero level, with compounds formed from them having positive or negative standard enthalpies of formation, and the formula for calculating delta H of reaction.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="arr-g" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arr-r" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#ef4444"/>
+    </marker>
+    <marker id="arr-b" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#3b82f6"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="320" fill="#f8fafc" rx="8"/>
+  <text x="340" y="26" class="th" text-anchor="middle">Standard Enthalpies of Formation (ΔH°f)</text>
+
+  <!-- ===== LEFT: ENERGY LEVEL DIAGRAM ===== -->
+  <rect x="16" y="38" width="330" height="242" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <text x="181" y="57" class="ts" text-anchor="middle" font-weight="bold">ΔH°f Reference Level Diagram</text>
+
+  <!-- Zero reference line: elements in standard state -->
+  <line x1="30" y1="175" x2="330" y2="175" stroke="#334155" stroke-width="2.5"/>
+  <rect x="60" y="162" width="210" height="26" fill="#f1f5f9" rx="3"/>
+  <text x="165" y="179" class="ts" text-anchor="middle" fill="#334155" font-weight="bold">Elements in standard state</text>
+  <text x="165" y="192" class="tss" text-anchor="middle" fill="#475569">ΔH°f ≡ 0 (by definition)</text>
+  <text x="30" y="172" class="tss" fill="#475569">0 →</text>
+  <text x="298" y="172" class="tss" fill="#475569">← 0</text>
+
+  <!-- Examples: H₂(g), O₂(g), C(graphite), Na(s) -->
+  <text x="165" y="210" class="tss" text-anchor="middle" fill="#475569">H₂(g)  O₂(g)  C(graphite)  Na(s)  Fe(s)</text>
+
+  <!-- Compound ABOVE zero: ΔH°f > 0 (NO(g)) -->
+  <line x1="60" y1="100" x2="140" y2="100" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="100" y="92" class="tss" text-anchor="middle" fill="#991b1b">NO(g)</text>
+  <text x="100" y="82" class="tss" text-anchor="middle" fill="#991b1b">ΔH°f = +90 kJ/mol</text>
+  <!-- arrow from zero UP to NO -->
+  <line x1="90" y1="173" x2="90" y2="104" stroke="#ef4444" stroke-width="2" marker-end="url(#arr-r)"/>
+  <text x="34" y="138" class="tss" fill="#991b1b">endothermic</text>
+  <text x="34" y="150" class="tss" fill="#991b1b">formation (+)</text>
+
+  <!-- Compound BELOW zero: ΔH°f < 0 (CO₂(g)) -->
+  <line x1="210" y1="248" x2="310" y2="248" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="260" y="262" class="tss" text-anchor="middle" fill="#15803d">CO₂(g)</text>
+  <text x="260" y="275" class="tss" text-anchor="middle" fill="#15803d">ΔH°f = −394 kJ/mol</text>
+  <!-- arrow from zero DOWN to CO₂ -->
+  <line x1="250" y1="177" x2="250" y2="244" stroke="#16a34a" stroke-width="2" marker-end="url(#arr-g)"/>
+  <text x="255" y="215" class="tss" fill="#15803d">exothermic</text>
+  <text x="255" y="227" class="tss" fill="#15803d">formation (−)</text>
+
+  <!-- ===== RIGHT: FORMULA AND RULES ===== -->
+  <rect x="362" y="38" width="302" height="242" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <text x="513" y="57" class="ts" text-anchor="middle" font-weight="bold">Using ΔH°f to find ΔH°rxn</text>
+
+  <!-- Main formula -->
+  <rect x="374" y="63" width="278" height="44" fill="#dbeafe" rx="4"/>
+  <text x="513" y="80" class="ts" text-anchor="middle" fill="#1d4ed8" font-weight="bold">ΔH°rxn = Σ ΔH°f(products)</text>
+  <text x="513" y="98" class="ts" text-anchor="middle" fill="#1d4ed8" font-weight="bold">− Σ ΔH°f(reactants)</text>
+
+  <!-- Rules box -->
+  <text x="374" y="127" class="tss" fill="#1e293b" font-weight="bold">Rules:</text>
+  <text x="374" y="143" class="tss" fill="#334155">1. Multiply ΔH°f by the coefficient</text>
+  <text x="374" y="157" class="tss" fill="#334155">   in the balanced equation</text>
+  <text x="374" y="173" class="tss" fill="#334155">2. ΔH°f = 0 for elements in their</text>
+  <text x="374" y="187" class="tss" fill="#334155">   standard state (O₂, H₂, Na, Fe…)</text>
+  <text x="374" y="203" class="tss" fill="#334155">3. Products MINUS reactants</text>
+  <text x="374" y="217" class="tss" fill="#334155">   (never reactants minus products)</text>
+
+  <!-- Worked mini-example -->
+  <rect x="374" y="226" width="278" height="48" fill="#f0fdf4" rx="3"/>
+  <text x="513" y="240" class="tss" text-anchor="middle" fill="#15803d" font-weight="bold">Example: H₂(g) + ½O₂(g) → H₂O(l)</text>
+  <text x="513" y="255" class="tss" text-anchor="middle" fill="#15803d">ΔH°rxn = ΔH°f(H₂O) − [ΔH°f(H₂) + ½ΔH°f(O₂)]</text>
+  <text x="513" y="270" class="tss" text-anchor="middle" fill="#15803d">= −286 − [0 + 0] = −286 kJ/mol</text>
+
+  <!-- Bottom note -->
+  <text x="340" y="297" class="tss" text-anchor="middle">ΔH°f is always per 1 mole of compound formed from elements | Standard state = 298 K, 1 atm, most stable form</text>
+  <text x="340" y="312" class="tss" text-anchor="middle" fill="#991b1b">Trap: ΔH°f(O₂) = 0, not −394 — O₂ is an element, not CO₂</text>
+</svg>

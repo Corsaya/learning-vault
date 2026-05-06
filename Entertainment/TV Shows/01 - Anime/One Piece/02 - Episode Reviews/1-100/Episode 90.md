@@ -1,0 +1,2 @@
+Rating: 8.9/10
+A great conclusion to Drum Island Arc. Luffy's way of convincing Chopper to join was perfect. The Cherry Blossom sendoff was beautiful, and Chopper's reaction was incredible. Can't wait to see him on the crew.

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <style>
+    text { font-family: serif; font-size: 12px; fill: #222; }
+    .label { font-size: 11px; fill: #555; }
+    .eq { font-size: 13px; fill: #b91c1c; font-style: italic; }
+    .axis { stroke: #222; stroke-width: 1.5; }
+    .grid { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 3,3; }
+    .curve { fill: none; stroke: #b91c1c; stroke-width: 2.2; }
+    .tick { stroke: #222; stroke-width: 1; }
+  </style>
+
+  <!-- Grid -->
+  <line class="grid" x1="50" y1="70" x2="480" y2="70"/>
+  <line class="grid" x1="50" y1="150" x2="480" y2="150"/>
+  <line class="grid" x1="155" y1="10" x2="155" y2="210"/>
+  <line class="grid" x1="260" y1="10" x2="260" y2="210"/>
+  <line class="grid" x1="365" y1="10" x2="365" y2="210"/>
+  <line class="grid" x1="470" y1="10" x2="470" y2="210"/>
+
+  <!-- Axes -->
+  <line class="axis" x1="40" y1="110" x2="490" y2="110"/>
+  <line class="axis" x1="50" y1="5" x2="50" y2="215"/>
+  <polygon points="490,107 484,113 484,107" fill="#222"/>
+  <polygon points="50,5 44,11 56,11" fill="#222"/>
+
+  <!-- Ticks and labels -->
+  <line class="tick" x1="155" y1="106" x2="155" y2="114"/>
+  <line class="tick" x1="260" y1="106" x2="260" y2="114"/>
+  <line class="tick" x1="365" y1="106" x2="365" y2="114"/>
+  <line class="tick" x1="470" y1="106" x2="470" y2="114"/>
+  <text class="label" x="143" y="126">-π</text>
+  <text class="label" x="248" y="126">0</text>
+  <text class="label" x="357" y="126">π</text>
+  <text class="label" x="458" y="126">2π</text>
+
+  <line class="tick" x1="46" y1="70" x2="54" y2="70"/>
+  <line class="tick" x1="46" y1="150" x2="54" y2="150"/>
+  <text class="label" x="22" y="74">0.5</text>
+  <text class="label" x="18" y="154">-0.5</text>
+
+  <!-- -½cos x: trough at 0 (x=260,y=150), peaks at ±π (x=155,x=365,y=70) -->
+  <path class="curve" d="
+    M 50,110
+    C 76,70 129,70 155,110
+    C 181,150 234,150 260,110
+    C 286,70 339,70 365,110
+    C 391,150 444,150 470,110
+  "/>
+
+  <!-- Reflection indicator -->
+  <text class="label" x="260" y="165" text-anchor="middle">trough (reflected)</text>
+
+  <text class="eq" x="60" y="22">y = -½ cos x</text>
+  <text class="label" x="60" y="210">Amplitude = ½ | Period = 2π | Reflected over x-axis</text>
+</svg>

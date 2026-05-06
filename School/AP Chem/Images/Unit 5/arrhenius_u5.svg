@@ -1,0 +1,79 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+  <title>Arrhenius Equation and ln k vs 1/T Plot — AP Chem Unit 5</title>
+  <style>
+    .th  { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts  { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+    .lbl { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+    .ax  { font-family: Arial, sans-serif; font-size: 11px; fill: #64748b; }
+    .eq  { font-family: Arial, sans-serif; font-size: 11px; fill: #1d4ed8; font-style: italic; }
+  </style>
+  <defs>
+    <marker id="ax" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="380" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" class="th" text-anchor="middle" font-size="15px">Arrhenius Equation — k = Ae^(−Ea/RT)</text>
+
+  <!-- ── Left: ln k vs 1/T plot ── -->
+  <rect x="16" y="36" width="310" height="330" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" rx="6"/>
+  <rect x="16" y="36" width="310" height="26" fill="#dbeafe" rx="6"/>
+  <text x="171" y="54" class="lbl" text-anchor="middle" fill="#1d4ed8">Linearized Form: ln k vs. 1/T</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="290" x2="300" y2="290" stroke="#64748b" stroke-width="1.5" marker-end="url(#ax)"/>
+  <line x1="70" y1="290" x2="70"  y2="72"  stroke="#64748b" stroke-width="1.5" marker-end="url(#ax)"/>
+  <text x="290" y="308" class="ax" text-anchor="middle">1/T  →</text>
+  <text x="38"  y="182" class="ax" text-anchor="middle" transform="rotate(-90 38 182)">ln k  →</text>
+
+  <!-- Linear plot line (negative slope) -->
+  <line x1="88" y1="100" x2="282" y2="268" stroke="#1d4ed8" stroke-width="2.5"/>
+
+  <!-- Slope annotation -->
+  <!-- Δy segment -->
+  <line x1="200" y1="180" x2="200" y2="224" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Δx segment -->
+  <line x1="156" y1="224" x2="200" y2="224" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="210" y="205" class="eq" fill="#dc2626">Δy</text>
+  <text x="172" y="238" class="eq" fill="#dc2626">Δx</text>
+  <text x="220" y="255" class="eq" fill="#dc2626">slope = −Ea/R</text>
+
+  <!-- Key equations on left panel -->
+  <text x="171" y="316" class="ts" text-anchor="middle">ln k = −(Ea/R)·(1/T) + ln A</text>
+  <text x="171" y="334" class="tss" text-anchor="middle">slope = −Ea/R  →  Ea = −slope × R</text>
+  <text x="171" y="352" class="tss" text-anchor="middle">y-intercept = ln A (frequency factor)</text>
+
+  <!-- ── Right: Two-temperature form + key facts ── -->
+  <rect x="342" y="36" width="322" height="330" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" rx="6"/>
+  <rect x="342" y="36" width="322" height="26" fill="#dbeafe" rx="6"/>
+  <text x="503" y="54" class="lbl" text-anchor="middle" fill="#1d4ed8">Two-Temperature Form (AP FRQ use)</text>
+
+  <!-- Master equation box -->
+  <rect x="356" y="68" width="294" height="46" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" rx="4"/>
+  <text x="503" y="87"  class="lbl" text-anchor="middle" fill="#1e3a8a">ln(k₂/k₁) = −(Ea/R) · (1/T₂ − 1/T₁)</text>
+  <text x="503" y="105" class="tss" text-anchor="middle">Use when given k at two temperatures to find Ea,</text>
+
+  <text x="503" y="122" class="tss" text-anchor="middle">or to find k at a new temperature.</text>
+
+  <!-- Four key facts -->
+  <line x1="348" y1="130" x2="658" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="503" y="148" class="lbl" text-anchor="middle">Effect of Temperature on Rate:</text>
+  <text x="356" y="166" class="ts">• Higher T → more molecules exceed Ea</text>
+  <text x="356" y="182" class="ts">  (right tail of Maxwell–Boltzmann grows)</text>
+  <text x="356" y="198" class="ts">• k increases exponentially with T</text>
+  <text x="356" y="214" class="ts">• Even a small ΔT causes large Δk</text>
+
+  <line x1="348" y1="224" x2="658" y2="224" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="503" y="242" class="lbl" text-anchor="middle">Catalyst Effect (Topic 5.6 link):</text>
+  <text x="356" y="260" class="ts">• Catalyst lowers Ea → less negative slope</text>
+  <text x="356" y="276" class="ts">  on ln k vs. 1/T → larger k at same T</text>
+  <text x="356" y="292" class="ts">• Catalyst does NOT change ΔH, ΔG, or K</text>
+
+  <line x1="348" y1="302" x2="658" y2="302" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="503" y="318" class="lbl" text-anchor="middle">Constants:</text>
+  <text x="356" y="334" class="ts">• R = 8.314 J/(mol·K) — use here always</text>
+  <text x="356" y="350" class="ts">• T must be in Kelvin; Ea in J/mol</text>
+  <text x="356" y="362" class="tss" fill="#dc2626">Never use R = 0.08206 in the Arrhenius equation</text>
+</svg>

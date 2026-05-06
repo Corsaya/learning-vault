@@ -1,0 +1,111 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg">
+  <title>Exothermic vs. Endothermic Energy Profile Diagrams</title>
+  <desc>Side-by-side energy profiles comparing exothermic (products lower in energy) and endothermic (products higher in energy) reactions, with activation energy and delta H labeled.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="arr-b" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#3b82f6"/>
+    </marker>
+    <marker id="arr-g" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#16a34a"/>
+    </marker>
+    <marker id="arr-r" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#ef4444"/>
+    </marker>
+    <marker id="arr-k" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="360" fill="#f8fafc" rx="8"/>
+  <text x="340" y="27" class="th" text-anchor="middle" font-size="15">Energy Profile Diagrams — Unit 6 Thermochemistry</text>
+
+  <!-- ===== LEFT: EXOTHERMIC ===== -->
+  <rect x="16" y="40" width="310" height="292" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <rect x="16" y="40" width="310" height="28" fill="#fee2e2" rx="5"/>
+  <text x="171" y="59" class="th" text-anchor="middle" fill="#991b1b">EXOTHERMIC  (ΔH &lt; 0)</text>
+
+  <!-- axes -->
+  <line x1="46" y1="298" x2="304" y2="298" stroke="#555" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <line x1="46" y1="298" x2="46" y2="82" stroke="#555" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <text x="175" y="316" class="tss" text-anchor="middle">Reaction Progress →</text>
+  <text x="28" y="195" class="tss" text-anchor="middle" transform="rotate(-90 28 195)">Energy</text>
+
+  <!-- exothermic curve: reactants y=198, TS y=112, products y=258 -->
+  <path d="M 63 198 L 93 198 C 110 198 125 112 158 112 C 191 112 208 258 228 258 L 284 258"
+        fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- reactants label -->
+  <line x1="63" y1="198" x2="93" y2="198" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="66" y="192" class="tss" fill="#991b1b" font-weight="bold">Reactants</text>
+
+  <!-- products label -->
+  <line x1="228" y1="258" x2="284" y2="258" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="232" y="275" class="tss" fill="#991b1b" font-weight="bold">Products</text>
+
+  <!-- TS label -->
+  <text x="158" y="106" class="tss" text-anchor="middle" fill="#475569">TS‡</text>
+
+  <!-- Ea arrow: reactants → TS -->
+  <line x1="108" y1="198" x2="108" y2="116" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr-b)"/>
+  <text x="114" y="162" class="ts" fill="#1d4ed8" font-weight="bold">Ea</text>
+
+  <!-- ΔH arrow: reactants level → products level (downward) -->
+  <line x1="262" y1="198" x2="262" y2="255" stroke="#16a34a" stroke-width="2" marker-end="url(#arr-g)"/>
+  <text x="268" y="230" class="ts" fill="#15803d" font-weight="bold">ΔH &lt; 0</text>
+
+  <!-- dashed reference lines -->
+  <line x1="50" y1="198" x2="274" y2="198" stroke="#e5e5e5" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="50" y1="258" x2="274" y2="258" stroke="#e5e5e5" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="171" y="300" class="tss" text-anchor="middle" fill="#991b1b">Energy released → surroundings warm up</text>
+  <text x="171" y="314" class="tss" text-anchor="middle" fill="#991b1b">Temperature INCREASES during rxn</text>
+
+  <!-- ===== RIGHT: ENDOTHERMIC ===== -->
+  <rect x="354" y="40" width="310" height="292" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <rect x="354" y="40" width="310" height="28" fill="#dbeafe" rx="5"/>
+  <text x="509" y="59" class="th" text-anchor="middle" fill="#1d4ed8">ENDOTHERMIC  (ΔH &gt; 0)</text>
+
+  <!-- axes -->
+  <line x1="384" y1="298" x2="642" y2="298" stroke="#555" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <line x1="384" y1="298" x2="384" y2="82" stroke="#555" stroke-width="1.5" marker-end="url(#arr-k)"/>
+  <text x="513" y="316" class="tss" text-anchor="middle">Reaction Progress →</text>
+  <text x="366" y="195" class="tss" text-anchor="middle" transform="rotate(-90 366 195)">Energy</text>
+
+  <!-- endothermic curve: reactants y=258, TS y=112, products y=185 -->
+  <path d="M 401 258 L 431 258 C 448 258 463 112 496 112 C 529 112 546 185 566 185 L 622 185"
+        fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- reactants label -->
+  <line x1="401" y1="258" x2="431" y2="258" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="404" y="275" class="tss" fill="#1d4ed8" font-weight="bold">Reactants</text>
+
+  <!-- products label -->
+  <line x1="566" y1="185" x2="622" y2="185" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="570" y="178" class="tss" fill="#1d4ed8" font-weight="bold">Products</text>
+
+  <!-- TS label -->
+  <text x="496" y="106" class="tss" text-anchor="middle" fill="#475569">TS‡</text>
+
+  <!-- Ea arrow -->
+  <line x1="446" y1="258" x2="446" y2="116" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr-b)"/>
+  <text x="452" y="192" class="ts" fill="#1d4ed8" font-weight="bold">Ea</text>
+
+  <!-- ΔH arrow: reactants → products (upward) -->
+  <line x1="600" y1="258" x2="600" y2="189" stroke="#ef4444" stroke-width="2" marker-end="url(#arr-r)"/>
+  <text x="606" y="226" class="ts" fill="#991b1b" font-weight="bold">ΔH &gt; 0</text>
+
+  <!-- dashed reference lines -->
+  <line x1="388" y1="258" x2="612" y2="258" stroke="#e5e5e5" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="388" y1="185" x2="612" y2="185" stroke="#e5e5e5" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <text x="509" y="300" class="tss" text-anchor="middle" fill="#1d4ed8">Energy absorbed from surroundings → cool down</text>
+  <text x="509" y="314" class="tss" text-anchor="middle" fill="#1d4ed8">Temperature DECREASES during rxn</text>
+
+  <!-- bottom note -->
+  <text x="340" y="350" class="tss" text-anchor="middle">ΔH = E(products) − E(reactants) | Ea always positive | Reverse reaction: ΔH flips sign</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg">
+  <title>Beer's Law Cuvette Error Analysis — AP Chem Unit 3</title>
+  <desc>Complete table of Beer's Law experimental errors with effects on measured absorbance and reasoning for AP Chemistry Unit 3.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+    .hi { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #991b1b; }
+    .lo { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #15803d; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="300" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" class="th" text-anchor="middle" font-size="15px">Beer's Law (A = εbc) — Cuvette Error Analysis</text>
+
+  <!-- Header -->
+  <rect x="10" y="34" width="265" height="26" fill="#1d4ed8" rx="3"/>
+  <rect x="280" y="34" width="115" height="26" fill="#1d4ed8" rx="3"/>
+  <rect x="400" y="34" width="270" height="26" fill="#1d4ed8" rx="3"/>
+  <text x="142" y="52" class="th" text-anchor="middle" fill="white">Error / Situation</text>
+  <text x="337" y="52" class="th" text-anchor="middle" fill="white">Effect on A</text>
+  <text x="535" y="52" class="th" text-anchor="middle" fill="white">Reasoning</text>
+
+  <!-- Row 1 -->
+  <rect x="10" y="63" width="265" height="34" fill="#fee2e2" rx="2"/>
+  <rect x="280" y="63" width="115" height="34" fill="#fee2e2" rx="2"/>
+  <rect x="400" y="63" width="270" height="34" fill="#fee2e2" rx="2"/>
+  <text x="142" y="78" class="tss" text-anchor="middle">Fingerprints on transparent cuvette side</text>
+  <text x="337" y="83" class="hi" text-anchor="middle">TOO HIGH ↑</text>
+  <text x="535" y="78" class="tss" text-anchor="middle">Scatters/absorbs extra light; detector sees</text>
+  <text x="535" y="92" class="tss" text-anchor="middle">less I_t → A = −log(I_t/I₀) increases</text>
+
+  <!-- Row 2 -->
+  <rect x="10" y="100" width="265" height="34" fill="#fee2e2" rx="2"/>
+  <rect x="280" y="100" width="115" height="34" fill="#fee2e2" rx="2"/>
+  <rect x="400" y="100" width="270" height="34" fill="#fee2e2" rx="2"/>
+  <text x="142" y="115" class="tss" text-anchor="middle">Light through frosted walls (wrong orient.)</text>
+  <text x="337" y="120" class="hi" text-anchor="middle">TOO HIGH ↑</text>
+  <text x="535" y="115" class="tss" text-anchor="middle">Frosted surface scatters more than transparent;</text>
+  <text x="535" y="129" class="tss" text-anchor="middle">less I_t reaches detector</text>
+
+  <!-- Row 3 -->
+  <rect x="10" y="137" width="265" height="34" fill="#fee2e2" rx="2"/>
+  <rect x="280" y="137" width="115" height="34" fill="#fee2e2" rx="2"/>
+  <rect x="400" y="137" width="270" height="34" fill="#fee2e2" rx="2"/>
+  <text x="142" y="152" class="tss" text-anchor="middle">Path length longer than standard (b ↑)</text>
+  <text x="337" y="157" class="hi" text-anchor="middle">TOO HIGH ↑</text>
+  <text x="535" y="152" class="tss" text-anchor="middle">More absorbing species in beam; A = εbc,</text>
+  <text x="535" y="166" class="tss" text-anchor="middle">b increases → A increases</text>
+
+  <!-- Row 4 -->
+  <rect x="10" y="174" width="265" height="34" fill="#dcfce7" rx="2"/>
+  <rect x="280" y="174" width="115" height="34" fill="#dcfce7" rx="2"/>
+  <rect x="400" y="174" width="270" height="34" fill="#dcfce7" rx="2"/>
+  <text x="142" y="189" class="tss" text-anchor="middle">Water droplets left / cuvette not rinsed</text>
+  <text x="337" y="194" class="lo" text-anchor="middle">TOO LOW ↓</text>
+  <text x="535" y="189" class="tss" text-anchor="middle">Dilutes sample → lower c → lower A</text>
+  <text x="535" y="203" class="tss" text-anchor="middle">(Beer's law: A ∝ c)</text>
+
+  <!-- Row 5 -->
+  <rect x="10" y="211" width="265" height="34" fill="#dcfce7" rx="2"/>
+  <rect x="280" y="211" width="115" height="34" fill="#dcfce7" rx="2"/>
+  <rect x="400" y="211" width="270" height="34" fill="#dcfce7" rx="2"/>
+  <text x="142" y="226" class="tss" text-anchor="middle">Wavelength not at λ_max</text>
+  <text x="337" y="231" class="lo" text-anchor="middle">TOO LOW ↓</text>
+  <text x="535" y="226" class="tss" text-anchor="middle">ε is lower at non-peak λ; peak POSITION</text>
+  <text x="535" y="240" class="tss" text-anchor="middle">on spectrum unchanged</text>
+
+  <!-- Key rule -->
+  <rect x="10" y="253" width="660" height="40" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+  <text x="340" y="271" class="th" text-anchor="middle" fill="#1d4ed8">KEY RULE: Anything reducing transmitted light I_t → A too HIGH | Dilution of sample → A too LOW</text>
+  <text x="340" y="287" class="tss" text-anchor="middle">Wavelength error shifts measured A value, NOT the wavelength of the absorption peak on the spectrum</text>
+</svg>

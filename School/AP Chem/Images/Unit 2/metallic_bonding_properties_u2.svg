@@ -1,0 +1,140 @@
+<svg viewBox="0 0 680 370" xmlns="http://www.w3.org/2000/svg">
+  <title>Metallic Bonding: Malleability vs. Conductivity</title>
+  <desc>Side-by-side comparison of malleability (layer sliding) and electrical conductivity (electron flow) in metallic solids, showing both involve the electron sea but through different mechanisms.</desc>
+  <style>
+    .th { font-family: Georgia, serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Georgia, serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Georgia, serif; font-size: 11px; fill: #64748b; }
+    .label { font-family: Georgia, serif; font-size: 13px; font-weight: bold; }
+  </style>
+  <rect x="0" y="0" width="680" height="370" fill="#f8fafc" rx="8"/>
+  <defs>
+    <marker id="arrD" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L9,3.5 z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arrG" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L9,3.5 z" fill="#15803d"/>
+    </marker>
+    <marker id="arrO" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L9,3.5 z" fill="#ca8a04"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="26" text-anchor="middle" class="th" font-size="15">Metallic Bonding: Malleability vs. Conductivity</text>
+  <text x="340" y="44" text-anchor="middle" class="tss">Both properties involve the electron sea — but through different mechanisms</text>
+
+  <!-- Divider -->
+  <line x1="340" y1="55" x2="340" y2="365" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- ===== LEFT: MALLEABILITY ===== -->
+  <rect x="12" y="60" width="318" height="298" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="171" y="82" text-anchor="middle" class="label" fill="#15803d">MALLEABILITY</text>
+  <text x="171" y="98" text-anchor="middle" class="ts" fill="#15803d">Layers of cations slide past each other</text>
+
+  <!-- Force arrow -->
+  <line x1="50" y1="126" x2="100" y2="126" stroke="#1d4ed8" stroke-width="3" marker-end="url(#arrD)"/>
+  <text x="75" y="118" text-anchor="middle" class="tss" fill="#1d4ed8">Force</text>
+
+  <!-- Row of + ions: before and after showing slide -->
+  <!-- Layer 1 (top, sliding right) -->
+  <circle cx="155" cy="138" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="155" y="143" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="205" cy="138" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="205" y="143" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="255" cy="138" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="255" y="143" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="305" cy="138" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="305" y="143" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+
+  <!-- Slide arrow for top layer -->
+  <line x1="150" y1="122" x2="185" y2="122" stroke="#ca8a04" stroke-width="2" marker-end="url(#arrO)" stroke-dasharray="3,2"/>
+
+  <!-- Electron sea between layers -->
+  <text x="171" y="168" text-anchor="middle" class="tss" fill="#7c3aed">· · · · electron sea · · · · ·</text>
+  <text x="171" y="182" text-anchor="middle" class="tss" fill="#7c3aed">· · · · · · · · · · · · · · ·</text>
+
+  <!-- Layer 2 (bottom, fixed) -->
+  <circle cx="130" cy="200" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="130" y="205" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="180" cy="200" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="180" y="205" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="230" cy="200" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="230" y="205" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="280" cy="200" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="280" y="205" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+
+  <!-- Electron sea below -->
+  <text x="171" y="230" text-anchor="middle" class="tss" fill="#7c3aed">· · · · electron sea · · · · ·</text>
+  <text x="171" y="244" text-anchor="middle" class="tss" fill="#7c3aed">· · · · · · · · · · · · · · ·</text>
+
+  <!-- Layer 3 -->
+  <circle cx="130" cy="262" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="130" y="267" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="180" cy="262" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="180" y="267" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="230" cy="262" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="230" y="267" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+  <circle cx="280" cy="262" r="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="280" y="267" text-anchor="middle" class="th" fill="#166534" font-size="15">+</text>
+
+  <text x="171" y="299" text-anchor="middle" class="ts" fill="#166534">Sea adjusts continuously</text>
+  <text x="171" y="316" text-anchor="middle" class="ts" fill="#166534">No bonds broken → no fracture</text>
+  <text x="171" y="335" text-anchor="middle" class="tss">What moves: CATION LAYERS</text>
+  <text x="171" y="350" text-anchor="middle" class="tss">Diagram shows: arrows on layers</text>
+
+  <!-- ===== RIGHT: CONDUCTIVITY ===== -->
+  <rect x="350" y="60" width="318" height="298" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="509" y="82" text-anchor="middle" class="label" fill="#1d4ed8">ELECTRICAL CONDUCTIVITY</text>
+  <text x="509" y="98" text-anchor="middle" class="ts" fill="#1d4ed8">Electrons flow through fixed cation lattice</text>
+
+  <!-- Battery/potential symbol -->
+  <rect x="362" y="114" width="30" height="50" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="377" y="136" text-anchor="middle" class="tss" fill="#1d4ed8">+</text>
+  <line x1="377" y1="142" x2="377" y2="148" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="377" y="160" text-anchor="middle" class="tss" fill="#1d4ed8">−</text>
+  <text x="377" y="176" text-anchor="middle" class="tss" fill="#1d4ed8">V</text>
+
+  <!-- Fixed cation lattice — cations don't move -->
+  <circle cx="460" cy="130" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="460" y="135" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="515" cy="130" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="515" y="135" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="570" cy="130" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="570" y="135" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="625" cy="130" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="625" y="135" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+
+  <circle cx="460" cy="185" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="460" y="190" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="515" cy="185" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="515" y="190" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="570" cy="185" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="570" y="190" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="625" cy="185" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="625" y="190" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+
+  <circle cx="460" cy="240" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="460" y="245" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="515" cy="240" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="515" y="245" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="570" cy="240" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="570" y="245" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+  <circle cx="625" cy="240" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="625" y="245" text-anchor="middle" class="th" fill="#1d4ed8" font-size="15">+</text>
+
+  <!-- Electrons flowing left (toward +terminal) as small dots with arrows -->
+  <circle cx="490" cy="157" r="5" fill="#7c3aed"/>
+  <line x1="483" y1="157" x2="410" y2="157" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arrG)" stroke-dasharray="4,2"/>
+  <circle cx="544" cy="212" r="5" fill="#7c3aed"/>
+  <line x1="537" y1="212" x2="464" y2="212" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arrG)" stroke-dasharray="4,2"/>
+  <circle cx="600" cy="157" r="5" fill="#7c3aed"/>
+  <line x1="593" y1="157" x2="520" y2="157" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arrG)" stroke-dasharray="4,2"/>
+
+  <text x="509" y="275" text-anchor="middle" class="tss" fill="#7c3aed">e⁻ flow →</text>
+
+  <text x="509" y="299" text-anchor="middle" class="ts" fill="#1d4ed8">Cations stay fixed</text>
+  <text x="509" y="316" text-anchor="middle" class="ts" fill="#1d4ed8">Electrons carry the current</text>
+  <text x="509" y="335" text-anchor="middle" class="tss">What moves: ELECTRONS</text>
+  <text x="509" y="350" text-anchor="middle" class="tss">Diagram shows: e⁻ arrows, voltage source</text>
+</svg>

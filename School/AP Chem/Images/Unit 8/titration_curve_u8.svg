@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" font-family="serif" font-size="13">
+  <rect width="700" height="360" fill="#fafafa" rx="6"/>
+  <text x="350" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Weak Acid / Strong Base Titration Curve</text>
+  <text x="350" y="40" text-anchor="middle" font-size="12" fill="#555">HA titrated with NaOH — identifying key points</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="280" x2="620" y2="280" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="285" stroke="#333" stroke-width="2"/>
+  <text x="345" y="308" text-anchor="middle" font-size="13" fill="#333">Volume NaOH added (mL)</text>
+  <text x="18" y="170" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90,18,170)">pH</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="65" y1="257" x2="70" y2="257" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="261" text-anchor="end" font-size="11" fill="#333">3</text>
+  <line x1="65" y1="220" x2="70" y2="220" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="224" text-anchor="end" font-size="11" fill="#333">5</text>
+  <line x1="65" y1="193" x2="70" y2="193" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="197" text-anchor="end" font-size="11" fill="#333">7</text>
+  <line x1="65" y1="165" x2="70" y2="165" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="169" text-anchor="end" font-size="11" fill="#333">9</text>
+  <line x1="65" y1="120" x2="70" y2="120" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="124" text-anchor="end" font-size="11" fill="#333">12</text>
+  <line x1="65" y1="80" x2="70" y2="80" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="84" text-anchor="end" font-size="11" fill="#333">14</text>
+
+  <!-- X-axis ticks -->
+  <line x1="200" y1="280" x2="200" y2="285" stroke="#333" stroke-width="1.5"/>
+  <text x="200" y="297" text-anchor="middle" font-size="11" fill="#333">10</text>
+  <line x1="345" y1="280" x2="345" y2="285" stroke="#333" stroke-width="1.5"/>
+  <text x="345" y="297" text-anchor="middle" font-size="11" fill="#333">20 (Veq)</text>
+  <line x1="490" y1="280" x2="490" y2="285" stroke="#333" stroke-width="1.5"/>
+  <text x="490" y="297" text-anchor="middle" font-size="11" fill="#333">30</text>
+
+  <!-- Titration curve: S-shaped -->
+  <!-- Before buffer: initial pH ~3 -->
+  <path d="M70,257 C100,255 130,250 160,242 C180,237 195,232 200,228 C215,220 240,210 280,200 C310,192 330,185 345,175 C355,165 360,148 363,125 C366,105 368,88 370,80 C375,73 390,67 410,64 C440,63 480,65 520,68 C560,71 590,74 620,76"
+        fill="none" stroke="#3366cc" stroke-width="3"/>
+
+  <!-- Horizontal line at pH=7 -->
+  <line x1="70" y1="193" x2="620" y2="193" stroke="#aaa" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Vertical line at half-equivalence (10 mL) -->
+  <line x1="200" y1="50" x2="200" y2="280" stroke="#88aa44" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <!-- Mark half-equivalence pH = pKa -->
+  <circle cx="200" cy="228" r="5" fill="#88aa44"/>
+  <rect x="205" y="215" width="130" height="32" fill="#efffee" rx="3" opacity="0.95"/>
+  <text x="210" y="229" font-size="11" fill="#446600" font-weight="bold">Half-equivalence pt.</text>
+  <text x="210" y="243" font-size="11" fill="#446600">pH = pKa ≈ 5.1</text>
+
+  <!-- Vertical line at equivalence (20 mL) -->
+  <line x1="345" y1="50" x2="345" y2="280" stroke="#cc4400" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <circle cx="345" cy="175" r="5" fill="#cc4400"/>
+  <rect x="350" y="162" width="115" height="32" fill="#fff4f0" rx="3" opacity="0.95"/>
+  <text x="355" y="176" font-size="11" fill="#cc3300" font-weight="bold">Equivalence pt.</text>
+  <text x="355" y="190" font-size="11" fill="#cc3300">pH &gt; 7 (basic)</text>
+
+  <!-- Annotations: regions -->
+  <rect x="75" y="55" width="115" height="42" fill="#e8f4ff" rx="3" opacity="0.85"/>
+  <text x="132" y="70" text-anchor="middle" font-size="10" fill="#224">Initial weak</text>
+  <text x="132" y="82" text-anchor="middle" font-size="10" fill="#224">acid: use ICE</text>
+  <text x="132" y="94" text-anchor="middle" font-size="10" fill="#224">[H⁺] = √(Ka·C)</text>
+
+  <rect x="210" y="55" width="115" height="42" fill="#e8ffe8" rx="3" opacity="0.85"/>
+  <text x="267" y="70" text-anchor="middle" font-size="10" fill="#224">Buffer region</text>
+  <text x="267" y="82" text-anchor="middle" font-size="10" fill="#224">use H-H equation</text>
+  <text x="267" y="94" text-anchor="middle" font-size="10" fill="#224">gradual slope</text>
+
+  <rect x="455" y="55" width="115" height="42" fill="#fff4e8" rx="3" opacity="0.85"/>
+  <text x="512" y="70" text-anchor="middle" font-size="10" fill="#553">Post-equivalence</text>
+  <text x="512" y="82" text-anchor="middle" font-size="10" fill="#553">excess NaOH</text>
+  <text x="512" y="94" text-anchor="middle" font-size="10" fill="#553">pH from [OH⁻]</text>
+
+  <!-- Key takeaway -->
+  <rect x="70" y="318" width="560" height="32" fill="#f0f4ff" rx="4"/>
+  <text x="350" y="332" text-anchor="middle" font-size="11" fill="#333" font-weight="bold">Read pKa from curve: find Veq, divide by 2, read pH at that volume. That pH = pKa.</text>
+  <text x="350" y="346" text-anchor="middle" font-size="11" fill="#333">Equivalence point pH &gt; 7 because conjugate base (A⁻) hydrolyzes: A⁻ + H₂O ⇌ HA + OH⁻</text>
+</svg>

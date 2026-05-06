@@ -1,0 +1,96 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg">
+  <title>Hess's Law — Rules and Cycle Diagram</title>
+  <desc>Hess's law illustrated with a thermodynamic cycle showing A to C via A-to-B then B-to-C equals A-to-C directly, plus the three manipulation rules: reverse, scale, and add reactions.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="arr-k" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#334155"/>
+    </marker>
+    <marker id="arr-b" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arr-g" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arr-r" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#ef4444"/>
+    </marker>
+    <marker id="arr-p" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0,9 3.5,0 7" fill="#7c3aed"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="360" fill="#f8fafc" rx="8"/>
+  <text x="340" y="26" class="th" text-anchor="middle">Hess's Law — ΔH is path-independent (state function)</text>
+
+  <!-- ===== LEFT: THERMODYNAMIC CYCLE ===== -->
+  <rect x="16" y="40" width="296" height="210" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <text x="164" y="60" class="th" text-anchor="middle" fill="#1e293b">Thermodynamic Cycle</text>
+
+  <!-- Nodes -->
+  <!-- A: top-left -->
+  <circle cx="70" cy="110" r="22" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="70" y="115" class="th" text-anchor="middle" fill="#1d4ed8">A</text>
+  <!-- B: top-right -->
+  <circle cx="258" cy="110" r="22" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="258" y="115" class="th" text-anchor="middle" fill="#15803d">B</text>
+  <!-- C: bottom-center -->
+  <circle cx="164" cy="215" r="22" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="164" y="220" class="th" text-anchor="middle" fill="#991b1b">C</text>
+
+  <!-- Arrow A→B (path 1, step 1) -->
+  <line x1="93" y1="110" x2="232" y2="110" stroke="#3b82f6" stroke-width="2.5" marker-end="url(#arr-b)"/>
+  <text x="164" y="103" class="tss" text-anchor="middle" fill="#1d4ed8">Rxn 1: ΔH₁</text>
+
+  <!-- Arrow B→C (path 1, step 2) -->
+  <line x1="243" y1="128" x2="183" y2="197" stroke="#16a34a" stroke-width="2.5" marker-end="url(#arr-g)"/>
+  <text x="230" y="172" class="tss" text-anchor="middle" fill="#15803d">Rxn 2: ΔH₂</text>
+
+  <!-- Arrow A→C (direct path, dashed) -->
+  <line x1="82" y1="128" x2="144" y2="197" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arr-r)"/>
+  <text x="96" y="175" class="tss" text-anchor="middle" fill="#991b1b">Direct</text>
+  <text x="96" y="188" class="tss" text-anchor="middle" fill="#991b1b">ΔH_total</text>
+
+  <!-- Equation below cycle -->
+  <rect x="28" y="190" width="270" height="50" fill="#f8fafc" rx="3"/>
+  <text x="164" y="210" class="ts" text-anchor="middle" fill="#1e293b" font-weight="bold">ΔH_total = ΔH₁ + ΔH₂</text>
+  <text x="164" y="230" class="tss" text-anchor="middle">All paths A→C give same ΔH</text>
+
+  <!-- ===== RIGHT: THREE RULES ===== -->
+  <rect x="330" y="40" width="334" height="210" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <text x="497" y="60" class="th" text-anchor="middle">The Three Manipulation Rules</text>
+
+  <!-- Rule 1: Reverse -->
+  <rect x="342" y="68" width="310" height="52" fill="#fef9c3" rx="4"/>
+  <rect x="342" y="68" width="8" height="52" fill="#ca8a04" rx="2"/>
+  <text x="364" y="83" class="ts" fill="#92400e" font-weight="bold">RULE 1 — Reverse a reaction</text>
+  <text x="364" y="99" class="tss" fill="#92400e">If you flip A→B to B→A, multiply ΔH by −1</text>
+  <text x="364" y="113" class="tss" fill="#92400e">ΔH_reverse = −ΔH_forward</text>
+
+  <!-- Rule 2: Scale -->
+  <rect x="342" y="128" width="310" height="52" fill="#dcfce7" rx="4"/>
+  <rect x="342" y="128" width="8" height="52" fill="#16a34a" rx="2"/>
+  <text x="364" y="143" class="ts" fill="#15803d" font-weight="bold">RULE 2 — Scale a reaction</text>
+  <text x="364" y="159" class="tss" fill="#15803d">Multiply all coefficients by n → multiply ΔH by n</text>
+  <text x="364" y="173" class="tss" fill="#15803d">2×(A→B): ΔH_new = 2 × ΔH_original</text>
+
+  <!-- Rule 3: Add -->
+  <rect x="342" y="188" width="310" height="52" fill="#dbeafe" rx="4"/>
+  <rect x="342" y="188" width="8" height="52" fill="#3b82f6" rx="2"/>
+  <text x="364" y="203" class="ts" fill="#1d4ed8" font-weight="bold">RULE 3 — Add reactions</text>
+  <text x="364" y="219" class="tss" fill="#1d4ed8">Cancel species appearing on both sides (opposite)</text>
+  <text x="364" y="233" class="tss" fill="#1d4ed8">ΔH_total = ΔH_rxn1 + ΔH_rxn2 + …</text>
+
+  <!-- ===== BOTTOM: WORKED STRATEGY ===== -->
+  <rect x="16" y="262" width="648" height="82" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="5"/>
+  <text x="340" y="281" class="th" text-anchor="middle" fill="#4c1d95">Strategy: Algebraic Approach</text>
+  <text x="32" y="298" class="ts" fill="#334155">1. Write target reaction. Identify each species as reactant or product.</text>
+  <text x="32" y="314" class="ts" fill="#334155">2. Arrange given reactions so each species appears on the correct side. Reverse or scale as needed.</text>
+  <text x="32" y="330" class="ts" fill="#334155">3. Add all adjusted reactions. Cancel intermediates that appear on both sides. Sum all ΔH values.</text>
+
+  <text x="340" y="350" class="tss" text-anchor="middle" fill="#475569">ΔH is a STATE FUNCTION — depends only on initial and final states, not the path taken</text>
+</svg>

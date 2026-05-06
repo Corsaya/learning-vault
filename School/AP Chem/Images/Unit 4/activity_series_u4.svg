@@ -1,0 +1,86 @@
+<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
+  <title>Activity Series of Metals — AP Chem Unit 4</title>
+  <style>
+    .th  { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts  { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+    .lbl { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+    .ex  { font-family: Arial, sans-serif; font-size: 10.5px; fill: #1d4ed8; font-style: italic; }
+  </style>
+  <defs>
+    <marker id="arru" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,6 L3,0 L6,6 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="420" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" class="th" text-anchor="middle" font-size="15px">Activity Series of Metals — AP Chem Unit 4</text>
+
+  <!-- ── Left column: ranked list ── -->
+  <rect x="18" y="36" width="162" height="370" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" rx="6"/>
+  <rect x="18" y="36" width="162" height="26" fill="#dbeafe" rx="6"/>
+  <text x="99" y="54" class="lbl" text-anchor="middle" fill="#1d4ed8">Metals (top = most reactive)</text>
+
+  <!-- Metal names -->
+  <text x="38" y="76"  class="ts">Li</text>
+  <text x="38" y="92"  class="ts">K</text>
+  <text x="38" y="108" class="ts">Ba</text>
+  <text x="38" y="124" class="ts">Ca</text>
+  <text x="38" y="140" class="ts">Na</text>
+  <text x="38" y="156" class="ts">Mg</text>
+  <text x="38" y="172" class="ts">Al</text>
+  <text x="38" y="188" class="ts">Zn</text>
+  <text x="38" y="204" class="ts">Fe</text>
+  <text x="38" y="220" class="ts">Ni</text>
+  <text x="38" y="236" class="ts">Sn</text>
+  <text x="38" y="252" class="ts">Pb</text>
+
+  <!-- H2 divider -->
+  <line x1="23" y1="264" x2="175" y2="264" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="99" y="278" class="lbl" text-anchor="middle" fill="#dc2626">── H₂ reference ──</text>
+
+  <text x="38" y="296" class="ts">Cu</text>
+  <text x="38" y="312" class="ts">Ag</text>
+  <text x="38" y="328" class="ts">Pt</text>
+  <text x="38" y="344" class="ts">Au</text>
+  <text x="38" y="366" class="tss" fill="#64748b">← least reactive</text>
+
+  <!-- Up-arrow: increasing reactivity -->
+  <line x1="155" y1="370" x2="155" y2="70" stroke="#1d4ed8" stroke-width="2" marker-end="url(#arru)"/>
+  <text x="170" y="230" class="ts" fill="#1d4ed8" transform="rotate(-90 170 230)">Increasing Reactivity</text>
+
+  <!-- ── Right panel: Rules ── -->
+  <rect x="196" y="36" width="466" height="370" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" rx="6"/>
+  <rect x="196" y="36" width="466" height="26" fill="#dbeafe" rx="6"/>
+  <text x="429" y="54" class="lbl" text-anchor="middle" fill="#1d4ed8">Prediction Rules</text>
+
+  <!-- Rule 1 -->
+  <rect x="210" y="70" width="438" height="72" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" rx="4"/>
+  <text x="222" y="87"  class="ts" font-weight="bold" fill="#1e3a8a">Rule 1: Metal displacing another metal from its salt solution</text>
+  <text x="222" y="103" class="tss">A metal higher on the list displaces a lower metal ion → reaction occurs.</text>
+  <text x="222" y="118" class="tss">A metal lower on the list cannot displace a higher metal ion → No Reaction (NR).</text>
+  <text x="222" y="134" class="ex">Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)  ✓     Cu(s) + ZnSO₄(aq) → NR</text>
+
+  <!-- Rule 2 -->
+  <rect x="210" y="152" width="438" height="72" fill="#fef3c7" stroke="#fde68a" stroke-width="1" rx="4"/>
+  <text x="222" y="169" class="ts" font-weight="bold" fill="#78350f">Rule 2: Metal + dilute acid → H₂ gas (if above H₂ reference)</text>
+  <text x="222" y="185" class="tss">Metals ABOVE H₂: react with dilute HCl or H₂SO₄ to produce H₂(g).</text>
+  <text x="222" y="200" class="tss">Metals BELOW H₂ (Cu, Ag, Pt, Au): do NOT react with dilute acids.</text>
+  <text x="222" y="216" class="ex">Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g)  ✓     Cu(s) + HCl(aq) → NR</text>
+
+  <!-- Rule 3 -->
+  <rect x="210" y="234" width="438" height="60" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" rx="4"/>
+  <text x="222" y="251" class="ts" font-weight="bold" fill="#14532d">Rule 3: Halogen activity series (separate from metals)</text>
+  <text x="222" y="267" class="tss">F₂ > Cl₂ > Br₂ > I₂   A higher halogen displaces a lower halide ion from solution.</text>
+  <text x="222" y="283" class="ex">Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq)  ✓     Br₂ + KCl(aq) → NR</text>
+
+  <!-- NIE reminder -->
+  <rect x="210" y="304" width="438" height="48" fill="#fdf4ff" stroke="#e9d5ff" stroke-width="1" rx="4"/>
+  <text x="222" y="320" class="ts" font-weight="bold" fill="#581c87">NIE for single replacement: only reacting metal and ion appear</text>
+  <text x="222" y="336" class="ex">Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)   [SO₄²⁻ stays in solution — spectator]</text>
+  <text x="222" y="348" class="tss">(Write the NIE from the activity series prediction; omit all spectator ions.)</text>
+
+  <!-- MCQ trap -->
+  <rect x="210" y="362" width="438" height="30" fill="#fef2f2" stroke="#fecaca" stroke-width="1" rx="4"/>
+  <text x="222" y="381" class="tss" fill="#dc2626">MCQ trap: Cu, Ag, Au do NOT react with dilute HCl — only with oxidizing acids (e.g., HNO₃). Always check position relative to H₂.</text>
+</svg>

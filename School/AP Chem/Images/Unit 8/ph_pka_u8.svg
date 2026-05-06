@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="serif" font-size="13">
+  <rect width="700" height="280" fill="#fafafa" rx="6"/>
+  <text x="350" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">pH vs. pKa — Species Distribution</text>
+  <text x="350" y="42" text-anchor="middle" font-size="12" fill="#555">Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])</text>
+
+  <!-- Number line / pH scale bar -->
+  <rect x="60" y="90" width="580" height="40" rx="5" fill="#e8eaf6" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- Colored regions: acid dominates (left), base dominates (right) -->
+  <rect x="60" y="90" width="290" height="40" rx="5" fill="#ffecec"/>
+  <rect x="350" y="90" width="290" height="40" rx="5" fill="#e8f5e9"/>
+  <!-- Overlap blend at center -->
+  <rect x="330" y="90" width="40" height="40" fill="#f5f5e8"/>
+
+  <!-- pKa marker -->
+  <line x1="350" y1="75" x2="350" y2="148" stroke="#666" stroke-width="2.5"/>
+  <polygon points="350,148 344,135 356,135" fill="#666"/>
+  <text x="350" y="70" text-anchor="middle" font-size="13" fill="#333" font-weight="bold">pKa</text>
+
+  <!-- Labels inside bar -->
+  <text x="190" y="107" text-anchor="middle" font-size="12" fill="#c33" font-weight="bold">[HA] &gt; [A⁻]</text>
+  <text x="190" y="122" text-anchor="middle" font-size="12" fill="#c33">Weak acid dominates</text>
+  <text x="510" y="107" text-anchor="middle" font-size="12" fill="#1a6" font-weight="bold">[A⁻] &gt; [HA]</text>
+  <text x="510" y="122" text-anchor="middle" font-size="12" fill="#1a6">Conjugate base dominates</text>
+
+  <!-- pH arrows below bar -->
+  <text x="60" y="158" font-size="12" fill="#c33">Low pH (acidic)</text>
+  <text x="580" y="158" text-anchor="end" font-size="12" fill="#1a6">High pH (basic)</text>
+  <line x1="60" y1="165" x2="640" y2="165" stroke="#999" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="350" y="162" text-anchor="middle" font-size="11" fill="#777">→ increasing pH →</text>
+
+  <!-- Ratio table -->
+  <rect x="60" y="180" width="580" height="85" fill="#fff" rx="4" stroke="#ccc" stroke-width="1.5"/>
+  <text x="350" y="197" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Quantitative Ratio: [A⁻]/[HA] = 10^(pH − pKa)</text>
+  <line x1="60" y1="202" x2="640" y2="202" stroke="#eee" stroke-width="1"/>
+
+  <!-- 5-column table -->
+  <line x1="175" y1="202" x2="175" y2="260" stroke="#eee" stroke-width="1"/>
+  <line x1="290" y1="202" x2="290" y2="260" stroke="#eee" stroke-width="1"/>
+  <line x1="405" y1="202" x2="405" y2="260" stroke="#eee" stroke-width="1"/>
+  <line x1="520" y1="202" x2="520" y2="260" stroke="#eee" stroke-width="1"/>
+
+  <rect x="60" y="202" width="580" height="24" fill="#eef"/>
+  <text x="117" y="218" text-anchor="middle" font-size="11" fill="#555">pH = pKa − 2</text>
+  <text x="232" y="218" text-anchor="middle" font-size="11" fill="#555">pH = pKa − 1</text>
+  <text x="347" y="218" text-anchor="middle" font-size="11" fill="#555">pH = pKa</text>
+  <text x="462" y="218" text-anchor="middle" font-size="11" fill="#555">pH = pKa + 1</text>
+  <text x="580" y="218" text-anchor="middle" font-size="11" fill="#555">pH = pKa + 2</text>
+
+  <rect x="60" y="226" width="580" height="34" fill="#fff"/>
+  <text x="117" y="243" text-anchor="middle" font-size="12" fill="#c33" font-weight="bold">[A⁻]/[HA] = 0.01</text>
+  <text x="117" y="256" text-anchor="middle" font-size="11" fill="#c33">100× more acid</text>
+  <text x="232" y="243" text-anchor="middle" font-size="12" fill="#c33" font-weight="bold">[A⁻]/[HA] = 0.1</text>
+  <text x="232" y="256" text-anchor="middle" font-size="11" fill="#c33">10× more acid</text>
+  <text x="347" y="243" text-anchor="middle" font-size="12" fill="#666" font-weight="bold">[A⁻]/[HA] = 1</text>
+  <text x="347" y="256" text-anchor="middle" font-size="11" fill="#666">Equal amounts</text>
+  <text x="462" y="243" text-anchor="middle" font-size="12" fill="#1a6" font-weight="bold">[A⁻]/[HA] = 10</text>
+  <text x="462" y="256" text-anchor="middle" font-size="11" fill="#1a6">10× more base</text>
+  <text x="580" y="243" text-anchor="middle" font-size="12" fill="#1a6" font-weight="bold">[A⁻]/[HA] = 100</text>
+  <text x="580" y="256" text-anchor="middle" font-size="11" fill="#1a6">100× more base</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <style>
+    text { font-family: serif; font-size: 12px; fill: #222; }
+    .label { font-size: 11px; fill: #555; }
+    .eq { font-size: 13px; fill: #1d4ed8; font-style: italic; }
+    .axis { stroke: #222; stroke-width: 1.5; }
+    .grid { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 3,3; }
+    .curve { fill: none; stroke: #1d4ed8; stroke-width: 2.2; }
+    .tick { stroke: #222; stroke-width: 1; }
+  </style>
+
+  <!-- Grid -->
+  <line class="grid" x1="50" y1="30" x2="480" y2="30"/>
+  <line class="grid" x1="50" y1="110" x2="480" y2="110"/>
+  <line class="grid" x1="50" y1="190" x2="480" y2="190"/>
+  <line class="grid" x1="155" y1="10" x2="155" y2="210"/>
+  <line class="grid" x1="260" y1="10" x2="260" y2="210"/>
+  <line class="grid" x1="365" y1="10" x2="365" y2="210"/>
+  <line class="grid" x1="470" y1="10" x2="470" y2="210"/>
+  <line class="grid" x1="50" y1="10" x2="50" y2="210"/>
+
+  <!-- Axes -->
+  <line class="axis" x1="40" y1="110" x2="490" y2="110"/>
+  <line class="axis" x1="50" y1="5" x2="50" y2="215"/>
+
+  <!-- Arrowheads -->
+  <polygon points="490,107 484,113 484,107" fill="#222"/>
+  <polygon points="50,5 44,11 56,11" fill="#222"/>
+
+  <!-- X-axis ticks and labels -->
+  <line class="tick" x1="155" y1="106" x2="155" y2="114"/>
+  <line class="tick" x1="260" y1="106" x2="260" y2="114"/>
+  <line class="tick" x1="365" y1="106" x2="365" y2="114"/>
+  <line class="tick" x1="470" y1="106" x2="470" y2="114"/>
+  <text class="label" x="143" y="126">-π</text>
+  <text class="label" x="248" y="126">0</text>
+  <text class="label" x="357" y="126">π</text>
+  <text class="label" x="458" y="126">2π</text>
+
+  <!-- Y-axis ticks and labels -->
+  <line class="tick" x1="46" y1="30" x2="54" y2="30"/>
+  <line class="tick" x1="46" y1="190" x2="54" y2="190"/>
+  <text class="label" x="30" y="34">1</text>
+  <text class="label" x="25" y="194">-1</text>
+
+  <!-- sin(x + π/2) = cos x -->
+  <!-- Domain: -2π to 2π; x pixel = 50 + (angle+2π)/(4π)*420; y pixel = 110 - val*80 -->
+  <!-- cos x: peak at 0 (x=260,y=30), trough at π (x=365,y=190) and -π (x=155,y=190) -->
+  <path class="curve" d="
+    M 50,110
+    C 76,30 129,30 155,110
+    C 181,190 234,190 260,110
+    C 286,30 339,30 365,110
+    C 391,190 444,190 470,110
+  "/>
+
+  <!-- Equation label -->
+  <text class="eq" x="60" y="22">y = sin(x + π/2) = cos x</text>
+  <text class="label" x="60" y="210">Amplitude = 1 | Period = 2π | Phase shift: π/2 left</text>
+</svg>

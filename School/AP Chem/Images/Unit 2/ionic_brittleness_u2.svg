@@ -1,0 +1,163 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg">
+  <title>Ionic Brittleness — Layer Shift Mechanism</title>
+  <desc>Three-panel diagram showing how an applied force shifts ionic layers until like charges align, causing electrostatic repulsion and crystal fracture.</desc>
+  <style>
+    .th { font-family: Georgia, serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Georgia, serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Georgia, serif; font-size: 11px; fill: #64748b; }
+    .label { font-family: Georgia, serif; font-size: 12px; font-weight: bold; }
+  </style>
+  <rect x="0" y="0" width="680" height="360" fill="#f8fafc" rx="8"/>
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#ef4444"/>
+    </marker>
+    <marker id="arrowRL" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="26" text-anchor="middle" class="th" font-size="15">Ionic Brittleness: Why Layer Shifting Causes Fracture</text>
+
+  <!-- PANEL 1: Before force -->
+  <rect x="15" y="38" width="200" height="310" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="115" y="58" text-anchor="middle" class="label" fill="#15803d">① Before Force</text>
+  <text x="115" y="73" text-anchor="middle" class="tss">Stable alternating lattice</text>
+
+  <!-- 3x4 lattice, alternating -->
+  <!-- Row 1 y=100 -->
+  <circle cx="55"  cy="105" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="55"  y="109" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="105" cy="105" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="105" y="109" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="155" cy="105" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="155" y="109" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <!-- Row 2 y=150 -->
+  <circle cx="55"  cy="155" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="55"  y="159" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="105" cy="155" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="105" y="159" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="155" cy="155" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="155" y="159" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <!-- Row 3 y=205 -->
+  <circle cx="55"  cy="205" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="55"  y="209" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="105" cy="205" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="105" y="209" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="155" cy="205" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="155" y="209" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <!-- Row 4 y=255 -->
+  <circle cx="55"  cy="255" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="55"  y="259" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="105" cy="255" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="105" y="259" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="155" cy="255" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="155" y="259" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+
+  <text x="115" y="296" text-anchor="middle" class="ts" fill="#15803d">+/− alternating</text>
+  <text x="115" y="313" text-anchor="middle" class="ts" fill="#15803d">All neighbors opposite</text>
+  <text x="115" y="330" text-anchor="middle" class="tss">Low PE — stable</text>
+
+  <!-- Arrow between panels 1-2 -->
+  <line x1="224" y1="180" x2="244" y2="180" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrowB)"/>
+  <text x="234" y="166" text-anchor="middle" class="tss" fill="#1d4ed8">Force</text>
+
+  <!-- PANEL 2: During shift -->
+  <rect x="253" y="38" width="200" height="310" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="353" y="58" text-anchor="middle" class="label" fill="#ca8a04">② During Shift</text>
+  <text x="353" y="73" text-anchor="middle" class="tss">Top rows slide right by ½ spacing</text>
+
+  <!-- Bottom 2 rows stay fixed, top 2 shift right by ~25px -->
+  <!-- Top rows shifted: y=100, y=150 shifted right 25px -->
+  <circle cx="80"  cy="105" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="80"  y="109" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="130" cy="105" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="130" y="109" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="180" cy="105" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="180" y="109" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+
+  <circle cx="80"  cy="155" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="80"  y="159" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="130" cy="155" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="130" y="159" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="180" cy="155" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="180" y="159" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+
+  <!-- Shift boundary line -->
+  <line x1="258" y1="178" x2="448" y2="178" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="400" y="174" class="tss" fill="#ca8a04">slip plane</text>
+
+  <!-- Bottom rows fixed -->
+  <circle cx="293" cy="205" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="293" y="209" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="343" cy="205" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="343" y="209" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="393" cy="205" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="393" y="209" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+
+  <circle cx="293" cy="255" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="293" y="259" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="343" cy="255" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="343" y="259" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="393" cy="255" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="393" y="259" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+
+  <text x="353" y="293" text-anchor="middle" class="ts" fill="#ca8a04">Like charges now</text>
+  <text x="353" y="310" text-anchor="middle" class="ts" fill="#ca8a04">approaching each other</text>
+  <text x="353" y="330" text-anchor="middle" class="tss">across slip plane</text>
+
+  <!-- Arrow between panels 2-3 -->
+  <line x1="462" y1="180" x2="482" y2="180" stroke="#ef4444" stroke-width="2.5" marker-end="url(#arrowR)"/>
+  <text x="472" y="166" text-anchor="middle" class="tss" fill="#ef4444">Repel!</text>
+
+  <!-- PANEL 3: Fracture -->
+  <rect x="491" y="38" width="176" height="310" rx="8" fill="#fff8f8" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="579" y="58" text-anchor="middle" class="label" fill="#991b1b">③ After — Fracture</text>
+  <text x="579" y="73" text-anchor="middle" class="tss">Like charges repel → crystal splits</text>
+
+  <!-- Top fragment, shifted right, separated -->
+  <circle cx="530" cy="105" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="530" y="109" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="580" cy="105" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="580" y="109" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="630" cy="105" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="630" y="109" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+
+  <circle cx="530" cy="148" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="530" y="152" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="580" cy="148" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="580" y="152" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="630" cy="148" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="630" y="152" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+
+  <!-- Fracture gap -->
+  <line x1="496" y1="178" x2="662" y2="178" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="655" y="174" class="tss" fill="#ef4444" text-anchor="end">fracture</text>
+
+  <!-- Bottom fragment -->
+  <circle cx="510" cy="210" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="510" y="214" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="560" cy="210" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="560" y="214" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="610" cy="210" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="610" y="214" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="660" cy="210" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="660" y="214" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+
+  <circle cx="510" cy="255" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="510" y="259" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="560" cy="255" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="560" y="259" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+  <circle cx="610" cy="255" r="18" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="610" y="259" text-anchor="middle" class="th" fill="#991b1b" font-size="16">−</text>
+  <circle cx="660" cy="255" r="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="660" y="259" text-anchor="middle" class="th" fill="#1d4ed8" font-size="16">+</text>
+
+  <text x="579" y="293" text-anchor="middle" class="ts" fill="#991b1b">Crystal cleaves cleanly</text>
+  <text x="579" y="310" text-anchor="middle" class="ts" fill="#991b1b">along slip plane</text>
+  <text x="579" y="330" text-anchor="middle" class="tss">→ Brittleness</text>
+</svg>

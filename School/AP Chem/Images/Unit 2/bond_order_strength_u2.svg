@@ -1,0 +1,100 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+  <title>Bond Order vs. Bond Strength and Length</title>
+  <desc>Visual comparison of single, double, and triple carbon-carbon bonds showing how bond order determines strength (energy) and length, with numerical values.</desc>
+  <style>
+    .th { font-family: Georgia, serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Georgia, serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Georgia, serif; font-size: 11px; fill: #64748b; }
+    .label { font-family: Georgia, serif; font-size: 13px; font-weight: bold; }
+    .num { font-family: Georgia, serif; font-size: 13px; fill: #1e293b; }
+  </style>
+  <rect x="0" y="0" width="680" height="320" fill="#f8fafc" rx="8"/>
+  <defs>
+    <marker id="arrLen" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L7,3.5 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrLenL" markerWidth="7" markerHeight="7" refX="2" refY="3.5" orient="auto">
+      <path d="M7,0 L7,7 L0,3.5 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="26" text-anchor="middle" class="th" font-size="15">Bond Order Determines Strength and Length</text>
+  <text x="340" y="44" text-anchor="middle" class="tss">Higher bond order → stronger bond (more energy to break) → shorter bond length</text>
+
+  <!-- Column headers -->
+  <text x="113" y="66" text-anchor="middle" class="label" fill="#ef4444">C–C Single Bond</text>
+  <text x="340" y="66" text-anchor="middle" class="label" fill="#ca8a04">C=C Double Bond</text>
+  <text x="567" y="66" text-anchor="middle" class="label" fill="#15803d">C≡C Triple Bond</text>
+
+  <!-- Dividers -->
+  <line x1="227" y1="55" x2="227" y2="315" stroke="#e2e8f0" stroke-width="1.5"/>
+  <line x1="453" y1="55" x2="453" y2="315" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- ===== SINGLE BOND ===== -->
+  <!-- Bond representation: two C atoms with one bond line -->
+  <circle cx="68" cy="128" r="26" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="68" cy="128" text-anchor="middle" dominant-baseline="central" class="th" fill="#991b1b" y="128">C</text>
+  <line x1="94" y1="128" x2="130" y2="128" stroke="#ef4444" stroke-width="3"/>
+  <circle cx="158" cy="128" r="26" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="158" y="128" text-anchor="middle" dominant-baseline="central" class="th" fill="#991b1b">C</text>
+
+  <!-- Length arrow -->
+  <line x1="68" y1="168" x2="158" y2="168" stroke="#64748b" stroke-width="1.5" marker-start="url(#arrLenL)" marker-end="url(#arrLen)"/>
+  <text x="113" y="160" text-anchor="middle" class="tss">154 pm</text>
+
+  <!-- Properties -->
+  <rect x="22" y="185" width="182" height="118" rx="6" fill="#fff8f8" stroke="#fca5a5" stroke-width="1"/>
+  <text x="113" y="204" text-anchor="middle" class="ts" font-weight="bold" fill="#991b1b">Bond Order = 1</text>
+  <line x1="32" y1="210" x2="194" y2="210" stroke="#fca5a5" stroke-width="1"/>
+  <text x="113" y="227" text-anchor="middle" class="ts">Length: 154 pm</text>
+  <text x="113" y="245" text-anchor="middle" class="ts" fill="#991b1b">LONGEST</text>
+  <text x="113" y="265" text-anchor="middle" class="ts">Energy: 347 kJ/mol</text>
+  <text x="113" y="283" text-anchor="middle" class="ts" fill="#991b1b">WEAKEST</text>
+  <text x="113" y="299" text-anchor="middle" class="tss">1 σ bond only</text>
+
+  <!-- ===== DOUBLE BOND ===== -->
+  <circle cx="295" cy="128" r="26" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="295" y="128" text-anchor="middle" dominant-baseline="central" class="th" fill="#92400e">C</text>
+  <line x1="321" y1="122" x2="365" y2="122" stroke="#ca8a04" stroke-width="3"/>
+  <line x1="321" y1="134" x2="365" y2="134" stroke="#ca8a04" stroke-width="3"/>
+  <circle cx="386" cy="128" r="26" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="386" y="128" text-anchor="middle" dominant-baseline="central" class="th" fill="#92400e">C</text>
+
+  <!-- Length arrow -->
+  <line x1="295" y1="168" x2="386" y2="168" stroke="#64748b" stroke-width="1.5" marker-start="url(#arrLenL)" marker-end="url(#arrLen)"/>
+  <text x="340" y="160" text-anchor="middle" class="tss">134 pm</text>
+
+  <!-- Properties -->
+  <rect x="249" y="185" width="182" height="118" rx="6" fill="#fffdf0" stroke="#fde68a" stroke-width="1"/>
+  <text x="340" y="204" text-anchor="middle" class="ts" font-weight="bold" fill="#92400e">Bond Order = 2</text>
+  <line x1="259" y1="210" x2="421" y2="210" stroke="#fde68a" stroke-width="1"/>
+  <text x="340" y="227" text-anchor="middle" class="ts">Length: 134 pm</text>
+  <text x="340" y="245" text-anchor="middle" class="ts" fill="#92400e">MEDIUM</text>
+  <text x="340" y="265" text-anchor="middle" class="ts">Energy: 614 kJ/mol</text>
+  <text x="340" y="283" text-anchor="middle" class="ts" fill="#92400e">MEDIUM</text>
+  <text x="340" y="299" text-anchor="middle" class="tss">1 σ + 1 π bond</text>
+
+  <!-- ===== TRIPLE BOND ===== -->
+  <circle cx="522" cy="128" r="26" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="522" y="128" text-anchor="middle" dominant-baseline="central" class="th" fill="#166534">C</text>
+  <line x1="548" y1="121" x2="586" y2="121" stroke="#16a34a" stroke-width="3"/>
+  <line x1="548" y1="128" x2="586" y2="128" stroke="#16a34a" stroke-width="3"/>
+  <line x1="548" y1="135" x2="586" y2="135" stroke="#16a34a" stroke-width="3"/>
+  <circle cx="612" cy="128" r="26" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="612" y="128" text-anchor="middle" dominant-baseline="central" class="th" fill="#166534">C</text>
+
+  <!-- Length arrow -->
+  <line x1="522" y1="168" x2="612" y2="168" stroke="#64748b" stroke-width="1.5" marker-start="url(#arrLenL)" marker-end="url(#arrLen)"/>
+  <text x="567" y="160" text-anchor="middle" class="tss">120 pm</text>
+
+  <!-- Properties -->
+  <rect x="476" y="185" width="182" height="118" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+  <text x="567" y="204" text-anchor="middle" class="ts" font-weight="bold" fill="#166534">Bond Order = 3</text>
+  <line x1="486" y1="210" x2="648" y2="210" stroke="#86efac" stroke-width="1"/>
+  <text x="567" y="227" text-anchor="middle" class="ts">Length: 120 pm</text>
+  <text x="567" y="245" text-anchor="middle" class="ts" fill="#166534">SHORTEST</text>
+  <text x="567" y="265" text-anchor="middle" class="ts">Energy: 839 kJ/mol</text>
+  <text x="567" y="283" text-anchor="middle" class="ts" fill="#166534">STRONGEST</text>
+  <text x="567" y="299" text-anchor="middle" class="tss">1 σ + 2 π bonds</text>
+</svg>

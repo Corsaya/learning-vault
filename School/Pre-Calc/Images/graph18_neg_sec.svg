@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="500" height="240">
+  <style>
+    text { font-family: serif; font-size: 12px; fill: #222; }
+    .label { font-size: 11px; fill: #555; }
+    .eq { font-size: 13px; fill: #9d174d; font-style: italic; }
+    .axis { stroke: #222; stroke-width: 1.5; }
+    .grid { stroke: #ccc; stroke-width: 0.5; stroke-dasharray: 3,3; }
+    .curve { fill: none; stroke: #9d174d; stroke-width: 2.2; }
+    .asym { stroke: #f97316; stroke-width: 1.2; stroke-dasharray: 5,4; }
+    .guide { fill: none; stroke: #aaa; stroke-width: 1; stroke-dasharray: 3,3; }
+    .tick { stroke: #222; stroke-width: 1; }
+  </style>
+
+  <line class="grid" x1="50" y1="30" x2="480" y2="30"/>
+  <line class="grid" x1="50" y1="230" x2="480" y2="230"/>
+  <line class="grid" x1="155" y1="10" x2="155" y2="235"/>
+  <line class="grid" x1="260" y1="10" x2="260" y2="235"/>
+  <line class="grid" x1="365" y1="10" x2="365" y2="235"/>
+  <line class="grid" x1="470" y1="10" x2="470" y2="235"/>
+
+  <line class="asym" x1="103" y1="5" x2="103" y2="235"/>
+  <line class="asym" x1="208" y1="5" x2="208" y2="235"/>
+  <line class="asym" x1="313" y1="5" x2="313" y2="235"/>
+  <line class="asym" x1="418" y1="5" x2="418" y2="235"/>
+
+  <line class="axis" x1="40" y1="130" x2="490" y2="130"/>
+  <line class="axis" x1="50" y1="5" x2="50" y2="238"/>
+  <polygon points="490,127 484,133 484,127" fill="#222"/>
+  <polygon points="50,5 44,11 56,11" fill="#222"/>
+
+  <path class="guide" d="
+    M 50,130
+    C 76,30 129,30 155,130
+    C 181,230 234,230 260,130
+    C 286,30 339,30 365,130
+    C 391,230 444,230 470,130
+  "/>
+
+  <line class="tick" x1="155" y1="126" x2="155" y2="134"/>
+  <line class="tick" x1="260" y1="126" x2="260" y2="134"/>
+  <line class="tick" x1="365" y1="126" x2="365" y2="134"/>
+  <line class="tick" x1="470" y1="126" x2="470" y2="134"/>
+  <text class="label" x="143" y="146">-π</text>
+  <text class="label" x="248" y="146">0</text>
+  <text class="label" x="357" y="146">π</text>
+  <text class="label" x="458" y="146">2π</text>
+  <line class="tick" x1="46" y1="30" x2="54" y2="30"/>
+  <line class="tick" x1="46" y1="230" x2="54" y2="230"/>
+  <text class="label" x="30" y="34">1</text>
+  <text class="label" x="25" y="234">-1</text>
+
+  <path class="curve" d="M 212,5 C 225,15 245,28 260,30 C 275,28 295,15 309,5"/>
+  <path class="curve" d="M 50,30 C 65,28 85,15 99,5"/>
+  <path class="curve" d="M 421,5 C 437,15 455,28 470,30"/>
+  <path class="curve" d="M 317,235 C 330,225 350,232 365,230 C 380,232 400,225 414,235"/>
+  <path class="curve" d="M 107,235 C 120,225 140,232 155,230 C 170,232 190,225 204,235"/>
+
+  <text class="label" x="214" y="15" fill="#f97316">asymptotes: x = π/2 + nπ</text>
+  <text class="label" x="55" y="232" fill="#aaa">cos x (guide, dashed)</text>
+
+  <text class="eq" x="60" y="22">y = -sec(x - π) = sec x</text>
+  <text class="label" x="60" y="238">Period = 2π | No amplitude | Asymptotes: x = π/2 + nπ</text>
+</svg>

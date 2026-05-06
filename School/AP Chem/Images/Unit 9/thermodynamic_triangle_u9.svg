@@ -1,0 +1,90 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+  <title>Thermodynamic Triangle — ΔG°, K, E°cell — AP Chem Unit 9</title>
+  <style>
+    .th  { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts  { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+    .lbl { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+    .eq  { font-family: Arial, sans-serif; font-size: 11px; fill: #1d4ed8; font-style: italic; }
+    .big { font-family: Arial, sans-serif; font-size: 15px; font-weight: bold; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="400" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" class="th" text-anchor="middle" font-size="15px">Thermodynamic Triangle — All Three Describe the Same Equilibrium</text>
+
+  <!-- ── Triangle ── -->
+  <!-- Vertices: ΔG° (top), K (bottom-left), E°cell (bottom-right) -->
+  <!-- Triangle outline -->
+  <polygon points="335,52 120,280 550,280" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+
+  <!-- ΔG° vertex (top) -->
+  <circle cx="335" cy="52" r="36" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="335" y="46" class="big" text-anchor="middle" fill="#1e3a8a">ΔG°</text>
+  <text x="335" y="64" class="tss" text-anchor="middle" fill="#1e3a8a">Free Energy</text>
+
+  <!-- K vertex (bottom-left) -->
+  <circle cx="120" cy="280" r="36" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="120" y="275" class="big" text-anchor="middle" fill="#14532d">K</text>
+  <text x="120" y="293" class="tss" text-anchor="middle" fill="#14532d">Equilibrium</text>
+
+  <!-- E°cell vertex (bottom-right) -->
+  <circle cx="550" cy="280" r="36" fill="#fef3c7" stroke="#ca8a04" stroke-width="2"/>
+  <text x="550" y="271" class="big" text-anchor="middle" fill="#78350f">E°</text>
+  <text x="550" y="287" class="big" text-anchor="middle" fill="#78350f">cell</text>
+
+  <!-- Edge labels -->
+  <!-- ΔG° ↔ K (left edge) -->
+  <text x="210" y="178" class="eq" text-anchor="middle" transform="rotate(-53 210 178)">ΔG° = −RT ln K</text>
+
+  <!-- ΔG° ↔ E°cell (right edge) -->
+  <text x="465" y="166" class="eq" text-anchor="middle" transform="rotate(53 465 166)">ΔG° = −nFE°cell</text>
+
+  <!-- K ↔ E°cell (bottom edge) -->
+  <text x="335" y="300" class="eq" text-anchor="middle">nFE°cell = RT ln K</text>
+
+  <!-- ── Master equation ── -->
+  <rect x="258" y="156" width="155" height="44" fill="white" stroke="#1d4ed8" stroke-width="1.5" rx="4"/>
+  <text x="335" y="174" class="lbl" text-anchor="middle" fill="#1d4ed8">Master relation:</text>
+  <text x="335" y="193" class="eq"  text-anchor="middle" font-size="12px">ΔG° = −nFE° = −RT ln K</text>
+
+  <!-- ── Right: Sign table ── -->
+  <rect x="580" y="36" width="90" height="0" fill="none"/>
+
+  <!-- Table at right -->
+  <rect x="572" y="36" width="96" height="200" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" rx="4"/>
+  <rect x="572" y="36" width="96" height="24" fill="#dbeafe" rx="4"/>
+  <text x="620" y="52" class="tss" text-anchor="middle" fill="#1d4ed8" font-weight="bold">Sign Guide</text>
+  <!-- header row -->
+  <text x="580" y="72"  class="tss" font-weight="bold">E°</text>
+  <text x="600" y="72"  class="tss" font-weight="bold">ΔG°</text>
+  <text x="628" y="72"  class="tss" font-weight="bold">K</text>
+  <line x1="574" y1="76" x2="666" y2="76" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- Spontaneous row -->
+  <text x="580" y="94"  class="tss" fill="#16a34a">&gt; 0</text>
+  <text x="600" y="94"  class="tss" fill="#16a34a">&lt; 0</text>
+  <text x="625" y="94"  class="tss" fill="#16a34a">&gt; 1</text>
+  <text x="580" y="108" class="tss" fill="#16a34a">Galvanic</text>
+  <line x1="574" y1="113" x2="666" y2="113" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Non-spontaneous row -->
+  <text x="580" y="131" class="tss" fill="#dc2626">&lt; 0</text>
+  <text x="600" y="131" class="tss" fill="#dc2626">&gt; 0</text>
+  <text x="625" y="131" class="tss" fill="#dc2626">&lt; 1</text>
+  <text x="580" y="145" class="tss" fill="#dc2626">Electrolytic</text>
+  <line x1="574" y1="150" x2="666" y2="150" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Equilibrium row -->
+  <text x="580" y="168" class="tss">= 0</text>
+  <text x="600" y="168" class="tss">= 0</text>
+  <text x="625" y="168" class="tss">= 1</text>
+  <text x="580" y="182" class="tss">Dead battery</text>
+  <line x1="574" y1="187" x2="666" y2="187" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="620" y="224" class="tss" text-anchor="middle" fill="#dc2626">n from</text>
+  <text x="620" y="237" class="tss" text-anchor="middle" fill="#dc2626">half-rxns</text>
+
+  <!-- ── Bottom: constants and notes ── -->
+  <rect x="12" y="296" width="552" height="90" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+  <text x="290" y="313" class="lbl" text-anchor="middle">Constants and Cautions</text>
+  <text x="30" y="332"  class="ts">• F = 96,485 C/mol e⁻ (use 96,500 if not given)</text>
+  <text x="30" y="349"  class="ts">• R = 8.314 J/(mol·K) — use for ln K and ΔG° = −RT ln K</text>
+  <text x="30" y="366"  class="ts">• R = 0.08206 L·atm/(mol·K) — use only in PV = nRT (never in ΔG° equation)</text>
+  <text x="30" y="382"  class="tss" fill="#dc2626">• E° is intensive — NEVER multiply by stoichiometric coefficient. NEVER flip sign of given E° values.</text>
+</svg>

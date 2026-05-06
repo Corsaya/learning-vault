@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="serif" font-size="13">
+  <rect width="700" height="340" fill="#fafafa" rx="6"/>
+  <text x="350" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Ksp and Molar Solubility — ICE Table Method</text>
+
+  <!-- Left panel: ICE for Ag2SO4 -->
+  <rect x="20" y="38" width="320" height="220" fill="#f0f4ff" rx="5" stroke="#99b" stroke-width="1.5"/>
+  <text x="180" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#224">Example: Ag₂SO₄(s) ⇌ 2 Ag⁺(aq) + SO₄²⁻(aq)</text>
+
+  <!-- ICE table -->
+  <rect x="35" y="65" width="290" height="28" fill="#334"/>
+  <text x="180" y="83" text-anchor="middle" font-size="12" fill="white" font-weight="bold">ICE Table (let s = molar solubility)</text>
+
+  <!-- Headers -->
+  <rect x="35" y="93" width="290" height="24" fill="#dde"/>
+  <text x="90" y="109" text-anchor="middle" font-size="12" fill="#222"></text>
+  <text x="195" y="109" text-anchor="middle" font-size="12" fill="#1a4" font-weight="bold">Ag⁺</text>
+  <text x="285" y="109" text-anchor="middle" font-size="12" fill="#c42" font-weight="bold">SO₄²⁻</text>
+  <line x1="35" y1="117" x2="325" y2="117" stroke="#aaa" stroke-width="1"/>
+  <line x1="150" y1="93" x2="150" y2="213" stroke="#aaa" stroke-width="1"/>
+  <line x1="240" y1="93" x2="240" y2="213" stroke="#aaa" stroke-width="1"/>
+
+  <!-- I row -->
+  <text x="90" y="133" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">Initial</text>
+  <text x="195" y="133" text-anchor="middle" font-size="12" fill="#1a4">0</text>
+  <text x="285" y="133" text-anchor="middle" font-size="12" fill="#c42">0</text>
+  <line x1="35" y1="141" x2="325" y2="141" stroke="#ddd" stroke-width="1"/>
+
+  <!-- C row -->
+  <text x="90" y="157" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">Change</text>
+  <text x="195" y="157" text-anchor="middle" font-size="12" fill="#1a4">+2s</text>
+  <text x="285" y="157" text-anchor="middle" font-size="12" fill="#c42">+s</text>
+  <line x1="35" y1="165" x2="325" y2="165" stroke="#ddd" stroke-width="1"/>
+
+  <!-- E row -->
+  <text x="90" y="181" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">Equil.</text>
+  <text x="195" y="181" text-anchor="middle" font-size="12" fill="#1a4" font-weight="bold">2s</text>
+  <text x="285" y="181" text-anchor="middle" font-size="12" fill="#c42" font-weight="bold">s</text>
+  <rect x="35" y="93" width="290" height="120" fill="none" stroke="#99b" stroke-width="1.5" rx="2"/>
+
+  <!-- Ksp expression -->
+  <text x="180" y="220" text-anchor="middle" font-size="13" fill="#333">Ksp = [Ag⁺]²[SO₄²⁻] = (2s)²(s) = 4s³</text>
+  <text x="180" y="238" text-anchor="middle" font-size="13" fill="#333">→  s = (Ksp / 4)^(1/3)</text>
+
+  <!-- Right panel: summary table -->
+  <rect x="360" y="38" width="320" height="220" fill="#fff9e6" rx="5" stroke="#cc9" stroke-width="1.5"/>
+  <text x="520" y="56" text-anchor="middle" font-size="13" font-weight="bold" fill="#553">Ksp Form by Salt Type</text>
+
+  <!-- Table in right panel -->
+  <rect x="370" y="63" width="300" height="26" fill="#665"/>
+  <text x="430" y="80" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Salt type</text>
+  <text x="545" y="80" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Ksp in terms of s</text>
+  <line x1="480" y1="63" x2="480" y2="240" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="370" y="89" width="300" height="24" fill="#fffde7"/>
+  <text x="425" y="105" text-anchor="middle" font-size="12" fill="#333">AB (1:1)  e.g. AgCl</text>
+  <text x="545" y="105" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">s²</text>
+  <line x1="370" y1="113" x2="670" y2="113" stroke="#ddd" stroke-width="1"/>
+
+  <rect x="370" y="113" width="300" height="24" fill="#fff8e1"/>
+  <text x="425" y="129" text-anchor="middle" font-size="12" fill="#333">AB₂  e.g. PbCl₂</text>
+  <text x="545" y="129" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">4s³</text>
+  <line x1="370" y1="137" x2="670" y2="137" stroke="#ddd" stroke-width="1"/>
+
+  <rect x="370" y="137" width="300" height="24" fill="#fffde7"/>
+  <text x="425" y="153" text-anchor="middle" font-size="12" fill="#333">A₂B  e.g. Ag₂SO₄</text>
+  <text x="545" y="153" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">4s³</text>
+  <line x1="370" y1="161" x2="670" y2="161" stroke="#ddd" stroke-width="1"/>
+
+  <rect x="370" y="161" width="300" height="24" fill="#fff8e1"/>
+  <text x="425" y="177" text-anchor="middle" font-size="12" fill="#333">AB₃  e.g. AlF₃</text>
+  <text x="545" y="177" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">27s⁴</text>
+  <line x1="370" y1="185" x2="670" y2="185" stroke="#ddd" stroke-width="1"/>
+
+  <rect x="370" y="185" width="300" height="24" fill="#fffde7"/>
+  <text x="425" y="201" text-anchor="middle" font-size="12" fill="#333">A₃B₂  e.g. Mg₃(PO₄)₂</text>
+  <text x="545" y="201" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">108s⁵</text>
+
+  <rect x="370" y="63" width="300" height="178" fill="none" stroke="#cc9" stroke-width="1.5" rx="2"/>
+
+  <!-- Common-ion note -->
+  <rect x="20" y="268" width="660" height="60" fill="#fff0f0" rx="5" stroke="#d99" stroke-width="1.5"/>
+  <text x="350" y="285" text-anchor="middle" font-size="13" font-weight="bold" fill="#811">Common-Ion Effect</text>
+  <text x="350" y="302" text-anchor="middle" font-size="12" fill="#333">Adding a common ion (e.g., Ag⁺ or SO₄²⁻ to Ag₂SO₄ equilibrium) raises Q above Ksp</text>
+  <text x="350" y="318" text-anchor="middle" font-size="12" fill="#333">→ System shifts left → more solid precipitates → molar solubility decreases. Ksp unchanged.</text>
+</svg>

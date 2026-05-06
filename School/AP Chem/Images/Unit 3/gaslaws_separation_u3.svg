@@ -1,0 +1,134 @@
+<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg">
+  <title>Gas Laws and Separation Methods — AP Chem Unit 3</title>
+  <desc>Left panel: gas law variable relationships. Right panel: separation method decision tree for Unit 3 AP Chemistry.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="da" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="330" fill="#f8fafc" rx="8"/>
+  <text x="340" y="22" class="th" text-anchor="middle" font-size="15px">Gas Law Relationships + Separation Methods</text>
+
+  <!-- Gas laws panel -->
+  <rect x="10" y="32" width="310" height="290" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="165" y="52" class="th" text-anchor="middle">Gas Law Relationships (T in Kelvin always)</text>
+
+  <!-- Table header -->
+  <rect x="20" y="58" width="88" height="24" fill="#1d4ed8" rx="2"/>
+  <rect x="112" y="58" width="88" height="24" fill="#1d4ed8" rx="2"/>
+  <rect x="204" y="58" width="108" height="24" fill="#1d4ed8" rx="2"/>
+  <text x="64" y="75" class="tss" text-anchor="middle" fill="white" font-weight="bold">Law</text>
+  <text x="156" y="75" class="tss" text-anchor="middle" fill="white" font-weight="bold">Variables</text>
+  <text x="258" y="75" class="tss" text-anchor="middle" fill="white" font-weight="bold">Equation</text>
+
+  <!-- Boyle's -->
+  <rect x="20" y="85" width="88" height="30" fill="#dbeafe" rx="2"/>
+  <rect x="112" y="85" width="88" height="30" fill="#dbeafe" rx="2"/>
+  <rect x="204" y="85" width="108" height="30" fill="#dbeafe" rx="2"/>
+  <text x="64" y="105" class="tss" text-anchor="middle" font-weight="bold">Boyle's</text>
+  <text x="156" y="99" class="tss" text-anchor="middle">P ↑ when V ↓</text>
+  <text x="156" y="112" class="tss" text-anchor="middle">(constant n, T)</text>
+  <text x="258" y="105" class="ts" text-anchor="middle">P₁V₁ = P₂V₂</text>
+
+  <!-- Charles's -->
+  <rect x="20" y="118" width="88" height="30" fill="#dcfce7" rx="2"/>
+  <rect x="112" y="118" width="88" height="30" fill="#dcfce7" rx="2"/>
+  <rect x="204" y="118" width="108" height="30" fill="#dcfce7" rx="2"/>
+  <text x="64" y="138" class="tss" text-anchor="middle" font-weight="bold">Charles's</text>
+  <text x="156" y="132" class="tss" text-anchor="middle">V ∝ T</text>
+  <text x="156" y="145" class="tss" text-anchor="middle">(constant n, P)</text>
+  <text x="258" y="138" class="ts" text-anchor="middle">V₁/T₁ = V₂/T₂</text>
+
+  <!-- Gay-Lussac -->
+  <rect x="20" y="151" width="88" height="30" fill="#fef9c3" rx="2"/>
+  <rect x="112" y="151" width="88" height="30" fill="#fef9c3" rx="2"/>
+  <rect x="204" y="151" width="108" height="30" fill="#fef9c3" rx="2"/>
+  <text x="64" y="165" class="tss" text-anchor="middle" font-weight="bold">Gay-Lussac</text>
+  <text x="64" y="178" class="tss" text-anchor="middle">(P–T Law)</text>
+  <text x="156" y="165" class="tss" text-anchor="middle">P ∝ T</text>
+  <text x="156" y="178" class="tss" text-anchor="middle">(constant n, V)</text>
+  <text x="258" y="171" class="ts" text-anchor="middle">P₁/T₁ = P₂/T₂</text>
+
+  <!-- Avogadro -->
+  <rect x="20" y="184" width="88" height="30" fill="#ede9fe" rx="2"/>
+  <rect x="112" y="184" width="88" height="30" fill="#ede9fe" rx="2"/>
+  <rect x="204" y="184" width="108" height="30" fill="#ede9fe" rx="2"/>
+  <text x="64" y="204" class="tss" text-anchor="middle" font-weight="bold">Avogadro</text>
+  <text x="156" y="198" class="tss" text-anchor="middle">V ∝ n</text>
+  <text x="156" y="211" class="tss" text-anchor="middle">(constant P, T)</text>
+  <text x="258" y="204" class="ts" text-anchor="middle">V₁/n₁ = V₂/n₂</text>
+
+  <!-- Ideal Gas -->
+  <rect x="20" y="217" width="88" height="30" fill="#fee2e2" rx="2"/>
+  <rect x="112" y="217" width="88" height="30" fill="#fee2e2" rx="2"/>
+  <rect x="204" y="217" width="108" height="30" fill="#fee2e2" rx="2"/>
+  <text x="64" y="237" class="tss" text-anchor="middle" font-weight="bold">Ideal Gas</text>
+  <text x="156" y="231" class="tss" text-anchor="middle">All variables</text>
+  <text x="156" y="244" class="tss" text-anchor="middle">(PV = nRT)</text>
+  <text x="258" y="237" class="ts" text-anchor="middle">PV = nRT</text>
+
+  <!-- Key note -->
+  <rect x="20" y="252" width="290" height="62" fill="#dbeafe" stroke="#3b82f6" stroke-width="1" rx="3"/>
+  <text x="165" y="268" class="th" text-anchor="middle" fill="#1d4ed8">Critical Rules</text>
+  <text x="165" y="283" class="tss" text-anchor="middle">T(K) = T(°C) + 273 — ALWAYS convert first</text>
+  <text x="165" y="296" class="tss" text-anchor="middle">R = 0.08206 L·atm/mol·K</text>
+  <text x="165" y="309" class="tss" text-anchor="middle">P_total = ΣP_i (Dalton's Law); P_gas = P_atm − P_H₂O</text>
+
+  <!-- Separation methods panel -->
+  <rect x="328" y="32" width="344" height="290" fill="white" stroke="#e2e8f0" stroke-width="1" rx="5"/>
+  <text x="500" y="52" class="th" text-anchor="middle">Separation Methods — Decision Tree</text>
+
+  <!-- Q1 -->
+  <rect x="360" y="60" width="280" height="30" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+  <text x="500" y="80" class="ts" text-anchor="middle" font-weight="bold">Is any component a solid that doesn't dissolve?</text>
+
+  <line x1="380" y1="90" x2="360" y2="120" stroke="#555" stroke-width="1.5" marker-end="url(#da)"/>
+  <text x="363" y="113" class="tss" fill="#15803d">YES</text>
+  <rect x="338" y="120" width="100" height="36" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5" rx="4"/>
+  <text x="388" y="135" class="tss" text-anchor="middle" font-weight="bold" fill="#15803d">FILTRATION</text>
+  <text x="388" y="149" class="tss" text-anchor="middle">Solid vs liquid</text>
+
+  <line x1="620" y1="90" x2="580" y2="120" stroke="#555" stroke-width="1.5" marker-end="url(#da)"/>
+  <text x="613" y="113" class="tss" fill="#991b1b">NO →</text>
+
+  <!-- Q2 -->
+  <rect x="468" y="120" width="190" height="30" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+  <text x="563" y="135" class="tss" text-anchor="middle" font-weight="bold">Miscible liquids,</text>
+  <text x="563" y="148" class="tss" text-anchor="middle">different BPs?</text>
+
+  <line x1="490" y1="152" x2="468" y2="182" stroke="#555" stroke-width="1.5" marker-end="url(#da)"/>
+  <text x="470" y="176" class="tss" fill="#15803d">YES</text>
+  <rect x="445" y="182" width="115" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5" rx="4"/>
+  <text x="502" y="198" class="tss" text-anchor="middle" font-weight="bold" fill="#15803d">DISTILLATION</text>
+  <text x="502" y="212" class="tss" text-anchor="middle">Lower BP</text>
+  <text x="502" y="224" class="tss" text-anchor="middle">vaporizes first</text>
+
+  <line x1="637" y1="152" x2="615" y2="182" stroke="#555" stroke-width="1.5" marker-end="url(#da)"/>
+  <text x="638" y="176" class="tss" fill="#991b1b">NO</text>
+
+  <!-- Q3 -->
+  <rect x="564" y="182" width="100" height="46" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+  <text x="614" y="198" class="tss" text-anchor="middle" font-weight="bold">Count or</text>
+  <text x="614" y="210" class="tss" text-anchor="middle">identify</text>
+  <text x="614" y="222" class="tss" text-anchor="middle">components?</text>
+
+  <line x1="614" y1="228" x2="560" y2="258" stroke="#555" stroke-width="1.5" marker-end="url(#da)"/>
+  <text x="570" y="252" class="tss" fill="#15803d">YES</text>
+  <rect x="335" y="258" width="210" height="46" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5" rx="4"/>
+  <text x="440" y="274" class="tss" text-anchor="middle" font-weight="bold" fill="#92400e">PAPER / TLC CHROMATOGRAPHY</text>
+  <text x="440" y="288" class="tss" text-anchor="middle">Best Rf split at intermediate values</text>
+  <text x="440" y="300" class="tss" text-anchor="middle">→ use that solvent for column</text>
+
+  <line x1="614" y1="228" x2="614" y2="258" stroke="#555" stroke-width="1.5" marker-end="url(#da)"/>
+  <text x="622" y="252" class="tss" fill="#991b1b">NO</text>
+  <rect x="553" y="258" width="115" height="46" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5" rx="4"/>
+  <text x="610" y="274" class="tss" text-anchor="middle" font-weight="bold" fill="#92400e">COLUMN</text>
+  <text x="610" y="288" class="tss" text-anchor="middle">CHROMATOGRAPHY</text>
+  <text x="610" y="301" class="tss" text-anchor="middle">Bulk separation</text>
+</svg>

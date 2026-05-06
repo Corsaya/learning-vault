@@ -1,0 +1,114 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg">
+  <title>Four Types of Solids — AP Chem Unit 3</title>
+  <desc>Comparison of ionic, covalent network, molecular, and metallic solids by particle type, force, conductivity, and melting point with examples.</desc>
+  <style>
+    .th { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #1e293b; }
+    .ts { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="360" fill="#f8fafc" rx="8"/>
+  <text x="340" y="26" class="th" text-anchor="middle" font-size="15px">Four Types of Solids — AP Identification Guide</text>
+
+  <!-- Header row -->
+  <rect x="10" y="38" width="100" height="30" fill="#1d4ed8" rx="3"/>
+  <rect x="115" y="38" width="135" height="30" fill="#7c3aed" rx="3"/>
+  <rect x="255" y="38" width="135" height="30" fill="#991b1b" rx="3"/>
+  <rect x="395" y="38" width="135" height="30" fill="#15803d" rx="3"/>
+  <rect x="535" y="38" width="135" height="30" fill="#92400e" rx="3"/>
+  <text x="60" y="58" class="th" text-anchor="middle" fill="white">Property</text>
+  <text x="182" y="58" class="th" text-anchor="middle" fill="white">Ionic</text>
+  <text x="322" y="58" class="th" text-anchor="middle" fill="white">Covalent Network</text>
+  <text x="462" y="58" class="th" text-anchor="middle" fill="white">Molecular</text>
+  <text x="602" y="58" class="th" text-anchor="middle" fill="white">Metallic</text>
+
+  <!-- Row labels col -->
+  <rect x="10" y="72" width="100" height="36" fill="#e2e8f0" rx="2"/>
+  <rect x="10" y="112" width="100" height="36" fill="#e2e8f0" rx="2"/>
+  <rect x="10" y="152" width="100" height="36" fill="#e2e8f0" rx="2"/>
+  <rect x="10" y="192" width="100" height="52" fill="#e2e8f0" rx="2"/>
+  <rect x="10" y="248" width="100" height="52" fill="#e2e8f0" rx="2"/>
+  <rect x="10" y="304" width="100" height="46" fill="#e2e8f0" rx="2"/>
+  <text x="60" y="95" class="ts" text-anchor="middle" font-weight="bold">Particles</text>
+  <text x="60" y="135" class="ts" text-anchor="middle" font-weight="bold">Forces</text>
+  <text x="60" y="175" class="ts" text-anchor="middle" font-weight="bold">Melt PT</text>
+  <text x="60" y="212" class="ts" text-anchor="middle" font-weight="bold">Conduct</text>
+  <text x="60" y="227" class="ts" text-anchor="middle" font-weight="bold">(solid/aq)</text>
+  <text x="60" y="267" class="ts" text-anchor="middle" font-weight="bold">Other</text>
+  <text x="60" y="282" class="ts" text-anchor="middle" font-weight="bold">Properties</text>
+  <text x="60" y="320" class="ts" text-anchor="middle" font-weight="bold">Examples</text>
+
+  <!-- Ionic column -->
+  <rect x="115" y="72" width="135" height="36" fill="#ede9fe" rx="2"/>
+  <rect x="115" y="112" width="135" height="36" fill="#ede9fe" rx="2"/>
+  <rect x="115" y="152" width="135" height="36" fill="#ede9fe" rx="2"/>
+  <rect x="115" y="192" width="135" height="52" fill="#ede9fe" rx="2"/>
+  <rect x="115" y="248" width="135" height="52" fill="#ede9fe" rx="2"/>
+  <rect x="115" y="304" width="135" height="46" fill="#ede9fe" rx="2"/>
+  <text x="182" y="95" class="tss" text-anchor="middle">Cations + Anions</text>
+  <text x="182" y="135" class="tss" text-anchor="middle">Electrostatic</text>
+  <text x="182" y="155" class="tss" text-anchor="middle">(Coulombic)</text>
+  <text x="182" y="173" class="tss" text-anchor="middle" fill="#991b1b">HIGH</text>
+  <text x="182" y="210" class="tss" text-anchor="middle">No (solid)</text>
+  <text x="182" y="227" class="tss" text-anchor="middle">Yes (dissolved/molten)</text>
+  <text x="182" y="265" class="tss" text-anchor="middle">Hard, brittle</text>
+  <text x="182" y="282" class="tss" text-anchor="middle">Soluble in H₂O</text>
+  <text x="182" y="320" class="tss" text-anchor="middle">NaCl, MgO,</text>
+  <text x="182" y="335" class="tss" text-anchor="middle">CaCl₂, KBr</text>
+
+  <!-- Covalent Network column -->
+  <rect x="255" y="72" width="135" height="36" fill="#fee2e2" rx="2"/>
+  <rect x="255" y="112" width="135" height="36" fill="#fee2e2" rx="2"/>
+  <rect x="255" y="152" width="135" height="36" fill="#fee2e2" rx="2"/>
+  <rect x="255" y="192" width="135" height="52" fill="#fee2e2" rx="2"/>
+  <rect x="255" y="248" width="135" height="52" fill="#fee2e2" rx="2"/>
+  <rect x="255" y="304" width="135" height="46" fill="#fee2e2" rx="2"/>
+  <text x="322" y="95" class="tss" text-anchor="middle">Atoms (covalently</text>
+  <text x="322" y="107" class="tss" text-anchor="middle">bonded network)</text>
+  <text x="322" y="135" class="tss" text-anchor="middle">Covalent bonds</text>
+  <text x="322" y="155" class="tss" text-anchor="middle">(throughout lattice)</text>
+  <text x="322" y="173" class="tss" text-anchor="middle" fill="#991b1b">VERY HIGH</text>
+  <text x="322" y="210" class="tss" text-anchor="middle">No (except graphite</text>
+  <text x="322" y="227" class="tss" text-anchor="middle">along layers)</text>
+  <text x="322" y="265" class="tss" text-anchor="middle">Very hard,</text>
+  <text x="322" y="282" class="tss" text-anchor="middle">insoluble in H₂O</text>
+  <text x="322" y="320" class="tss" text-anchor="middle">Diamond, SiO₂</text>
+  <text x="322" y="335" class="tss" text-anchor="middle">SiC, graphite</text>
+
+  <!-- Molecular column -->
+  <rect x="395" y="72" width="135" height="36" fill="#dcfce7" rx="2"/>
+  <rect x="395" y="112" width="135" height="36" fill="#dcfce7" rx="2"/>
+  <rect x="395" y="152" width="135" height="36" fill="#dcfce7" rx="2"/>
+  <rect x="395" y="192" width="135" height="52" fill="#dcfce7" rx="2"/>
+  <rect x="395" y="248" width="135" height="52" fill="#dcfce7" rx="2"/>
+  <rect x="395" y="304" width="135" height="46" fill="#dcfce7" rx="2"/>
+  <text x="462" y="95" class="tss" text-anchor="middle">Molecules</text>
+  <text x="462" y="135" class="tss" text-anchor="middle">IMFs (LDF,</text>
+  <text x="462" y="150" class="tss" text-anchor="middle">D-D, H-bonds)</text>
+  <text x="462" y="173" class="tss" text-anchor="middle" fill="#15803d">LOW</text>
+  <text x="462" y="210" class="tss" text-anchor="middle">No (solid or</text>
+  <text x="462" y="227" class="tss" text-anchor="middle">dissolved)</text>
+  <text x="462" y="265" class="tss" text-anchor="middle">Soft, low BP,</text>
+  <text x="462" y="282" class="tss" text-anchor="middle">varies in solubility</text>
+  <text x="462" y="320" class="tss" text-anchor="middle">I₂, H₂O, CO₂</text>
+  <text x="462" y="335" class="tss" text-anchor="middle">glucose, wax</text>
+
+  <!-- Metallic column -->
+  <rect x="535" y="72" width="135" height="36" fill="#fef9c3" rx="2"/>
+  <rect x="535" y="112" width="135" height="36" fill="#fef9c3" rx="2"/>
+  <rect x="535" y="152" width="135" height="36" fill="#fef9c3" rx="2"/>
+  <rect x="535" y="192" width="135" height="52" fill="#fef9c3" rx="2"/>
+  <rect x="535" y="248" width="135" height="52" fill="#fef9c3" rx="2"/>
+  <rect x="535" y="304" width="135" height="46" fill="#fef9c3" rx="2"/>
+  <text x="602" y="95" class="tss" text-anchor="middle">Metal cations +</text>
+  <text x="602" y="107" class="tss" text-anchor="middle">electron sea</text>
+  <text x="602" y="135" class="tss" text-anchor="middle">Metallic bonds</text>
+  <text x="602" y="155" class="tss" text-anchor="middle">(delocalized e⁻)</text>
+  <text x="602" y="173" class="tss" text-anchor="middle">VARIES</text>
+  <text x="602" y="210" class="tss" text-anchor="middle">Yes (solid AND</text>
+  <text x="602" y="227" class="tss" text-anchor="middle">molten)</text>
+  <text x="602" y="265" class="tss" text-anchor="middle">Malleable, ductile</text>
+  <text x="602" y="282" class="tss" text-anchor="middle">lustrous</text>
+  <text x="602" y="320" class="tss" text-anchor="middle">Na, Cu, Fe, Au</text>
+  <text x="602" y="335" class="tss" text-anchor="middle">alloys (brass)</text>
+</svg>

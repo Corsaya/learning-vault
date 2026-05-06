@@ -1,0 +1,76 @@
+<svg viewBox="0 0 680 390" xmlns="http://www.w3.org/2000/svg">
+  <title>Solubility Rules — AP Chem Unit 4</title>
+  <style>
+    .th  { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1e293b; }
+    .ts  { font-family: Arial, sans-serif; font-size: 12px; fill: #334155; }
+    .tss { font-family: Arial, sans-serif; font-size: 11px; fill: #475569; }
+    .lbl { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; }
+    .exc { font-family: Arial, sans-serif; font-size: 10.5px; fill: #dc2626; font-style: italic; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="390" fill="#f8fafc" rx="8"/>
+  <text x="340" y="24" class="th" text-anchor="middle" font-size="15px">Solubility Rules — AP Chem Unit 4</text>
+
+  <!-- ── Left: Always Soluble ── -->
+  <rect x="16" y="36" width="310" height="340" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5" rx="6"/>
+  <rect x="16" y="36" width="310" height="26" fill="#16a34a" rx="6"/>
+  <text x="171" y="54" class="lbl" text-anchor="middle" fill="white">✓ Generally Soluble</text>
+
+  <text x="28" y="76"  class="ts" font-weight="bold">Always soluble (no exceptions):</text>
+  <text x="28" y="93"  class="ts">• Group 1 ions (Li⁺, Na⁺, K⁺, Rb⁺, Cs⁺)</text>
+  <text x="28" y="109" class="ts">• NH₄⁺ compounds</text>
+  <text x="28" y="125" class="ts">• NO₃⁻ (all nitrates)</text>
+  <text x="28" y="141" class="ts">• ClO₄⁻ (all perchlorates)</text>
+  <text x="28" y="157" class="ts">• C₂H₃O₂⁻ (most acetates)</text>
+
+  <line x1="22" y1="168" x2="320" y2="168" stroke="#86efac" stroke-width="1"/>
+  <text x="28" y="184" class="ts" font-weight="bold">Soluble with common exceptions:</text>
+
+  <text x="28" y="202" class="ts">• Cl⁻, Br⁻, I⁻ (halides) — soluble</text>
+  <text x="38" y="216" class="exc">except with Ag⁺, Pb²⁺, Hg₂²⁺</text>
+
+  <text x="28" y="234" class="ts">• SO₄²⁻ (sulfates) — soluble</text>
+  <text x="38" y="248" class="exc">except with Ba²⁺, Pb²⁺, Ca²⁺, Sr²⁺</text>
+
+  <line x1="22" y1="258" x2="320" y2="258" stroke="#86efac" stroke-width="1"/>
+  <text x="28" y="275" class="ts" font-weight="bold">Memory shortcuts:</text>
+  <text x="28" y="292" class="tss">• "All nitrates soluble" — no exceptions</text>
+  <text x="28" y="308" class="tss">• "All Group 1 and NH₄⁺ soluble" — no exceptions</text>
+  <text x="28" y="324" class="tss">• Silver halides → always insoluble (AgCl, AgBr, AgI)</text>
+  <text x="28" y="340" class="tss">• BaSO₄, PbSO₄, CaSO₄ → insoluble sulfates to memorize</text>
+  <text x="28" y="358" class="tss">• Most sulfides, carbonates, phosphates → insoluble</text>
+
+  <!-- ── Right: Generally Insoluble ── -->
+  <rect x="354" y="36" width="310" height="340" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5" rx="6"/>
+  <rect x="354" y="36" width="310" height="26" fill="#dc2626" rx="6"/>
+  <text x="509" y="54" class="lbl" text-anchor="middle" fill="white">✗ Generally Insoluble</text>
+
+  <text x="366" y="76"  class="ts" font-weight="bold">Generally insoluble (note Group 1 / NH₄⁺ exceptions):</text>
+
+  <text x="366" y="98"  class="ts">• CO₃²⁻ (carbonates) — insoluble</text>
+  <text x="376" y="112" class="exc">except Group 1 + NH₄⁺ (e.g., Na₂CO₃ ✓)</text>
+
+  <text x="366" y="130" class="ts">• PO₄³⁻ (phosphates) — insoluble</text>
+  <text x="376" y="144" class="exc">except Group 1 + NH₄⁺</text>
+
+  <text x="366" y="162" class="ts">• S²⁻ (sulfides) — insoluble</text>
+  <text x="376" y="176" class="exc">except Group 1, Group 2, NH₄⁺</text>
+
+  <text x="366" y="194" class="ts">• OH⁻ (hydroxides) — insoluble</text>
+  <text x="376" y="208" class="exc">except Group 1, Ba²⁺, Sr²⁺ (Ca(OH)₂ sparingly)</text>
+
+  <text x="366" y="226" class="ts">• CrO₄²⁻ (chromates) — insoluble</text>
+  <text x="376" y="240" class="exc">except Group 1 + NH₄⁺</text>
+
+  <line x1="360" y1="252" x2="658" y2="252" stroke="#fca5a5" stroke-width="1"/>
+  <text x="366" y="268" class="ts" font-weight="bold">Key insoluble salts to memorize:</text>
+  <text x="366" y="285" class="tss">AgCl, AgBr, AgI (all silver halides)</text>
+  <text x="366" y="301" class="tss">BaSO₄, PbSO₄, CaSO₄</text>
+  <text x="366" y="317" class="tss">PbI₂, PbCl₂ (lead halides)</text>
+  <text x="366" y="333" class="tss">Fe(OH)₂, Fe(OH)₃, Cu(OH)₂</text>
+  <text x="366" y="349" class="tss">CaCO₃, BaCO₃, FeCO₃</text>
+
+  <!-- AP tip -->
+  <rect x="354" y="360" width="310" height="14" fill="#fef3c7" rx="2"/>
+  <text x="509" y="371" class="tss" fill="#92400e" text-anchor="middle">AP tip: check BOTH products when predicting precipitation reactions</text>
+</svg>

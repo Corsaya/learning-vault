@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="serif" font-size="13">
+  <rect width="700" height="300" fill="#fafafa" rx="6"/>
+  <text x="350" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">ICE Table Strategy — Equilibrium Concentration Calculations</text>
+  <text x="350" y="42" text-anchor="middle" font-size="12" fill="#555">Example: H₂(g) + I₂(g) ⇌ 2 HI(g),  Kc = 49.0</text>
+
+  <!-- Step labels -->
+  <text x="40" y="75" font-size="12" fill="#444" font-weight="bold">Step 1:</text>
+  <text x="100" y="75" font-size="12" fill="#333">Write ICE table. Let x = change per mol of reaction.</text>
+
+  <!-- ICE Table -->
+  <rect x="60" y="85" width="580" height="32" fill="#334"/>
+  <text x="160" y="106" text-anchor="middle" font-size="12" fill="white" font-weight="bold">H₂</text>
+  <text x="350" y="106" text-anchor="middle" font-size="12" fill="white" font-weight="bold">I₂</text>
+  <text x="540" y="106" text-anchor="middle" font-size="12" fill="white" font-weight="bold">2 HI</text>
+  <line x1="260" y1="85" x2="260" y2="205" stroke="#888" stroke-width="1"/>
+  <line x1="450" y1="85" x2="450" y2="205" stroke="#888" stroke-width="1"/>
+
+  <rect x="60" y="117" width="580" height="28" fill="#e8eaf6"/>
+  <text x="100" y="135" font-size="12" fill="#555" font-weight="bold">Initial</text>
+  <text x="160" y="135" text-anchor="middle" font-size="12" fill="#333">0.100 M</text>
+  <text x="350" y="135" text-anchor="middle" font-size="12" fill="#333">0.100 M</text>
+  <text x="540" y="135" text-anchor="middle" font-size="12" fill="#333">0</text>
+  <line x1="60" y1="145" x2="640" y2="145" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="60" y="145" width="580" height="28" fill="#fffde7"/>
+  <text x="100" y="163" font-size="12" fill="#555" font-weight="bold">Change</text>
+  <text x="160" y="163" text-anchor="middle" font-size="12" fill="#c62">−x</text>
+  <text x="350" y="163" text-anchor="middle" font-size="12" fill="#c62">−x</text>
+  <text x="540" y="163" text-anchor="middle" font-size="12" fill="#1a4">+2x</text>
+  <text x="470" y="155" font-size="10" fill="#888">← coefficient in balanced eq.</text>
+  <line x1="60" y1="173" x2="640" y2="173" stroke="#ccc" stroke-width="1"/>
+
+  <rect x="60" y="173" width="580" height="32" fill="#e8f5e9"/>
+  <text x="100" y="193" font-size="12" fill="#555" font-weight="bold">Equil.</text>
+  <text x="160" y="193" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">0.100 − x</text>
+  <text x="350" y="193" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">0.100 − x</text>
+  <text x="540" y="193" text-anchor="middle" font-size="13" fill="#222" font-weight="bold">2x</text>
+  <rect x="60" y="85" width="580" height="120" fill="none" stroke="#557" stroke-width="1.5" rx="2"/>
+
+  <!-- Step 2 -->
+  <text x="40" y="225" font-size="12" fill="#444" font-weight="bold">Step 2:</text>
+  <text x="100" y="225" font-size="12" fill="#333">Substitute into Kc:   Kc = (2x)² / [(0.100−x)(0.100−x)] = (2x/(0.100−x))² = 49.0</text>
+
+  <text x="40" y="248" font-size="12" fill="#444" font-weight="bold">Step 3:</text>
+  <text x="100" y="248" font-size="12" fill="#333">Take √ both sides:  2x / (0.100−x) = 7.0  →  9x = 0.700  →  x = 0.0778 M</text>
+
+  <text x="40" y="271" font-size="12" fill="#444" font-weight="bold">Step 4:</text>
+  <text x="100" y="271" font-size="12" fill="#333">Back-calculate: [H₂] = [I₂] = 0.0222 M; [HI] = 0.156 M. All positive ✓</text>
+</svg>
