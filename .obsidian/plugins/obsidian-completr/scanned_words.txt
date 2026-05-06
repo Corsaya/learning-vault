@@ -149,6 +149,8 @@ Tag
 Typical
 Territorial
 Template
+Than
+Toward
 MCQ
 Missing
 More
@@ -475,6 +477,8 @@ Pizarro
 Protestant
 People
 Person
+Position
+Pulls
 Recognition
 Reminders
 Result
@@ -619,6 +623,7 @@ Raleigh
 Roanoke
 River
 Requerimiento
+Reactive
 If
 It
 ID
@@ -747,6 +752,7 @@ Iroquois
 India
 Inca
 Indies
+Iodine
 you
 yE
 ynx
@@ -1242,6 +1248,7 @@ starvation
 sparse
 sovereignty
 surprised
+standards
 testing
 to
 table
@@ -1819,6 +1826,7 @@ investors
 interior
 investor
 impact
+iodine
 Algebraic
 Asked
 AP
@@ -2011,6 +2019,9 @@ Attempts
 Aztec
 Americans
 Areas
+Are
+Abundant
+Alone
 rearrangement
 rxn
 reaction
@@ -2258,6 +2269,10 @@ rarely
 revolutionized
 rivalry
 risk
+recover
+readings
+respective
+requested
 of
 observed
 or
@@ -2756,6 +2771,7 @@ builders
 bison
 backed
 basis
+burned
 not
 nonzero
 number
@@ -3365,6 +3381,7 @@ capital
 colonization
 creation
 contradicted
+came
 high
 hierarchy
 has
@@ -3796,6 +3813,7 @@ alliances
 advocate
 animals
 ancestry
+accuracy
 Comparing
 Count
 Calculate
@@ -4480,6 +4498,9 @@ Early
 Explored
 Established
 Empire
+Energies
+Easier
+Empties
 phase
 particle
 phases
@@ -4787,6 +4808,7 @@ possibly
 profit
 plants
 pooling
+propionic
 which
 why
 with
@@ -5417,6 +5439,7 @@ Franciscan
 Florida
 France
 Francisco
+Fluorine
 move
 moles
 minus
@@ -5993,6 +6016,7 @@ undermined
 undermines
 uncertain
 upload
+undiluted
 Hf
 Higher
 Heat
@@ -6099,6 +6123,8 @@ Hour
 Haudenosaunee
 Henry
 Hern
+Height
+HEIGHT
 quadrant
 quickly
 qdRp
@@ -6856,6 +6882,7 @@ Bullet
 Briefly
 Bartolom
 Business
+BEFORE
 kJ
 kilojoules
 kinetic
@@ -7066,6 +7093,7 @@ Oppression
 Oversized
 Ottoman
 Organized
+Oxidize
 You
 YeX
 YT
