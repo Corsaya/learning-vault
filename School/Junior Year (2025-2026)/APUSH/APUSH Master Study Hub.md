@@ -80,10 +80,20 @@ APUSH rewards these skills across MCQ stimulus questions, SAQ, DBQ, and LEQ:
 
 ## NotebookLM Workflow
 
-1. Upload each **Unit N Notes.md** as a separate NLM source
-2. Add Heimler's History YouTube videos for each unit directly as sources in NLM
-3. **Audio Overview** → passive absorption while commuting/eating/resting
-4. **Q&A mode** → "What caused the French and Indian War?", "Compare Hamilton and Jefferson's economic visions", "What were the effects of Reconstruction's end?"
-5. **Study Guide** → generates flashcard-style summaries per unit
-6. **Essay prep** → ask NLM: "Generate a DBQ thesis on [topic]" or "Give me 3 LEQ prompts for Unit 7"
-7. After progress check practice → upload your score notes and ask NLM to explain missed topics
+### Sources to Upload
+- **Units 1–3:** Upload `Unit N Notes.md` only — Progress Check MCQ/FRQ review is now embedded directly in those notes files. Add Heimler YouTube video URLs as sources (links are in each notes file header).
+- **Units 4–9:** Upload `Unit N Notes.md` + Heimler video URL. Once you complete Progress Check answer files for a unit, upload those too.
+- **Skills:** Upload `MCQ Stimulus Guide.md`, `SAQ Guide.md`, `DBQ Guide.md`, `LEQ Guide.md` — gives NLM strategic context to generate useful practice questions.
+
+### What to Generate
+1. **Audio Overview** → generate and listen passively (commuting, eating, resting) — highest ROI per time spent
+2. **Study Guide** → flashcard-style summaries per unit; good for a visual scan before bed
+3. **Briefing Doc** → condensed one-pager; skim on exam morning
+
+### Q&A Prompts That Work Well
+- **MCQ drill:** "For each of the 9 units, give me one practice MCQ stimulus with four answer choices. Explain why each wrong answer fails using the trap categories from my notes."
+- **SAQ practice:** "Give me a two-part SAQ prompt for the period 1754–1800 with a primary source stimulus, formatted like an AP Progress Check Part A — (a), (b), (c) each worth 1 point."
+- **LEQ thesis drill:** "Give me 3 LEQ prompts — Era 1 (1491–1800), Era 2 (1800–1898), Era 3 (1890–2001). For each, write a strong thesis with a line of reasoning, then list the evidence that supports it."
+- **Causation chains:** "Walk me through the causal chain from the Seven Years' War (1754) to the Declaration of Independence (1776). For each step, tell me what the AP commonly tests and the most common wrong-answer trap."
+- **Essay prep:** "Generate a DBQ thesis on [topic]" or "Give me 3 LEQ prompts for Unit 7"
+- **Weak area targeting:** "Based on my Progress Check answer files, what are the most common trap patterns? Categorize by type: anachronistic, reversal, too-vague, true-but-irrelevant."
