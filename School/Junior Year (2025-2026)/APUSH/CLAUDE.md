@@ -13,3 +13,4 @@ Also available:
 - [[Skills/SAQ Guide]] — Short Answer template and scoring
 - [[Skills/DBQ Guide]] — Document-Based Question framework
 - [[Skills/LEQ Guide]] — Long Essay template and evidence banks
+- [[Skills/Progress Check Guide]] — How to generate Progress Check answer files from screenshots (MCQ and FRQ)
