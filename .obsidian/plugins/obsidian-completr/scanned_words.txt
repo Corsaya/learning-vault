@@ -287,6 +287,9 @@ TiY
 Terror
 TCGPlayer
 Tuesday
+Today
+Theseus
+TCG
 MCQ
 Missing
 More
@@ -483,6 +486,8 @@ Mu
 Make
 Months
 Monday
+MTG
+Monster
 Pattern
 Part
 Predict
@@ -730,6 +735,7 @@ Prioritize
 Projects
 Project
 Pokemon
+Plaguebearer
 Recognition
 Reminders
 Result
@@ -922,6 +928,7 @@ Rn
 Rwo
 RTO
 Rm
+Rare
 If
 It
 ID
@@ -1763,6 +1770,12 @@ schedule
 sealed
 seller
 scanner
+scout
+scraper
+silently
+swallowing
+scrapes
+systemd
 testing
 to
 table
@@ -2049,6 +2062,8 @@ tr
 tRE
 tz
 tlg
+trending
+timer
 Go
 Gibbs
 Greek
@@ -3277,6 +3292,8 @@ rough
 restructured
 renamed
 repos
+ran
+ready
 of
 observed
 or
@@ -3757,6 +3774,8 @@ fO
 fmG
 fV
 friend
+flag
+franchise
 but
 by
 both
@@ -3990,6 +4009,7 @@ bw
 baked
 bad
 buying
+blog
 not
 nonzero
 number
@@ -4861,6 +4881,9 @@ curriculum
 channel
 closed
 code
+cards
+cache
+collector
 high
 hierarchy
 has
@@ -5043,6 +5066,7 @@ hVar
 hu
 hUuV
 hM
+hCaptcha
 asked
 about
 asking
@@ -5466,6 +5490,7 @@ arc
 agonizing
 archived
 agnostic
+automated
 Comparing
 Count
 Calculate
@@ -5805,6 +5830,7 @@ Crew
 Claude
 CSVs
 Ceiling
+Collector
 entropy
 each
 effect
@@ -6158,6 +6184,8 @@ eT
 eU
 engaging
 escalating
+eBay
+enchanted
 Entropy
 Elements
 Everything
@@ -6976,6 +7004,8 @@ walk
 wrapped
 week
 wrapping
+web
+warm
 largest
 liquid
 limiting
@@ -7212,6 +7242,7 @@ ly
 lives
 locations
 logs
+live
 Look
 Limiting
 Latex
@@ -7366,6 +7397,7 @@ LE
 LGf
 LmC
 LMc
+Lorcana
 gas
 greater
 gamma
@@ -7681,6 +7713,7 @@ FU
 FL
 Fa
 FO
+Fire
 move
 moles
 minus
@@ -8777,6 +8810,7 @@ qH
 qVn
 qV
 qNj
+queue
 Do
 Disagree
 Definition
@@ -8966,6 +9000,8 @@ Ds
 Dg
 Democracy
 Depression
+Dragon
+DOWN
 Negative
 Note
 NH
@@ -9665,6 +9701,7 @@ Bg
 BUHT
 BR
 Bmj
+Built
 kJ
 kilojoules
 kinetic
@@ -10080,6 +10117,7 @@ Yk
 YE
 Ym
 YcS
+YGO
 Quick
 Quadrant
 Ql
