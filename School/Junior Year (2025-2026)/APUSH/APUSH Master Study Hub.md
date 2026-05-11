@@ -35,17 +35,17 @@
 
 ## Unit Overview
 
-| # | Period | Dates | Weight | Notes | Progress Check |
-|---|---|---|---|---|---|
-| 1 | Colonial Foundations | 1491–1607 | 4–6% | [[Unit 1 Notes]] | [[Unit 1 Progress Check]] |
-| 2 | Colonial America | 1607–1754 | 6–8% | [[Unit 2 Notes]] | [[Unit 2 Progress Check]] |
-| 3 | Revolution & Republic | 1754–1800 | **10–17%** | [[Unit 3 Notes]] | [[Unit 3 Progress Check]] |
-| 4 | Expansion & Reform | 1800–1848 | **10–17%** | [[Unit 4 Notes]] | [[Unit 4 Progress Check]] |
-| 5 | Civil War & Reconstruction | 1844–1877 | **10–17%** | [[Unit 5 Notes]] | [[Unit 5 Progress Check]] |
-| 6 | Gilded Age | 1865–1898 | **10–17%** | [[Unit 6 Notes]] | [[Unit 6 Progress Check]] |
-| 7 | Imperialism through WWII | 1890–1945 | **10–17%** | [[Unit 7 Notes]] | [[Unit 7 Progress Check]] |
-| 8 | Cold War & Social Change | 1945–1980 | **10–17%** | [[Unit 8 Notes]] | [[Unit 8 Progress Check]] |
-| 9 | Reagan to Present | 1980–Present | 4–6% | [[Unit 9 Notes]] | [[Unit 9 Progress Check]] |
+| #   | Period                     | Dates        | Weight     | Notes            | Progress Check            |
+| --- | -------------------------- | ------------ | ---------- | ---------------- | ------------------------- |
+| 1   | Colonial Foundations       | 1491–1607    | 4–6%       | [[Unit 1 Notes]] | [[Unit 1 Progress Check]] |
+| 2   | Colonial America           | 1607–1754    | 6–8%       | [[Unit 2 Notes]] | [[Unit 2 Progress Check]] |
+| 3   | Revolution & Republic      | 1754–1800    | **10–17%** | [[Unit 3 Notes]] | [[Unit 3 Progress Check]] |
+| 4   | Expansion & Reform         | 1800–1848    | **10–17%** | [[Unit 4 Notes]] | [[Unit 4 Progress Check]] |
+| 5   | Civil War & Reconstruction | 1844–1877    | **10–17%** | [[Unit 5 Notes]] | [[Unit 5 Progress Check]] |
+| 6   | Gilded Age                 | 1865–1898    | **10–17%** | [[Unit 6 Notes]] | [[Unit 6 Progress Check]] |
+| 7   | Imperialism through WWII   | 1890–1945    | **10–17%** | [[Unit 7 Notes]] | [[Unit 7 Progress Check]] |
+| 8   | Cold War & Social Change   | 1945–1980    | **10–17%** | [[Unit 8 Notes]] | [[Unit 8 Progress Check]] |
+| 9   | Reagan to Present          | 1980–Present | 4–6%       | [[Unit 9 Notes]] | [[Unit 9 Progress Check]] |
 
 > [!warning] High-Priority Units
 > **Units 3–8 together = ~80% of the exam.** Units 1–2 and 9 are low-weight but appear in LEQ and SAQ choice options — don't skip entirely.
