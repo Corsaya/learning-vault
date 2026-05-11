@@ -1,3 +1,7 @@
+---
+tags: [movie, sci-fi, project-hail-mary, andy-weir, 2026-watches]
+book-notes: "[[../../../Books/Science Fiction/Project Hail Mary/02 - Notes/Chapter 1]]"
+---
 Watched: 4-6-26
 @ Ventnor Square Theater
 Rating: 8.9/10

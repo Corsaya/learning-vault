@@ -1,5 +1,6 @@
 # AP Chem — Unit 4 Notes: Chemical Reactions
 **Exam Weight: 7–9% | Topics: 4.1–4.9**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (solubility rules, activity series, oxidation numbers)
 **Krug Videos:** [4.1/4.2a](https://youtu.be/KmI627EPza0) | [4.2b](https://youtu.be/K5QDMQIOpmI) | [4.2c](https://youtu.be/HhH15-vkgeY) | [4.3/4.4](https://youtu.be/3lzI1vO118g) | [4.5a](https://youtu.be/pZHDvyv_z0c) | [4.5b](https://youtu.be/b7mKXr7LZ3I) | [4.5c](https://youtu.be/zb6_ak50Jlw) | [4.5d](https://youtu.be/U9TGx77BWJ8) | [4.6](https://youtu.be/kxdu490P4Tw) | [4.7a](https://youtu.be/B4khUScKJS8) | [4.7b](https://youtu.be/OEvI8yiSnxE) | [4.8](https://youtu.be/eX7soWYIGv8) | [4.9a](https://youtu.be/RySE0dy3Pfs) | [4.9b](https://youtu.be/eiNKXlhy0Ww) | [4.9c](https://youtu.be/-aypxLKg9B8)
 
 ---

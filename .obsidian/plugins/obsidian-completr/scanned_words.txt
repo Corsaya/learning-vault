@@ -284,6 +284,7 @@ TUZ
 TM
 TPo
 TiY
+Terror
 MCQ
 Missing
 More
@@ -477,6 +478,7 @@ MG
 Mv
 Mp
 Mu
+Make
 Pattern
 Part
 Predict
@@ -719,6 +721,8 @@ Pta
 Ps
 Pr
 PhX
+Populist
+Prioritize
 Recognition
 Reminders
 Result
@@ -3246,6 +3250,12 @@ rz
 rQQ
 rHQY
 rze
+reform
+revolt
+recitation
+roll
+reshaped
+realities
 of
 observed
 or
@@ -3448,6 +3458,7 @@ oQHF
 oyK
 oTg
 oh
+overview
 formula
 favorable
 for
@@ -4811,6 +4822,13 @@ cb
 cE
 cEi
 ceH
+conversational
+covering
+conservative
+causal
+crisis
+containment
+collided
 high
 hierarchy
 has
@@ -5411,6 +5429,8 @@ aam
 aM
 ae
 aC
+audio
+arc
 Comparing
 Count
 Calculate
@@ -5744,6 +5764,8 @@ Cp
 CwU
 CV
 CAG
+Create
+Cooked
 entropy
 each
 effect
@@ -6095,6 +6117,8 @@ eL
 eYYT
 eT
 eU
+engaging
+escalating
 Entropy
 Elements
 Everything
@@ -6290,6 +6314,7 @@ Er
 EV
 EiE
 EX
+Emphasize
 phase
 particle
 phases
@@ -6728,6 +6753,7 @@ pnaK
 paw
 pU
 pf
+presidency
 which
 why
 with
@@ -6899,6 +6925,7 @@ wNo
 wK
 wA
 wL
+walk
 largest
 liquid
 limiting
@@ -7911,6 +7938,7 @@ mPG
 mJE
 mVgN
 mxT
+memorable
 justify
 je
 jP
@@ -8873,6 +8901,8 @@ DZ
 Dn
 Ds
 Dg
+Democracy
+Depression
 Negative
 Note
 NH
@@ -9407,6 +9437,8 @@ dS
 dh
 dxS
 dHl
+debate
+destruction
 Because
 Both
 Browse
@@ -9787,6 +9819,7 @@ WlN
 WcVub
 WY
 WeU
+Watergate
 Obsidian
 Opens
 Oxidation
@@ -10041,6 +10074,7 @@ QU
 Qan
 QcWl
 Qhz
+Quiz
 Values
 Voltage
 Vw
@@ -10156,6 +10190,7 @@ Vu
 VgO
 VUKU
 VhX
+Vietnam
 zero
 zinc
 zg

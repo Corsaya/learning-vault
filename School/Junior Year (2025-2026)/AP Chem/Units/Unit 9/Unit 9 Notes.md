@@ -1,5 +1,6 @@
 # AP Chem — Unit 9 Notes: Applications of Thermodynamics
 **Exam Weight: 7–9% | Topics: 9.1–9.11**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (thermodynamics spontaneity, electrochemistry, oxidation number rules)
 **Krug Videos:** *(fetch from jeremykrug.com/ap-chem-videos/ — Unit 9 has ~10 videos covering Topics 9.1–9.11)*
 
 ---

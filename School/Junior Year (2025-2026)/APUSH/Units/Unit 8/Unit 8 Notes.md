@@ -1,5 +1,6 @@
 # APUSH — Unit 8 Notes: Cold War & Social Change (1945–1980)
 **Exam Weight: 10–17% | Heimler's History: search "Heimler's History APUSH Unit 8" on YouTube**
+**Hub:** [[../../APUSH Master Study Hub]] | **Skills:** [[../../Skills/DBQ Guide|DBQ]] · [[../../Skills/LEQ Guide|LEQ]] · [[../../Skills/SAQ Guide|SAQ]] · [[../../Skills/MCQ Stimulus Guide|MCQ]]
 
 ---
 

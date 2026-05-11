@@ -1,5 +1,6 @@
 # AP Chem — Unit 1 Notes: Atomic Structure and Properties
 **Exam Weight: 7–9% | Topics: 1.1–1.8**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (polyatomic ions, VSEPR, periodic trends)
 **Krug Videos:** [1.1a](https://youtu.be/wynFro1c09k) | [1.1b](https://youtu.be/dijmukeZ2WE) | [1.2](https://youtu.be/bzky1T4RYIs) | [1.3](https://youtu.be/_uqIROUX0js) | [1.4](https://youtu.be/00RufJkBZy4) | [1.5a](https://youtu.be/4tvfh15wYxY) | [1.5b](https://youtu.be/lvhHMbXLi-U) | [1.6](https://youtu.be/EVn4_euvA6U) | [1.7a](https://youtu.be/MftSzSxIWBA) | [1.7b](https://youtu.be/6Uaub18RkAA) | [1.7c](https://youtu.be/u2aGKh_4HGI) | [1.8](https://youtu.be/4tWZl3-_ZZU)
 
 ---

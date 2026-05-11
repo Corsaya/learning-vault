@@ -1,5 +1,6 @@
 # AP Chem — FRQ & MCQ Reference Guide
 **All 9 Units | MCQ Patterns | FRQ Templates | Critical Reminders**
+**Hub:** [[Study Hub/AP Chem Master Overview]] | **Memorize:** [[Study Hub/Memorization/Must Memorize]]
 
 ---
 

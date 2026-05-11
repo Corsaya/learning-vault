@@ -1,5 +1,6 @@
 # APUSH — Long Essay Question (LEQ) Guide
 **Section II, Part B | 40 minutes | 15% of score**
+**Hub:** [[../APUSH Master Study Hub]] | **Also:** [[DBQ Guide]] · [[SAQ Guide]] · [[MCQ Stimulus Guide]]
 
 ---
 

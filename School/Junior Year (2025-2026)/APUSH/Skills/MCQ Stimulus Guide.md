@@ -1,5 +1,6 @@
 # APUSH — MCQ Stimulus Guide
 **Section I, Part A | 55 questions / 55 min | 40% of score**
+**Hub:** [[../APUSH Master Study Hub]] | **Also:** [[DBQ Guide]] · [[LEQ Guide]] · [[SAQ Guide]]
 
 ---
 

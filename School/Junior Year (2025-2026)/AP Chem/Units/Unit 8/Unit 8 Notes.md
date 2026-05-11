@@ -1,5 +1,6 @@
 # AP Chem — Unit 8 Notes: Acids and Bases
 **Exam Weight: 11–15% | Topics: 8.1–8.11**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (strong acids, strong bases, acid-base quick ref, titration curve landmarks)
 **Krug Videos:** [8.1a Intro to Acids/Bases](https://youtu.be/OUpYdKS7C6s) | [8.1b pH and pOH Calculations](https://youtu.be/uVnJHXhq4q4) | [8.2 Strong Acids/Bases](https://youtu.be/8soANOG1O_0) | [8.3a Weak Acid Equilibrium](https://youtu.be/AjbAPEFSZvo) | [8.3b Weak Acid Practice](https://youtu.be/GyBJEVR9V58) | [8.3c Weak Base Equilibrium](https://youtu.be/3F8xA8AUfz4) | [8.4 Acid-Base Reactions & Buffers](https://youtu.be/C3ni6qUi8os) | [8.5a Titrations Intro](https://youtu.be/lw3kDHbpOps) | [8.5b Weak Acid / Strong Base](https://youtu.be/wtX4-LHe3bg) | [8.5c Titrations Practice](https://youtu.be/G4SChFPWJ5g) | [8.6 Molecular Structure](https://youtu.be/NECIQ2Wp1m0) | [8.7 pH and pKa](https://youtu.be/dtP2__hS1QE) | [8.8/8.9/8.10 Buffers](https://youtu.be/H8kHwEN4SbM) | [8.11 pH and Solubility](https://youtu.be/cpo0AeUIUPA)
 
 ---

@@ -1,5 +1,6 @@
 # AP Chem — Must Memorize
 **Everything below is NOT on the AP reference sheet. You must know it cold.**
+**Hub:** [[../AP Chem Master Overview]] | **Units using this:** [[../../Units/Unit 1/Unit 1 Notes|U1]] · [[../../Units/Unit 2/Unit 2 Notes|U2]] · [[../../Units/Unit 3/Unit 3 Notes|U3]] · [[../../Units/Unit 4/Unit 4 Notes|U4]] · [[../../Units/Unit 5/Unit 5 Notes|U5]] · [[../../Units/Unit 6/Unit 6 Notes|U6]] · [[../../Units/Unit 7/Unit 7 Notes|U7]] · [[../../Units/Unit 8/Unit 8 Notes|U8]] · [[../../Units/Unit 9/Unit 9 Notes|U9]]
 
 ---
 

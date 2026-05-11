@@ -1,5 +1,6 @@
 # AP Chem — Unit 3 Notes: Properties of Substances and Mixtures
 **Exam Weight: 18–22% (HIGHEST weight unit) | Topics: 3.1–3.13**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (IMFs, solid types, phase changes, solubility rules)
 **Krug Videos:** [3.1a](https://youtu.be/a9YtU828MzM) | [3.1b](https://youtu.be/lOoLquXZH3M) | [3.2](https://youtu.be/4_14asNzvc0) | [3.3](https://youtu.be/9G88-AcHVbA) | [3.4a](https://youtu.be/rZxN6Zfzipc) | [3.4b](https://youtu.be/77xhRWWpIi4) | [3.4c](https://youtu.be/-Hu2xBrbgjU) | [3.5](https://youtu.be/d3nEzAUWqfE) | [3.6](https://youtu.be/BvGTzkVDcHI) | [3.7](https://youtu.be/aob4zGMCVIM) | [3.8a](https://youtu.be/W19S_PQOqgw) | [3.8b](https://youtu.be/nFkcOaPpRHk) | [3.9/3.10](https://youtu.be/mWxgxb-RHTE) | [3.11](https://youtu.be/g2bG4AdDbKM) | [3.12](https://youtu.be/trlFDyrjtOQ) | [3.13](https://youtu.be/jD3_pN5gR8A)
 
 ---

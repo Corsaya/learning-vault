@@ -1,5 +1,6 @@
 # APUSH — Unit 7 Notes: Imperialism through WWII (1890–1945)
 **Exam Weight: 10–17% | Heimler's History: search "Heimler's History APUSH Unit 7" on YouTube**
+**Hub:** [[../../APUSH Master Study Hub]] | **Skills:** [[../../Skills/DBQ Guide|DBQ]] · [[../../Skills/LEQ Guide|LEQ]] · [[../../Skills/SAQ Guide|SAQ]] · [[../../Skills/MCQ Stimulus Guide|MCQ]]
 
 ---
 

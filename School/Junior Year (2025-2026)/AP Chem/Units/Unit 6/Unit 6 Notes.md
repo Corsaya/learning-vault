@@ -1,5 +1,6 @@
 # AP Chem — Unit 6 Notes: Thermochemistry
 **Exam Weight: 7–9% | Topics: 6.1–6.9**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (phase change names, thermodynamics spontaneity)
 **Krug Videos:** [6.1 Endothermic/Exothermic](https://youtu.be/Zmhdr-8E1Mo) | [6.2/6.3 Energy Diagrams & Heat Transfer](https://youtu.be/fwe9ApxkxSU) | [6.4 Calorimetry](https://youtu.be/Xn-vRyWu7mI) | [6.5 Phase Changes](https://youtu.be/2IFMaefCIhk) | [6.6a Enthalpy Intro](https://youtu.be/LNPoyiCpLgM) | [6.6b Enthalpy Practice](https://youtu.be/Y97W1aqDcps) | [6.7 Bond Enthalpies](https://youtu.be/z3FziIDJjdk) | [6.8 Enthalpy of Formation](https://youtu.be/PVciNA7tVnM) | [6.9 Hess's Law](https://youtu.be/d0Qlv_uXVvU)
 
 ---

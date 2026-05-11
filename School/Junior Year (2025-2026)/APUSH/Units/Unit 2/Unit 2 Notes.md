@@ -1,5 +1,6 @@
 # APUSH — Unit 2 Notes: Colonial America (1607–1754)
 **Exam Weight: 6–8% | Heimler's History: [Unit 2 Review Video](https://www.youtube.com/watch?v=t0wIU4R0MhI) | [Unit 2 Full Playlist](https://www.youtube.com/playlist?list=PLEHRHjICEfDV5niFEbLmBnMkJ6r90Z9JS)**
+**Hub:** [[../../APUSH Master Study Hub]] | **Skills:** [[../../Skills/DBQ Guide|DBQ]] · [[../../Skills/LEQ Guide|LEQ]] · [[../../Skills/SAQ Guide|SAQ]] · [[../../Skills/MCQ Stimulus Guide|MCQ]]
 
 ---
 

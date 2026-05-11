@@ -1,5 +1,6 @@
 # APUSH — Unit 3 Notes: Revolution & Republic (1754–1800)
 **Exam Weight: 10–17% | Heimler's History: [Unit 3 Review Video](https://www.youtube.com/watch?v=1oNumKYNUaE) | [Unit 3 Full Playlist](https://www.youtube.com/playlist?list=PLEHRHjICEfDV2MWqLB3pCm1vly8V3QV8x)**
+**Hub:** [[../../APUSH Master Study Hub]] | **Skills:** [[../../Skills/DBQ Guide|DBQ]] · [[../../Skills/LEQ Guide|LEQ]] · [[../../Skills/SAQ Guide|SAQ]] · [[../../Skills/MCQ Stimulus Guide|MCQ]]
 
 ---
 
