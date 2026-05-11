@@ -1,5 +1,6 @@
 # AP Chem — Unit 7 Notes: Equilibrium
 **Exam Weight: 7–9% | Topics: 7.1–7.12**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (solubility rules for Ksp, acid-base quick ref)
 **Krug Videos:** [7.1 Intro to Equilibrium](https://youtu.be/Zmks1z6PT6U) | [7.2/7.3 Reversible Reactions & Kc](https://youtu.be/yf7ZD9bOQC0) | [7.4/7.5 Working With K](https://youtu.be/VkC0mQwKM1c) | [7.6 Properties of K](https://youtu.be/u4adSYN8tMM) | [7.7a ICE Tables](https://youtu.be/IxYfMZulypc) | [7.7b Small K](https://youtu.be/Dq4_DGACaDE) | [7.8 Representations](https://youtu.be/z40T4AN2veo) | [7.9 Le Chatelier's](https://youtu.be/5t0PRjJgNmc) | [7.10 Q and Le Chat.](https://youtu.be/u2L9l6J4s7E) | [7.11a Ksp Intro](https://youtu.be/1qqbnWTnZfQ) | [7.11b Ksp Practice](https://youtu.be/HI9y2l04aMY) | [7.12 Common-Ion](https://youtu.be/c3U_p7OjdAs)
 
 ---

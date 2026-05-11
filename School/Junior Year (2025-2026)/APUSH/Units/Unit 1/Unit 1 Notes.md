@@ -1,5 +1,6 @@
 # APUSH — Unit 1 Notes: Colonial Foundations (1491–1607)
 **Exam Weight: 4–6% | Heimler's History: [Unit 1 Review Video](https://www.youtube.com/watch?v=jqf_c9Pw8gs) | [Unit 1 Full Playlist](https://www.youtube.com/playlist?list=PLEHRHjICEfDUkwlhx0SFi4-dgPI82_Wn3)**
+**Hub:** [[../../APUSH Master Study Hub]] | **Skills:** [[../../Skills/DBQ Guide|DBQ]] · [[../../Skills/LEQ Guide|LEQ]] · [[../../Skills/SAQ Guide|SAQ]] · [[../../Skills/MCQ Stimulus Guide|MCQ]]
 
 ---
 

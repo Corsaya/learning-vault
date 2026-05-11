@@ -1,4 +1,6 @@
 
+**See also:** [[Builds/Faith Only/Complete Challenge Build Bible]] — full item usage guide for the Faith-only challenge run, organized by game progression.
+
 **Nine talismans, four crystal tears, and 28 armor pieces in Elden Ring's base game directly add stat points.** No other equipment categories do this. Notable gaps: Vigor and Mind have **no dedicated heirloom talisman and no Knot Crystal Tear**, making them the hardest stats to boost with gear.
 
 ---

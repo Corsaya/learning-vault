@@ -1,5 +1,6 @@
 # APUSH — Unit 6 Notes: The Gilded Age (1865–1898)
 **Exam Weight: 10–17% | Heimler's History: search "Heimler's History APUSH Unit 6" on YouTube**
+**Hub:** [[../../APUSH Master Study Hub]] | **Skills:** [[../../Skills/DBQ Guide|DBQ]] · [[../../Skills/LEQ Guide|LEQ]] · [[../../Skills/SAQ Guide|SAQ]] · [[../../Skills/MCQ Stimulus Guide|MCQ]]
 
 ---
 

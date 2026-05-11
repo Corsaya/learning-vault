@@ -1,5 +1,6 @@
 # AP Chem — Unit 5 Notes: Kinetics
 **Exam Weight: 7–9% | Topics: 5.1–5.11**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (integrated rate laws, graphical ID)
 **Krug Videos:** [5.1](https://youtu.be/FDV_qaFCARA) | [5.2](https://youtu.be/PWXJ7xxuhnw) | [5.3](https://youtu.be/Jln8OrpjEsA) | [5.4/5.5/5.6](https://youtu.be/AGte-WD8kdU) | [5.7/5.8/5.9/5.10](https://youtu.be/0goaDsXV56w) | [5.11](https://youtu.be/5zF6kurqvk4)
 
 ---

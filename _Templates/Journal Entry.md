@@ -1,19 +1,58 @@
 ---
 date: {{date:YYYY-MM-DD}}
-mood:
-tags: [journal]
+tags:
+  - journal
+  - "{{date:YYYY}}"
+  - "{{date:MMMM}}"
+mood:           # great | good | okay | rough | bad
+locations: []   # school | crew | home | work | gym | away | travel | college-visit | race-day
+grade:          # junior | senior
 ---
 
-# {{date:YYYY-MM-DD}}
+# {{date:dddd, MMMM D, YYYY}}
 
-## What happened
+## Schedule
 
-## What's on my mind
+| Time | Block |
+|---|---|
+| 06:00 | |
+| 07:00 | |
+| 08:00 | |
+| 09:00 | |
+| 10:00 | |
+| 11:00 | |
+| 12:00 | |
+| 13:00 | |
+| 14:00 | |
+| 15:00 | |
+| 16:00 | |
+| 17:00 | |
+| 18:00 | |
+| 19:00 | |
+| 20:00 | |
+| 21:00 | |
+| 22:00 | |
+| 23:00 | |
 
-## Wins
+---
 
-## Frustrations
+## Highlight
+*One sentence — what was today actually about?*
 
-## Tomorrow
+
+---
+
+## Free write
+
+
+---
+
+## Quick takes
+
+**Wins:**
+
+**Hard / carrying forward:**
+
+**Tomorrow:**
 
 ---

@@ -1,5 +1,6 @@
 # AP Chem — Unit 2 Notes: Compound Structure and Properties
 **Exam Weight: 7–9% | Topics: 2.1–2.7**
+**Hub:** [[../../Study Hub/AP Chem Master Overview]] | **Memorize:** [[../../Study Hub/Memorization/Must Memorize]] (VSEPR, bond types, solid types)
 **Krug Videos:** [2.1](https://youtu.be/SQk9E_Y2EWw) | [2.2–2.4](https://youtu.be/buRAe2IDBzQ) | [2.5a](https://youtu.be/_lFg4z0OOOY) | [2.5b](https://youtu.be/i4IqrxlrgDw) | [2.6](https://youtu.be/Th3ZiNN313o) | [2.7a](https://youtu.be/8Xupo4rn2kA) | [2.7b](https://youtu.be/a8xDFQLYtYE)
 
 ---

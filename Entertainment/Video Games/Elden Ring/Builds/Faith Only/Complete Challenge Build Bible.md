@@ -1,4 +1,6 @@
 
+**See also:** [[../../Every Flat Stat Boost in Elden Ring]] — complete reference for all 9 stat-boosting talismans, 4 Knot Crystal Tears, and 28 armor pieces; useful for planning temporary requirement-meets.
+
 **With every stat locked at 10 except Faith, this challenge build demands surgical knowledge of exactly which items work within those brutal constraints.** At Faith 44 and fresh past Margit, you have more viable options than you might expect — roughly 77 castable incantations, 8 usable Sacred Seals, a handful of zero-requirement unique weapons, and dozens of infusable weapons that become Faith-scaling powerhouses through Flame Art and Sacred affinities. The real damage comes from incantations, with melee weapons supplementing between casts. Your two biggest enemies are **78 FP** (Mind 10) and roughly **414 HP** (Vigor 10), making every talisman slot and Crystal Tear choice life-or-death.
  
 This guide covers every usable item across eight categories, organized by game progression so you know exactly what to grab and when.

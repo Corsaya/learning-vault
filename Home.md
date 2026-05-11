@@ -5,7 +5,7 @@ The main vault. School, life, hobbies, projects, health — all in one place so 
 ## Areas
 
 - **[[Inbox]]** — capture-anything, sort later
-- **[[Journal]]** — daily reflections (`YYYY-MM-DD.md`)
+- **[[Journal/Home|Journal]]** — daily entries organized by academic year → month; use the Journal Entry template
 - **[[Goals]]** — life targets, 1yr/5yr, college, career
 - **[[People]]** — friends, family, mentors
 - **[[College]]** — apps, school research, essays, deadlines

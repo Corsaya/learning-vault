@@ -1,5 +1,6 @@
 # APUSH — Short Answer Question (SAQ) Guide
 **Section I, Part B | 40 minutes | 20% of score**
+**Hub:** [[../APUSH Master Study Hub]] | **Also:** [[DBQ Guide]] · [[LEQ Guide]] · [[MCQ Stimulus Guide]]
 
 ---
 
