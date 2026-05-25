@@ -14,7 +14,7 @@ Master document. Links out to [[Erg Workouts]], [[On-Water Technique]], [[Streng
 Build the aerobic engine and physical size that makes the sub-5:53 possible. Summer is not race prep — it is the foundation everything else runs on. No anaerobic work. No shortcuts.
 
 ## Constraints
-- **Lifeguarding starts June 7** — limits morning availability. All sessions shift to afternoon/evening.
+- **Lifeguarding June 7 – Sep 7** — 9am–6pm, 5 days/week. See [[Lifeguarding Schedule]]. All training shifts to after 6pm or off days.
 - On-water access depends on club schedule — erg is the primary volume tool when 1x isn't available.
 - Training journal goes live September 2026. Use this file and the daily log for notes until then.
 

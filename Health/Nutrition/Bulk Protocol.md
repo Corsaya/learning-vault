@@ -92,7 +92,7 @@ Spinach, broccoli, mixed greens, peppers, cucumber — eat them, but don't let t
 ---
 
 ## Notes
-- Lifeguarding = spending time in the sun. Hydration matters more. Add electrolytes if sweating heavily.
+- **Lifeguarding 9am–6pm, 5 days/week (June 7 – Sep 7)** — see [[Lifeguarding Schedule]]. Sun + standing = elevated sweat loss; add electrolytes on work days. Meal timing shifts: pre-training meal after work (6pm+) on those days.
 - Hunger is a good sign early in the bulk. Your appetite will adjust up over weeks.
 - If weight stalls for 2+ weeks and you're eating the target, add 200 cal — don't guess, track.
 - Sleep is when growth hormone peaks. 8–9 hours is part of the protocol.

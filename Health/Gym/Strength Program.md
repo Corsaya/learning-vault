@@ -13,6 +13,7 @@ Fall phase shifts to strength/power — update this file when the time comes.
 
 Schedule fits into: **Monday (heavy), Thursday (moderate), Saturday (optional/lighter)**.
 Adjust days if erg sessions are suffering — recovery is the constraint.
+On work days (9am–6pm, June 7 – Sep 7), all sessions are after 6pm. See [[Lifeguarding Schedule]].
 
 ---
 

@@ -67,6 +67,7 @@ Continuous version for variety. Harder to pace — use HR if possible.
 - If anything feels like a piece, you're going too hard.
 - Tired from lifting? Drop to SS-60 or take the day off. Don't dig a hole.
 - On-water days count as UT2 work — don't stack a full erg on top.
+- **Work days (9am–6pm, June 7 – Sep 7):** All erg sessions are after 6pm. Consecutive work days = accumulated fatigue from sun/standing — prefer SS-60 over SS-90 on those days. See [[Lifeguarding Schedule]].
 
 ## Links
 - [[Summer Training Plan]]
