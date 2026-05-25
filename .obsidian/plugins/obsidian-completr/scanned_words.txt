@@ -2586,6 +2586,8 @@ Thursday
 Technique
 Training
 Thu
+Targets
+Tired
 MCQ
 Missing
 More
@@ -3992,6 +3994,7 @@ MvAU
 MTJ
 MKgX
 Move
+Monitoring
 Pattern
 Part
 Predict
@@ -10838,6 +10841,10 @@ shaking
 squat
 strokes
 surplus
+sitting
+structured
+sculling
+stack
 testing
 to
 table
@@ -13490,6 +13497,7 @@ GNpD
 GcR
 GuH
 Guiding
+Good
 value
 values
 voltage
@@ -19015,6 +19023,8 @@ retraction
 rep
 ramps
 resumes
+rhythm
+ragged
 of
 observed
 or
@@ -21645,6 +21655,8 @@ focus
 floor
 feel
 foam
+feels
+fatigue
 but
 by
 both
@@ -22947,6 +22959,9 @@ bBR
 belt
 bodyweight
 begin
+breathing
+blade
+beforehand
 not
 nonzero
 number
@@ -27147,6 +27162,10 @@ chase
 compensating
 club
 calories
+conversation
+cage
+creep
+calibrate
 high
 hierarchy
 has
@@ -30002,6 +30021,7 @@ anaerobic
 afternoon
 access
 accumulation
+accumulated
 Comparing
 Count
 Calculate
@@ -31429,6 +31449,9 @@ Copenhagen
 Cues
 Constraints
 Consolidation
+Controlled
+Continuous
+Consecutive
 entropy
 each
 effect
@@ -32920,6 +32943,7 @@ elbows
 expense
 easy
 evening
+estimate
 Entropy
 Elements
 Everything
@@ -34125,6 +34149,7 @@ Ezi
 Exercise
 Elbows
 Erg
+Effort
 phase
 particle
 phases
@@ -35764,6 +35789,8 @@ piH
 posterior
 pinned
 plank
+paddle
+pace
 which
 why
 with
@@ -38362,6 +38389,7 @@ lift
 loads
 lock
 lifting
+labored
 Look
 Limiting
 Latex
@@ -43808,6 +43836,7 @@ mmU
 mYo
 maintenance
 morning
+metronome
 justify
 je
 jP
@@ -46597,6 +46626,11 @@ Scheme
 Scapular
 Sunday
 Sleep
+Sessions
+Straightforward
+Settle
+Should
+Sep
 using
 use
 unknown
@@ -49096,6 +49130,8 @@ HeC
 HeI
 HURuW
 HYA
+Hydrate
+Heart
 quadrant
 quickly
 qdRp
@@ -51771,6 +51807,8 @@ DzJ
 DYW
 Deadlift
 Dog
+Drag
+Drop
 Negative
 Note
 NH
@@ -53046,6 +53084,7 @@ Nqe
 Ncj
 NHK
 NVH
+Nose
 depends
 disorder
 dominates
@@ -54659,6 +54698,7 @@ dNl
 dMG
 dumb
 deadlift
+dig
 Because
 Both
 Browse
@@ -56156,6 +56196,7 @@ Bug
 Bird
 Build
 Begin
+Breathing
 kJ
 kilojoules
 kinetic
@@ -58572,6 +58613,7 @@ WzV
 WsR
 Watch
 Weekly
+Workouts
 Obsidian
 Opens
 Oxidation
@@ -66894,6 +66936,7 @@ Zpt
 ZUC
 ZIW
 ZZP
+Zone
 xa
 xj
 xN
