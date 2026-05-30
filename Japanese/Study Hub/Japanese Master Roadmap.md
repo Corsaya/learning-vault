@@ -92,4 +92,4 @@ You ranked: **Reading > Listening > Writing(by hand) > Formal reading > Speaking
 
 ## Quick links
 
-[[Weekly Routine]] · [[Hours & Timeline Reality Check]] · [[Free Resource Stack]] · [[Paid Options Worth It]] · [[Master Checklist]] · [[Japanese/Home|Japanese Home]]
+[[Weekly Routine]] · [[Hours & Timeline Reality Check]] · [[Free Resource Stack]] · [[Paid Options Worth It]] · [[Genki vs Tae Kim]] · [[Master Checklist]] · [[Benchmarks Tracker]] · [[Japanese/Home|Japanese Home]]

@@ -25,6 +25,8 @@ as curriculum and NotebookLM for audio/video output.
 - **[[Free Resource Stack]]** — everything you need, $0, in the order you'll use it.
 - **[[Paid Options Worth It]]** — the few paid tools that genuinely save time, flagged.
 - **[[Master Checklist]]** — one big tickable list, beginner → N1.
+- **[[Benchmarks Tracker]]** — granular milestones (hiragana, katakana, numbers, N5 kanji…) with date-achieved blanks.
+- **[[Genki vs Tae Kim]]** — which grammar spine to pick (and why).
 - **[[Log]]** — study log. ISO-dated entries (`YYYY-MM-DD.md`), like the Crew log.
 
 ## The one-line summary
@@ -38,6 +40,12 @@ above your level. Everything below is the detailed version of that sentence.
 - **Stage:** 0 — Foundations (finish kana, set up the toolchain)
 - **Baseline:** Hiragana ~90% (rusty, untouched for months); katakana not started
 - **Next action:** See [[Roadmap/Stage 0 - Foundations (Kana + Setup)|Stage 0]] → "This week"
+
+## Logging progress (your daily habit)
+
+- Day-to-day: jot what you did in your **[[Daily]]** note (add a `#japanese` line) or in **[[Log]]**.
+- When a day completes a milestone, open **[[Benchmarks Tracker]]** and date that line.
+- Daily = play-by-play; Benchmarks Tracker = cumulative scoreboard; [[Master Checklist]] = stage view.
 
 ## Conventions for this folder
 
