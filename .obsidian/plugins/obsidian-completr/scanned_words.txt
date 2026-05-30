@@ -441,6 +441,8 @@ Tae
 Tadoku
 Tier
 Training
+Thu
+Thursday
 MCQ
 Missing
 More
@@ -716,6 +718,7 @@ Mine
 Move
 Manga
 Meal
+Mon
 Pattern
 Part
 Predict
@@ -1035,6 +1038,7 @@ Protect
 PDFs
 Paid
 Protein
+Principles
 Recognition
 Reminders
 Result
@@ -1290,6 +1294,8 @@ Ranked
 Reader
 Rosetta
 Ref
+Rest
+Racing
 If
 It
 ID
@@ -1499,6 +1505,7 @@ IY
 INDEX
 ISO
 Immersion
+Impact
 you
 yE
 ynx
@@ -2336,6 +2343,10 @@ subtitles
 superior
 suite
 shallow
+sun
+squat
+strokes
+surplus
 testing
 to
 table
@@ -2877,6 +2888,7 @@ Genuinely
 Golden
 Genki
 Grammar
+Guiding
 value
 values
 voltage
@@ -3744,6 +3756,9 @@ Anki
 Asahi
 Anime
 AnkiMobile
+Aerobic
+Aug
+Adjust
 rearrangement
 rxn
 reaction
@@ -4196,6 +4211,9 @@ reviewed
 replaces
 rewritten
 reviewable
+ramps
+recovery
+resumes
 of
 observed
 or
@@ -4452,6 +4470,7 @@ oAW
 outstanding
 organized
 old
+occasional
 formula
 favorable
 for
@@ -4783,6 +4802,8 @@ forever
 feels
 flashcards
 furigana
+fatigue
+foam
 but
 by
 both
@@ -5063,6 +5084,8 @@ basics
 browser
 books
 bed
+bodyweight
+begin
 not
 nonzero
 number
@@ -6092,6 +6115,9 @@ click
 comprehensible
 clips
 conveniences
+club
+cap
+calories
 high
 hierarchy
 has
@@ -6339,6 +6365,7 @@ habits
 handakuten
 hover
 hear
+hypertrophy
 asked
 about
 asking
@@ -6812,6 +6839,11 @@ alphabets
 accelerator
 accelerators
 actively
+aerobic
+anaerobic
+access
+afternoon
+accumulation
 Comparing
 Count
 Calculate
@@ -7200,6 +7232,7 @@ Consistency
 Comprehensible
 Cal
 Consolidation
+Constraints
 entropy
 each
 effect
@@ -7609,6 +7642,9 @@ ear
 extension
 expensive
 ebooks
+exposure
+easy
+eat
 Entropy
 Elements
 Everything
@@ -7876,6 +7912,7 @@ EnI
 Elden
 ETA
 Excellent
+Erg
 phase
 particle
 phases
@@ -8634,6 +8671,7 @@ weeks
 word
 workarounds
 workaround
+weekend
 largest
 liquid
 limiting
@@ -8930,6 +8968,10 @@ learners
 lists
 logged
 lbs
+lock
+lift
+lifting
+legs
 Look
 Limiting
 Latex
@@ -9156,6 +9198,8 @@ Lock
 Libraries
 Lifeguard
 Lunch
+Links
+Lift
 gas
 greater
 gamma
@@ -9381,6 +9425,7 @@ graded
 grind
 giant
 gamified
+gym
 FRQ
 Four
 First
@@ -9598,6 +9643,7 @@ Finish
 Flexible
 Food
 Friday
+Fall
 move
 moles
 minus
@@ -9963,6 +10009,7 @@ mnemonic
 menu
 mining
 marketing
+morning
 justify
 je
 jP
@@ -10534,6 +10581,9 @@ Spend
 Sources
 Sunday
 Saturday
+Summer
+Standing
+Sep
 using
 use
 unknown
@@ -10925,6 +10975,7 @@ Health
 Hiragana
 Handwriting
 HelloTalk
+Hydration
 quadrant
 quickly
 qdRp
@@ -11359,6 +11410,7 @@ Dictionaries
 Dinner
 Duration
 Deadlift
+Days
 Negative
 Note
 NH
@@ -12048,6 +12100,7 @@ defer
 decks
 dedicated
 dramas
+deadlift
 Because
 Both
 Browse
@@ -12255,6 +12308,7 @@ Benchmarks
 Beginner
 Bunpro
 Breakfast
+Begin
 kJ
 kilojoules
 kinetic
@@ -12593,6 +12647,8 @@ WAS
 Worth
 WaniKani
 Workout
+Watch
+Weekly
 Obsidian
 Opens
 Oxidation
@@ -12783,6 +12839,7 @@ OHH
 OVERVIEW
 Optional
 Options
+Objective
 You
 YeX
 YT
