@@ -1,6 +1,6 @@
 # Learn-Codebase — What's Left
 
-*Created 2026-05-29. These sections were NOT read during the learn-codebase sessions. Run another session to finish any of them.*
+*Created 2026-05-29. Updated 2026-05-30 after batch read session (Groups 1–4). These sections were NOT read and remain outstanding.*
 
 ---
 
@@ -32,60 +32,11 @@ These unit notes files were not read (Units 7–9 and Unit 1 were read):
 
 ---
 
-## card-flip — Reference Files (not read as part of this session)
-
-Most references were read via SKILL.md summaries and session logs. These full-text files were NOT directly read:
-
-- `card-flip/references/01-mechanics.md`
-- `card-flip/references/02-strategy.md`
-- `card-flip/references/03-roadmap.md`
-- `card-flip/references/04-projections.md`
-- `card-flip/references/05-scanner.md`
-- `card-flip/references/06-operations.md`
-- `card-flip/references/07-automation.md`
-- `card-flip/references/08-ebay-api-application.md` (deprecated — eBay Finding API dead)
-- `card-flip/references/09-sealed-products.md`
-- `card-flip/references/10-seller-levels.md`
-- `card-flip/references/00-INDEX.md`
-- `card-flip/phase-1/buying-playbook.md`
-- `card-flip/phase-1/learning.md`
-- `card-flip/phase-1/README.md`
-- `card-flip/phase-1/repo-map.md`
-- `card-flip/phase-1/screener-spec.md`
-- `card-flip/phase-1/data/README.md`
-- `card-flip/phase-2/` — all files (capital-allocation, family-conversation, README, sealed-decision-framework, setup-sealed, sourcing-matrix, storage-handling, tiktok-runway)
-- `card-flip/meta/profitability.md`
-- `card-flip/meta/README.md`
-- `card-flip/learnings/README.md`
-- `card-flip/research/profit-and-efficiency-2026-05.md`
-- `card-flip/research/README.md`
-- `card-flip/research/tcg-landscape-2026-05.md`
-- `card-flip/SEALED-PIVOT.md`
-
----
-
 ## personal/Journal — All Daily Notes (~106 files)
 
 Not read by choice — high volume, low signal-to-noise for codebase context. If you want these read, ask explicitly.
 
 Path: `personal/Journal/2025-2026 (Junior Year)/` and `personal/Journal/2026-2027 (Senior Year)/`
-
----
-
-## agonizing-sentience — Novel Project
-
-Not read (low priority for codebase context; no work was being done there this session).
-
-- `agonizing-sentience/` — public collaborative novel vault
-- `personal/Projects/agonizing-sentience/` — private scratchpad
-
----
-
-## personal/Entertainment
-
-Not read.
-
-- `personal/Entertainment/` — One Piece deep notes, Elden Ring faith build bible, etc.
 
 ---
 
@@ -103,4 +54,12 @@ Not read.
 - APUSH: Master Study Hub, NoteBook LM Prompts
 - APUSH: Unit 1 Progress Check MCQ answers
 - card-flip: Home, OVERVIEW, SKILL, CHECKLIST, CLAUDE, all 16 session logs, flip-001, target-list, phase-1/setup, phase-1/schedule
-- Health: All files (Crew home/goals/training log/improvement/races, Gym, Nutrition, Medical, Mental, Sleep)
+- card-flip: All references (00-INDEX through 10-seller-levels) — read 2026-05-30
+- card-flip: SEALED-PIVOT.md, all phase-2/ files, meta/profitability.md, meta/README.md, learnings/README.md, all research/ files — read 2026-05-30
+- card-flip: phase-1/README.md, buying-playbook.md, learning.md, repo-map.md, screener-spec.md, data/README.md — read 2026-05-30
+- card-flip: all data CSVs (vault phase-1/data/ + code repo data/) — read 2026-05-30
+- Health: All files (Crew home/goals/training log/improvement/races, Gym, Nutrition, Mental, Sleep) — confirmed 2026-05-30
+- personal/Work/Lifeguarding Schedule.md — read 2026-05-30
+- jarvis/README.md — read 2026-05-30
+- agonizing-sentience: Storyboards/Mist Shroud.md, Storyboards/Version 2 Storyboard.md, Version 1/Chapter 1 ReRun.md, Version 2/Chapter 1 - Mist Shroud.md — read 2026-05-30
+- personal/Entertainment: all files (Home, Books/PHM Ch1-3, Movies/PHM, TV/One Piece arcs+chars+devil fruits+ep90+ep91, Video Games/Elden Ring build bible + stat boosts, Music/Untitled) — read 2026-05-30
