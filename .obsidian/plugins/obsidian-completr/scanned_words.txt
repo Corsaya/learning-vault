@@ -440,6 +440,7 @@ Testing
 Tae
 Tadoku
 Tier
+Training
 MCQ
 Missing
 More
@@ -714,6 +715,7 @@ Milestones
 Mine
 Move
 Manga
+Meal
 Pattern
 Part
 Predict
@@ -1032,6 +1034,7 @@ Perfect
 Protect
 PDFs
 Paid
+Protein
 Recognition
 Reminders
 Result
@@ -1286,6 +1289,7 @@ Resource
 Ranked
 Reader
 Rosetta
+Ref
 If
 It
 ID
@@ -5058,6 +5062,7 @@ bites
 basics
 browser
 books
+bed
 not
 nonzero
 number
@@ -7193,6 +7198,8 @@ Conventions
 Cumulative
 Consistency
 Comprehensible
+Cal
+Consolidation
 entropy
 each
 effect
@@ -8921,6 +8928,8 @@ lookups
 leveled
 learners
 lists
+logged
+lbs
 Look
 Limiting
 Latex
@@ -9145,6 +9154,8 @@ Logging
 Listening
 Lock
 Libraries
+Lifeguard
+Lunch
 gas
 greater
 gamma
@@ -9584,6 +9595,9 @@ FLtZ
 FEK
 Files
 Finish
+Flexible
+Food
+Friday
 move
 moles
 minus
@@ -10518,6 +10532,8 @@ Super
 Stone
 Spend
 Sources
+Sunday
+Saturday
 using
 use
 unknown
@@ -11340,6 +11356,9 @@ Dictionary
 Duolingo
 Done
 Dictionaries
+Dinner
+Duration
+Deadlift
 Negative
 Note
 NH
@@ -12235,6 +12254,7 @@ Baseline
 Benchmarks
 Beginner
 Bunpro
+Breakfast
 kJ
 kilojoules
 kinetic
@@ -12572,6 +12592,7 @@ WXA
 WAS
 Worth
 WaniKani
+Workout
 Obsidian
 Opens
 Oxidation
