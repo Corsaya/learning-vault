@@ -13,6 +13,7 @@ The main vault. School, life, hobbies, projects, health — all in one place so 
 - **[[School]]** — AP coursework. AP Chem is built out; APUSH/Psych/Pre-Calc are stubs.
 - **[[Entertainment]]** — Books, Movies, Music, TV, Video Games
 - **[[Health]]** — Crew (rowing) + general health: Nutrition, Medical, Mental, Sleep, Gym
+- **[[Japanese/Home|Japanese]]** — learning Japanese, beginner → JLPT N1. Roadmap, schedule, resources, log.
 
 ## External vaults (separate repos)
 
