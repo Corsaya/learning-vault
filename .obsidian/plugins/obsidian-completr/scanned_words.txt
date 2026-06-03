@@ -178,6 +178,7 @@ UzSB
 Updated
 Untitled
 Upper
+Understood
 Thermodynamics
 Topic
 Thermodynamically
@@ -443,6 +444,8 @@ Tier
 Training
 Thu
 Thursday
+Telling
+Teaching
 MCQ
 Missing
 More
@@ -719,6 +722,9 @@ Move
 Manga
 Meal
 Mon
+Money
+Mining
+Minimal
 Pattern
 Part
 Predict
@@ -1039,6 +1045,9 @@ PDFs
 Paid
 Protein
 Principles
+Plain
+Polite
+Pace
 Recognition
 Reminders
 Result
@@ -1296,6 +1305,7 @@ Rosetta
 Ref
 Rest
 Racing
+Record
 If
 It
 ID
@@ -2347,6 +2357,15 @@ sun
 squat
 strokes
 surplus
+sokuon
+sound
+slice
+subs
+safe
+scaffolded
+spoken
+safer
+stall
 testing
 to
 table
@@ -2685,6 +2704,10 @@ toolkit
 tutors
 turns
 trackable
+teacher
+teaches
+teaching
+thousands
 Go
 Gibbs
 Greek
@@ -2889,6 +2912,8 @@ Golden
 Genki
 Grammar
 Guiding
+Goj
+Get
 value
 values
 voltage
@@ -3077,6 +3102,7 @@ versions
 vocab
 vowels
 viable
+vowel
 in
 is
 it
@@ -3451,6 +3477,7 @@ italki
 instant
 iOS
 ish
+irregulars
 Algebraic
 Asked
 AP
@@ -4471,6 +4498,8 @@ outstanding
 organized
 old
 occasional
+online
+orders
 formula
 favorable
 for
@@ -4804,6 +4833,9 @@ flashcards
 furigana
 fatigue
 foam
+firsts
+feel
+fluency
 but
 by
 both
@@ -5086,6 +5118,10 @@ books
 bed
 bodyweight
 begin
+brick
+benchmark
+broadcasts
+benchmarks
 not
 nonzero
 number
@@ -5298,6 +5334,9 @@ noise
 notebooks
 news
 native
+newspaper
+novels
+nonfiction
 Kinetic
 Key
 Kinetics
@@ -6118,6 +6157,18 @@ conveniences
 club
 cap
 calories
+carries
+counters
+chunked
+comfortable
+casual
+conditionals
+comfortably
+concise
+chapters
+clearest
+combo
+crave
 high
 hierarchy
 has
@@ -6844,6 +6895,9 @@ anaerobic
 access
 afternoon
 accumulation
+adjectives
+article
+agonize
 Comparing
 Count
 Calculate
@@ -7233,6 +7287,9 @@ Comprehensible
 Cal
 Consolidation
 Constraints
+Cost
+Classrooms
+Chapters
 entropy
 each
 effect
@@ -7645,6 +7702,9 @@ ebooks
 exposure
 easy
 eat
+exercises
+efficient
+ever
 Entropy
 Elements
 Everything
@@ -8434,6 +8494,11 @@ paths
 podcast
 page
 paying
+phrases
+polite
+permission
+practical
+proactive
 which
 why
 with
@@ -8672,6 +8737,9 @@ word
 workarounds
 workaround
 weekend
+workbook
+willing
+weakness
 largest
 liquid
 limiting
@@ -8972,6 +9040,9 @@ lock
 lift
 lifting
 legs
+learned
+lectures
+library
 Look
 Limiting
 Latex
@@ -9200,6 +9271,7 @@ Lifeguard
 Lunch
 Links
 Lift
+Lots
 gas
 greater
 gamma
@@ -9426,6 +9498,8 @@ grind
 giant
 gamified
 gym
+glance
+greetings
 FRQ
 Four
 First
@@ -9644,6 +9718,7 @@ Flexible
 Food
 Friday
 Fall
+Followed
 move
 moles
 minus
@@ -10010,6 +10085,9 @@ menu
 mining
 marketing
 morning
+mastered
+mock
+mocks
 justify
 je
 jP
@@ -10584,6 +10662,11 @@ Saturday
 Summer
 Standing
 Sep
+Sat
+Streak
+Spine
+Structured
+Self
 using
 use
 unknown
@@ -10776,6 +10859,8 @@ untouched
 understand
 universities
 undeniably
+unaided
+ups
 Hf
 Higher
 Heat
@@ -10976,6 +11061,7 @@ Hiragana
 Handwriting
 HelloTalk
 Hydration
+Hand
 quadrant
 quickly
 qdRp
@@ -11411,6 +11497,9 @@ Dinner
 Duration
 Deadlift
 Days
+Dakuten
+Downside
+Decide
 Negative
 Note
 NH
@@ -11622,6 +11711,7 @@ Next
 NHK
 Nihongo
 Netflix
+News
 depends
 disorder
 dominates
@@ -12101,6 +12191,8 @@ decks
 dedicated
 dramas
 deadlift
+dig
+deeper
 Because
 Both
 Browse
@@ -12649,6 +12741,7 @@ WaniKani
 Workout
 Watch
 Weekly
+Web
 Obsidian
 Opens
 Oxidation
@@ -13256,6 +13349,8 @@ Vkp
 Vuja
 VEU
 Version
+Vocab
+Verb
 zero
 zinc
 zg
