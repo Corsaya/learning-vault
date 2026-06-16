@@ -15,6 +15,11 @@ end-date: 2026-09-07
 
 ---
 
+## Status
+
+- **June 7 test:** DNF — asked to be brought in mid-swim. Alternate list for this beach unlikely.
+- **Longport tryout:** Potentially Saturday June 13 after coaching session.
+
 ## Training Impact
 
 - No morning sessions on work days — all training shifts to **after 6pm**
