@@ -50,6 +50,19 @@ Ordered by dependency + urgency. The July 7 usage cliff pushes the usage monitor
 
 ## Progress log
 
+**2026-07-01 (afternoon pivot):** Fable 5 went live on account. New mission for the
+7-day window: **make Fable 5 pay for itself.** Priority reordered by user:
+**#1 Trading/investing research track** (build → verify → paper → capital, user-led),
+**#2 Jarvis** (rename & ship as product later). Money model = sell the *verified toolkit +
+content*, NOT trading signals. Capital only into a self-built, self-verified system.
+- ✅ Rejected risking capital now (negative EV); user agreed to learn/build/verify first.
+- ✅ Set up `~/code/trading/` (git) + `personal/Projects/trading/` with: Home (roadmap +
+  money model), **Verification Protocol** (10 gates before any capital), **Research Brief
+  (Fable 5)** (deep-research prompt teed up).
+- ⏭ Next: user switches to `/model claude-fable-5` and runs the Research Brief.
+- ⏸ Parked: ccdash web UI (`report.py` done; `cli.py` rewrite + `server.py` pending) —
+  finish on Opus later; plain `ccdash` still works.
+
 **2026-07-01**
 - ✅ Moved `jarvis/` out of the vault → `~/code/jarvis/` (own git repo). Vault pointer updated.
 - ✅ Logged DEC-011 (`claude -p` subprocess default), DEC-012 (`full` → `claude-fable-5`),
