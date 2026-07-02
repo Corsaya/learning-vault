@@ -1,7 +1,7 @@
 ---
 tags: [project, jarvis, ai, home]
 type: scratchpad
-repo: ~/Documents/Obsidian/jarvis/
+repo: ~/code/jarvis/
 ---
 
 # Jarvis — Scratchpad
@@ -10,8 +10,9 @@ Personal-vault notes for Jarvis, your terminal personal AI assistant. The design
 docs and (eventual) source live in their own repo; this folder is for ideas,
 wishlists, and how Jarvis should plug into the rest of the second brain.
 
-> [!info] The real vault is elsewhere
-> Architecture, decisions, and code live in **`~/Documents/Obsidian/jarvis/`**.
+> [!info] The code lives elsewhere (moved 2026-07-01)
+> Architecture, decisions, and source now live in their own repo at
+> **`~/code/jarvis/`** (moved out of the Obsidian vault per the repo-split plan).
 > Keep this folder for cross-vault thinking — what you want Jarvis to know about
 > *you*, and how it should read (read-only) from these Obsidian vaults.
 
@@ -26,7 +27,7 @@ wishlists, and how Jarvis should plug into the rest of the second brain.
 
 - `README.md` — setup, meta-commands, project layout
 - `ARCHITECTURE.md` — 8-component design, data flow, invariants, non-goals
-- `DECISIONS.md` — DEC-001 → DEC-010, full rationale
+- `DECISIONS.md` — DEC-001 → DEC-013, full rationale (011 subprocess, 012 Fable 5, 013 briefing)
 - `CLAUDE.md` — working rules for Claude Code sessions
 - `memory/identity.md` — injected every session; **still blank — fill this in**
 - `memory/facts.md` — written by `/remember`

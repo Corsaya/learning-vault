@@ -34,7 +34,48 @@ status: active
 
 ---
 
-## 1. Repo split (do this first, it's fast)
+## Fable 5 build order (the sequence)
+
+Ordered by dependency + urgency. The July 7 usage cliff pushes the usage monitor early.
+
+| # | Build | Why here | Depends on |
+|---|-------|----------|------------|
+| 0 | Repo split + Jarvis `config.py` | Foundation | — |
+| 1 | ✅ **Usage monitor** (`ccdash`, `~/code/usage-monitor`) | DONE — built stdlib-only instead of wrapping ccusage | nothing |
+| 2 | Jarvis v1 core | The spine | config → memory → prompt → llm(subprocess) → router → session → usage → cli |
+| 3 | Jarvis **daily-news + weekly-survey** component (DEC-013) | Your requested feature | Jarvis v1 running |
+| 4 | **GitHub improvement-repo searcher** (safe adopt harness) | Feeds all future builds | gh + worktree pattern |
+| 5 | Odysseus setup (GUI/email, shared vault) | Parallel, low-dependency | Docker |
+| 6 | Teacher tool · Vibe-Trading · Linux audit | Later phases | Jarvis stable |
+
+## Progress log
+
+**2026-07-01**
+- ✅ Moved `jarvis/` out of the vault → `~/code/jarvis/` (own git repo). Vault pointer updated.
+- ✅ Logged DEC-011 (`claude -p` subprocess default), DEC-012 (`full` → `claude-fable-5`),
+  DEC-013 (daily-news/weekly-survey approved in principle).
+- ✅ Built Jarvis **`config.py`** — immutable Config, fail-fast validation, subprocess/api
+  modes, tier resolution, cost table, secrets loader. `.venv` + `pip install -e .` + real
+  `config.yaml`. **10/10 unit tests pass**; smoke test resolves `full → claude-fable-5`.
+- ✅ Seeded a **[Gotchas]** section in `~/code/jarvis/CLAUDE.md` (improvement-note #1).
+- ✅ **Build #1 shipped: `ccdash`** (`~/code/usage-monitor`, own git repo). Stdlib-only
+  Claude usage dashboard reading `~/.claude/projects`: token/cost/burn-rate by window,
+  model, and project; `--brief` one-liner for Jarvis; `--json`; optional weekly-budget
+  headroom. 5/5 tests pass; runs clean on real logs. (Chose a from-scratch stdlib parser
+  over wrapping ccusage — no node/npx dependency, and Jarvis can import it directly.)
+- 🔎 **Finding from real data (last 7 days):** ~11M tokens across 3 models. **claude-mem's
+  `observer-sessions` was the single biggest consumer (~37%)** before this vault. Worth
+  deciding whether the background observer's cost is worth it — a real optimization lever.
+- ✅ Jarvis **`memory.py`** built — MemoryStore: loads identity.md then facts.md (identity
+  always first), `/remember` appends timestamped facts, never writes identity.md. 6 tests.
+  Full jarvis suite now **16/16**.
+- ⏭ Next Jarvis component = `prompt.py` (+ a shared `Message` type). One small design
+  choice to settle first: where the `Message` type lives (used by prompt, session, llm).
+  Proposed: a tiny `jarvis/message.py`. Then the `llm/` subprocess client (DEC-011) needs
+  its own design pass (how to invoke `claude -p --output-format json`, parse usage).
+  `memory/identity.md` is still blank — filling it is a you-task.
+
+## 1. Repo split (done ✅) — home is `~/code/`
 
 Move code out of the vault so git history and CI aren't tangled with notes.
 
