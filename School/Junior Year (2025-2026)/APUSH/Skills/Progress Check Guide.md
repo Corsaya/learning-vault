@@ -1,12 +1,12 @@
 # APUSH — Progress Check Answer & Walkthrough Guide
 
-This file is a skill prompt for Claude. When Donovan uploads screenshots of a Progress Check (MCQ or FRQ), follow the instructions below to produce the answer file and save it to the correct unit folder.
+This file is a skill prompt for Claude. When the student uploads screenshots of a Progress Check (MCQ or FRQ), follow the instructions below to produce the answer file and save it to the correct unit folder.
 
 ---
 
 ## Workflow on Upload
 
-1. **Identify the unit** from the screenshot header or question content. Confirm with Donovan if unclear.
+1. **Identify the unit** from the screenshot header or question content. Confirm with the student if unclear.
 2. **Identify the type**: MCQ (`Progress Check MCQ/`) or FRQ (`Progress Check FRQ/Part 1/` or `Part 2/`).
 3. **Produce the answer document** following the format below.
 4. **Save it** to the correct path:
@@ -45,7 +45,7 @@ This file is a skill prompt for Claude. When Donovan uploads screenshots of a Pr
 ```
 
 ### MCQ Notes
-- Head every question with the relevant notes section so Donovan knows exactly where to review.
+- Head every question with the relevant notes section so the student knows exactly where to review.
 - "Easily cancellable" wrong answers (anachronistic, factually opposite, wrong time period) get one sentence max — don't over-explain.
 - Close distractors (half-right answers, true-but-irrelevant) deserve a fuller explanation of the distinction.
 - Use the wrong answer pattern categories from the MCQ Stimulus Guide when applicable: Too Broad, Anachronistic, Half-Right, Extreme Language, True but Irrelevant.
@@ -107,7 +107,7 @@ This file is a skill prompt for Claude. When Donovan uploads screenshots of a Pr
 - For SAQ: follow the claim → evidence → (optional) connection structure. No thesis required.
 - For LEQ: include a scorable thesis, at least two pieces of specific evidence, and reasoning that connects evidence to argument.
 - For DBQ: same as LEQ plus document analysis (HAPP — Historical context, Audience, Purpose, Point of view) where applicable.
-- Head each part with its notes section reference so Donovan knows where to go for review.
+- Head each part with its notes section reference so the student knows where to go for review.
 - "Full points" criteria should be explicit — don't just write a good answer, explain what the rubric is looking for.
 
 ---
