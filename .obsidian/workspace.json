@@ -11,10 +11,14 @@
             "id": "df614206d7d4837d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "claude-improvement-notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "claude-improvement-notes"
             }
           }
         ]
@@ -188,5 +192,15 @@
     }
   },
   "active": "df614206d7d4837d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "continue-2026-07-06.md",
+    "continue-2026-07-06.md.tmp.92856.aa810d0bbc02",
+    "donny-operating-system.md",
+    "donny-operating-system.md.tmp.92856.53f7f3508102",
+    "immortal-clone-operating-system.md",
+    "immortal-clone-operating-system.md.tmp.92856.2a14af860da6",
+    "fable-5-launch-prep.md.tmp.92856.877b93eb6f8d",
+    "claude-session-wrap-2026-06-28.md",
+    "fable-5-launch-prep.md"
+  ]
 }
