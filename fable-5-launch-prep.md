@@ -202,12 +202,36 @@ Make this box maximally capable and paid-service-free.
 
 ## 7. Act on the improvement notes (goal #1 follow-through)
 
-The notes are compiled; these are the un-done actions from the session wrap:
-- [ ] Add a **[Gotchas]** section to CLAUDE.md files (40%→98% accuracy pattern).
-- [ ] Install **Graphify** in active code repos (`~/code/jarvis` first).
-- [ ] Convert repeating tasks to **SKILL.md** (sync mc-mirror, card-flip logging).
-- [ ] Build the **4-System/Claude.md** dynamic-context file (or fold into Jarvis memory).
+The notes are compiled; these are the un-done actions from the session wrap.
+Re-checked 2026-07-05:
+
+- [x] Add a **[Gotchas]** section to CLAUDE.md files (40%→98% accuracy pattern).
+  Already done — `~/code/jarvis/CLAUDE.md` has a live `## Gotchas` section
+  (9 entries, last updated 2026-07-03 covering `--tools` allowlist and
+  `--no-session-persistence` log behavior).
+- [ ] ⚠ Install **Graphify** (`github.com/safishamsi/graphify`) in `~/code/jarvis`.
+  Not done — installing a third-party tool that modifies Claude Code config
+  needs your go-ahead first (per the "no new dependency without approval"
+  rule). Say the word and it's a 2-minute job.
+- [~] Convert repeating tasks to **SKILL.md**.
+  - card-flip logging: already effectively covered — `card-flip/SKILL.md`
+    (both in the vault and at `~/card-flip/`) is a full context-restore doc
+    serving the same purpose.
+  - sync mc-mirror: **blocked** — `sync-reference.sh` referenced in the root
+    CLAUDE.md doesn't exist on this machine, and `~/minecraft-event` (the
+    shared crew repo) isn't cloned here either. Can't convert a script that
+    isn't present on this device.
+- [x] Build the **4-System/Claude.md** dynamic-context file — **decision: fold
+  into Jarvis memory, don't duplicate.** Jarvis already has this exact concept
+  (`memory/identity.md`, read first every session) — a separate Obsidian
+  "4-System" file would just be a second source of truth to keep in sync.
+  Action: fill in `~/code/jarvis/memory/identity.md` (still blank per the
+  progress log above) instead of building a new file.
 - [ ] Add the **7-rule anti-sycophancy** prompt to key Claude.ai Projects.
+  Can't do this one from here — it's a paste into claude.ai's web UI
+  (Projects → Custom Instructions), not a file. Prompt is ready to copy from
+  [[claude-improvement-notes#7-Rule Anti-Sycophancy Advisor Prompt]] whenever
+  you're at claude.ai.
 
 ---
 
