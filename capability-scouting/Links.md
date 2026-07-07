@@ -63,6 +63,29 @@ All **unvetted**:
 
 - [[claude-improvement-notes]] — the compiled 22-reels + 39-screenshots analysis (2026-06-28). Source of the Gotchas pattern, anti-sycophancy prompt, SKILL.md conversions.
 
+## Skills / agent bundles (scouted 2026-07-06)
+
+- addyosmani/agent-skills — 24 production-engineering skills, spec→ship lifecycle, 4 reviewer personas. **scouted**; candidate to adopt piecemeal into `~/code/jarvis`.
+- alirezarezvani/claude-skills — 355 skills/99 agents, mostly business/agency scale. **scouted, not adopted**; `skill-security-auditor` sub-tool worth remembering.
+- mvanhorn/last30days-skill — `/last30days <topic>`, parallel Reddit/X/YouTube/HN/Polymarket/GitHub research scored by real engagement. **scouted — candidate to install** (free tier needs no keys); awaiting go-ahead.
+- NousResearch/hermes-agent — self-improving agent, OpenClaw-migration path, cron + multi-platform. **scouted** as a Jarvis-alternative reference architecture, not a component to adopt (would mean abandoning custom Jarvis build).
+- affaan-m/ECC ("Everything Claude Code") — 30 agents/135 skills bundle + `SOUL.md` 5-principle persona format. **scouted**; the SOUL.md format is a nice compact template idea.
+- asgeirtj/system_prompts_leaks — leaked system prompts for every major AI product, incl. Claude Fable 5's actual claude.ai prompt. **adopted as research input** for [[2026-07-06-fable5-clone-test-prompt]].
+
+Full writeup: [[2026-07-06-fable5-clone-research]].
+
+## Monetization (scouted 2026-07-07)
+
+- Blueprint Vault technique — Fable 5 mines a backlog into build-ready
+  blueprints (goal/context/constraints/steps/definition-of-done) for cheap
+  models to build later. **adopted as technique**, use before running out of
+  Fable 5 access; see [[2026-07-07-blueprint-vault-and-moneymaking]].
+- Whatnot card-breaking — profitable but capital-intensive and under active
+  legal/gambling-classification scrutiny. **researched, not adopted.**
+- Selling a Claude Skill on Gumroad — real $500–3,000/mo examples for a
+  single validated skill, zero setup cost. **recommended path** to cover
+  subscription costs; see full writeup for sources.
+
 ## To scout next
 
 - [ ] Graphify (from improvement notes — install in `~/code/jarvis` first; confirm exact repo before adopting)

@@ -48,4 +48,7 @@ Never install a scouted repo straight into a live setup:
   run.
 
 Related: [[fable-5-launch-prep]] · [[claude-improvement-notes]] ·
-`jarvis/` vault (pointer to `~/code/jarvis`)
+`jarvis/` vault (pointer to `~/code/jarvis`) ·
+[[2026-07-06-fable5-clone-research]] · [[2026-07-06-fable5-clone-test-prompt]] ·
+[[2026-07-07-blueprint-vault-and-moneymaking]] ·
+[[2026-07-07-fable5-clone-content-brand-test-prompt]]

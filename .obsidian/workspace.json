@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "claude-improvement-notes.md",
+                "file": "donny-operating-system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude-improvement-notes"
+              "title": "donny-operating-system"
             }
           }
         ]
@@ -171,6 +171,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "7ce178eb0b4f5880",
+            "type": "leaf",
+            "state": {
+              "type": "claude-code-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Claude Code"
+            }
           }
         ],
         "currentTab": 5
@@ -181,6 +191,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-claude-code:Claude Code": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -191,13 +202,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df614206d7d4837d",
+  "active": "7ce178eb0b4f5880",
   "lastOpenFiles": [
+    "Home.md.tmp.5028.6cb8f83107da",
+    "Key Decisions.md",
+    "Key Decisions.md.tmp.5028.1e7275e3959f",
+    "Gotchas.md",
+    "Gotchas.md.tmp.5028.da1c7aca78b4",
+    "North Star.md",
+    "North Star.md.tmp.5028.a684ff21cd52",
     "continue-2026-07-06.md",
-    "continue-2026-07-06.md.tmp.92856.aa810d0bbc02",
     "donny-operating-system.md",
-    "donny-operating-system.md.tmp.92856.53f7f3508102",
     "immortal-clone-operating-system.md",
+    "claude-improvement-notes.md",
+    "continue-2026-07-06.md.tmp.92856.aa810d0bbc02",
+    "donny-operating-system.md.tmp.92856.53f7f3508102",
     "immortal-clone-operating-system.md.tmp.92856.2a14af860da6",
     "fable-5-launch-prep.md.tmp.92856.877b93eb6f8d",
     "claude-session-wrap-2026-06-28.md",

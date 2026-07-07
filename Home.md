@@ -4,6 +4,10 @@ Notes on getting more out of Claude, Claude Code, and the rest of the AI
 setup — workflow tricks, prompts, MCP/tool config, and scouting for
 capabilities worth adopting.
 
+- **[[North Star]]** — what we're actually working toward, and why; read
+  this first when planning
+- **[[Gotchas]]** — things that bit before, one line each
+- **[[Key Decisions]]** — dated log of decisions worth recalling
 - **[[claude-improvement-notes]]** — master reference of Claude usage tips
 - **[[fable-5-launch-prep]]** — launch prep notes for Fable 5
 - **[[immortal-clone-operating-system]]** — ready-to-paste Fable 5 interview
