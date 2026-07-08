@@ -10,8 +10,9 @@ Status legend: **adopted** (in use) · **scouted** (read/ranked, not adopted)
 
 ## Owned / built (already on this box)
 
-- `~/code/jarvis` — the assistant itself. **adopted**
-- `~/code/usage-monitor` (ccdash) — stdlib Claude usage dashboard. **adopted**
+- `~/code/jarvis` — the assistant itself. **adopted** (v1 complete + api mode + briefing, 147 tests)
+- `~/code/usage-monitor` (ccdash) — stdlib Claude usage dashboard, now with the Fable 5 weekly gauge. **adopted**
+- `~/code/repo-scout` — repo search + safe-adopt sandbox (automates this file's protocol). **adopted 2026-07-08**
 - `~/code/trading` — trading research track. **adopted**
 
 ## Jarvis / assistant patterns (scouted 2026-07-01, master plan)
@@ -86,9 +87,31 @@ Full writeup: [[2026-07-06-fable5-clone-research]].
   single validated skill, zero setup cost. **recommended path** to cover
   subscription costs; see full writeup for sources.
 
+## NotebookLM / courses (scouted + adopted 2026-07-08)
+
+- teng-lin/notebooklm-py — unofficial NotebookLM API/CLI/MCP + Claude Code
+  skill; generates & downloads quizzes, flashcards, audio/video overviews,
+  mind maps. **adopted 2026-07-08** (sandbox-reviewed; installed via
+  `uv tool install --python 3.12 notebooklm-py --with rookiepy`; skill at
+  `~/.claude/skills/notebooklm/`; auth = chromium cookie import; smoke-tested).
+  Unofficial Google endpoints — can break; nothing income-critical on it.
+- jacob-bd/notebooklm-mcp-cli — `nlm` CLI + MCP alternative. **scouted**, fallback if notebooklm-py breaks.
+- Course Forge pipeline design: [[2026-07-08-jarvis-v4-notebooklm-deep-dive]] §4. Pilot = hiragana (notebook created).
+
+## JARVIS V4 / presentation layer (scouted 2026-07-08)
+
+- zubair-trabzada/brain-map — Obsidian vault → interactive knowledge graph,
+  stdlib-only, local. **unvetted candidate** — superseded for now by our own
+  `~/code/vault-atlas` (see Owned/built) which respects the private-folder
+  boundary; re-visit for its growth animation if wanted.
+- Zubair's free JARVIS prompt pack (skool.com/aiworkshop-lite signup) —
+  **unvetted**; grab for voice/persona prompts. Full V4 is paid; skip.
+- JuliusBrussee/caveman — token-cutting skill, 86k★, sitting in
+  `~/code/_sandbox/caveman` awaiting checklist review. **unvetted**
+
 ## To scout next
 
 - [ ] Graphify (from improvement notes — install in `~/code/jarvis` first; confirm exact repo before adopting)
 - [ ] MCP servers worth adding (filesystem watchers, calendar, home-lab control)
 - [ ] Local deep-research stacks (compare against Odysseus's built-in one)
-- [ ] NotebookLM workflows that pair with the vault (the NotebookLM + Obsidian + Claude strategy)
+- [x] NotebookLM workflows that pair with the vault — done 2026-07-08, see the NotebookLM section above

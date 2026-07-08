@@ -24,3 +24,11 @@ deleting the line.
   `.obsidian/` — a plugin installed in one vault is NOT available in
   another. The obsidian-claude-code sidebar plugin had to be built once
   then copied into each target vault's `.obsidian/plugins/`.
+- **2026-07-08** — `uv tool install notebooklm-py --with rookiepy` fails on
+  the default Python (rookiepy has no 3.14 wheel and its sdist pyproject is
+  broken) — pin `--python 3.12`. And cookie import: Firefox profile had no
+  Google cookies; `login --browser-cookies chromium` is the one that works
+  on this machine.
+- **2026-07-08** — The yt-analysis video backend 503'd on 4 attempts across
+  3 sessions (nuwlyQXrADg, I-cvxBMue08) — treat it as unreliable; a video's
+  yt-dlp description + chapters usually carries most of the signal.
