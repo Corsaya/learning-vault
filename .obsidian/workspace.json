@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "donny-operating-system.md",
+                "file": "immortal-clone-operating-system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "donny-operating-system"
+              "title": "immortal-clone-operating-system"
             }
           }
         ]
@@ -202,24 +202,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ce178eb0b4f5880",
+  "active": "df614206d7d4837d",
   "lastOpenFiles": [
+    "capability-scouting/2026-07-07-sideA-fable5-content-brand-plan.md",
+    "capability-scouting/2026-07-07-sideA-fable5-content-brand-plan.md.tmp.14322.468afba6bb1d",
+    "capability-scouting/2026-07-07-sideA-fable5-hiragana-plan.md",
+    "capability-scouting/2026-07-07-sideA-fable5-hiragana-plan.md.tmp.14322.d3e9a2a942a0",
+    "North Star.md",
+    "immortal-clone-operating-system.md",
+    "capability-scouting/2026-07-06-fable5-clone-research.md",
+    "capability-scouting/2026-07-06-fable5-clone-test-prompt.md",
+    "capability-scouting/2026-07-07-blueprint-vault-and-moneymaking.md",
+    "capability-scouting/2026-07-07-fable5-clone-content-brand-test-prompt.md",
+    "claude-improvement-notes.md",
+    "Gotchas.md",
+    "fable-5-launch-prep.md",
+    "donny-operating-system.md",
     "Home.md.tmp.5028.6cb8f83107da",
     "Key Decisions.md",
     "Key Decisions.md.tmp.5028.1e7275e3959f",
-    "Gotchas.md",
     "Gotchas.md.tmp.5028.da1c7aca78b4",
-    "North Star.md",
     "North Star.md.tmp.5028.a684ff21cd52",
     "continue-2026-07-06.md",
-    "donny-operating-system.md",
-    "immortal-clone-operating-system.md",
-    "claude-improvement-notes.md",
     "continue-2026-07-06.md.tmp.92856.aa810d0bbc02",
     "donny-operating-system.md.tmp.92856.53f7f3508102",
     "immortal-clone-operating-system.md.tmp.92856.2a14af860da6",
     "fable-5-launch-prep.md.tmp.92856.877b93eb6f8d",
-    "claude-session-wrap-2026-06-28.md",
-    "fable-5-launch-prep.md"
+    "claude-session-wrap-2026-06-28.md"
   ]
 }
