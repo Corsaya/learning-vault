@@ -22,6 +22,9 @@ capabilities worth adopting.
   session can learn needs/wants and store them durably
 - **[[compounding-loop-money-smart-healthy]]** — the money/smart/healthy
   strategy: one unit of learning → knowledge + content + tooling
+- **[[2026-07-15-perfect-assistant-thought-dump]]** — the 07-15 goals dump,
+  organized: index into the jarvis roadmap, finance product/income notes,
+  and the learning plan
 - **[[claude-session-wrap-2026-06-28]]** — session wrap and action plan
 - **[[capability-scouting/Home|capability-scouting]]** — standing collection
   point for repos/videos/articles that could improve the Claude/Jarvis setup

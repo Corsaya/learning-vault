@@ -13,6 +13,9 @@ Status legend: **adopted** (in use) · **scouted** (read/ranked, not adopted)
 - `~/code/jarvis` — the assistant itself. **adopted** (v1 complete + api mode + briefing, 147 tests)
 - `~/code/usage-monitor` (ccdash) — stdlib Claude usage dashboard, now with the Fable 5 weekly gauge. **adopted**
 - `~/code/repo-scout` — repo search + safe-adopt sandbox (automates this file's protocol). **adopted 2026-07-08**
+- `~/code/vault-atlas` — all-vaults force-graph in one HTML file (`~/Documents/Obsidian/vault-atlas.html`); private dirs render filename-only. **adopted 2026-07-15**
+- `~/code/jarvis-desk` — **Jarvis Desk, the native desktop workspace** (Odysseus+ direction): GTK window, sidebar sections — Chat (any Ollama model fully local, or Claude), Vaults (rendered notes, cross-vault wikilink nav, images), Atlas, Files, Voice (whisper→claude→piper/ElevenLabs), Run, Usage (ccdash gauges in-sidebar), Settings (11 server-enforced permission switches, private wall unswitchable). In the app launcher via `install-desktop.sh`; AppImage fallback. Private repo: github.com/TheBiggerMann/jarvis-desk. **adopted 2026-07-15, native app 07-16**
+- `~/code/algo-scout` — niche algorithm analysis (YouTube via yt-dlp; outlier = views÷subs, velocity = views/day). Feeds the content lanes. **adopted 2026-07-16**
 - `~/code/trading` — trading research track. **adopted**
 
 ## Jarvis / assistant patterns (scouted 2026-07-01, master plan)
@@ -21,8 +24,9 @@ Status legend: **adopted** (in use) · **scouted** (read/ranked, not adopted)
 - OpenJarvis (Stanford) — Morning Digest = reference for the daily-news component (DEC-013). **scouted**
 - ethanplusai/jarvis · rezaulhreza/jarvis — surveyed for architecture ideas. **scouted**
 - vierisid/jarvis — "authority limits" pattern for letting an assistant run shell commands safely. **scouted**; re-read before the computer-actions round.
-- pewdiepie-archdaemon/odysseus — GUI/email/deep-research layer; decision: adopt as second front-end sharing the vault as memory. **scouted**, adoption pending (~1,400 open issues — daily driver, not critical infra).
+- pewdiepie-archdaemon/odysseus — GUI/email/deep-research layer; decision: adopt as second front-end sharing the vault as memory. **scouted**, adoption pending (~1,400 open issues — daily driver, not critical infra). Re-affirmed 2026-07-15 in the thought dump; plan in `jarvis/perfect-assistant-goals-2026-07-15`.
 - msitarzewski/agency-agents (The Agency, 232 agents) — agent bundle; also a candidate product template. **scouted**
+- NousResearch/hermes-agent — self-improving agent w/ persistent memory, skills (agentskills.io standard), multi-platform gateway; MIT. Its `computer-use-linux` MCP (AT-SPI trees, Wayland/X11 input, screenshots) is the screen-control candidate if jarvis-desk ever needs more than open/run. **unvetted** (2026-07-15)
 
 ## Usage / cost
 
@@ -108,6 +112,15 @@ Full writeup: [[2026-07-06-fable5-clone-research]].
   **unvetted**; grab for voice/persona prompts. Full V4 is paid; skip.
 - JuliusBrussee/caveman — token-cutting skill, 86k★, sitting in
   `~/code/_sandbox/caveman` awaiting checklist review. **unvetted**
+
+## Research / trends (adopted 2026-07-16)
+
+- mvanhorn/last30days-skill — `/last30days <topic>`: researches the last 30
+  days across Reddit, X, Bluesky, YouTube, TikTok, HN, Polymarket + web and
+  writes a cited narrative; comparative "X vs Y" mode. **adopted 2026-07-16**
+  (installed as Claude Code plugin, user scope). Pairs with algo-scout
+  (what's performing) and the jarvis briefing (daily pull): last30days =
+  on-demand deep dive.
 
 ## To scout next
 
