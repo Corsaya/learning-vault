@@ -7,6 +7,7 @@ the separate `personal-private/` vault (never touched by AI/OpenClaw).
 
 ## Areas
 
+- **[[Learning Plan]]** — master checklist of everything to learn + the daily schedule template
 - **[[School]]** — AP coursework. AP Chem is built out; APUSH/Psych/Pre-Calc are stubs.
 - **[[Japanese/Home|Japanese]]** — learning Japanese, beginner → JLPT N1. Roadmap, schedule, resources, log.
 - **[[Entertainment]]** — Books, Movies, Music, TV, Video Games (factual lookups only)
