@@ -1,0 +1,41 @@
+# Pytheas Capability Map (as of 2026-07-24)
+
+What the desktop app can do and where each capability plugs into the
+vaults. Full change detail: [[Pytheas 2.0 Changelog]] (jarvis vault).
+
+## Engines
+| Engine id | What | Cost |
+|---|---|---|
+| `claude` / `claude:fable\|opus\|sonnet\|haiku` | claude CLI, per-tier | subscription / usage credits |
+| `api:<provider>:<model>` | direct HTTP (OpenAI, Gemini, Anthropic API, OpenAI-compatible) | pay-per-use, BYO key |
+| `ollama:<model>` | local, private | free |
+
+Instant regex router still answers commands in 0 tokens before any model.
+
+## Vault integration points
+- **jarvis/** — `Briefings/` (daily briefs), `pytheas-memory.md` (Brain),
+  changelog notes.
+- **learning/Courses/** — course folders managed by the Courses section;
+  NotebookLM artifacts under `_artifacts/`.
+- **ai-improvement/** — this map, [[Briefings Roadmap]], capability
+  scouting.
+- **personal/** — read-only outside walled paths; writes hook-blocked
+  (unchanged).
+
+## Voice
+Conversation sessions (ctrl+space ⇢ ctrl+alt+space), hands-free VAD,
+saved to Chats→Voice with action context. STT: faster-whisper (local).
+TTS: piper local (working); ElevenLabs optional via key.
+
+## Safety posture (unchanged principles)
+- Every capability behind a server-enforced switch; dangerous ones
+  default off (shell, send-email, edit-anything, agent mode).
+- Model can *draft* email but the send path requires a human click.
+- Private-vault wall has no switch.
+
+## Next (agreed direction)
+- Agent/company tree — Donovan will supply the structure; chats layer
+  already dispatches per-chat engines, the natural hook for named agents
+  with own prompts/models/permissions.
+- Realtime speech API (OpenAI Realtime / Gemini Live) as optional voice
+  backend once a provider key exists — bookmark, not built.
