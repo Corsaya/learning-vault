@@ -32,3 +32,28 @@ deleting the line.
 - **2026-07-08** — The yt-analysis video backend 503'd on 4 attempts across
   3 sessions (nuwlyQXrADg, I-cvxBMue08) — treat it as unreliable; a video's
   yt-dlp description + chapters usually carries most of the signal.
+- **2026-08-02** — Pytheas voice STT (`voice.py`, faster-whisper `"base"`
+  model) mis-heard "khanacademy.org" as "conacademy.org" and opened the
+  wrong URL without complaint — live-tested, not theoretical. Whisper's
+  smallest model struggles with less-common brand/proper nouns spoken as
+  URLs. Everything else in the same test (general knowledge Q&A, math,
+  a homophone-prone book title) transcribed correctly, so this looks like
+  a specific weak spot (compound brand names read aloud) rather than a
+  broad accuracy problem. Fix candidates: bump to `"small"`/`"medium"`
+  Whisper model, or add a confirm-before-open step for voice-triggered
+  link/app opens so a mis-hear doesn't silently execute.
+- **2026-08-02** — Pytheas voice chats can silently fail to save. The save
+  path exists and normally works (`handle_voice_text` in `server.py`
+  writes each turn to the same `chats.json` typed chat uses, via
+  `chats.update_chat`), but it's entirely gated on a `chat_id` set by a
+  prior `POST /api/voice_session {action:"start"}` call
+  (`voice_session_start`, `server.py:112-124`). If audio ever reaches
+  `/api/voice` without that session-start call having succeeded first,
+  `handle_voice_text` falls back to a throwaway in-memory history list and
+  never calls `chats.update_chat` — no error, no warning, just nothing
+  written. Live-tested 2026-08-02: a voice conversation did not appear in
+  chat history afterward, consistent with this failure mode. Not yet
+  root-caused *why* the session-start call didn't stick that time (frontend
+  race, a failed/slow `/api/voice_session` request, permissions) — next
+  time this happens, check server logs around session start for that
+  timestamp before assuming it's fixed.
