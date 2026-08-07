@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -171,16 +173,6 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "7ce178eb0b4f5880",
-            "type": "leaf",
-            "state": {
-              "type": "claude-code-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Claude Code"
-            }
           }
         ],
         "currentTab": 5
@@ -191,7 +183,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-claude-code:Claude Code": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
