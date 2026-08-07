@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "immortal-clone-operating-system.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "immortal-clone-operating-system"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -193,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99125e72fdf18a79",
+  "active": "df614206d7d4837d",
   "lastOpenFiles": [
+    "immortal-clone-operating-system.md",
+    "CLAUDE.md",
     "Home.md.tmp.33632.e012dc0a218d",
     "capability-scouting/Links.md.tmp.33632.8e9c8b22ebf8",
     "capability-scouting/Links.md.tmp.33632.c7d264494775",
@@ -216,9 +218,7 @@
     "capability-scouting/2026-07-07-sideA-fable5-content-brand-plan.md",
     "capability-scouting/2026-07-07-sideA-fable5-content-brand-plan.md.tmp.14322.468afba6bb1d",
     "capability-scouting/2026-07-07-sideA-fable5-hiragana-plan.md",
-    "capability-scouting/2026-07-07-sideA-fable5-hiragana-plan.md.tmp.14322.d3e9a2a942a0",
     "North Star.md",
-    "immortal-clone-operating-system.md",
     "capability-scouting/2026-07-06-fable5-clone-research.md",
     "capability-scouting/2026-07-06-fable5-clone-test-prompt.md",
     "capability-scouting/2026-07-07-blueprint-vault-and-moneymaking.md",
