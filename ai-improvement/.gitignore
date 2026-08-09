@@ -1,0 +1,4 @@
+# Conversation archive (Claude Code Stop-hook logs) — never committed.
+# Content is a raw session record; see the hook at
+# ~/.claude/hooks/session-logger.py in this machine's config.
+/Conversations/
