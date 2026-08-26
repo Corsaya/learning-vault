@@ -15,10 +15,16 @@ deleting the line.
   Health, Daily, Work, Inbox); the CLAUDE.md-described rename to
   `personal-private/` hasn't happened yet — don't assume the folder name
   matches the doc until that migration lands.
+  — **superseded 2026-08-12:** the wall is retired entirely and the path is now
+  `life/personal-private/`. Access is open by default; the one override is a
+  doc marked "locked".
 - **2026-07-06** — Health work under `personal/Health/` is a standing,
   explicitly scoped exception to the private-vault wall (not a general
   license for all of `personal/`). Enforced now by
   `~/.claude/hooks/private-vault-guard.py` + its allowlist, not just prose.
+  — **superseded 2026-08-12:** no wall means no exception to it; the hook was
+  removed before the policy changed. Path is now
+  `life/personal-private/Health/`.
 - **2026-07-06** — Each Obsidian sub-vault (`personal`, `learning`,
   `ai-improvement`, `finance`, `jarvis`, `card-flip`, etc.) has its own
   `.obsidian/` — a plugin installed in one vault is NOT available in
@@ -57,3 +63,17 @@ deleting the line.
   race, a failed/slow `/api/voice_session` request, permissions) — next
   time this happens, check server logs around session start for that
   timestamp before assuming it's fixed.
+- **2026-08-25** — `~/code/chiron` had **no personal git remote** — only
+  `upstream` pointing at the original Odysseus repo. 4+ commits of original work
+  (the entire Bluebook-parity SAT app) existed on one machine's local `dev`
+  branch with no backup anywhere. Check `git remote -v` on every repo you care
+  about; a fork inherits the upstream remote and looks "pushed" when it isn't.
+- **2026-08-25** — Instagram serves **nothing** to a logged-out request — no
+  og:title, no og:description, no caption. A `/p/<id>/` link is unreadable
+  without an authenticated session. Don't plan work around scraping one; ask for
+  the caption instead.
+- **2026-08-25** — claude-mem, ccdash, and the four `~/.claude/hooks/` scripts
+  are **Claude Code-only** and die with the subscription. Anything valuable
+  living inside a vendor plugin's database should be exported to markdown
+  *before* you need to. (Done 2026-08-25 →
+  `learning/ai-improvement/Memory-Export/`.)

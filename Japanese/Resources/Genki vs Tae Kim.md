@@ -4,6 +4,22 @@ tags: [japanese, language-learning, resources, grammar]
 
 # Genki vs. Tae Kim — Which Grammar Spine?
 
+> [!important] Decided 2026-08-25: **Genki + JLPT books.**
+> This supersedes the Tae Kim recommendation below. The comparison is kept
+> because it's good and worth having on record — including where its reasoning
+> was wrong.
+>
+> **Why the reversal:** the note recommends Tae Kim partly because Donovan is
+> "the proactive type" who's "literally building a multi-year system in
+> Obsidian." But building the system *is* the tell. The roadmap has been
+> immaculate since 2026-05-30 and kana is still unfinished — hiragana ~90% and
+> rusty, katakana not started. The bottleneck was never explanation quality; it
+> was the absence of external structure. Tae Kim optimizes for a learner who
+> doesn't need scaffolding. Genki's chapters, workbook, and audio *are* the
+> scaffolding. Pick the one that fixes the actual constraint.
+>
+> Course spec: `pytheas/Handoff/03 — Course Build Plan.md` §2.
+
 Your N5–N4 grammar foundation comes from one of these two. Both are written into
 [[Roadmap/Stage 1 - Beginner (N5)|Stage 1]] and [[Roadmap/Stage 2 - Upper Beginner (N4)|Stage 2]].
 Pick one as your **spine**; the other can be a free second reference.

@@ -30,3 +30,22 @@ decided, and why, in a sentence or two.
   sidebar plugin) into `ai-improvement` and `learning` vaults only, not
   `personal`/private or `finance`/`jarvis`/`card-flip`. Rationale: smallest
   reasonable blast radius for a first install; expand later if useful.
+- **2026-08-12** — **Reversed the 2026-07-05 and 2026-07-06 decisions above.**
+  The vault split and the `private-vault-guard.py` hook are both retired: AI now
+  has full read/write everywhere by default, and the only exclusion is a doc
+  Donovan explicitly marks **"locked"**. Vaults restructured to `learning/`,
+  `finance/`, `pytheas/`, `life/`, `agonizing-sentience/` (subtree merges, full
+  history preserved). Rationale: the hard boundary cost more in friction than it
+  bought in safety once the external-agent (OpenClaw) scope was pinned to named
+  vaults instead. Recorded here so the log reads as a sequence, not a
+  contradiction.
+- **2026-08-25** — **Japanese grammar spine switched to Genki + JLPT books**,
+  superseding the Tae Kim recommendation in
+  `learning/Japanese/Resources/Genki vs Tae Kim.md`. Rationale: that note
+  optimized for a proactive self-directed learner, but the honest record (kana
+  still unfinished since May 2026) says the missing ingredient is external
+  structure — which is exactly what Genki's chapters and workbook provide.
+- **2026-08-25** — **Migrated off Claude Code to Codex / GPT-5.6.** Subscription
+  ended 2026-08-26. `AGENTS.md` added at the vault root; claude-mem exported to
+  markdown; ccdash/claude-mem/hook rules marked retired in `CLAUDE.md`. Full
+  handoff in `pytheas/Handoff/`.

@@ -13,14 +13,16 @@ vaults. Full change detail: [[Pytheas 2.0 Changelog]] (jarvis vault).
 Instant regex router still answers commands in 0 tokens before any model.
 
 ## Vault integration points
-- **jarvis/** — `Briefings/` (daily briefs), `pytheas-memory.md` (Brain),
-  changelog notes.
-- **learning/Courses/** — course folders managed by the Courses section;
-  NotebookLM artifacts under `_artifacts/`.
-- **ai-improvement/** — this map, [[Briefings Roadmap]], capability
-  scouting.
-- **personal/** — read-only outside walled paths; writes hook-blocked
-  (unchanged).
+> [!note] Paths corrected 2026-08-25 — the 2026-08-12 restructure moved these.
+- **pytheas/** (was `jarvis/`) — `Briefings/` (daily briefs),
+  `pytheas-memory.md` (Brain), changelog notes, `Handoff/`.
+- **pytheas/Courses/** (was `learning/Courses/`) — course folders managed by
+  the Courses section; NotebookLM artifacts under `_artifacts/`.
+- **learning/ai-improvement/** (now nested under `learning/`) — this map,
+  [[Briefings Roadmap]], capability scouting, `Memory-Export/`.
+- **life/personal-private/** (was `personal/`) — **full read/write, same as
+  everywhere else.** The wall and its enforcing hook were both retired
+  2026-08-12.
 
 ## Voice
 Conversation sessions (ctrl+space ⇢ ctrl+alt+space), hands-free VAD,
@@ -31,7 +33,8 @@ TTS: piper local (working); ElevenLabs optional via key.
 - Every capability behind a server-enforced switch; dangerous ones
   default off (shell, send-email, edit-anything, agent mode).
 - Model can *draft* email but the send path requires a human click.
-- Private-vault wall has no switch.
+- ~~Private-vault wall has no switch.~~ **Retired 2026-08-12** — access is open
+  by default across all vaults; the one override is a doc marked **"locked"**.
 
 ## Next (agreed direction)
 - Agent/company tree — Donovan will supply the structure; chats layer
