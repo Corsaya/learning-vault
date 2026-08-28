@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAT Practice 11 — Confidence Rater</title>
+<style>
+:root{
+  --bg:#f6f7f9; --panel:#fff; --ink:#14181f; --muted:#6b7280; --line:#e3e6ea;
+  --accent:#2f5fd0; --good:#137a45; --bad:#b3261e; --shadow:0 1px 3px rgba(0,0,0,.09);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1216; --panel:#171b21; --ink:#e8eaed; --muted:#98a1ae; --line:#282e37;
+  --accent:#7aa2f7; --good:#4ac585; --bad:#f2827a; --shadow:0 1px 3px rgba(0,0,0,.4);}}
+:root[data-theme="dark"]{--bg:#0f1216;--panel:#171b21;--ink:#e8eaed;--muted:#98a1ae;
+  --line:#282e37;--accent:#7aa2f7;--good:#4ac585;--bad:#f2827a;--shadow:0 1px 3px rgba(0,0,0,.4);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+header{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:1px solid var(--line);
+  padding:10px 16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;box-shadow:var(--shadow)}
+h1{font-size:15px;margin:0;font-weight:650;letter-spacing:-.01em}
+.pill{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+.bar{flex:1;min-width:120px;height:6px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+button{font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;padding:6px 11px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{max-width:1180px;margin:0 auto;padding:16px}
+.qbar{display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+.qid{font-weight:650;font-size:16px}
+.res{font-size:12px;font-weight:650;padding:2px 8px;border-radius:6px}
+.res.correct{color:var(--good);background:color-mix(in srgb,var(--good) 12%,transparent)}
+.res.incorrect{color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,transparent)}
+.shotwrap{width:100%;border:1px solid var(--line);border-radius:10px;background:var(--panel);
+  box-shadow:var(--shadow);overflow:auto;max-height:62vh;display:flex;justify-content:center}
+.shot{max-width:100%;height:auto;display:block}
+.rate{position:sticky;bottom:0;background:var(--panel);border-top:1px solid var(--line);
+  padding:12px 16px;margin-top:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;
+  box-shadow:0 -1px 3px rgba(0,0,0,.08)}
+.scale{display:flex;gap:6px;flex-wrap:wrap}
+.scale button{min-width:118px;text-align:left;padding:8px 10px;line-height:1.25}
+.scale b{display:block;font-size:13px}
+.scale span{font-size:11px;color:var(--muted)}
+.scale button.on span{color:#fff;opacity:.85}
+.nav{display:flex;gap:6px;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:4px;margin-top:14px}
+.cell{aspect-ratio:1;border-radius:6px;border:1px solid var(--line);background:var(--panel);
+  font-size:11px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  cursor:pointer;padding:0;gap:1px}
+.cell:hover{border-color:var(--accent)}
+.cell.cur{outline:2px solid var(--accent);outline-offset:1px}
+.cell .n{font-weight:650}
+.cell .v{font-size:10px;color:var(--muted)}
+.cell.rated{background:color-mix(in srgb,var(--accent) 14%,var(--panel))}
+.grid.reveal .cell.miss .n{color:var(--bad)}
+.hint{font-size:12px;color:var(--muted);margin:10px 0 0}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);
+  max-width:760px;width:92%;padding:0}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+.dlg-h{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+.dlg-b{padding:14px 16px}
+textarea{width:100%;height:340px;font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;
+  background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px}
+.sec-h{font-size:12px;color:var(--muted);margin:16px 0 4px;font-weight:650;letter-spacing:.04em;text-transform:uppercase}
+</style></head><body>
+<header>
+  <h1>SAT Practice 11 — Confidence</h1>
+  <span class="pill" id="count">0 / 98</span>
+  <div class="bar"><i id="prog"></i></div>
+  <button id="blind" class="on" title="Crops out the answer banner and rationale so they can't colour your recall">Blind mode: on</button>
+  <button id="only">Show: all</button>
+  <button id="exp">Export</button>
+</header>
+<main>
+  <div class="qbar">
+    <span class="qid" id="qid"></span>
+    <span class="res" id="res"></span>
+    <span class="pill" id="pos"></span>
+  </div>
+  <div class="shotwrap blind" id="shotwrap"><img class="shot" id="shot" alt=""></div>
+  <div class="sec-h">Jump to question</div>
+  <div class="grid" id="grid"></div>
+  <p class="hint">Keys: <b>1–5</b> rate &middot; <b>←/→</b> move &middot; <b>0</b> clear &middot; <b>b</b> reveal answer.
+  Blind mode hides the answer panel &mdash; rate what you felt during the test, then press <b>b</b> to check. Ratings save automatically in this browser.</p>
+</main>
+<div class="rate">
+  <div class="scale" id="scale"></div>
+  <div class="nav">
+    <button id="prev">← Prev</button><button id="next">Next →</button>
+  </div>
+</div>
+<dialog id="dlg">
+  <div class="dlg-h"><b>Export</b><span class="pill" id="expcount"></span>
+    <button id="copy" style="margin-left:auto">Copy</button>
+    <button id="dl">Download .md</button>
+    <button id="close">Close</button></div>
+  <div class="dlg-b"><textarea id="out" readonly></textarea></div>
+</dialog>
+<script>
+const ITEMS = [{"i":0,"file":"Screenshot_20260820_162115.png","sec":"Reading and Writing","mod":1,"q":1,"res":"correct"},{"i":1,"file":"Screenshot_20260820_162249.png","sec":"Reading and Writing","mod":1,"q":2,"res":"correct"},{"i":2,"file":"Screenshot_20260820_162304.png","sec":"Reading and Writing","mod":1,"q":3,"res":"incorrect"},{"i":3,"file":"Screenshot_20260820_162317.png","sec":"Reading and Writing","mod":1,"q":4,"res":"correct"},{"i":4,"file":"Screenshot_20260820_162510.png","sec":"Reading and Writing","mod":1,"q":5,"res":"correct"},{"i":5,"file":"Screenshot_20260820_162523.png","sec":"Reading and Writing","mod":1,"q":6,"res":"incorrect"},{"i":6,"file":"Screenshot_20260820_162657.png","sec":"Reading and Writing","mod":1,"q":7,"res":"incorrect"},{"i":7,"file":"Screenshot_20260820_162712.png","sec":"Reading and Writing","mod":1,"q":8,"res":"incorrect"},{"i":8,"file":"Screenshot_20260820_162726.png","sec":"Reading and Writing","mod":1,"q":9,"res":"correct"},{"i":9,"file":"Screenshot_20260820_162746.png","sec":"Reading and Writing","mod":1,"q":10,"res":"correct"},{"i":10,"file":"Screenshot_20260820_162749.png","sec":"Reading and Writing","mod":1,"q":11,"res":"correct"},{"i":11,"file":"Screenshot_20260820_162752.png","sec":"Reading and Writing","mod":1,"q":12,"res":"incorrect"},{"i":12,"file":"Screenshot_20260820_162754.png","sec":"Reading and Writing","mod":1,"q":13,"res":"incorrect"},{"i":13,"file":"Screenshot_20260820_162756.png","sec":"Reading and Writing","mod":1,"q":14,"res":"correct"},{"i":14,"file":"Screenshot_20260820_162757.png","sec":"Reading and Writing","mod":1,"q":15,"res":"correct"},{"i":15,"file":"Screenshot_20260820_162759.png","sec":"Reading and Writing","mod":1,"q":16,"res":"correct"},{"i":16,"file":"Screenshot_20260820_162801.png","sec":"Reading and Writing","mod":1,"q":17,"res":"correct"},{"i":17,"file":"Screenshot_20260820_162803.png","sec":"Reading and Writing","mod":1,"q":18,"res":"correct"},{"i":18,"file":"Screenshot_20260820_162805.png","sec":"Reading and Writing","mod":1,"q":19,"res":"incorrect"},{"i":19,"file":"Screenshot_20260820_162808.png","sec":"Reading and Writing","mod":1,"q":20,"res":"correct"},{"i":20,"file":"Screenshot_20260820_162811.png","sec":"Reading and Writing","mod":1,"q":21,"res":"correct"},{"i":21,"file":"Screenshot_20260820_162813.png","sec":"Reading and Writing","mod":1,"q":22,"res":"correct"},{"i":22,"file":"Screenshot_20260820_162815.png","sec":"Reading and Writing","mod":1,"q":23,"res":"incorrect"},{"i":23,"file":"Screenshot_20260820_162828.png","sec":"Reading and Writing","mod":1,"q":24,"res":"correct"},{"i":24,"file":"Screenshot_20260820_162830.png","sec":"Reading and Writing","mod":1,"q":25,"res":"correct"},{"i":25,"file":"Screenshot_20260820_162831.png","sec":"Reading and Writing","mod":1,"q":26,"res":"correct"},{"i":26,"file":"Screenshot_20260820_162832.png","sec":"Reading and Writing","mod":1,"q":27,"res":"correct"},{"i":27,"file":"Screenshot_20260820_162836.png","sec":"Reading and Writing","mod":2,"q":1,"res":"correct"},{"i":28,"file":"Screenshot_20260820_162837.png","sec":"Reading and Writing","mod":2,"q":2,"res":"incorrect"},{"i":29,"file":"Screenshot_20260820_162838.png","sec":"Reading and Writing","mod":2,"q":3,"res":"incorrect"},{"i":30,"file":"Screenshot_20260820_162839.png","sec":"Reading and Writing","mod":2,"q":4,"res":"incorrect"},{"i":31,"file":"Screenshot_20260820_162840.png","sec":"Reading and Writing","mod":2,"q":5,"res":"incorrect"},{"i":32,"file":"Screenshot_20260820_162841.png","sec":"Reading and Writing","mod":2,"q":6,"res":"correct"},{"i":33,"file":"Screenshot_20260820_162842.png","sec":"Reading and Writing","mod":2,"q":7,"res":"correct"},{"i":34,"file":"Screenshot_20260820_162843.png","sec":"Reading and Writing","mod":2,"q":8,"res":"correct"},{"i":35,"file":"Screenshot_20260820_162844.png","sec":"Reading and Writing","mod":2,"q":9,"res":"incorrect"},{"i":36,"file":"Screenshot_20260820_162845.png","sec":"Reading and Writing","mod":2,"q":10,"res":"correct"},{"i":37,"file":"Screenshot_20260820_162846.png","sec":"Reading and Writing","mod":2,"q":11,"res":"correct"},{"i":38,"file":"Screenshot_20260820_162847.png","sec":"Reading and Writing","mod":2,"q":12,"res":"incorrect"},{"i":39,"file":"Screenshot_20260820_162848.png","sec":"Reading and Writing","mod":2,"q":13,"res":"correct"},{"i":40,"file":"Screenshot_20260820_162849.png","sec":"Reading and Writing","mod":2,"q":14,"res":"incorrect"},{"i":41,"file":"Screenshot_20260820_162850.png","sec":"Reading and Writing","mod":2,"q":15,"res":"correct"},{"i":42,"file":"Screenshot_20260820_162851.png","sec":"Reading and Writing","mod":2,"q":16,"res":"correct"},{"i":43,"file":"Screenshot_20260820_162852.png","sec":"Reading and Writing","mod":2,"q":17,"res":"correct"},{"i":44,"file":"Screenshot_20260820_162853.png","sec":"Reading and Writing","mod":2,"q":18,"res":"correct"},{"i":45,"file":"Screenshot_20260820_162854.png","sec":"Reading and Writing","mod":2,"q":19,"res":"correct"},{"i":46,"file":"Screenshot_20260820_162855.png","sec":"Reading and Writing","mod":2,"q":20,"res":"incorrect"},{"i":47,"file":"Screenshot_20260820_162856.png","sec":"Reading and Writing","mod":2,"q":21,"res":"incorrect"},{"i":48,"file":"Screenshot_20260820_162857.png","sec":"Reading and Writing","mod":2,"q":22,"res":"correct"},{"i":49,"file":"Screenshot_20260820_162858.png","sec":"Reading and Writing","mod":2,"q":23,"res":"incorrect"},{"i":50,"file":"Screenshot_20260820_162859.png","sec":"Reading and Writing","mod":2,"q":24,"res":"correct"},{"i":51,"file":"Screenshot_20260820_162900.png","sec":"Reading and Writing","mod":2,"q":25,"res":"correct"},{"i":52,"file":"Screenshot_20260820_162901.png","sec":"Reading and Writing","mod":2,"q":26,"res":"correct"},{"i":53,"file":"Screenshot_20260820_162902.png","sec":"Reading and Writing","mod":2,"q":27,"res":"correct"},{"i":54,"file":"Screenshot_20260820_162903.png","sec":"Math","mod":1,"q":1,"res":"correct"},{"i":55,"file":"Screenshot_20260820_162904.png","sec":"Math","mod":1,"q":2,"res":"correct"},{"i":56,"file":"Screenshot_20260820_162905.png","sec":"Math","mod":1,"q":3,"res":"correct"},{"i":57,"file":"Screenshot_20260820_162906.png","sec":"Math","mod":1,"q":4,"res":"correct"},{"i":58,"file":"Screenshot_20260820_162907.png","sec":"Math","mod":1,"q":5,"res":"correct"},{"i":59,"file":"Screenshot_20260820_162908.png","sec":"Math","mod":1,"q":6,"res":"correct"},{"i":60,"file":"Screenshot_20260820_162909.png","sec":"Math","mod":1,"q":7,"res":"correct"},{"i":61,"file":"Screenshot_20260820_162910.png","sec":"Math","mod":1,"q":8,"res":"correct"},{"i":62,"file":"Screenshot_20260820_162911.png","sec":"Math","mod":1,"q":9,"res":"correct"},{"i":63,"file":"Screenshot_20260820_162912.png","sec":"Math","mod":1,"q":10,"res":"correct"},{"i":64,"file":"Screenshot_20260820_162913.png","sec":"Math","mod":1,"q":11,"res":"correct"},{"i":65,"file":"Screenshot_20260820_162914.png","sec":"Math","mod":1,"q":12,"res":"correct"},{"i":66,"file":"Screenshot_20260820_162915.png","sec":"Math","mod":1,"q":13,"res":"correct"},{"i":67,"file":"Screenshot_20260820_162916.png","sec":"Math","mod":1,"q":14,"res":"correct"},{"i":68,"file":"Screenshot_20260820_162917.png","sec":"Math","mod":1,"q":15,"res":"correct"},{"i":69,"file":"Screenshot_20260820_162918.png","sec":"Math","mod":1,"q":16,"res":"correct"},{"i":70,"file":"Screenshot_20260820_162919.png","sec":"Math","mod":1,"q":17,"res":"correct"},{"i":71,"file":"Screenshot_20260820_162921.png","sec":"Math","mod":1,"q":18,"res":"correct"},{"i":72,"file":"Screenshot_20260820_162922.png","sec":"Math","mod":1,"q":19,"res":"incorrect"},{"i":73,"file":"Screenshot_20260820_162923.png","sec":"Math","mod":1,"q":20,"res":"incorrect"},{"i":74,"file":"Screenshot_20260820_162924.png","sec":"Math","mod":1,"q":21,"res":"correct"},{"i":75,"file":"Screenshot_20260820_162925.png","sec":"Math","mod":1,"q":22,"res":"correct"},{"i":76,"file":"Screenshot_20260820_162926.png","sec":"Math","mod":2,"q":1,"res":"correct"},{"i":77,"file":"Screenshot_20260820_162927.png","sec":"Math","mod":2,"q":2,"res":"correct"},{"i":78,"file":"Screenshot_20260820_162928.png","sec":"Math","mod":2,"q":3,"res":"correct"},{"i":79,"file":"Screenshot_20260820_162929.png","sec":"Math","mod":2,"q":4,"res":"correct"},{"i":80,"file":"Screenshot_20260820_162930.png","sec":"Math","mod":2,"q":5,"res":"correct"},{"i":81,"file":"Screenshot_20260820_162931.png","sec":"Math","mod":2,"q":6,"res":"correct"},{"i":82,"file":"Screenshot_20260820_162934.png","sec":"Math","mod":2,"q":7,"res":"correct"},{"i":83,"file":"Screenshot_20260820_162935.png","sec":"Math","mod":2,"q":8,"res":"correct"},{"i":84,"file":"Screenshot_20260820_162936.png","sec":"Math","mod":2,"q":9,"res":"correct"},{"i":85,"file":"Screenshot_20260820_162937.png","sec":"Math","mod":2,"q":10,"res":"correct"},{"i":86,"file":"Screenshot_20260820_162938.png","sec":"Math","mod":2,"q":11,"res":"correct"},{"i":87,"file":"Screenshot_20260820_162938-1.png","sec":"Math","mod":2,"q":12,"res":"incorrect"},{"i":88,"file":"Screenshot_20260820_162939.png","sec":"Math","mod":2,"q":13,"res":"correct"},{"i":89,"file":"Screenshot_20260820_162940.png","sec":"Math","mod":2,"q":14,"res":"correct"},{"i":90,"file":"Screenshot_20260820_162940-1.png","sec":"Math","mod":2,"q":15,"res":"incorrect"},{"i":91,"file":"Screenshot_20260820_162941.png","sec":"Math","mod":2,"q":16,"res":"incorrect"},{"i":92,"file":"Screenshot_20260820_162942.png","sec":"Math","mod":2,"q":17,"res":"incorrect"},{"i":93,"file":"Screenshot_20260820_162943.png","sec":"Math","mod":2,"q":18,"res":"correct"},{"i":94,"file":"Screenshot_20260820_162943-1.png","sec":"Math","mod":2,"q":19,"res":"incorrect"},{"i":95,"file":"Screenshot_20260820_162944.png","sec":"Math","mod":2,"q":20,"res":"correct"},{"i":96,"file":"Screenshot_20260820_162945.png","sec":"Math","mod":2,"q":21,"res":"incorrect"},{"i":97,"file":"Screenshot_20260820_162947.png","sec":"Math","mod":2,"q":22,"res":"incorrect"}];
+const LABELS = {
+  5:["Certain","knew it cold"],
+  4:["Confident","minor doubt"],
+  3:["Leaning","narrowed to two"],
+  2:["Shaky","mostly eliminating"],
+  1:["Guess","coin flip or blind"]
+};
+const KEY="sat-p11-confidence";
+let R = JSON.parse(localStorage.getItem(KEY) || "{}");
+let cur = 0, blind = true, onlyMiss = false;
+const $ = id => document.getElementById(id);
+const save = () => localStorage.setItem(KEY, JSON.stringify(R));
+const visible = () => ITEMS.filter(it => !onlyMiss || it.res === "incorrect");
+
+function tag(it){ return (it.sec === "Math" ? "Math" : "R&W") + " M" + it.mod + " Q" + it.q; }
+
+function render(){
+  const it = ITEMS[cur];
+  $("shot").src = (blind ? "question-only/" : "") + encodeURIComponent(it.file);
+  $("shot").alt = tag(it);
+  $("qid").textContent = tag(it);
+  $("shotwrap").classList.toggle("blind", blind);
+  $("grid").classList.toggle("reveal", !blind);
+  const r = $("res");
+  r.textContent = blind ? "" : (it.res === "correct" ? "Correct" : "Incorrect");
+  r.className = "res " + (blind ? "" : it.res);
+  const vis = visible(); const vi = vis.indexOf(it);
+  $("pos").textContent = "#" + (it.i + 1) + " of 98" + (onlyMiss && vi >= 0 ? "  ·  miss " + (vi+1) + "/" + vis.length : "");
+  [...$("scale").children].forEach(b =>
+    b.classList.toggle("on", String(R[it.i]) === b.dataset.v));
+  const n = Object.keys(R).length;
+  $("count").textContent = n + " / 98";
+  $("prog").style.width = (n / 98 * 100) + "%";
+  [...$("grid").children].forEach((c, k) => {
+    c.classList.toggle("cur", k === cur);
+    c.classList.toggle("rated", R[k] != null);
+    c.querySelector(".v").textContent = R[k] != null ? R[k] : "";
+  });
+  $("grid").children[cur]?.scrollIntoView({block:"nearest"});
+}
+function go(d){
+  const vis = visible(); if(!vis.length) return;
+  let idx = vis.findIndex(x => x.i === cur);
+  if(idx === -1){ cur = vis[0].i; render(); return; }
+  idx = Math.min(vis.length - 1, Math.max(0, idx + d));
+  cur = vis[idx].i; render();
+}
+let pending = null;
+function flush(){ if(pending){ clearTimeout(pending); pending = null; go(1); } }
+function rate(v){
+  flush();                       // a fast second keypress advances first, never overwrites
+  if(v === 0) delete R[cur]; else R[cur] = v;
+  save(); render();
+  if(v !== 0) pending = setTimeout(() => { pending = null; go(1); }, 140);
+}
+$("scale").innerHTML = [5,4,3,2,1].map(v =>
+  `<button data-v="${v}"><b>${v} — ${LABELS[v][0]}</b><span>${LABELS[v][1]}</span></button>`).join("");
+[...$("scale").children].forEach(b => b.onclick = () => rate(+b.dataset.v));
+$("grid").innerHTML = ITEMS.map(it =>
+  `<button class="cell ${it.res==="incorrect"?"miss":""}" data-i="${it.i}">
+     <span class="n">${it.sec==="Math"?"M":"R"}${it.mod}·${it.q}</span><span class="v"></span></button>`).join("");
+[...$("grid").children].forEach(c => c.onclick = () => { flush(); cur = +c.dataset.i; render(); });
+$("prev").onclick = () => { flush(); go(-1); };
+$("next").onclick = () => { flush(); go(1); };
+$("blind").onclick = () => { blind = !blind;
+  $("blind").textContent = "Blind mode: " + (blind ? "on" : "off");
+  $("blind").classList.toggle("on", blind); render(); };
+$("only").onclick = () => { onlyMiss = !onlyMiss;
+  $("only").textContent = "Show: " + (onlyMiss ? "misses only" : "all");
+  $("only").classList.toggle("on", onlyMiss);
+  const vis = visible(); if(vis.length && !vis.some(x => x.i === cur)) cur = vis[0].i;
+  render(); };
+addEventListener("keydown", e => {
+  if(e.target.tagName === "TEXTAREA") return;
+  if(e.key >= "0" && e.key <= "5"){ rate(+e.key); e.preventDefault(); }
+  else if(e.key === "ArrowRight"){ flush(); go(1); }
+  else if(e.key === "ArrowLeft"){ flush(); go(-1); }
+  else if(e.key.toLowerCase() === "b") $("blind").click();
+});
+function bucket(v){ return v >= 4 ? "Certain" : v === 3 ? "Unsure" : "Guess"; }
+function md(){
+  const rated = ITEMS.filter(it => R[it.i] != null);
+  let s = "# SAT Practice 11 — confidence ratings\n\n";
+  s += "Rated " + rated.length + " of 98. Scale: 5 certain, 4 confident, 3 leaning, 2 shaky, 1 guess.\n\n";
+  const flags = rated.filter(it => it.res === "correct" && R[it.i] <= 2);
+  const gaps  = rated.filter(it => it.res === "incorrect" && R[it.i] >= 4);
+  s += "- Correct but guessed (treat as unlearned): **" + flags.length + "**\n";
+  s += "- Wrong while certain (real knowledge gap): **" + gaps.length + "**\n\n";
+  s += "| Question | Result | Confidence | Bucket |\n|---|---|---|---|\n";
+  for(const it of rated)
+    s += "| " + tag(it) + " | " + it.res + " | " + R[it.i] + " | " + bucket(R[it.i]) + " |\n";
+  return s;
+}
+$("exp").onclick = () => {
+  $("out").value = md();
+  $("expcount").textContent = Object.keys(R).length + " rated";
+  $("dlg").showModal();
+};
+$("close").onclick = () => $("dlg").close();
+$("copy").onclick = async () => {
+  try{ await navigator.clipboard.writeText($("out").value); $("copy").textContent = "Copied"; }
+  catch{ $("out").select(); document.execCommand("copy"); $("copy").textContent = "Copied"; }
+  setTimeout(() => $("copy").textContent = "Copy", 1200);
+};
+$("dl").onclick = () => {
+  const b = new Blob([md()], {type:"text/markdown"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(b);
+  a.download = "sat-p11-confidence.md"; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+};
+render();
+</script></body></html>

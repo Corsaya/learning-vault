@@ -87,5 +87,5 @@ You said you'll use NotebookLM for audio/video output. Concrete ways:
 
 - **Stack it on an existing routine** (e.g., SRS right after morning coffee, immersion during cooldown after crew).
 - **A bad day = SRS only.** 5 minutes counts. Never zero.
-- **Log it** in [[Log]] — even one line. Visible streaks are motivating.
+- **Log it** in [[../Log/Home|Log]] — even one line. Visible streaks are motivating.
 - **Weekly review (Sun, 5 min):** glance at [[Master Checklist]], note what's next.

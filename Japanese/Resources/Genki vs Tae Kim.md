@@ -18,7 +18,7 @@ tags: [japanese, language-learning, resources, grammar]
 > doesn't need scaffolding. Genki's chapters, workbook, and audio *are* the
 > scaffolding. Pick the one that fixes the actual constraint.
 >
-> Course spec: `pytheas/Handoff/03 — Course Build Plan.md` §2.
+> Course spec: `pytheas/Operations/Handoff/03 — Course Build Plan.md` §2.
 
 Your N5–N4 grammar foundation comes from one of these two. Both are written into
 [[Roadmap/Stage 1 - Beginner (N5)|Stage 1]] and [[Roadmap/Stage 2 - Upper Beginner (N4)|Stage 2]].

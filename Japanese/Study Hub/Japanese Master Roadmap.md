@@ -17,7 +17,7 @@ committed-pace: 10 hrs/week
 > - **[[Free Resource Stack]]** → what to actually use, in order
 > - **[[Master Checklist]]** → tick boxes as you go
 > - **[[Hours & Timeline Reality Check]]** → the honest math on how long this takes
-> - Log each session in **[[Log]]** (`YYYY-MM-DD.md`)
+> - Log each session in **[[../Log/Home|Log]]** (`YYYY-MM-DD.md`)
 
 ---
 

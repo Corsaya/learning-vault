@@ -1,4 +1,4 @@
-# Pytheas Capability Map (as of 2026-07-24)
+# Pytheas Capability Map (updated 2026-08-27)
 
 What the desktop app can do and where each capability plugs into the
 vaults. Full change detail: [[Pytheas 2.0 Changelog]] (jarvis vault).
@@ -14,10 +14,11 @@ Instant regex router still answers commands in 0 tokens before any model.
 
 ## Vault integration points
 > [!note] Paths corrected 2026-08-25 — the 2026-08-12 restructure moved these.
-- **pytheas/** (was `jarvis/`) — `Briefings/` (daily briefs),
-  `pytheas-memory.md` (Brain), changelog notes, `Handoff/`.
-- **pytheas/Courses/** (was `learning/Courses/`) — course folders managed by
-  the Courses section; NotebookLM artifacts under `_artifacts/`.
+- **pytheas/** (was `jarvis/`) — project architecture and roadmaps,
+  `Generated/Briefings/`, and operating history under `Operations/`.
+- **learning/Courses/** — canonical course folders managed by the Pytheas
+  Courses section and displayed by Chiron; NotebookLM artifacts live under
+  each course's `_artifacts/`.
 - **learning/ai-improvement/** (now nested under `learning/`) — this map,
   [[Briefings Roadmap]], capability scouting, `Memory-Export/`.
 - **life/personal-private/** (was `personal/`) — **full read/write, same as

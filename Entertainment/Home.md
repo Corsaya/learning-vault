@@ -12,6 +12,5 @@ No rule says everything needs the same depth. Most items are fine as a log line;
 
 - **[[Books]]**
 - **[[Movies]]**
-- **[[Music]]**
 - **[[TV Shows]]**
 - **[[Video Games]]**

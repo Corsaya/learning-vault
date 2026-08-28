@@ -2,7 +2,7 @@
 title: North Star
 tags: [ai-improvement, goals]
 created: 2026-07-06
-updated: 2026-08-25
+updated: 2026-08-27
 ---
 
 # North Star
@@ -12,23 +12,24 @@ Read this at the start of any planning session; update it (with a Shifts
 Log entry) when direction actually changes — don't silently overwrite.
 Idea adapted from obsidian-mind's `brain/North Star.md`.
 
-## Current focus (as of 2026-08-25)
+## Current focus (as of 2026-08-27)
 
 1. **Own the AI workspace by the end of senior year (June 2027)** — schedule,
    calendar, courses, notes, journaling, finances, in his own program. Chiron
    is the base; the job is making it his. Full plan:
-   `pytheas/Handoff/02 — AI Workspace Master Plan.md`.
-2. **Survive the platform migration.** Claude Code subscription ended
-   2026-08-26; work moves to Codex / GPT-5.6. Everything that survives is
-   something he owns. See `pytheas/Handoff/04 — Claude Code to Codex Migration.md`.
+   `pytheas/Operations/Handoff/02 — AI Workspace Master Plan.md`.
+2. **Organize and stabilize the owned workspace.** The Codex migration and
+   Chiron backup are complete. The current work is reconciling vault truth,
+   establishing durable folder ownership, and keeping product paths configurable.
 3. **Senior year starts September 2026** — top-5 class rank, college
    applications, AP coursework.
 
 ## Short-term goals
 
-- **Push `~/code/chiron` to a private remote.** It has no personal git remote;
-  4+ commits including the whole Bluebook SAT app exist on one machine only.
-  This is the single highest-risk open item anywhere in the system.
+- **Complete the cross-vault organization safely.** The five-vault baseline atlas
+  is in `pytheas/Operations/Vault Atlas/`; generators and Chiron now use the
+  configured canonical paths before content moves
+  their content. `Corsaya/chiron` now provides the off-machine backup.
 - **SAT result from the 2026-08-22 retake** — scores not out as of this writing.
   Prior: 1280 (84th pct), flat across two sittings.
 - **Japanese Stage 0: finish kana.** Hiragana ~90% and rusty, katakana not
@@ -45,7 +46,7 @@ Idea adapted from obsidian-mind's `brain/North Star.md`.
   cross-vault path, not a resolvable wikilink from this vault).
 - College recruiting: strong interest from target programs by fall.
 - Courses built as a real system, not markdown piles — see
-  `pytheas/Handoff/03 — Course Build Plan.md`.
+  `pytheas/Operations/Handoff/03 — Course Build Plan.md`.
 
 ## Long-term goals
 
@@ -76,3 +77,4 @@ Idea adapted from obsidian-mind's `brain/North Star.md`.
 |---|---|---|
 | 2026-07-06 | Note created | First formalization of a single living-goals doc, per second-brain reference research |
 | 2026-08-25 | Refreshed after ~7 weeks of drift; focus moved to the senior-year workspace goal and the Codex migration | The 2026-07-06 goals were done or superseded, the SAT consumed all of August, the vault was restructured 2026-08-12, and the Claude Code subscription ended. Broken `../personal/Health/...` link fixed (path moved to `life/personal-private/` in the restructure). Added the "don't answer execution failure with more plans" anti-goal — it's the pattern the record actually shows |
+| 2026-08-27 | Platform migration risk replaced by cross-vault organization and path stability | Private `Corsaya/chiron` exists, the system now has five vaults, and the approved atlas/organization pass is the prerequisite to new workspace features |

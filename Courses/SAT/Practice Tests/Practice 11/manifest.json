@@ -1,0 +1,884 @@
+[
+{
+"i": 0,
+"file": "Screenshot_20260820_162115.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 1,
+"res": "correct",
+"c": 4
+},
+{
+"i": 1,
+"file": "Screenshot_20260820_162249.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 2,
+"res": "correct",
+"c": 5
+},
+{
+"i": 2,
+"file": "Screenshot_20260820_162304.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 3,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 3,
+"file": "Screenshot_20260820_162317.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 4,
+"res": "correct",
+"c": 2
+},
+{
+"i": 4,
+"file": "Screenshot_20260820_162510.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 5,
+"res": "correct",
+"c": 4
+},
+{
+"i": 5,
+"file": "Screenshot_20260820_162523.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 6,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 6,
+"file": "Screenshot_20260820_162657.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 7,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 7,
+"file": "Screenshot_20260820_162712.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 8,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 8,
+"file": "Screenshot_20260820_162726.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 9,
+"res": "correct",
+"c": 4
+},
+{
+"i": 9,
+"file": "Screenshot_20260820_162746.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 10,
+"res": "correct",
+"c": 4
+},
+{
+"i": 10,
+"file": "Screenshot_20260820_162749.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 11,
+"res": "correct",
+"c": 4
+},
+{
+"i": 11,
+"file": "Screenshot_20260820_162752.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 12,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 12,
+"file": "Screenshot_20260820_162754.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 13,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 13,
+"file": "Screenshot_20260820_162756.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 14,
+"res": "correct",
+"c": 5
+},
+{
+"i": 14,
+"file": "Screenshot_20260820_162757.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 15,
+"res": "correct",
+"c": 4
+},
+{
+"i": 15,
+"file": "Screenshot_20260820_162759.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 16,
+"res": "correct",
+"c": 4
+},
+{
+"i": 16,
+"file": "Screenshot_20260820_162801.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 17,
+"res": "correct",
+"c": 4
+},
+{
+"i": 17,
+"file": "Screenshot_20260820_162803.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 18,
+"res": "correct",
+"c": 4
+},
+{
+"i": 18,
+"file": "Screenshot_20260820_162805.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 19,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 19,
+"file": "Screenshot_20260820_162808.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 20,
+"res": "correct",
+"c": 3
+},
+{
+"i": 20,
+"file": "Screenshot_20260820_162811.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 21,
+"res": "correct",
+"c": 5
+},
+{
+"i": 21,
+"file": "Screenshot_20260820_162813.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 22,
+"res": "correct",
+"c": 4
+},
+{
+"i": 22,
+"file": "Screenshot_20260820_162815.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 23,
+"res": "incorrect",
+"c": 4
+},
+{
+"i": 23,
+"file": "Screenshot_20260820_162828.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 24,
+"res": "correct",
+"c": 4
+},
+{
+"i": 24,
+"file": "Screenshot_20260820_162830.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 25,
+"res": "correct",
+"c": 4
+},
+{
+"i": 25,
+"file": "Screenshot_20260820_162831.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 26,
+"res": "correct",
+"c": 4
+},
+{
+"i": 26,
+"file": "Screenshot_20260820_162832.png",
+"sec": "Reading and Writing",
+"mod": 1,
+"q": 27,
+"res": "correct",
+"c": 3
+},
+{
+"i": 27,
+"file": "Screenshot_20260820_162836.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 1,
+"res": "correct",
+"c": 4
+},
+{
+"i": 28,
+"file": "Screenshot_20260820_162837.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 2,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 29,
+"file": "Screenshot_20260820_162838.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 3,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 30,
+"file": "Screenshot_20260820_162839.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 4,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 31,
+"file": "Screenshot_20260820_162840.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 5,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 32,
+"file": "Screenshot_20260820_162841.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 6,
+"res": "correct",
+"c": 4
+},
+{
+"i": 33,
+"file": "Screenshot_20260820_162842.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 7,
+"res": "correct",
+"c": 2
+},
+{
+"i": 34,
+"file": "Screenshot_20260820_162843.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 8,
+"res": "correct",
+"c": 2
+},
+{
+"i": 35,
+"file": "Screenshot_20260820_162844.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 9,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 36,
+"file": "Screenshot_20260820_162845.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 10,
+"res": "correct",
+"c": 4
+},
+{
+"i": 37,
+"file": "Screenshot_20260820_162846.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 11,
+"res": "correct",
+"c": 4
+},
+{
+"i": 38,
+"file": "Screenshot_20260820_162847.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 12,
+"res": "incorrect",
+"c": 5
+},
+{
+"i": 39,
+"file": "Screenshot_20260820_162848.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 13,
+"res": "correct",
+"c": 2
+},
+{
+"i": 40,
+"file": "Screenshot_20260820_162849.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 14,
+"res": "incorrect",
+"c": 1
+},
+{
+"i": 41,
+"file": "Screenshot_20260820_162850.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 15,
+"res": "correct",
+"c": 3
+},
+{
+"i": 42,
+"file": "Screenshot_20260820_162851.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 16,
+"res": "correct",
+"c": 4
+},
+{
+"i": 43,
+"file": "Screenshot_20260820_162852.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 17,
+"res": "correct",
+"c": 4
+},
+{
+"i": 44,
+"file": "Screenshot_20260820_162853.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 18,
+"res": "correct",
+"c": 4
+},
+{
+"i": 45,
+"file": "Screenshot_20260820_162854.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 19,
+"res": "correct",
+"c": 4
+},
+{
+"i": 46,
+"file": "Screenshot_20260820_162855.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 20,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 47,
+"file": "Screenshot_20260820_162856.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 21,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 48,
+"file": "Screenshot_20260820_162857.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 22,
+"res": "correct",
+"c": 4
+},
+{
+"i": 49,
+"file": "Screenshot_20260820_162858.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 23,
+"res": "incorrect",
+"c": 4
+},
+{
+"i": 50,
+"file": "Screenshot_20260820_162859.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 24,
+"res": "correct",
+"c": 4
+},
+{
+"i": 51,
+"file": "Screenshot_20260820_162900.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 25,
+"res": "correct",
+"c": 4
+},
+{
+"i": 52,
+"file": "Screenshot_20260820_162901.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 26,
+"res": "correct",
+"c": 3
+},
+{
+"i": 53,
+"file": "Screenshot_20260820_162902.png",
+"sec": "Reading and Writing",
+"mod": 2,
+"q": 27,
+"res": "correct",
+"c": 2
+},
+{
+"i": 54,
+"file": "Screenshot_20260820_162903.png",
+"sec": "Math",
+"mod": 1,
+"q": 1,
+"res": "correct",
+"c": 5
+},
+{
+"i": 55,
+"file": "Screenshot_20260820_162904.png",
+"sec": "Math",
+"mod": 1,
+"q": 2,
+"res": "correct",
+"c": 5
+},
+{
+"i": 56,
+"file": "Screenshot_20260820_162905.png",
+"sec": "Math",
+"mod": 1,
+"q": 3,
+"res": "correct",
+"c": 5
+},
+{
+"i": 57,
+"file": "Screenshot_20260820_162906.png",
+"sec": "Math",
+"mod": 1,
+"q": 4,
+"res": "correct",
+"c": 5
+},
+{
+"i": 58,
+"file": "Screenshot_20260820_162907.png",
+"sec": "Math",
+"mod": 1,
+"q": 5,
+"res": "correct",
+"c": 5
+},
+{
+"i": 59,
+"file": "Screenshot_20260820_162908.png",
+"sec": "Math",
+"mod": 1,
+"q": 6,
+"res": "correct",
+"c": 5
+},
+{
+"i": 60,
+"file": "Screenshot_20260820_162909.png",
+"sec": "Math",
+"mod": 1,
+"q": 7,
+"res": "correct",
+"c": 5
+},
+{
+"i": 61,
+"file": "Screenshot_20260820_162910.png",
+"sec": "Math",
+"mod": 1,
+"q": 8,
+"res": "correct",
+"c": 5
+},
+{
+"i": 62,
+"file": "Screenshot_20260820_162911.png",
+"sec": "Math",
+"mod": 1,
+"q": 9,
+"res": "correct",
+"c": 5
+},
+{
+"i": 63,
+"file": "Screenshot_20260820_162912.png",
+"sec": "Math",
+"mod": 1,
+"q": 10,
+"res": "correct",
+"c": 5
+},
+{
+"i": 64,
+"file": "Screenshot_20260820_162913.png",
+"sec": "Math",
+"mod": 1,
+"q": 11,
+"res": "correct",
+"c": 5
+},
+{
+"i": 65,
+"file": "Screenshot_20260820_162914.png",
+"sec": "Math",
+"mod": 1,
+"q": 12,
+"res": "correct",
+"c": 5
+},
+{
+"i": 66,
+"file": "Screenshot_20260820_162915.png",
+"sec": "Math",
+"mod": 1,
+"q": 13,
+"res": "correct",
+"c": 5
+},
+{
+"i": 67,
+"file": "Screenshot_20260820_162916.png",
+"sec": "Math",
+"mod": 1,
+"q": 14,
+"res": "correct",
+"c": 5
+},
+{
+"i": 68,
+"file": "Screenshot_20260820_162917.png",
+"sec": "Math",
+"mod": 1,
+"q": 15,
+"res": "correct",
+"c": 5
+},
+{
+"i": 69,
+"file": "Screenshot_20260820_162918.png",
+"sec": "Math",
+"mod": 1,
+"q": 16,
+"res": "correct",
+"c": 5
+},
+{
+"i": 70,
+"file": "Screenshot_20260820_162919.png",
+"sec": "Math",
+"mod": 1,
+"q": 17,
+"res": "correct",
+"c": 5
+},
+{
+"i": 71,
+"file": "Screenshot_20260820_162921.png",
+"sec": "Math",
+"mod": 1,
+"q": 18,
+"res": "correct",
+"c": 5
+},
+{
+"i": 72,
+"file": "Screenshot_20260820_162922.png",
+"sec": "Math",
+"mod": 1,
+"q": 19,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 73,
+"file": "Screenshot_20260820_162923.png",
+"sec": "Math",
+"mod": 1,
+"q": 20,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 74,
+"file": "Screenshot_20260820_162924.png",
+"sec": "Math",
+"mod": 1,
+"q": 21,
+"res": "correct",
+"c": 4
+},
+{
+"i": 75,
+"file": "Screenshot_20260820_162925.png",
+"sec": "Math",
+"mod": 1,
+"q": 22,
+"res": "correct",
+"c": 4
+},
+{
+"i": 76,
+"file": "Screenshot_20260820_162926.png",
+"sec": "Math",
+"mod": 2,
+"q": 1,
+"res": "correct",
+"c": 5
+},
+{
+"i": 77,
+"file": "Screenshot_20260820_162927.png",
+"sec": "Math",
+"mod": 2,
+"q": 2,
+"res": "correct",
+"c": 5
+},
+{
+"i": 78,
+"file": "Screenshot_20260820_162928.png",
+"sec": "Math",
+"mod": 2,
+"q": 3,
+"res": "correct",
+"c": 5
+},
+{
+"i": 79,
+"file": "Screenshot_20260820_162929.png",
+"sec": "Math",
+"mod": 2,
+"q": 4,
+"res": "correct",
+"c": 4
+},
+{
+"i": 80,
+"file": "Screenshot_20260820_162930.png",
+"sec": "Math",
+"mod": 2,
+"q": 5,
+"res": "correct",
+"c": 4
+},
+{
+"i": 81,
+"file": "Screenshot_20260820_162931.png",
+"sec": "Math",
+"mod": 2,
+"q": 6,
+"res": "correct",
+"c": 5
+},
+{
+"i": 82,
+"file": "Screenshot_20260820_162934.png",
+"sec": "Math",
+"mod": 2,
+"q": 7,
+"res": "correct",
+"c": 4
+},
+{
+"i": 83,
+"file": "Screenshot_20260820_162935.png",
+"sec": "Math",
+"mod": 2,
+"q": 8,
+"res": "correct",
+"c": 5
+},
+{
+"i": 84,
+"file": "Screenshot_20260820_162936.png",
+"sec": "Math",
+"mod": 2,
+"q": 9,
+"res": "correct",
+"c": 4
+},
+{
+"i": 85,
+"file": "Screenshot_20260820_162937.png",
+"sec": "Math",
+"mod": 2,
+"q": 10,
+"res": "correct",
+"c": 4
+},
+{
+"i": 86,
+"file": "Screenshot_20260820_162938.png",
+"sec": "Math",
+"mod": 2,
+"q": 11,
+"res": "correct",
+"c": 4
+},
+{
+"i": 87,
+"file": "Screenshot_20260820_162938-1.png",
+"sec": "Math",
+"mod": 2,
+"q": 12,
+"res": "incorrect",
+"c": 5
+},
+{
+"i": 88,
+"file": "Screenshot_20260820_162939.png",
+"sec": "Math",
+"mod": 2,
+"q": 13,
+"res": "correct",
+"c": 4
+},
+{
+"i": 89,
+"file": "Screenshot_20260820_162940.png",
+"sec": "Math",
+"mod": 2,
+"q": 14,
+"res": "correct",
+"c": 4
+},
+{
+"i": 90,
+"file": "Screenshot_20260820_162940-1.png",
+"sec": "Math",
+"mod": 2,
+"q": 15,
+"res": "incorrect",
+"c": 3
+},
+{
+"i": 91,
+"file": "Screenshot_20260820_162941.png",
+"sec": "Math",
+"mod": 2,
+"q": 16,
+"res": "incorrect",
+"c": 1
+},
+{
+"i": 92,
+"file": "Screenshot_20260820_162942.png",
+"sec": "Math",
+"mod": 2,
+"q": 17,
+"res": "incorrect",
+"c": 2
+},
+{
+"i": 93,
+"file": "Screenshot_20260820_162943.png",
+"sec": "Math",
+"mod": 2,
+"q": 18,
+"res": "correct",
+"c": 4
+},
+{
+"i": 94,
+"file": "Screenshot_20260820_162943-1.png",
+"sec": "Math",
+"mod": 2,
+"q": 19,
+"res": "incorrect",
+"c": 4
+},
+{
+"i": 95,
+"file": "Screenshot_20260820_162944.png",
+"sec": "Math",
+"mod": 2,
+"q": 20,
+"res": "correct",
+"c": 2
+},
+{
+"i": 96,
+"file": "Screenshot_20260820_162945.png",
+"sec": "Math",
+"mod": 2,
+"q": 21,
+"res": "incorrect",
+"c": 1
+},
+{
+"i": 97,
+"file": "Screenshot_20260820_162947.png",
+"sec": "Math",
+"mod": 2,
+"q": 22,
+"res": "incorrect",
+"c": 1
+}
+]

@@ -1,0 +1,272 @@
+[
+{
+"file": "Screenshot_20260820_162304.png",
+"sec": "R&W",
+"mod": 1,
+"q": 3,
+"dom": "Craft and Structure",
+"typ": "Word in context",
+"note": "Sentence announces a paradox, so the blank needs a negative word (hampered). 'Reflected' is neutral and fits the topic, not the logic.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162523.png",
+"sec": "R&W",
+"mod": 1,
+"q": 6,
+"dom": "Craft and Structure",
+"typ": "Function of underlined portion",
+"note": "Asks what the underlined sentence DOES for the text as a whole, not what it says.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162657.png",
+"sec": "R&W",
+"mod": 1,
+"q": 7,
+"dom": "Craft and Structure",
+"typ": "Cross-text connections",
+"note": "How would Text 2's critics respond to Text 1's underlined claim. Find each author's position first, then the relationship.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162712.png",
+"sec": "R&W",
+"mod": 1,
+"q": 8,
+"dom": "Information and Ideas",
+"typ": "Inference, literary",
+"note": "What would Lady Howard agree with about Villars \u2014 supported by the letter, not implied by tone.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162752.png",
+"sec": "R&W",
+"mod": 1,
+"q": 12,
+"dom": "Information and Ideas",
+"typ": "Quotation illustrating a claim",
+"note": "The claim is about audience-mediated slapstick comedy. The right quote must show THAT, not just mention the company.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162754.png",
+"sec": "R&W",
+"mod": 1,
+"q": 13,
+"dom": "Information and Ideas",
+"typ": "Table data",
+"note": "Fiber diameters. Wrong options quote real numbers supporting the wrong comparison.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162805.png",
+"sec": "R&W",
+"mod": 1,
+"q": 19,
+"dom": "Standard English Conventions",
+"typ": "Matched dash pair",
+"note": "An em dash already opened the interrupter before the blank, so it must close with a dash, not a colon.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162815.png",
+"sec": "R&W",
+"mod": 1,
+"q": 23,
+"dom": "Expression of Ideas",
+"typ": "Transition",
+"note": "BLIND SPOT \u2014 rated 4. Census data complicates the popular narrative; the blank needs contrast.",
+"c": 4
+},
+{
+"file": "Screenshot_20260820_162837.png",
+"sec": "R&W",
+"mod": 2,
+"q": 2,
+"dom": "Craft and Structure",
+"typ": "Word in context",
+"note": "'Ubiquity' \u2014 the sentence needs widespread availability, matching the second half.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162838.png",
+"sec": "R&W",
+"mod": 2,
+"q": 3,
+"dom": "Craft and Structure",
+"typ": "Word in context",
+"note": "'Reciprocity' \u2014 pairs foster each other's cygnets; mutual exchange, not cohesion.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162839.png",
+"sec": "R&W",
+"mod": 2,
+"q": 4,
+"dom": "Craft and Structure",
+"typ": "Word in context",
+"note": "'Manifest' here means perceptible, not realized. Older sense, not the everyday one.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162840.png",
+"sec": "R&W",
+"mod": 2,
+"q": 5,
+"dom": "Craft and Structure",
+"typ": "Main purpose",
+"note": "What the passage as a whole is DOING, not its subject.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162844.png",
+"sec": "R&W",
+"mod": 2,
+"q": 9,
+"dom": "Information and Ideas",
+"typ": "Main idea",
+"note": "Spike waves exceed the steepness constraint \u2014 the finding, not the background.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162847.png",
+"sec": "R&W",
+"mod": 2,
+"q": 12,
+"dom": "Information and Ideas",
+"typ": "Table data",
+"note": "BLIND SPOT \u2014 rated 5. TRAPPIST-1: rotational period equals orbital period, so read the row for the named planet.",
+"c": 5
+},
+{
+"file": "Screenshot_20260820_162849.png",
+"sec": "R&W",
+"mod": 2,
+"q": 14,
+"dom": "Information and Ideas",
+"typ": "Logical completion",
+"note": "Model uses one uniform value where reality varies, so disagreements are expected.",
+"c": 1
+},
+{
+"file": "Screenshot_20260820_162855.png",
+"sec": "R&W",
+"mod": 2,
+"q": 20,
+"dom": "Standard English Conventions",
+"typ": "Finite verb vs participle",
+"note": "'Slept' is already the main verb, so the blank takes a participle (prioritizing).",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162856.png",
+"sec": "R&W",
+"mod": 2,
+"q": 21,
+"dom": "Standard English Conventions",
+"typ": "Finite verb vs participle",
+"note": "'Adapted' is the main verb, so the blank takes a participle (searching).",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162858.png",
+"sec": "R&W",
+"mod": 2,
+"q": 23,
+"dom": "Expression of Ideas",
+"typ": "Transition",
+"note": "BLIND SPOT \u2014 rated 4. Migrants relocated within the region, contradicting the California narrative.",
+"c": 4
+},
+{
+"file": "Screenshot_20260820_162922.png",
+"sec": "Math",
+"mod": 1,
+"q": 19,
+"dom": "Algebra",
+"typ": "Read a graph intercept",
+"note": "Mass per M-type star = total / x-intercept. You eyeballed the gridlines by hand; retype the line in Desmos and click the intercept.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162923.png",
+"sec": "Math",
+"mod": 1,
+"q": 20,
+"dom": "Geometry and Trigonometry",
+"typ": "SOH-CAH-TOA",
+"note": "SR=18 is opposite angle Q, QS is the hypotenuse, so QS = 18/sin Q. You backsolved with Desmos open; the tool can't fix a mislabeled side.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162938-1.png",
+"sec": "Math",
+"mod": 2,
+"q": 12,
+"dom": "Problem-Solving and Data Analysis",
+"typ": "Probability, compound condition",
+"note": "BLIND SPOT \u2014 rated 5. Even AND <=50 is 25 of 160 = 5/32. You counted all <=50.",
+"c": 5
+},
+{
+"file": "Screenshot_20260820_162940-1.png",
+"sec": "Math",
+"mod": 2,
+"q": 15,
+"dom": "Advanced Math",
+"typ": "Rational exponents (SPR)",
+"note": "Method was right the whole way; final division used 9 instead of 81. Careless, not conceptual.",
+"c": 3
+},
+{
+"file": "Screenshot_20260820_162941.png",
+"sec": "Math",
+"mod": 2,
+"q": 16,
+"dom": "Advanced Math",
+"typ": "Rational function",
+"note": "g(-22)=0 means the NUMERATOR is zero there, so a=506; g(0)=a/b=22 gives b=23.",
+"c": 1
+},
+{
+"file": "Screenshot_20260820_162942.png",
+"sec": "Math",
+"mod": 2,
+"q": 17,
+"dom": "Geometry and Trigonometry",
+"typ": "Angles at an intersection",
+"note": "Two lines make pairs summing to 180 or to twice one angle. You graphed it \u2014 graphing can't answer 'could NOT be'.",
+"c": 2
+},
+{
+"file": "Screenshot_20260820_162943-1.png",
+"sec": "Math",
+"mod": 2,
+"q": 19,
+"dom": "Algebra",
+"typ": "System, 'at least one solution'",
+"note": "BLIND SPOT \u2014 rated 4, and you GRAPHED it. The two equations are the same line, so Desmos draws one line = infinitely many solutions = 'at least one'.",
+"c": 4
+},
+{
+"file": "Screenshot_20260820_162945.png",
+"sec": "Math",
+"mod": 2,
+"q": 21,
+"dom": "Advanced Math",
+"typ": "Factored form from a graph",
+"note": "Bounce = squared factor, cross = single factor. Read roots off the graph and apply the x+28 shift.",
+"c": 1
+},
+{
+"file": "Screenshot_20260820_162947.png",
+"sec": "Math",
+"mod": 2,
+"q": 22,
+"dom": "Problem-Solving and Data Analysis",
+"typ": "Chained percents (SPR)",
+"note": "A=4.68b and A=0.00780c, so c=600b, so p=60000. Desmos solves it in one line.",
+"c": 1
+}
+]

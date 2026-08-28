@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAT Practice 11 — Desmos Log</title>
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--ink:#14181f;--muted:#6b7280;--line:#e3e6ea;
+  --accent:#2f5fd0;--good:#137a45;--bad:#b3261e;--shadow:0 1px 3px rgba(0,0,0,.09)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1216;--panel:#171b21;--ink:#e8eaed;--muted:#98a1ae;--line:#282e37;
+  --accent:#7aa2f7;--good:#4ac585;--bad:#f2827a;--shadow:0 1px 3px rgba(0,0,0,.4)}}
+:root[data-theme="dark"]{--bg:#0f1216;--panel:#171b21;--ink:#e8eaed;--muted:#98a1ae;
+  --line:#282e37;--accent:#7aa2f7;--good:#4ac585;--bad:#f2827a;--shadow:0 1px 3px rgba(0,0,0,.4)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:1px solid var(--line);
+  padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;box-shadow:var(--shadow)}
+h1{font-size:15px;margin:0;font-weight:650;letter-spacing:-.01em}
+.pill{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+.bar{flex:1;min-width:110px;height:6px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+button{font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;padding:6px 11px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+button.yes.on{background:var(--good);border-color:var(--good)}
+button.no.on{background:var(--muted);border-color:var(--muted)}
+main{max-width:1180px;margin:0 auto;padding:14px 16px 0}
+.qbar{display:flex;gap:10px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+.qid{font-weight:650;font-size:16px}
+.res{font-size:12px;font-weight:650;padding:2px 8px;border-radius:6px}
+.res.correct{color:var(--good);background:color-mix(in srgb,var(--good) 12%,transparent)}
+.res.incorrect{color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,transparent)}
+.shotwrap{width:100%;border:1px solid var(--line);border-radius:10px;background:var(--panel);
+  box-shadow:var(--shadow);overflow:auto;max-height:46vh;display:flex;justify-content:center}
+.shot{max-width:100%;height:auto;display:block}
+.form{position:sticky;bottom:0;background:var(--panel);border-top:1px solid var(--line);
+  padding:10px 16px 12px;margin-top:12px;box-shadow:0 -1px 3px rgba(0,0,0,.08)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:7px}
+.lab{font-size:12px;color:var(--muted);min-width:112px;font-weight:650}
+.row input[type=text]{flex:1;min-width:240px;font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+  background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 9px}
+.row input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:var(--accent)}
+.k{font-size:10px;opacity:.65;margin-left:5px}
+.nav{margin-left:auto;display:flex;gap:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:4px;margin:10px 0 4px}
+.cell{aspect-ratio:1.35;border-radius:6px;border:1px solid var(--line);background:var(--panel);
+  font-size:11px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  cursor:pointer;padding:0;gap:1px}
+.cell:hover{border-color:var(--accent)}
+.cell.cur{outline:2px solid var(--accent);outline-offset:1px}
+.cell .n{font-weight:650}
+.cell .v{font-size:10px;color:var(--muted)}
+.cell.done{background:color-mix(in srgb,var(--accent) 14%,var(--panel))}
+.grid.reveal .cell.miss .n{color:var(--bad)}
+.sec-h{font-size:12px;color:var(--muted);margin:12px 0 2px;font-weight:650;letter-spacing:.04em;text-transform:uppercase}
+.hint{font-size:12px;color:var(--muted);margin:6px 0 12px}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);
+  max-width:900px;width:94%;padding:0}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+.dlg-h{padding:12px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+.dlg-b{padding:14px 16px}
+textarea{width:100%;height:360px;font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;
+  background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px}
+</style></head><body>
+<header>
+  <h1>SAT Practice 11 — Desmos Log</h1>
+  <span class="pill" id="count"></span>
+  <div class="bar"><i id="prog"></i></div>
+  <button id="scope" class="on">Math only</button>
+  <button id="blind" class="on">Blind: on</button>
+  <button id="exp">Export</button>
+</header>
+<main>
+  <div class="qbar">
+    <span class="qid" id="qid"></span>
+    <span class="res" id="res"></span>
+    <span class="pill" id="conf"></span>
+    <span class="pill" id="pos"></span>
+  </div>
+  <div class="shotwrap" id="shotwrap"><img class="shot" id="shot" alt=""></div>
+  <div class="sec-h">Jump to question</div>
+  <div class="grid" id="grid"></div>
+  <p class="hint">Keys: <b>y/n</b> Desmos &middot; <b>1–7</b> what you did &middot; <b>Enter</b> next
+  &middot; <b>←/→</b> move &middot; <b>b</b> reveal answer. Saves automatically.</p>
+</main>
+<div class="form">
+  <div class="row"><span class="lab">Used Desmos?</span>
+    <button class="yes" id="dy">Yes<span class="k">y</span></button>
+    <button class="no" id="dn">No<span class="k">n</span></button>
+    <span class="lab" style="min-width:0;margin-left:14px">Would it have helped?</span>
+    <button id="wy">Yes</button><button id="wn">No</button>
+    <span class="pill">optional</span>
+  </div>
+  <div class="row"><span class="lab">What you did</span><span id="kinds"></span></div>
+  <div class="row"><span class="lab">What you typed in</span>
+    <input type="text" id="inp" placeholder="e.g.  y=2x+9y=7  ·  x^2-x-506  ·  left blank, did it by hand" autocomplete="off">
+    <span class="nav"><button id="prev">← Prev</button><button id="next">Next →</button></span>
+  </div>
+</div>
+<dialog id="dlg">
+  <div class="dlg-h"><b>Export</b><span class="pill" id="expcount"></span>
+    <button id="copy" style="margin-left:auto">Copy</button>
+    <button id="dl">Download .md</button><button id="close">Close</button></div>
+  <div class="dlg-b"><textarea id="out" readonly></textarea></div>
+</dialog>
+<script>
+const ALL = [{"i":0,"file":"Screenshot_20260820_162115.png","sec":"Reading and Writing","mod":1,"q":1,"res":"correct","c":4},{"i":1,"file":"Screenshot_20260820_162249.png","sec":"Reading and Writing","mod":1,"q":2,"res":"correct","c":5},{"i":2,"file":"Screenshot_20260820_162304.png","sec":"Reading and Writing","mod":1,"q":3,"res":"incorrect","c":3},{"i":3,"file":"Screenshot_20260820_162317.png","sec":"Reading and Writing","mod":1,"q":4,"res":"correct","c":2},{"i":4,"file":"Screenshot_20260820_162510.png","sec":"Reading and Writing","mod":1,"q":5,"res":"correct","c":4},{"i":5,"file":"Screenshot_20260820_162523.png","sec":"Reading and Writing","mod":1,"q":6,"res":"incorrect","c":2},{"i":6,"file":"Screenshot_20260820_162657.png","sec":"Reading and Writing","mod":1,"q":7,"res":"incorrect","c":2},{"i":7,"file":"Screenshot_20260820_162712.png","sec":"Reading and Writing","mod":1,"q":8,"res":"incorrect","c":3},{"i":8,"file":"Screenshot_20260820_162726.png","sec":"Reading and Writing","mod":1,"q":9,"res":"correct","c":4},{"i":9,"file":"Screenshot_20260820_162746.png","sec":"Reading and Writing","mod":1,"q":10,"res":"correct","c":4},{"i":10,"file":"Screenshot_20260820_162749.png","sec":"Reading and Writing","mod":1,"q":11,"res":"correct","c":4},{"i":11,"file":"Screenshot_20260820_162752.png","sec":"Reading and Writing","mod":1,"q":12,"res":"incorrect","c":2},{"i":12,"file":"Screenshot_20260820_162754.png","sec":"Reading and Writing","mod":1,"q":13,"res":"incorrect","c":3},{"i":13,"file":"Screenshot_20260820_162756.png","sec":"Reading and Writing","mod":1,"q":14,"res":"correct","c":5},{"i":14,"file":"Screenshot_20260820_162757.png","sec":"Reading and Writing","mod":1,"q":15,"res":"correct","c":4},{"i":15,"file":"Screenshot_20260820_162759.png","sec":"Reading and Writing","mod":1,"q":16,"res":"correct","c":4},{"i":16,"file":"Screenshot_20260820_162801.png","sec":"Reading and Writing","mod":1,"q":17,"res":"correct","c":4},{"i":17,"file":"Screenshot_20260820_162803.png","sec":"Reading and Writing","mod":1,"q":18,"res":"correct","c":4},{"i":18,"file":"Screenshot_20260820_162805.png","sec":"Reading and Writing","mod":1,"q":19,"res":"incorrect","c":3},{"i":19,"file":"Screenshot_20260820_162808.png","sec":"Reading and Writing","mod":1,"q":20,"res":"correct","c":3},{"i":20,"file":"Screenshot_20260820_162811.png","sec":"Reading and Writing","mod":1,"q":21,"res":"correct","c":5},{"i":21,"file":"Screenshot_20260820_162813.png","sec":"Reading and Writing","mod":1,"q":22,"res":"correct","c":4},{"i":22,"file":"Screenshot_20260820_162815.png","sec":"Reading and Writing","mod":1,"q":23,"res":"incorrect","c":4},{"i":23,"file":"Screenshot_20260820_162828.png","sec":"Reading and Writing","mod":1,"q":24,"res":"correct","c":4},{"i":24,"file":"Screenshot_20260820_162830.png","sec":"Reading and Writing","mod":1,"q":25,"res":"correct","c":4},{"i":25,"file":"Screenshot_20260820_162831.png","sec":"Reading and Writing","mod":1,"q":26,"res":"correct","c":4},{"i":26,"file":"Screenshot_20260820_162832.png","sec":"Reading and Writing","mod":1,"q":27,"res":"correct","c":3},{"i":27,"file":"Screenshot_20260820_162836.png","sec":"Reading and Writing","mod":2,"q":1,"res":"correct","c":4},{"i":28,"file":"Screenshot_20260820_162837.png","sec":"Reading and Writing","mod":2,"q":2,"res":"incorrect","c":3},{"i":29,"file":"Screenshot_20260820_162838.png","sec":"Reading and Writing","mod":2,"q":3,"res":"incorrect","c":2},{"i":30,"file":"Screenshot_20260820_162839.png","sec":"Reading and Writing","mod":2,"q":4,"res":"incorrect","c":2},{"i":31,"file":"Screenshot_20260820_162840.png","sec":"Reading and Writing","mod":2,"q":5,"res":"incorrect","c":3},{"i":32,"file":"Screenshot_20260820_162841.png","sec":"Reading and Writing","mod":2,"q":6,"res":"correct","c":4},{"i":33,"file":"Screenshot_20260820_162842.png","sec":"Reading and Writing","mod":2,"q":7,"res":"correct","c":2},{"i":34,"file":"Screenshot_20260820_162843.png","sec":"Reading and Writing","mod":2,"q":8,"res":"correct","c":2},{"i":35,"file":"Screenshot_20260820_162844.png","sec":"Reading and Writing","mod":2,"q":9,"res":"incorrect","c":3},{"i":36,"file":"Screenshot_20260820_162845.png","sec":"Reading and Writing","mod":2,"q":10,"res":"correct","c":4},{"i":37,"file":"Screenshot_20260820_162846.png","sec":"Reading and Writing","mod":2,"q":11,"res":"correct","c":4},{"i":38,"file":"Screenshot_20260820_162847.png","sec":"Reading and Writing","mod":2,"q":12,"res":"incorrect","c":5},{"i":39,"file":"Screenshot_20260820_162848.png","sec":"Reading and Writing","mod":2,"q":13,"res":"correct","c":2},{"i":40,"file":"Screenshot_20260820_162849.png","sec":"Reading and Writing","mod":2,"q":14,"res":"incorrect","c":1},{"i":41,"file":"Screenshot_20260820_162850.png","sec":"Reading and Writing","mod":2,"q":15,"res":"correct","c":3},{"i":42,"file":"Screenshot_20260820_162851.png","sec":"Reading and Writing","mod":2,"q":16,"res":"correct","c":4},{"i":43,"file":"Screenshot_20260820_162852.png","sec":"Reading and Writing","mod":2,"q":17,"res":"correct","c":4},{"i":44,"file":"Screenshot_20260820_162853.png","sec":"Reading and Writing","mod":2,"q":18,"res":"correct","c":4},{"i":45,"file":"Screenshot_20260820_162854.png","sec":"Reading and Writing","mod":2,"q":19,"res":"correct","c":4},{"i":46,"file":"Screenshot_20260820_162855.png","sec":"Reading and Writing","mod":2,"q":20,"res":"incorrect","c":3},{"i":47,"file":"Screenshot_20260820_162856.png","sec":"Reading and Writing","mod":2,"q":21,"res":"incorrect","c":3},{"i":48,"file":"Screenshot_20260820_162857.png","sec":"Reading and Writing","mod":2,"q":22,"res":"correct","c":4},{"i":49,"file":"Screenshot_20260820_162858.png","sec":"Reading and Writing","mod":2,"q":23,"res":"incorrect","c":4},{"i":50,"file":"Screenshot_20260820_162859.png","sec":"Reading and Writing","mod":2,"q":24,"res":"correct","c":4},{"i":51,"file":"Screenshot_20260820_162900.png","sec":"Reading and Writing","mod":2,"q":25,"res":"correct","c":4},{"i":52,"file":"Screenshot_20260820_162901.png","sec":"Reading and Writing","mod":2,"q":26,"res":"correct","c":3},{"i":53,"file":"Screenshot_20260820_162902.png","sec":"Reading and Writing","mod":2,"q":27,"res":"correct","c":2},{"i":54,"file":"Screenshot_20260820_162903.png","sec":"Math","mod":1,"q":1,"res":"correct","c":5},{"i":55,"file":"Screenshot_20260820_162904.png","sec":"Math","mod":1,"q":2,"res":"correct","c":5},{"i":56,"file":"Screenshot_20260820_162905.png","sec":"Math","mod":1,"q":3,"res":"correct","c":5},{"i":57,"file":"Screenshot_20260820_162906.png","sec":"Math","mod":1,"q":4,"res":"correct","c":5},{"i":58,"file":"Screenshot_20260820_162907.png","sec":"Math","mod":1,"q":5,"res":"correct","c":5},{"i":59,"file":"Screenshot_20260820_162908.png","sec":"Math","mod":1,"q":6,"res":"correct","c":5},{"i":60,"file":"Screenshot_20260820_162909.png","sec":"Math","mod":1,"q":7,"res":"correct","c":5},{"i":61,"file":"Screenshot_20260820_162910.png","sec":"Math","mod":1,"q":8,"res":"correct","c":5},{"i":62,"file":"Screenshot_20260820_162911.png","sec":"Math","mod":1,"q":9,"res":"correct","c":5},{"i":63,"file":"Screenshot_20260820_162912.png","sec":"Math","mod":1,"q":10,"res":"correct","c":5},{"i":64,"file":"Screenshot_20260820_162913.png","sec":"Math","mod":1,"q":11,"res":"correct","c":5},{"i":65,"file":"Screenshot_20260820_162914.png","sec":"Math","mod":1,"q":12,"res":"correct","c":5},{"i":66,"file":"Screenshot_20260820_162915.png","sec":"Math","mod":1,"q":13,"res":"correct","c":5},{"i":67,"file":"Screenshot_20260820_162916.png","sec":"Math","mod":1,"q":14,"res":"correct","c":5},{"i":68,"file":"Screenshot_20260820_162917.png","sec":"Math","mod":1,"q":15,"res":"correct","c":5},{"i":69,"file":"Screenshot_20260820_162918.png","sec":"Math","mod":1,"q":16,"res":"correct","c":5},{"i":70,"file":"Screenshot_20260820_162919.png","sec":"Math","mod":1,"q":17,"res":"correct","c":5},{"i":71,"file":"Screenshot_20260820_162921.png","sec":"Math","mod":1,"q":18,"res":"correct","c":5},{"i":72,"file":"Screenshot_20260820_162922.png","sec":"Math","mod":1,"q":19,"res":"incorrect","c":2},{"i":73,"file":"Screenshot_20260820_162923.png","sec":"Math","mod":1,"q":20,"res":"incorrect","c":2},{"i":74,"file":"Screenshot_20260820_162924.png","sec":"Math","mod":1,"q":21,"res":"correct","c":4},{"i":75,"file":"Screenshot_20260820_162925.png","sec":"Math","mod":1,"q":22,"res":"correct","c":4},{"i":76,"file":"Screenshot_20260820_162926.png","sec":"Math","mod":2,"q":1,"res":"correct","c":5},{"i":77,"file":"Screenshot_20260820_162927.png","sec":"Math","mod":2,"q":2,"res":"correct","c":5},{"i":78,"file":"Screenshot_20260820_162928.png","sec":"Math","mod":2,"q":3,"res":"correct","c":5},{"i":79,"file":"Screenshot_20260820_162929.png","sec":"Math","mod":2,"q":4,"res":"correct","c":4},{"i":80,"file":"Screenshot_20260820_162930.png","sec":"Math","mod":2,"q":5,"res":"correct","c":4},{"i":81,"file":"Screenshot_20260820_162931.png","sec":"Math","mod":2,"q":6,"res":"correct","c":5},{"i":82,"file":"Screenshot_20260820_162934.png","sec":"Math","mod":2,"q":7,"res":"correct","c":4},{"i":83,"file":"Screenshot_20260820_162935.png","sec":"Math","mod":2,"q":8,"res":"correct","c":5},{"i":84,"file":"Screenshot_20260820_162936.png","sec":"Math","mod":2,"q":9,"res":"correct","c":4},{"i":85,"file":"Screenshot_20260820_162937.png","sec":"Math","mod":2,"q":10,"res":"correct","c":4},{"i":86,"file":"Screenshot_20260820_162938.png","sec":"Math","mod":2,"q":11,"res":"correct","c":4},{"i":87,"file":"Screenshot_20260820_162938-1.png","sec":"Math","mod":2,"q":12,"res":"incorrect","c":5},{"i":88,"file":"Screenshot_20260820_162939.png","sec":"Math","mod":2,"q":13,"res":"correct","c":4},{"i":89,"file":"Screenshot_20260820_162940.png","sec":"Math","mod":2,"q":14,"res":"correct","c":4},{"i":90,"file":"Screenshot_20260820_162940-1.png","sec":"Math","mod":2,"q":15,"res":"incorrect","c":3},{"i":91,"file":"Screenshot_20260820_162941.png","sec":"Math","mod":2,"q":16,"res":"incorrect","c":1},{"i":92,"file":"Screenshot_20260820_162942.png","sec":"Math","mod":2,"q":17,"res":"incorrect","c":2},{"i":93,"file":"Screenshot_20260820_162943.png","sec":"Math","mod":2,"q":18,"res":"correct","c":4},{"i":94,"file":"Screenshot_20260820_162943-1.png","sec":"Math","mod":2,"q":19,"res":"incorrect","c":4},{"i":95,"file":"Screenshot_20260820_162944.png","sec":"Math","mod":2,"q":20,"res":"correct","c":2},{"i":96,"file":"Screenshot_20260820_162945.png","sec":"Math","mod":2,"q":21,"res":"incorrect","c":1},{"i":97,"file":"Screenshot_20260820_162947.png","sec":"Math","mod":2,"q":22,"res":"incorrect","c":1}];
+const KINDS = {
+  1:"Graphed it / read a point",
+  2:"Solved an equation",
+  3:"Arithmetic only",
+  4:"Table of values",
+  5:"Statistics / regression",
+  6:"Backsolved the choices",
+  7:"By hand — no calculator"
+};
+const KEY="sat-p11-desmos";
+let D = JSON.parse(localStorage.getItem(KEY) || "{}");
+let cur = null, blind = true, mathOnly = true;
+const $ = id => document.getElementById(id);
+const save = () => localStorage.setItem(KEY, JSON.stringify(D));
+const pool = () => ALL.filter(it => !mathOnly || it.sec === "Math");
+const rec = i => (D[i] = D[i] || {});
+const done = i => { const r = D[i]; return r && r.used != null && r.kind != null; };
+const tag = it => (it.sec === "Math" ? "Math" : "R&W") + " M" + it.mod + " Q" + it.q;
+
+function buildGrid(){
+  $("grid").innerHTML = pool().map(it =>
+    `<button class="cell ${it.res==="incorrect"?"miss":""}" data-i="${it.i}">
+       <span class="n">${it.sec==="Math"?"M":"R"}${it.mod}·${it.q}</span><span class="v"></span></button>`).join("");
+  [...$("grid").children].forEach(c => c.onclick = () => { cur = +c.dataset.i; render(); });
+}
+function render(){
+  const it = ALL[cur];
+  $("shot").src = (blind ? "question-only/" : "") + encodeURIComponent(it.file);
+  $("qid").textContent = tag(it);
+  const r = $("res");
+  r.textContent = blind ? "" : (it.res === "correct" ? "Correct" : "Incorrect");
+  r.className = "res " + (blind ? "" : it.res);
+  $("conf").textContent = it.c ? "confidence " + it.c : "";
+  const p = pool(), pi = p.findIndex(x => x.i === cur);
+  $("pos").textContent = (pi + 1) + " of " + p.length;
+  const d = D[cur] || {};
+  $("dy").classList.toggle("on", d.used === true);
+  $("dn").classList.toggle("on", d.used === false);
+  $("wy").classList.toggle("on", d.help === true);
+  $("wn").classList.toggle("on", d.help === false);
+  [...$("kinds").children].forEach(b => b.classList.toggle("on", String(d.kind) === b.dataset.k));
+  $("inp").value = d.text || "";
+  const n = p.filter(x => done(x.i)).length;
+  $("count").textContent = n + " / " + p.length;
+  $("prog").style.width = (n / p.length * 100) + "%";
+  $("grid").classList.toggle("reveal", !blind);
+  [...$("grid").children].forEach(c => {
+    const i = +c.dataset.i;
+    c.classList.toggle("cur", i === cur);
+    c.classList.toggle("done", done(i));
+    const rr = D[i] || {};
+    c.querySelector(".v").textContent = rr.used == null ? "" : (rr.used ? "D" : "–") + (rr.kind || "");
+  });
+  $("grid").querySelector(".cell.cur")?.scrollIntoView({block:"nearest"});
+}
+function go(d){
+  const p = pool(); let i = p.findIndex(x => x.i === cur);
+  if(i === -1){ cur = p[0].i; render(); return; }
+  i = Math.min(p.length - 1, Math.max(0, i + d));
+  cur = p[i].i; render();
+}
+function setUsed(v){ rec(cur).used = v; save(); render(); }
+function setHelp(v){ rec(cur).help = v; save(); render(); }
+function setKind(k){ rec(cur).kind = k; save(); render(); }
+$("kinds").innerHTML = Object.entries(KINDS).map(([k,v]) =>
+  `<button data-k="${k}">${v}<span class="k">${k}</span></button>`).join(" ");
+[...$("kinds").children].forEach(b => b.onclick = () => setKind(+b.dataset.k));
+$("dy").onclick = () => setUsed(true);
+$("dn").onclick = () => setUsed(false);
+$("wy").onclick = () => setHelp(true);
+$("wn").onclick = () => setHelp(false);
+$("inp").oninput = e => { rec(cur).text = e.target.value; save(); };
+$("inp").onkeydown = e => { if(e.key === "Enter"){ e.preventDefault(); $("inp").blur(); go(1); } };
+$("prev").onclick = () => go(-1);
+$("next").onclick = () => go(1);
+$("blind").onclick = () => { blind = !blind;
+  $("blind").textContent = "Blind: " + (blind ? "on" : "off");
+  $("blind").classList.toggle("on", blind); render(); };
+$("scope").onclick = () => { mathOnly = !mathOnly;
+  $("scope").textContent = mathOnly ? "Math only" : "All 98";
+  $("scope").classList.toggle("on", mathOnly);
+  buildGrid(); if(!pool().some(x => x.i === cur)) cur = pool()[0].i; render(); };
+addEventListener("keydown", e => {
+  const t = e.target.tagName;
+  if(t === "INPUT" || t === "TEXTAREA") return;
+  const k = e.key.toLowerCase();
+  if(k === "y") setUsed(true);
+  else if(k === "n") setUsed(false);
+  else if(k >= "1" && k <= "7") setKind(+k);
+  else if(e.key === "ArrowRight" || e.key === "Enter") go(1);
+  else if(e.key === "ArrowLeft") go(-1);
+  else if(k === "b") $("blind").click();
+  else return;
+  e.preventDefault();
+});
+function md(){
+  const p = pool().filter(x => D[x.i] && (D[x.i].used != null || D[x.i].kind != null || D[x.i].text));
+  const used = p.filter(x => D[x.i].used === true);
+  const missedNoDesmos = p.filter(x => x.res === "incorrect" && D[x.i].used === false && D[x.i].help === true);
+  const usedAndMissed  = p.filter(x => x.res === "incorrect" && D[x.i].used === true);
+  let s = "# SAT Practice 11 — Desmos usage log\n\n";
+  s += "Logged " + p.length + " of " + pool().length + " questions"
+     + (mathOnly ? " (Math only)" : " (all sections)") + ".\n\n";
+  s += "- Desmos used: **" + used.length + "** of " + p.length + " logged\n";
+  s += "- Missed, didn't use it, and it would have helped: **" + missedNoDesmos.length + "**\n";
+  s += "- Missed *while* using it: **" + usedAndMissed.length + "**\n\n";
+  s += "| Question | Result | Conf | Desmos | Would help | What I did | What I typed |\n";
+  s += "|---|---|---|---|---|---|---|\n";
+  for(const it of p){
+    const d = D[it.i];
+    s += "| " + tag(it) + " | " + it.res + " | " + (it.c || "") + " | "
+       + (d.used == null ? "" : d.used ? "yes" : "no") + " | "
+       + (d.help == null ? "" : d.help ? "yes" : "no") + " | "
+       + (KINDS[d.kind] || "") + " | " + (d.text || "").replace(/\|/g, "\\|") + " |\n";
+  }
+  return s;
+}
+$("exp").onclick = () => { $("out").value = md();
+  $("expcount").textContent = pool().filter(x => done(x.i)).length + " logged"; $("dlg").showModal(); };
+$("close").onclick = () => $("dlg").close();
+$("copy").onclick = async () => {
+  try{ await navigator.clipboard.writeText($("out").value); }
+  catch{ $("out").select(); document.execCommand("copy"); }
+  $("copy").textContent = "Copied"; setTimeout(() => $("copy").textContent = "Copy", 1200);
+};
+$("dl").onclick = () => {
+  const b = new Blob([md()], {type:"text/markdown"}), a = document.createElement("a");
+  a.href = URL.createObjectURL(b); a.download = "sat-p11-desmos.md"; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+};
+buildGrid(); cur = pool()[0].i; render();
+</script></body></html>

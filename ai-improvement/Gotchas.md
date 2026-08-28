@@ -68,6 +68,9 @@ deleting the line.
   (the entire Bluebook-parity SAT app) existed on one machine's local `dev`
   branch with no backup anywhere. Check `git remote -v` on every repo you care
   about; a fork inherits the upstream remote and looks "pushed" when it isn't.
+  — **superseded 2026-08-26:** private `Corsaya/chiron` now exists and local
+  `dev` tracks `origin/dev`. The backup lesson remains valid; the immediate risk
+  does not.
 - **2026-08-25** — Instagram serves **nothing** to a logged-out request — no
   og:title, no og:description, no caption. A `/p/<id>/` link is unreadable
   without an authenticated session. Don't plan work around scraping one; ask for

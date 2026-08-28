@@ -357,7 +357,7 @@ Use this before each study session to target weak areas.
 
 ## Week Before Study Plan
 
-**[[Formulas to Memorize]]** — quick review sheet
+**[[Memorization/Must Memorize|Must Memorize]]** — quick review sheet
 
 | Day | Focus |
 |---|---|

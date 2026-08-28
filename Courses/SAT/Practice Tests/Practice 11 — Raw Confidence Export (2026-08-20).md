@@ -1,0 +1,107 @@
+# SAT Practice 11 — confidence ratings
+
+Rated 98 of 98. Scale: 5 certain, 4 confident, 3 leaning, 2 shaky, 1 guess.
+
+- Correct but guessed (treat as unlearned): **6**
+- Wrong while certain (real knowledge gap): **5**
+
+| Question | Result | Confidence | Bucket |
+|---|---|---|---|
+| R&W M1 Q1 | correct | 4 | Certain |
+| R&W M1 Q2 | correct | 5 | Certain |
+| R&W M1 Q3 | incorrect | 3 | Unsure |
+| R&W M1 Q4 | correct | 2 | Guess |
+| R&W M1 Q5 | correct | 4 | Certain |
+| R&W M1 Q6 | incorrect | 2 | Guess |
+| R&W M1 Q7 | incorrect | 2 | Guess |
+| R&W M1 Q8 | incorrect | 3 | Unsure |
+| R&W M1 Q9 | correct | 4 | Certain |
+| R&W M1 Q10 | correct | 4 | Certain |
+| R&W M1 Q11 | correct | 4 | Certain |
+| R&W M1 Q12 | incorrect | 2 | Guess |
+| R&W M1 Q13 | incorrect | 3 | Unsure |
+| R&W M1 Q14 | correct | 5 | Certain |
+| R&W M1 Q15 | correct | 4 | Certain |
+| R&W M1 Q16 | correct | 4 | Certain |
+| R&W M1 Q17 | correct | 4 | Certain |
+| R&W M1 Q18 | correct | 4 | Certain |
+| R&W M1 Q19 | incorrect | 3 | Unsure |
+| R&W M1 Q20 | correct | 3 | Unsure |
+| R&W M1 Q21 | correct | 5 | Certain |
+| R&W M1 Q22 | correct | 4 | Certain |
+| R&W M1 Q23 | incorrect | 4 | Certain |
+| R&W M1 Q24 | correct | 4 | Certain |
+| R&W M1 Q25 | correct | 4 | Certain |
+| R&W M1 Q26 | correct | 4 | Certain |
+| R&W M1 Q27 | correct | 3 | Unsure |
+| R&W M2 Q1 | correct | 4 | Certain |
+| R&W M2 Q2 | incorrect | 3 | Unsure |
+| R&W M2 Q3 | incorrect | 2 | Guess |
+| R&W M2 Q4 | incorrect | 2 | Guess |
+| R&W M2 Q5 | incorrect | 3 | Unsure |
+| R&W M2 Q6 | correct | 4 | Certain |
+| R&W M2 Q7 | correct | 2 | Guess |
+| R&W M2 Q8 | correct | 2 | Guess |
+| R&W M2 Q9 | incorrect | 3 | Unsure |
+| R&W M2 Q10 | correct | 4 | Certain |
+| R&W M2 Q11 | correct | 4 | Certain |
+| R&W M2 Q12 | incorrect | 5 | Certain |
+| R&W M2 Q13 | correct | 2 | Guess |
+| R&W M2 Q14 | incorrect | 1 | Guess |
+| R&W M2 Q15 | correct | 3 | Unsure |
+| R&W M2 Q16 | correct | 4 | Certain |
+| R&W M2 Q17 | correct | 4 | Certain |
+| R&W M2 Q18 | correct | 4 | Certain |
+| R&W M2 Q19 | correct | 4 | Certain |
+| R&W M2 Q20 | incorrect | 3 | Unsure |
+| R&W M2 Q21 | incorrect | 3 | Unsure |
+| R&W M2 Q22 | correct | 4 | Certain |
+| R&W M2 Q23 | incorrect | 4 | Certain |
+| R&W M2 Q24 | correct | 4 | Certain |
+| R&W M2 Q25 | correct | 4 | Certain |
+| R&W M2 Q26 | correct | 3 | Unsure |
+| R&W M2 Q27 | correct | 2 | Guess |
+| Math M1 Q1 | correct | 5 | Certain |
+| Math M1 Q2 | correct | 5 | Certain |
+| Math M1 Q3 | correct | 5 | Certain |
+| Math M1 Q4 | correct | 5 | Certain |
+| Math M1 Q5 | correct | 5 | Certain |
+| Math M1 Q6 | correct | 5 | Certain |
+| Math M1 Q7 | correct | 5 | Certain |
+| Math M1 Q8 | correct | 5 | Certain |
+| Math M1 Q9 | correct | 5 | Certain |
+| Math M1 Q10 | correct | 5 | Certain |
+| Math M1 Q11 | correct | 5 | Certain |
+| Math M1 Q12 | correct | 5 | Certain |
+| Math M1 Q13 | correct | 5 | Certain |
+| Math M1 Q14 | correct | 5 | Certain |
+| Math M1 Q15 | correct | 5 | Certain |
+| Math M1 Q16 | correct | 5 | Certain |
+| Math M1 Q17 | correct | 5 | Certain |
+| Math M1 Q18 | correct | 5 | Certain |
+| Math M1 Q19 | incorrect | 2 | Guess |
+| Math M1 Q20 | incorrect | 2 | Guess |
+| Math M1 Q21 | correct | 4 | Certain |
+| Math M1 Q22 | correct | 4 | Certain |
+| Math M2 Q1 | correct | 5 | Certain |
+| Math M2 Q2 | correct | 5 | Certain |
+| Math M2 Q3 | correct | 5 | Certain |
+| Math M2 Q4 | correct | 4 | Certain |
+| Math M2 Q5 | correct | 4 | Certain |
+| Math M2 Q6 | correct | 5 | Certain |
+| Math M2 Q7 | correct | 4 | Certain |
+| Math M2 Q8 | correct | 5 | Certain |
+| Math M2 Q9 | correct | 4 | Certain |
+| Math M2 Q10 | correct | 4 | Certain |
+| Math M2 Q11 | correct | 4 | Certain |
+| Math M2 Q12 | incorrect | 5 | Certain |
+| Math M2 Q13 | correct | 4 | Certain |
+| Math M2 Q14 | correct | 4 | Certain |
+| Math M2 Q15 | incorrect | 3 | Unsure |
+| Math M2 Q16 | incorrect | 1 | Guess |
+| Math M2 Q17 | incorrect | 2 | Guess |
+| Math M2 Q18 | correct | 4 | Certain |
+| Math M2 Q19 | incorrect | 4 | Certain |
+| Math M2 Q20 | correct | 2 | Guess |
+| Math M2 Q21 | incorrect | 1 | Guess |
+| Math M2 Q22 | incorrect | 1 | Guess |

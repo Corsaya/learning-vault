@@ -27,7 +27,7 @@ as curriculum and NotebookLM for audio/video output.
 - **[[Master Checklist]]** — one big tickable list, beginner → N1.
 - **[[Benchmarks Tracker]]** — granular milestones (hiragana, katakana, numbers, N5 kanji…) with date-achieved blanks.
 - **[[Genki vs Tae Kim]]** — which grammar spine to pick (and why).
-- **[[Log]]** — study log. ISO-dated entries (`YYYY-MM-DD.md`), like the Crew log.
+- **[[Log/Home|Log]]** — study log. ISO-dated entries (`YYYY-MM-DD.md`), like the Crew log.
 
 ## The one-line summary
 
@@ -43,7 +43,8 @@ above your level. Everything below is the detailed version of that sentence.
 
 ## Logging progress (your daily habit)
 
-- Day-to-day: jot what you did in your **[[Daily]]** note (add a `#japanese` line) or in **[[Log]]**.
+- Day-to-day: jot what you did in your Life vault daily note (add a
+  `#japanese` line) or in **[[Log/Home|Log]]**.
 - When a day completes a milestone, open **[[Benchmarks Tracker]]** and date that line.
 - Daily = play-by-play; Benchmarks Tracker = cumulative scoreboard; [[Master Checklist]] = stage view.
 

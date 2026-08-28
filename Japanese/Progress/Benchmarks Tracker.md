@@ -10,8 +10,9 @@ Every major milestone, broken small, with a blank to date when you hit it. This 
 brick-by-brick view. Fill the `🗓` blank the day you clear each one.
 
 > [!tip] How this connects to your Daily notes
-> Log day-to-day work in your **[[Daily]]** notes (add a `#japanese` line) or in
-> **[[Log]]**. When a day's work *completes a benchmark below*, come here and date it.
+> Log day-to-day work in your Life vault daily notes (add a `#japanese` line) or
+> in **[[../Log/Home|Log]]**. When a day's work *completes a benchmark below*,
+> come here and date it.
 > This file is the cumulative scoreboard; Daily is the play-by-play.
 
 ---

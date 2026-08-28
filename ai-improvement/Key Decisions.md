@@ -48,4 +48,4 @@ decided, and why, in a sentence or two.
 - **2026-08-25** — **Migrated off Claude Code to Codex / GPT-5.6.** Subscription
   ended 2026-08-26. `AGENTS.md` added at the vault root; claude-mem exported to
   markdown; ccdash/claude-mem/hook rules marked retired in `CLAUDE.md`. Full
-  handoff in `pytheas/Handoff/`.
+  handoff now lives in `pytheas/Operations/Handoff/`.
