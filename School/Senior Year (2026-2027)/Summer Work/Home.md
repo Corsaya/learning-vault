@@ -7,7 +7,7 @@ tags: [school, senior-year, summer-work]
 
 # Senior Year Summer Work
 
-The school-stated deadline is **Monday, September 14, 2026**. The working completion target is **Sunday, September 13** so everything is ready before school that Monday. Summer-reading assessments are expected during the second full week of school.
+AP Calculus and AP Physics are due **Monday, September 14, 2026**; their working completion target is **Sunday, September 13**. Summer reading must be complete before its assessment week, **September 21–25**, with a working reading deadline of **Sunday, September 20**.
 
 ## Dashboard
 
@@ -21,7 +21,7 @@ The school-stated deadline is **Monday, September 14, 2026**. The working comple
 
 ## Course pages
 
-- [[Schedule — September 1-13|Completion Schedule — September 1–13]]
+- [[Schedule — September 1-20|Completion Schedule — September 1–20]]
 - [[English/Summer Reading Requirements|English — Summer Reading Requirements]]
 - [[AP Calculus/Home|AP Calculus]]
 - [[AP Physics/Home|AP Physics]]
