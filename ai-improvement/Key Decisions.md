@@ -49,3 +49,9 @@ decided, and why, in a sentence or two.
   ended 2026-08-26. `AGENTS.md` added at the vault root; claude-mem exported to
   markdown; ccdash/claude-mem/hook rules marked retired in `CLAUDE.md`. Full
   handoff now lives in `pytheas/Operations/Handoff/`.
+- **2026-08-31** — **Long Codex work uses milestone handoffs instead of one
+  indefinitely growing conversation.** At a completed phase, preserve the
+  verified state, decisions, unfinished work, next action, and required files;
+  then begin a new thread when the objective changes. Rationale: this keeps
+  continuity auditable while reducing irrelevant context carried into future
+  requests. Full protocol: [[Codex Usage and Context Protocol]].

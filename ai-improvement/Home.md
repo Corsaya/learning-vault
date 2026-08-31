@@ -24,6 +24,8 @@ capabilities worth adopting.
   strategy: one unit of learning → knowledge + content + tooling
 - **[[Low-Usage Video Review Workflow]]** — reusable sparse-to-dense process
   for reviewing and clipping long recordings without wasting model usage
+- **[[Codex Usage and Context Protocol]]** — measured Codex usage, monitoring,
+  model routing, and milestone handoffs for continuing with less context
 - **[[2026-07-15-perfect-assistant-thought-dump]]** — the 07-15 goals dump,
   organized: index into the jarvis roadmap, finance product/income notes,
   and the learning plan

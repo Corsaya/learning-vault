@@ -80,3 +80,8 @@ deleting the line.
   living inside a vendor plugin's database should be exported to markdown
   *before* you need to. (Done 2026-08-25 →
   `learning/ai-improvement/Memory-Export/`.)
+- **2026-08-31** — Clearing, deleting, or hiding a Codex conversation does not
+  refund usage already consumed in the current plan window. A new thread helps
+  only prospectively when it starts from a compact, task-relevant handoff rather
+  than reloading the entire old conversation. Measure with
+  `cd ~/code/usage-monitor && python -m ccdash --chatgpt --brief`.
