@@ -21,6 +21,7 @@ The school-stated deadline is **Monday, September 14, 2026**. The working comple
 
 ## Course pages
 
+- [[Schedule — September 1-13|Completion Schedule — September 1–13]]
 - [[English/Summer Reading Requirements|English — Summer Reading Requirements]]
 - [[AP Calculus/Home|AP Calculus]]
 - [[AP Physics/Home|AP Physics]]
