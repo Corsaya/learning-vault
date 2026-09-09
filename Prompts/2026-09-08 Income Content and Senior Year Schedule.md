@@ -29,8 +29,8 @@ Japan concept; and an existing recording/editing setup.
 
 - Created a fall operating plan through November 15 with fixed commitments,
   priority blocks, cut rules, weekly scoreboard, and application deadlines.
-- Flagged Clemson Spring 2027 and Tennessee Summer 2027 entry terms for immediate
-  verification because Donovan graduates in June 2027.
+- Flagged the initial Clemson Spring 2027 and Tennessee Summer 2027 entries;
+  Donovan subsequently corrected both portal selections to Fall 2027.
 - Verified that Notre Dame REA permits other nonbinding EA applications.
 - Created a 90-day quality-first content experiment, equipment audit, skill
   benchmark, income ranking, job-replacement test, and kill rules.
@@ -46,4 +46,3 @@ Japan concept; and an existing recording/editing setup.
 - [[../School/Senior Year (2026-2027)/2026-09-08 Senior Year Calendar Import.ics]]
 - `finance/Work/2026-09-08 Compounding Income and Content Experiment.md`
 - `life/personal-private/Inbox/2026-09-08 Japan College and Income Targets.md`
-

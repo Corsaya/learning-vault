@@ -27,8 +27,8 @@ UID:term-check-20260909@donovan-plan
 DTSTAMP:20260909T030000Z
 DTSTART;TZID=America/New_York:20260909T143000
 DTEND;TZID=America/New_York:20260909T150000
-SUMMARY:URGENT: verify Clemson and Tennessee entry terms
-DESCRIPTION:Clemson shows Spring 2027 and Tennessee shows Summer 2027. Confirm/correct for intended first-year entry after June 6 graduation.
+SUMMARY:Application terms confirmed — Clemson and Tennessee Fall 2027
+DESCRIPTION:Portal terms confirmed after correction. Both applications are for Fall 2027 first-year entry after June 6 graduation.
 END:VEVENT
 BEGIN:VEVENT
 UID:school-fall-2026@donovan-plan
@@ -269,8 +269,8 @@ UID:clemson-ea-20261015@donovan-plan
 DTSTAMP:20260909T030000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-SUMMARY:Clemson Fall/Summer Early Action submission deadline
-DESCRIPTION:Official source checked Sep 8. Verify entry term before submitting.
+SUMMARY:Clemson Fall 2027 Early Action submission deadline
+DESCRIPTION:Official source checked Sep 8. Portal entry term confirmed as Fall 2027.
 END:VEVENT
 BEGIN:VEVENT
 UID:sat-results-20261016@donovan-plan
@@ -309,4 +309,3 @@ DTEND;VALUE=DATE:20261116
 SUMMARY:Tennessee materials + Virginia Tech application deadlines shown
 END:VEVENT
 END:VCALENDAR
-

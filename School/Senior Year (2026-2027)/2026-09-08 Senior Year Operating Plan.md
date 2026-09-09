@@ -42,22 +42,17 @@ with Personal Finance, and Honors Business Economics. Digital Media is directly
 useful to the content experiment; finance/economics are useful but do not turn
 the content project into guaranteed income.
 
-## Immediate application audit
+## Application status
 
-Two entry terms in the September 8 screenshot require correction or explicit
-confirmation:
+The application portal terms were corrected and confirmed as **Fall 2027** for
+Clemson and the University of Tennessee. Clemson's official Fall/Summer Early
+Action submission deadline is October 15, with materials due November 1. UT's
+official Summer/Fall Early Action submission deadline is November 1, with
+materials due November 15.
 
-- **Clemson is set to Spring 2027.** Donovan graduates June 6, 2027, so the
-  intended application should almost certainly be Fall 2027 (or Clemson's
-  Fall/Summer first-year cycle). Clemson's official Fall/Summer Early Action
-  submission deadline is October 15, with materials due November 1.
-- **University of Tennessee is set to Summer 2027.** Confirm whether Summer/Fall
-  is one combined first-year selection in the application system or whether the
-  intended start term needs to be Fall 2027. UT's official Summer/Fall Early
-  Action submission deadline is November 1, with materials due November 15.
-- Notre Dame's official Restrictive Early Action policy permits other
-  **nonbinding** public or private Early Action applications. It prohibits a
-  simultaneous binding Early Decision I application.
+Notre Dame's official Restrictive Early Action policy permits other
+**nonbinding** public or private Early Action applications. It prohibits a
+simultaneous binding Early Decision I application.
 
 Official references, checked September 8, 2026:
 
@@ -69,19 +64,18 @@ Official references, checked September 8, 2026:
 
 | Date | Event | Action |
 |---|---|---|
-| Sep 9 | Application-term sanity check | Correct/confirm Clemson Spring and Tennessee Summer selections |
+| Sep 9 | Application terms confirmed | Clemson and Tennessee are set to Fall 2027 |
 | Oct 1 | FAFSA opens (user-reported) | Start with parent/guardian and required financial records available |
 | Oct 3 | SAT (user-reported) | Final preparation ends Oct 2; sleep is the last prep block |
-| Oct 15 | Clemson Fall/Summer Early Action submission | Submit only after entry term is corrected |
+| Oct 15 | Clemson Fall 2027 Early Action submission | Submit after application and materials checklist review |
 | Oct 16 | SAT result (user-reported) | Record actual score; decide school-by-school score reporting |
 | Nov 1 | Catholic, Tennessee, Florida, Notre Dame application deadlines shown | Confirm each portal's materials checklist separately |
 | Nov 2 | Georgia Tech EA II deadline shown | Confirm applicant residency/round and materials deadline |
 | Nov 8 | Florida materials deadline | Verify STARS/transcript and test-score choice |
 | Nov 15 | Tennessee materials and Virginia Tech application deadlines shown | Portal check before the date, not at 11 PM |
-| Dec 1 | Clemson Spring deadline shown | Should disappear from the plan if the term is corrected |
 
-The screenshot is evidence of current portal settings, not proof that every
-deadline or entry term is correct. Official portals control.
+The portal settings are now confirmed as Fall 2027. Official portals still
+control if a deadline or materials requirement changes.
 
 ## Weekly operating skeleton through November 15
 
@@ -162,4 +156,3 @@ Rebuild this schedule when any of these becomes known: confirmed electives,
 actual race calendar, spring crew schedule, recurring work roster change,
 college application completion, or college move-in/orientation date. The current
 calendar intentionally ends November 15 rather than pretending spring is known.
-
