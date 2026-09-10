@@ -1,5 +1,7 @@
 AP Physics — Summer Work: Unit 1 (Vectors) Solutions
 
+**Drawing gallery:** [[AP_Physics_Summer_Work_Drawings]] — all drawing exercises and supporting diagrams, with a [[AP_Physics_Drawings.pdf|printable PDF]].
+
 
 # Vectors vs. Scalars
 
@@ -37,7 +39,7 @@ VECTOR — a force with a specific direction
 
 # Drawing Vectors to Scale
 
-*These items ask you to draw the vectors by hand to scale; the drawing itself isn't something I can do for you, but here's the key data you need for each sketch so you can lay out your grid correctly (arrow lengths proportional to magnitude, correct compass direction):*
+*Scaled images for these exercises are in [[AP_Physics_Summer_Work_Drawings#Drawing vectors to scale]]. Arrow lengths are proportional to magnitude, with compass directions labeled.*
 
 **Draw: 10 m North, 5 m West, 20 m South, 15 m East**
 
@@ -65,9 +67,9 @@ Resultant magnitude = √(10²+10²) = 14.14 m, direction = 45° South of East
 
 8) 7 mph & 28 mph — no directions are given for these two, so they can't be vector-added; treated as plain numbers they'd total 35 mph
 
-# Vector Addition & Scalar Multiplication (graphical problems 1–8)
+# Vector Addition & Scalar Multiplication (graphical addition problems 1–7)
 
-*These items show unlabeled arrows to be added head-to-tail by hand (no numeric magnitudes given in the scan), so there's no calculation to check — just the method: slide the tail of the second vector to the head of the first without changing its length or direction, then draw the resultant from the very first tail to the very last head. For the scalar-multiplication drawings (vector X scaled by −1, 3, 5, −3, −5, 1/2, −1/2): a positive scalar keeps the same direction and scales the length by that factor; a negative scalar flips the direction 180° in addition to scaling the length.*
+*Completed drawings are in [[AP_Physics_Summer_Work_Drawings#Graphical addition]] and [[AP_Physics_Summer_Work_Drawings#Scalar multiplication]]. The seven addition diagrams follow the unlabeled source arrows’ approximate proportions. For addition, slide the second vector’s tail to the first vector’s head, preserving length and direction, and draw the resultant from the first tail to the last head. Negative scalar multiples reverse direction; all multiples scale length by the factor’s absolute value.*
 
 # Vector Components (draw + label as ±i, ±j)
 
@@ -177,13 +179,13 @@ Vector ≈ −10.39i − 6.00j,  i.e. 12 units at 30° South of West
 
 θ = tan⁻¹(3/6) ≈ 26.6°  →  direction: 26.6° North of West
 
-**5) Magnitude 15 at 80° from horizontal, pointing down and to the left**
+**5) Magnitude 15 at 80° from horizontal, pointing down and to the right**
 
-x-component = −15·cos(80°) ≈ −2.60  (West)
+x-component = +15·cos(80°) ≈ +2.60  (East)
 
 y-component = −15·sin(80°) ≈ −14.77  (South)
 
-Vector ≈ −2.60i − 14.77j,  i.e. 15 units at 80° South of West
+Vector ≈ +2.60i − 14.77j,  i.e. 15 units at 80° South of East
 
 **6) −1i and −7j**
 
