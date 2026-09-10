@@ -17,7 +17,7 @@ tags:
 >
 > For the next offline session, fish the best fish available in **Shrapnel River**. Keep enough raw fish to raise Cooking alongside Fishing; sell the surplus for GP. Do not grind more shrimp just because its mastery is high.
 
-This is a milestone route, not a rigid speedrun. It was tailored to the exported save from **2026-09-10 12:00 PM** and the base-game **v1.3.1** rules.
+This is a milestone route, not a rigid speedrun. It was tailored to the exported save from **2026-09-10 1:55 PM** and the base-game **v1.3.1** rules.
 
 ## Save snapshot
 
@@ -25,7 +25,7 @@ This is a milestone route, not a rigid speedrun. It was tailored to the exported
 |---|---|
 | Mode / version | Standard / v1.3.1 |
 | GP | 3,974 |
-| Total skill level | 98 |
+| Total skill level | 101 |
 | Best skills | Cooking 24, Fishing 23 |
 | Supporting skills | Woodcutting 7, Mining 6, Astrology 6, Runecrafting 4 |
 | Combat | Attack 2; Strength, Defence, Ranged, Magic, Prayer, Slayer all 1; Hitpoints 10 |
@@ -33,9 +33,9 @@ This is a milestone route, not a rigid speedrun. It was tailored to the exported
 | Gear | Bronze Dagger; otherwise empty |
 | Bank | 13 occupied slots; 5 extra slots purchased |
 | Useful bank items | 41 Copper Ore, 11 Rune Essence, 19 Air Runes, 63 Normal Logs, 6 Stardust, 4 Golden Stardust |
-| Passive skills | Farming 1, Township 1; neither meaningfully established |
+| Passive skills | Farming 1; Township 4 with a newly created starter town |
 
-The account has already solved its immediate food problem. Its bottlenecks are now **GP, bank space, gear, and passive-skill momentum**.
+Since the noon export, only Township has advanced (level 1 → 4); GP, bank contents, food, equipment, and every other skill are unchanged. The account has already solved its immediate food problem. Its bottlenecks remain **GP, bank space, gear, and passive-skill momentum**.
 
 ## Phase 1 — stabilize the account
 
@@ -95,8 +95,10 @@ Run these alongside the melee path rather than postponing them indefinitely.
 
 ### Township
 
-- [ ] Read the current Township mechanics before investing heavily; it has changed substantially across versions.
-- [ ] Treat it as a passive support system, not the immediate solution to the account's GP shortage.
+- [x] Create the starter town (Township 4; 20 Basic Shelters, 20 Farmland, one Woodcutters Camp, and one Miners Pit).
+- [ ] Let the starter town accumulate ticks while following the active-skill route; revisit its buildings when resources or population cap out.
+- [ ] Read the current Township mechanics before making expensive expansions; it has changed substantially across versions.
+- [ ] Treat Township as a passive support system, not the immediate solution to the account's GP shortage.
 
 ## Phase 4 — first major combat milestones
 
