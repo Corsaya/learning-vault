@@ -44,7 +44,7 @@ Since the previous export, Fishing has risen **23 → 58**, Township **4 → 17*
 - [x] Open the initial **Treasure Chest** from the previous snapshot.
 - [x] Claim the Fishing and Cooking mastery tokens unless saving them for deliberate mastery-pool management.
 - [x] Raise Fishing beyond the early tiers and build a large raw-fish stockpile (Fishing 58; 15,298 Raw Trout).
-- [ ] Free several bank slots **before** opening the three Treasure Chests or starting a skill that creates new item types. Sell Old Hats, Shells, excess Rope, and other clearly replaceable junk first.
+- [x] Free several bank slots **before** opening the three Treasure Chests or starting a skill that creates new item types. Sell Old Hats, Shells, excess Rope, and other clearly replaceable junk first.
 - [ ] Cook enough Trout to replace the shrimp with a working reserve of roughly **2,000–5,000 food**; sell surplus Trout for GP rather than continuing to accumulate raw fish.
 - [ ] Buy affordable bank slots before the bank becomes full; a full bank can cause newly obtained items to be lost.
 - [ ] Open Treasure Chests one at a time only after making room; keep an Amulet of Fishing if one appears.
