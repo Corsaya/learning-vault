@@ -39,8 +39,8 @@ Since the noon export, only Township has advanced (level 1 → 4); GP, bank cont
 
 ## Phase 1 — stabilize the account
 
-- [ ] Open the **Treasure Chest** before the next long session; keep an Amulet of Fishing if it appears.
-- [ ] Claim the Fishing and Cooking mastery tokens unless saving them for deliberate mastery-pool management.
+- [x] Open the **Treasure Chest** before the next long session; keep an Amulet of Fishing if it appears.
+- [x] Claim the Fishing and Cooking mastery tokens unless saving them for deliberate mastery-pool management.
 - [ ] Fish the highest-XP useful fish currently available, moving up whenever a better catch unlocks.
 - [ ] Cook a working reserve of roughly **2,000–5,000 food**, preferably better fish than shrimp as they unlock.
 - [ ] Sell only surplus fish and ordinary junk for early GP. Keep gems, special fishing drops, Stardust, Golden Stardust, and unfamiliar one-off items.
