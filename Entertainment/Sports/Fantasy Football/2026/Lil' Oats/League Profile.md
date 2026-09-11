@@ -41,10 +41,9 @@ Source: Sleeper screenshots captured 2026-09-11.
 
 ## Still needed or not fully visible
 
-1. Confirmation that this is redraft rather than keeper/dynasty.
+1. Resolved: user confirmed redraft on 2026-09-11. Rosters do not carry over into 2027; evaluate moves for the current season.
 2. Full trade review/veto settings.
 3. Playoff seeding, reseeding, tiebreaker, consolation, and two-week matchup settings.
 4. Points allowed for 21–27 and any defensive scoring lines hidden between screenshots.
 5. Any commissioner or house rules outside Sleeper.
 6. Whether any roster-position limits or special lineup-lock rules apply.
-

@@ -1,0 +1,366 @@
+{
+  "seasons": 36000,
+  "weeks": 17,
+  "scenario_results": [
+    {
+      "world": "screenshot/low",
+      "pairs": {
+        "Metcalf over Sadiq": 98.85,
+        "Harrison over Wilson": 46.2,
+        "Marks over Wilson": 45.42,
+        "Metcalf over Hunter": 99.7,
+        "Metcalf over Lloyd": 93.4
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 70.12,
+          "tie_pct": 0.45,
+          "mean_points": 29.84,
+          "p10": -21.61,
+          "p90": 97.15
+        },
+        "Wilson to Harrison": {
+          "win_pct": 47.05,
+          "tie_pct": 0,
+          "mean_points": -4.2,
+          "p10": -72.09,
+          "p90": 62.98
+        },
+        "Wilson to Marks": {
+          "win_pct": 40.92,
+          "tie_pct": 0,
+          "mean_points": -11.73,
+          "p10": -76.08,
+          "p90": 47.17
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 70.1,
+          "tie_pct": 0.47,
+          "mean_points": 29.83,
+          "p10": -21.34,
+          "p90": 96.61
+        }
+      }
+    },
+    {
+      "world": "screenshot/medium",
+      "pairs": {
+        "Metcalf over Sadiq": 98.95,
+        "Harrison over Wilson": 46.33,
+        "Marks over Wilson": 45.6,
+        "Metcalf over Hunter": 99.55,
+        "Metcalf over Lloyd": 93.65
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 72.58,
+          "tie_pct": 0.18,
+          "mean_points": 30.94,
+          "p10": -20.1,
+          "p90": 97.05
+        },
+        "Wilson to Harrison": {
+          "win_pct": 45.35,
+          "tie_pct": 0,
+          "mean_points": -5.52,
+          "p10": -72.01,
+          "p90": 59.98
+        },
+        "Wilson to Marks": {
+          "win_pct": 38.65,
+          "tie_pct": 0,
+          "mean_points": -13.72,
+          "p10": -78.53,
+          "p90": 47.24
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 72.9,
+          "tie_pct": 0.3,
+          "mean_points": 31.22,
+          "p10": -19.92,
+          "p90": 97.36
+        }
+      }
+    },
+    {
+      "world": "screenshot/high",
+      "pairs": {
+        "Metcalf over Sadiq": 97.9,
+        "Harrison over Wilson": 46.25,
+        "Marks over Wilson": 45.07,
+        "Metcalf over Hunter": 99.15,
+        "Metcalf over Lloyd": 92.12
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 75.58,
+          "tie_pct": 0.05,
+          "mean_points": 34.43,
+          "p10": -16.46,
+          "p90": 101.47
+        },
+        "Wilson to Harrison": {
+          "win_pct": 47.05,
+          "tie_pct": 0,
+          "mean_points": -4.67,
+          "p10": -74.37,
+          "p90": 67.19
+        },
+        "Wilson to Marks": {
+          "win_pct": 36.1,
+          "tie_pct": 0,
+          "mean_points": -16.16,
+          "p10": -84.52,
+          "p90": 49.14
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 76.35,
+          "tie_pct": 0.07,
+          "mean_points": 35.1,
+          "p10": -15.49,
+          "p90": 101.45
+        }
+      }
+    },
+    {
+      "world": "challengers/low",
+      "pairs": {
+        "Metcalf over Sadiq": 87.92,
+        "Harrison over Wilson": 83.33,
+        "Marks over Wilson": 86,
+        "Metcalf over Hunter": 81.25,
+        "Metcalf over Lloyd": 96.25
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 71.45,
+          "tie_pct": 0.2,
+          "mean_points": 31.67,
+          "p10": -22.54,
+          "p90": 101.29
+        },
+        "Wilson to Harrison": {
+          "win_pct": 78.35,
+          "tie_pct": 0,
+          "mean_points": 56.75,
+          "p10": -25.53,
+          "p90": 152.93
+        },
+        "Wilson to Marks": {
+          "win_pct": 80.75,
+          "tie_pct": 0,
+          "mean_points": 55.68,
+          "p10": -18.16,
+          "p90": 147.29
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 71.33,
+          "tie_pct": 0.15,
+          "mean_points": 31.16,
+          "p10": -25.11,
+          "p90": 102.23
+        }
+      }
+    },
+    {
+      "world": "challengers/medium",
+      "pairs": {
+        "Metcalf over Sadiq": 87.78,
+        "Harrison over Wilson": 82.67,
+        "Marks over Wilson": 84.3,
+        "Metcalf over Hunter": 81.25,
+        "Metcalf over Lloyd": 96.15
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 72.75,
+          "tie_pct": 0.03,
+          "mean_points": 32.04,
+          "p10": -22.5,
+          "p90": 99.19
+        },
+        "Wilson to Harrison": {
+          "win_pct": 79.65,
+          "tie_pct": 0,
+          "mean_points": 56.55,
+          "p10": -23.22,
+          "p90": 150.41
+        },
+        "Wilson to Marks": {
+          "win_pct": 79.22,
+          "tie_pct": 0,
+          "mean_points": 55.49,
+          "p10": -21.49,
+          "p90": 148.49
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 72.9,
+          "tie_pct": 0.03,
+          "mean_points": 31.34,
+          "p10": -25.17,
+          "p90": 99.47
+        }
+      }
+    },
+    {
+      "world": "challengers/high",
+      "pairs": {
+        "Metcalf over Sadiq": 86.6,
+        "Harrison over Wilson": 82,
+        "Marks over Wilson": 82.4,
+        "Metcalf over Hunter": 80.1,
+        "Metcalf over Lloyd": 94.83
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 73.7,
+          "tie_pct": 0.05,
+          "mean_points": 32.59,
+          "p10": -21.53,
+          "p90": 100.55
+        },
+        "Wilson to Harrison": {
+          "win_pct": 79.25,
+          "tie_pct": 0,
+          "mean_points": 57.74,
+          "p10": -24.03,
+          "p90": 153.76
+        },
+        "Wilson to Marks": {
+          "win_pct": 79.62,
+          "tie_pct": 0,
+          "mean_points": 54.77,
+          "p10": -23.81,
+          "p90": 145.28
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 73.75,
+          "tie_pct": 0.05,
+          "mean_points": 32.73,
+          "p10": -24.17,
+          "p90": 100.67
+        }
+      }
+    },
+    {
+      "world": "incumbents/low",
+      "pairs": {
+        "Metcalf over Sadiq": 66.75,
+        "Harrison over Wilson": 18.18,
+        "Marks over Wilson": 11.53,
+        "Metcalf over Hunter": 99.92,
+        "Metcalf over Lloyd": 24.75
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 51.62,
+          "tie_pct": 1.18,
+          "mean_points": 3.25,
+          "p10": -34.99,
+          "p90": 45.67
+        },
+        "Wilson to Harrison": {
+          "win_pct": 26.4,
+          "tie_pct": 0,
+          "mean_points": -41.05,
+          "p10": -124.77,
+          "p90": 27.33
+        },
+        "Wilson to Marks": {
+          "win_pct": 19.68,
+          "tie_pct": 0,
+          "mean_points": -48.93,
+          "p10": -132.33,
+          "p90": 14.78
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 49.15,
+          "tie_pct": 5.95,
+          "mean_points": 4.54,
+          "p10": -26.08,
+          "p90": 38.91
+        }
+      }
+    },
+    {
+      "world": "incumbents/medium",
+      "pairs": {
+        "Metcalf over Sadiq": 66.97,
+        "Harrison over Wilson": 18.02,
+        "Marks over Wilson": 12.45,
+        "Metcalf over Hunter": 99.88,
+        "Metcalf over Lloyd": 26.9
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 53.67,
+          "tie_pct": 0.57,
+          "mean_points": 4.21,
+          "p10": -36.15,
+          "p90": 46.27
+        },
+        "Wilson to Harrison": {
+          "win_pct": 23.4,
+          "tie_pct": 0,
+          "mean_points": -43.89,
+          "p10": -125.53,
+          "p90": 21.9
+        },
+        "Wilson to Marks": {
+          "win_pct": 15.82,
+          "tie_pct": 0,
+          "mean_points": -54.14,
+          "p10": -134.38,
+          "p90": 11.36
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 53.8,
+          "tie_pct": 3.82,
+          "mean_points": 6.16,
+          "p10": -23.13,
+          "p90": 41.19
+        }
+      }
+    },
+    {
+      "world": "incumbents/high",
+      "pairs": {
+        "Metcalf over Sadiq": 65.45,
+        "Harrison over Wilson": 19.75,
+        "Marks over Wilson": 13.8,
+        "Metcalf over Hunter": 99.58,
+        "Metcalf over Lloyd": 29
+      },
+      "moves": {
+        "Sadiq to Metcalf": {
+          "win_pct": 54.95,
+          "tie_pct": 0.2,
+          "mean_points": 5.22,
+          "p10": -36.06,
+          "p90": 47.74
+        },
+        "Wilson to Harrison": {
+          "win_pct": 23.33,
+          "tie_pct": 0,
+          "mean_points": -44.9,
+          "p10": -127.43,
+          "p90": 24.44
+        },
+        "Wilson to Marks": {
+          "win_pct": 13.33,
+          "tie_pct": 0,
+          "mean_points": -59.58,
+          "p10": -140.85,
+          "p90": 6.77
+        },
+        "Hunter to Metcalf": {
+          "win_pct": 58.27,
+          "tie_pct": 2.1,
+          "mean_points": 8.85,
+          "p10": -21.69,
+          "p90": 44.99
+        }
+      }
+    }
+  ]
+}

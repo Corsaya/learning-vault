@@ -2,7 +2,7 @@
 game: Melvor Idle
 character: Chubba Hubbard
 mode: Standard
-save_date: 2026-09-10
+save_date: 2026-09-11
 game_version: 1.3.1
 guide_status: active
 tags:
@@ -13,47 +13,50 @@ tags:
 # Chubba Hubbard — progression guide
 
 > [!summary] Do this next
-> **Fish → sell selected catches → expand the bank → start Farming → mine/smith melee gear → train on Slayer tasks.**
+> **Make bank room → cook/sell Trout → secure Farming seeds → mine/smith melee gear → train on Slayer tasks.**
 >
-> For the next offline session, fish the best fish available in **Shrapnel River**. Keep enough raw fish to raise Cooking alongside Fishing; sell the surplus for GP. Do not grind more shrimp just because its mastery is high.
+> Stop Fishing for now: level 58 Fishing and **15,298 Raw Trout** are far ahead of the rest of the account. Sell low-value junk, buy another bank slot if affordable, then cook Trout for Cooking XP and a stronger food reserve. Sell the surplus cooked/raw Trout for GP and move the active-skill slot to Mining and Smithing.
 
-This is a milestone route, not a rigid speedrun. It was tailored to the exported save from **2026-09-10 1:55 PM** and the base-game **v1.3.1** rules.
+This is a milestone route, not a rigid speedrun. It was tailored to the exported save from **2026-09-11 10:25 AM** and the base-game **v1.3.1** rules.
 
 ## Save snapshot
 
 | Area | Current state |
 |---|---|
 | Mode / version | Standard / v1.3.1 |
-| GP | 3,974 |
-| Total skill level | 101 |
-| Best skills | Cooking 24, Fishing 23 |
+| GP | 8,527 |
+| Total skill level | 149 |
+| Best skills | Fishing 58, Cooking 24, Township 17 |
 | Supporting skills | Woodcutting 7, Mining 6, Astrology 6, Runecrafting 4 |
 | Combat | Attack 2; Strength, Defence, Ranged, Magic, Prayer, Slayer all 1; Hitpoints 10 |
 | Food equipped | 1,195 Shrimp + 243 Perfect Shrimp |
-| Gear | Bronze Dagger; otherwise empty |
-| Bank | 13 occupied slots; 5 extra slots purchased |
-| Useful bank items | 41 Copper Ore, 11 Rune Essence, 19 Air Runes, 63 Normal Logs, 6 Stardust, 4 Golden Stardust |
-| Passive skills | Farming 1; Township 4 with a newly created starter town |
+| Gear | Bronze Dagger and Pirate's Lost Ring; otherwise empty |
+| Bank | 26 occupied slots; 8 extra slots purchased; little free space remains |
+| Useful bank items | 15,298 Raw Trout; 41 Copper Ore; 11 Rune Essence; 19 Air Runes; 63 Normal Logs; 6 Stardust; 4 Golden Stardust; 144 Sapphire; 181 Topaz; 128 Ruby; 99 Emerald; 35 Diamond |
+| Other bank items | 3 Treasure Chests; 2 Bronze Bars; 2 Tin Ore; 5 Compost; 8 Potatoes; 102 Rope; 3 Whale; 5 Shark; 5 Steel Bars; 4 Adamantite Bars; 4 Runite Bars |
+| Passive skills | Farming 1 with one allotment used but no seeds currently banked; Township 17, 22 total ticks, one casual task completed |
+| Purchased upgrades | Iron, Steel, and Black Fishing Rods; Iron Pickaxe; Iron Axe |
 
-Since the noon export, only Township has advanced (level 1 → 4); GP, bank contents, food, equipment, and every other skill are unchanged. The account has already solved its immediate food problem. Its bottlenecks remain **GP, bank space, gear, and passive-skill momentum**.
+Since the previous export, Fishing has risen **23 → 58**, Township **4 → 17**, total skill level **101 → 149**, GP **3,974 → 8,527**, and three more bank slots plus several tool upgrades were purchased. Cooking, Mining, Smithing, combat stats, and equipped food are effectively unchanged. The Trout stockpile has completed the early Fishing objective; the current bottlenecks are **bank space, converting the stockpile into Cooking progress/GP, Farming seeds, and combat gear**.
 
 ## Phase 1 — stabilize the account
 
-- [x] Open the **Treasure Chest** before the next long session; keep an Amulet of Fishing if it appears.
+- [x] Open the initial **Treasure Chest** from the previous snapshot.
 - [x] Claim the Fishing and Cooking mastery tokens unless saving them for deliberate mastery-pool management.
-- [ ] Fish the highest-XP useful fish currently available, moving up whenever a better catch unlocks.
-- [ ] Cook a working reserve of roughly **2,000–5,000 food**, preferably better fish than shrimp as they unlock.
-- [ ] Sell only surplus fish and ordinary junk for early GP. Keep gems, special fishing drops, Stardust, Golden Stardust, and unfamiliar one-off items.
+- [x] Raise Fishing beyond the early tiers and build a large raw-fish stockpile (Fishing 58; 15,298 Raw Trout).
+- [ ] Free several bank slots **before** opening the three Treasure Chests or starting a skill that creates new item types. Sell Old Hats, Shells, excess Rope, and other clearly replaceable junk first.
+- [ ] Cook enough Trout to replace the shrimp with a working reserve of roughly **2,000–5,000 food**; sell surplus Trout for GP rather than continuing to accumulate raw fish.
 - [ ] Buy affordable bank slots before the bank becomes full; a full bank can cause newly obtained items to be lost.
-- [ ] Keep Farming running whenever seeds are available. Use compost early, when failed crops would consume scarce seeds.
+- [ ] Open Treasure Chests one at a time only after making room; keep an Amulet of Fishing if one appears.
+- [ ] Get a fresh seed supply and keep Farming running. Use the five banked Compost while seeds are scarce.
 
 ### Why this is first
 
-Fishing is already the account's strongest gathering skill, Cooking is keeping pace, and the Fishing mastery is concentrated heavily in Shrimp. Continuing to fish is the shortest route to both food and starter cash, but staying on Shrimp would over-invest in a low-value catch. Move upward through unlocked fish.
+Fishing is now 34 levels ahead of Cooking and has already produced more Trout than the account needs immediately. Cooking that stockpile converts yesterday's grind into food, Cooking XP, and sale value; further Fishing would deepen the imbalance while Mining, Smithing, Farming, and combat remain almost untouched.
 
 ## Phase 2 — build the melee foundation
 
-- [ ] Raise **Mining to 15**, prioritizing Copper/Tin only as needed and then Iron.
+- [ ] Raise **Mining to 15**, using the purchased Iron Pickaxe and prioritizing Copper/Tin only as needed before moving to Iron.
 - [ ] Raise **Smithing to 15** and make a full Iron set plus an Iron Scimitar or Sword.
 - [ ] Continue Mining/Smithing toward **Steel (30 Defence/Attack gear requirements)** as combat catches up.
 - [ ] Mine coal directly when needed; do not use Firemaking as the main coal source.
@@ -76,7 +79,7 @@ Run these alongside the melee path rather than postponing them indefinitely.
 
 ### Farming
 
-- [ ] Get seeds from Farmers in the Farmlands or Bird Nests from Woodcutting.
+- [ ] Get seeds from Farmers in the Farmlands or Bird Nests from Woodcutting; the save currently has no seeds banked.
 - [ ] Plant every time the game is checked; Farming runs without occupying the active-skill slot.
 - [ ] Preserve seeds until each crop becomes self-sustaining.
 - [ ] Begin herbs early so Herblore is not blocked later.

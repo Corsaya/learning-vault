@@ -1,5 +1,7 @@
 # Week 1 — Lil' Oats
 
+Latest decision review: [[Season Simulation]]. Earlier probabilities were informal estimates, not simulation output. The simulation supports a cautious DK addition under a redraft assumption; it does not establish Harrison over Wilson or Marks over Wilson as robust upgrades. Hunter is also a plausible drop given his reported defensive role. Previous categorical advice to protect him and previous team ceiling rankings were too confident.
+
 ## Screenshot intake
 
 1. `10-17-38` — league overview, Week 1 matchups, partial standings, and recent transactions
@@ -75,7 +77,7 @@ MarShawn Lloyd (8.57 projected) and Michael Wilson (8.49) are effectively a toss
 
 ## Needed for actionable Week 1 recommendations
 
-1. Confirmation that this is redraft and that no keeper value needs to be protected.
+1. Resolved: user confirmed redraft on 2026-09-11; no future-season keeper value needs to be protected.
 2. Confirmation of Travis Hunter's Sleeper position eligibility and whether this league awards him points only for offensive production.
 3. Any commissioner or house rules outside Sleeper.
 4. Waiver order and standings after Week 1 is complete; neither is needed while the opening week is still ongoing.
@@ -122,11 +124,11 @@ Available names shown include Tucker Kraft, Juwan Johnson, Travis Kelce, Darren 
 
 ## Revised recommended move order
 
-1. Move TreVeyon Henderson to an IR slot if Sleeper permits it. Do not drop him.
-2. Use the opened roster spot to add DK Metcalf.
-3. Drop K. Sadiq for Marvin Harrison.
-4. Drop Michael Wilson for Woody Marks, securing Montgomery's direct workload competitor/handcuff.
-5. Keep MarShawn Lloyd. Start DK Metcalf at flex for the higher Week 1 projection; Lloyd is a defensible alternative if late reporting confirms a clear lead-back workload.
+1. Because Henderson cannot move to IR until Monday, drop K. Sadiq for DK Metcalf now. This is the only high-confidence immediate roster upgrade.
+2. Keep MarShawn Lloyd. DK is only a modest Week 1 flex favorite by projection (10 versus 8.57); Lloyd remains defensible because he may inherit the lead role.
+3. On Monday, move Henderson to IR without dropping him and use the open spot only after reviewing Week 1 usage.
+4. Marvin Harrison over Michael Wilson is an optional rest-of-season upside bet, not a necessary Week 1 pivot; Sleeper actually projected Wilson slightly higher in the supplied screens.
+5. Woody Marks is an optional Montgomery hedge. Do not drop Wilson for him before seeing Montgomery/Marks usage unless avoiding backfield risk is the priority.
 6. Preserve Travis Hunter as a short-term upside stash, but do not start him. Reassess after his offensive snap count is known.
 7. Shop Dalton Kincaid before dropping him. Do not carry three tight ends long-term.
 8. Keep Cameron Dicker. The available kickers do not offer a meaningful enough upgrade.
