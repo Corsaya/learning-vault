@@ -4,13 +4,17 @@ character: Chubba Hubbard
 mode: Standard
 save_date: 2026-09-11
 game_version: 1.3.1
-guide_status: active
+guide_status: archived
 tags:
   - games/melvor-idle
   - guide/progression
 ---
 
 # Chubba Hubbard — progression guide
+
+> [!note] Historical guide
+> This guide is preserved from the **2026-09-11 10:25 AM** save. Continue from
+> [[../01 — 2026-09-11 23-30|Guide 01 — 2026-09-11 23:30]].
 
 > [!summary] Do this next
 > **Make bank room → cook/sell Trout → secure Farming seeds → mine/smith melee gear → train on Slayer tasks.**
