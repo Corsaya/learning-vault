@@ -1,6 +1,6 @@
 # Week 1 — Lil' Oats
 
-Latest full-league forecast: [[Week 1 Power Ratings and Season Forecast]]. Transaction sensitivity review: [[Season Simulation]]. Team Gassy has completed the Sadiq-to-Metcalf move and placed DK in the Week 1 flex. The full-league model now uses the live post-transaction roster, all eight teams, the actual schedule, and 200,000 season paths.
+Latest full-league forecast: [[Week 1 Power Ratings and Season Forecast]]. Season-long action guide: [[Team Gassy 2026 Season Playbook]]. Transaction sensitivity review: [[Season Simulation]]. Team Gassy has completed the Sadiq-to-Metcalf move and placed DK in the Week 1 flex. The full-league model now uses the live post-transaction roster, all eight teams, the actual schedule, and 200,000 season paths.
 
 ## Screenshot intake
 
