@@ -1,5 +1,7 @@
 # Season simulation — 2026-09-11
 
+This is the earlier transaction-sensitivity experiment. For the post-Metcalf full-league placement forecast and eight-team power ratings, see [[Week 1 Power Ratings and Season Forecast]].
+
 This report supersedes earlier unsupported probability estimates and team ceiling/ranking claims. Those were not calculated forecasts. No roster transactions were made.
 
 ## Scope and interpretation
@@ -55,4 +57,3 @@ User-supplied Sleeper and NBC screenshots are the main inputs. Current reporting
 - https://www.fantasypros.com/nfl/players/michael-wilson.php
 
 Run `python simulate.py` (NumPy required). Fixed seed: 20260911. Full per-scenario results: [[simulation-results.json]]. Source: [[simulate.py]]. Numerical checks confirm finite, nonnegative outputs; manual inspection checks fixed Week 1 results, legal starter positions, common player outcomes across policies, and selection before outcomes. Monte Carlo sampling error is approximately at most 1.6 percentage points per scenario at 95% confidence; uncertainty from assumptions is much larger. Paths across scenarios reuse random numbers and are not 36,000 fully independent evidence samples.
-

@@ -1,6 +1,6 @@
 # Week 1 — Lil' Oats
 
-Latest decision review: [[Season Simulation]]. Earlier probabilities were informal estimates, not simulation output. The simulation supports a cautious DK addition under a redraft assumption; it does not establish Harrison over Wilson or Marks over Wilson as robust upgrades. Hunter is also a plausible drop given his reported defensive role. Previous categorical advice to protect him and previous team ceiling rankings were too confident.
+Latest full-league forecast: [[Week 1 Power Ratings and Season Forecast]]. Transaction sensitivity review: [[Season Simulation]]. Team Gassy has completed the Sadiq-to-Metcalf move and placed DK in the Week 1 flex. The full-league model now uses the live post-transaction roster, all eight teams, the actual schedule, and 200,000 season paths.
 
 ## Screenshot intake
 
@@ -40,7 +40,7 @@ Latest decision review: [[Season Simulation]]. Earlier probabilities were inform
 - WR: Ladd McConkey, LAC — projected 10.83
 - WR: Jameson Williams, DET — projected 12.02
 - TE: Sam LaPorta, DET — projected 11.13
-- Flex: MarShawn Lloyd, GB — projected 8.57
+- Flex: DK Metcalf, PIT — projected 9.67 in the live Sleeper feed
 - K: Cameron Dicker, LAC — projected 7.15
 - DEF: Los Angeles Rams — 2.00 points final
 
@@ -50,12 +50,14 @@ Latest decision review: [[Season Simulation]]. Earlier probabilities were inform
 - Michael Wilson, ARI — projected 8.49
 - Travis Hunter, JAX — projected 2.96; displayed as DB in this matchup view
 - Dalton Kincaid, BUF — projected 6.82
-- K. Sadiq, NYJ — projected 3.49
+- MarShawn Lloyd, GB — projected 8.57 in the original screenshot
 
 ### Changes since the draft
 
 - Added MarShawn Lloyd.
 - Dropped Colby Parkinson.
+- Added DK Metcalf and dropped Kenyon Sadiq.
+- Moved DK into the Week 1 flex and MarShawn Lloyd to the bench.
 
 ## Week 1 matchup
 
@@ -71,9 +73,9 @@ Latest decision review: [[Season Simulation]]. Earlier probabilities were inform
 
 The roster is at a substantial Week 1 projection disadvantage. The two completed slots produced only 8.8 combined points, so the remaining lineup needs upside rather than conservative floor.
 
-The most urgent structural issue is carrying three tight ends in an eight-team league with only five bench positions. Sam LaPorta is the weekly starter; Dalton Kincaid can have trade value, while K. Sadiq is the clearest preliminary drop candidate unless special keeper rules apply. That bench slot should usually hold an upside RB/WR or a short-term injury replacement.
+The completed DK move fixed the earlier three-tight-end problem. Team Gassy now carries LaPorta and Kincaid, with DK replacing Sadiq. The remaining structural issue is RB quality and usable bench depth: Hunter projects for roughly three offensive points, while Kincaid is redundant behind LaPorta unless he has real trade value.
 
-MarShawn Lloyd (8.57 projected) and Michael Wilson (8.49) are effectively a toss-up by projection. Lloyd is reasonable in the flex if his workload is secure; Wilson becomes preferable if late news limits Lloyd or points to a larger Arizona target share. Travis Hunter's position/eligibility and offensive usage need confirmation before relying on him.
+DK's live 9.67 projection is 1.08 points above Lloyd's 8.59, so the flex change is correct on expected value. Travis Hunter remains a bench-only evaluation because his offensive projection and role are too small for Week 1 use.
 
 ## Needed for actionable Week 1 recommendations
 
@@ -98,7 +100,7 @@ The pool is unusually deep. Available names shown include DK Metcalf, Jayden Ree
 
 ### Notable tight ends
 
-Available names shown include Tucker Kraft, Juwan Johnson, Travis Kelce, Darren Waller, Dalton Schultz, T.J. Hockenson, Michael Mayer, Brenton Strange, Cade Otton, Chig Okonkwo, and Pat Freiermuth. This depth further reduces the value of rostering three tight ends.
+Available names shown include Tucker Kraft, Juwan Johnson, Travis Kelce, Darren Waller, Dalton Schultz, T.J. Hockenson, Michael Mayer, Brenton Strange, Cade Otton, Chig Okonkwo, and Pat Freiermuth. This depth reduces the value of using a scarce bench slot on a backup TE.
 
 ### Trades and waivers
 
@@ -124,15 +126,15 @@ Available names shown include Tucker Kraft, Juwan Johnson, Travis Kelce, Darren 
 
 ## Revised recommended move order
 
-1. Because Henderson cannot move to IR until Monday, drop K. Sadiq for DK Metcalf now. This is the only high-confidence immediate roster upgrade.
-2. Keep MarShawn Lloyd. DK is only a modest Week 1 flex favorite by projection (10 versus 8.57); Lloyd remains defensible because he may inherit the lead role.
+1. Completed: Kenyon Sadiq was dropped for DK Metcalf.
+2. Keep DK in the Week 1 flex over MarShawn Lloyd. The live projection advantage is modest—9.67 to 8.59—but points in the correct direction.
 3. On Monday, move Henderson to IR without dropping him and use the open spot only after reviewing Week 1 usage.
 4. Marvin Harrison over Michael Wilson is an optional rest-of-season upside bet, not a necessary Week 1 pivot; Sleeper actually projected Wilson slightly higher in the supplied screens.
 5. Woody Marks is an optional Montgomery hedge. Do not drop Wilson for him before seeing Montgomery/Marks usage unless avoiding backfield risk is the priority.
-6. Preserve Travis Hunter as a short-term upside stash, but do not start him. Reassess after his offensive snap count is known.
-7. Shop Dalton Kincaid before dropping him. Do not carry three tight ends long-term.
+6. Hunter is the first expendable bench player if another usable RB/WR is available. If his Week 1 game has locked him, reassess his offensive snap count on Monday before making the cut.
+7. Shop Dalton Kincaid before dropping him, but do not let theoretical trade value justify carrying a redundant second TE indefinitely behind LaPorta.
 8. Keep Cameron Dicker. The available kickers do not offer a meaningful enough upgrade.
 9. No Week 1 defense move is possible because the Rams have played. Reassess streaming defenses for Week 2.
 10. Do not add a backup quarterback and do not trade meaningful value for Mark Andrews.
 
-These recommendations are based on the screenshots' projections and availability at capture time. Confirm that a player still has a teal plus sign before making the move. If this is a keeper or dynasty league, pause before dropping Sadiq or Wilson because long-term values would change the decision.
+These recommendations combine the original screenshots with the 2026-09-11 live Sleeper roster and projection snapshot. Confirm that a player is still unrostered and eligible to be added before acting; waiver locks may delay an otherwise valid move.
